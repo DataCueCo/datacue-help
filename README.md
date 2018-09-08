@@ -9,4 +9,4 @@ This project uses [Vue Press](http://vuepress.vuejs.org)
 # install vuepress globally
 npm install -g vuepress
 ```
-3. Run `vuepress dev` from the cloned folder in your terminal to start writing
+3. The documentation files are in the docs folder. Run `vuepress dev` from the docs folder in your terminal to start writing
