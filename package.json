@@ -1,0 +1,25 @@
+{
+  "name": "datacue-help",
+  "version": "1.0.0",
+  "description": "DataCue User Guide",
+  "main": "README.md",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DataCueCo/datacue-help.git"
+  },
+  "author": "Shahram Anver (shahram@datacue.co)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DataCueCo/datacue-help/issues"
+  },
+  "homepage": "https://github.com/DataCueCo/datacue-help#readme",
+  "dependencies": {
+    "vuepress": "^0.14.2"
+  }
+}

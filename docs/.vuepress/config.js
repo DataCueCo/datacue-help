@@ -2,6 +2,7 @@
 
 module.exports = {
     title: ' ',
+    base: '/datacue-help/',
     themeConfig: {
         sidebar: [
             ['/shopify/', 'Shopify'],
