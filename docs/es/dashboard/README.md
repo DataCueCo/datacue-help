@@ -2,8 +2,6 @@
 blog_index: true
 ---
 
-# Blog
-
-Welcome to the DataCue blog
+# Dashboard
 
 <ArticleIndex type="dashboard" />

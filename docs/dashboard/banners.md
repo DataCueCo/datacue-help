@@ -35,11 +35,13 @@ Some tips
 
 ## Uploading a new banner
 1. Click on 'Banners' in your dashboard sidebar
-![Banner Sidebar](./images/banner_sidebar.jpg)
+
+![Banner Sidebar](./images/banner_sidebar.png)
+
 2. In the upload banner section, select the category you wish to associate with the banner.
     - We'll tell you which categories are the most popular sellers so you can prioritize
 3. We'll automatically generate the link for you based on the category you selected, you can modify it if you want to
 4. Drag and drop an image on to the striped box, or just click on it to browse for the banner image to upload it.
 ![Banner Upload](./images/banner_upload_form.jpg)
-5. Click on Upload, thats it! You'll soon see your new banner appear in the existing banners section.
-![Banner Upload Button](./images/banner_upload_btn.jpg)
+5. Click on `Upload`, thats it! You'll soon see your new banner appear in the existing banners section.
+![Banner Upload Button](./images/banner_upload_btn.png)

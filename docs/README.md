@@ -1,7 +1,6 @@
 ---
 home: true
-heroImage: ./logo.svg
-description: User Guide
+heroImage: /datacue_hero.svg
 actionText: Get Started →
 actionLink: /dashboard/
 footer: © 2018 DataCue (PTE. LTD.)

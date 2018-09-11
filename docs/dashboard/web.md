@@ -3,7 +3,7 @@ title: Web
 summary: Web recommendations performance of DataCue
 ---
 
-# Overview
+# Web
 View your DataCue's web performance on your store
 
 ## Quick Start
