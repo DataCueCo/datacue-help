@@ -1,4 +1,11 @@
-# DataCue User Guide
+---
+home: true
+heroImage: ./logo.svg
+description: User Guide
+actionText: Get Started →
+actionLink: /dashboard/
+footer: © 2018 DataCue (PTE. LTD.)
+---
 
 ## Getting Started
 
@@ -20,14 +27,6 @@ Learn how to personalize your Shopify store with the DataCue app.
 Learn how to personalize your store using the DataCue API.
 
 
-## Using DataCue
+## DataCue Dashboard
 
-### [Banners](/dashboard/banners.md)
-Learn how to 
-
-### [Email](/dashboard/email.md)
-Learn how to 
-
-### [Monitoring Performance](/dashboard/overview.md)
-Learn how to 
-
+<ArticleIndex type="dashboard" />

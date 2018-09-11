@@ -2,12 +2,12 @@
 
 module.exports = {
     title: ' ',
-    base: '/datacue-help/',
+    serviceWorker: true,
     themeConfig: {
         sidebar: [
+            ['/dashboard/', 'Dashboard'],
             ['/shopify/', 'Shopify'],
             ['/custom/', 'Custom'],
-            ['/dashboard/', 'Dashboard'],
           ],
         nav: [
             { text: 'Sign Up', link: 'https://datacue.co/sign-up' },

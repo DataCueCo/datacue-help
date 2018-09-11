@@ -1,20 +1,16 @@
 ---
 title: Overview
-summary: Top line performance of DataCue
+summary: Sales performance of your e-commerce store
 ---
 
-# Banners
-dsds
+# Overview
+View your store sales performance
 
 ## Quick Start
-- Upload banners from your dashboard
-- Insert main and sub banner components to your home page
-
-## Banner Types
-dsdsd
-
-## Banner Components
-sdsds
-
-## Uploading Banners
-dsdsds
+- Use the date picker on the top right to select the to and from dates to view overall results in
+- The 4 summary cards show you your store sales performance
+    - Sales value
+    - Number of orders
+    - Number of unique customers
+    - Average order value
+- The chart shows you sales performance over time, you can view it by sales value, number of orders or number of customers.
