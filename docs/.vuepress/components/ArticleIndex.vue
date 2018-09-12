@@ -9,7 +9,7 @@
         
         <p>{{ post.frontmatter.summary }}</p>
 
-        <p><router-link :to="post.path">Read more</router-link></p>
+        <p><router-link :to="post.path">{{ lang==='es'?'Lee mas':'Read more' }}</router-link></p>
     </div>
 </div>
 </template>
@@ -18,11 +18,18 @@
 export default {
     props: {
       type: String,
+      lang: {
+        type: String,
+        default: ''
+      },
     },
     computed: {
+        langStr () {
+            return `${this.lang===''?'':'/'+this.lang}`
+        },
         posts() {
             return this.$site.pages
-                .filter(x => x.path.startsWith(`/${this.type}/`) && !x.frontmatter.blog_index)
+                .filter(x => x.path.startsWith(`${this.langStr}/${this.type}/`) && !x.frontmatter.blog_index)
                 .sort((a, b) => a < b?-1:1);
         }
     }

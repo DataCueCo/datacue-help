@@ -27,4 +27,4 @@ Aprenda cómo personalizar su tienda utilizando la API de DataCue.
 
 ## DataCue Dashboard
 
-<ArticleIndex type="dashboard" />
+<ArticleIndex type="dashboard" lang="es" />
