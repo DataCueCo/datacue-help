@@ -2,7 +2,7 @@
 home: true
 heroImage: /datacue_hero.svg
 actionText: Empezar →
-actionLink: /dashboard/
+actionLink: /es/dashboard/
 footer: © 2018 DataCue (PTE. LTD.)
 ---
 
