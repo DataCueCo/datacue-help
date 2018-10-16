@@ -63,3 +63,5 @@ typings/
 # mac os gunk
 .DS_Store
 /**/.DS_Store
+
+docs/.vuepress/dist

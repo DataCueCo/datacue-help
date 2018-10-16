@@ -4,44 +4,94 @@ summary: Managing your banners
 ---
 
 # Banners
+
 Banners are the most prominent part of your home page. They are typically displayed immediately above the fold to attract users to a group of products. Typically these could be:
 
 - Product categories (e.g. Jeans)
-- Product brand
-- Promotions on certain products
+- Product brands
 
-Due to their ability to attract attention, it's very important to show relevant banners to your visitors. Let's say a man visited your store and was looking at pants yesterday. When he returns today, we're better off showing him a banner on similar pants rather than our latest collection of dresses.
+Due to their ability to attract attention, it's very important to show relevant banners to your visitors instead of showing everybody the same thing.
 
-# Quick Start
+## Quick Start
 
-- Setup your e-commerce store to show main and/or sub banners on your home page.
-- Upload the banners you have using the dashboard.
-- New banners will take a few hours to be processed and appear on your website.
+1. Decide what [layout](#banner-layout) you prefer.
+
+2. Upload all the banners you currently have.
+
+3. View the dashboard recommendations to decide which categories to prioritize which banners to create.
 
 ::: tip
 If you delete or update a banner, this change is applied immediately.
 :::
 
-# Deeper Look
+## Banner Types
 
-## Main or Sub
-DataCue supports two types of banners, which we call main or sub.
+DataCue supports 3 types of banners:
 
-![Banner Types](./images/banner_types.jpg)
+1. Wide Banner
+2. Narrow Banner
+3. Static Banner
 
-**Main banners** are typically the large page wide banners that are displayed right at the top of a home page.
+### Wide Banner (aspect ratio 5:3)
 
-**Sub banners** are typically the smaller images that are displayed right at the top of a home page.
+![Banner Types](./images/banner-wide.jpg)
 
-Some tips
-- Don't worry if you have a different definition of main and sub banner. You can upload larger images as sub banners and smaller ones as main banners.
-- You could choose to only use one type `main` or `sub`
+Wide banners are used to attract the most attention as they are larger and provide space for you to use elements like stylized text to attract attention. We will show the wide banners of collections that the user finds the most interesting.
 
-::: warning
-Ensure your banner image sizes are consistent to avoid layout issues on your website.
+Recommended size: 1200 x 720 px
+
+### Narrow Banner (aspect ratio 2:3)
+
+![Banner Types](./images/banner-narrow.jpg)
+
+Narrow banners act as a complement to the wide banner because they are smaller. After the wide banners are selected, we will look for all narrow banners that a user would find interesting.
+
+Recommended size: 480 x 720 px
+
+::: tip
+You can upload both a 'wide' and 'narrow' banner for a product category. We will make sure that both don't appear at the same time.
 :::
 
+We will show the narrow banners of collections that the user finds the most interesting that are not already shown as a wide banner. This means wide banners have priority.
+
+### Static Banner
+
+![Banner Types](./images/banner-wide-static.jpg)
+
+'Static' banners are not personalized and will remain the same for everyone. Use this when you want to promote a new product, or do any other type of broad messaging with your customers.
+
+## Banner Layout
+
+Depending how many collections you have, we have multiple banner layouts to choose from. If you know HTML + CSS, you can also do a completely custom layout and just tell us where to insert the personalized banners.
+
+We've made layouts for different store sizes based on how many product categories you have. These are only suggestions so if you want to use a category that is meant for higher / lower product categories - feel free to try it.
+
+### Small Stores (10 or fewer product categories)
+
+| Desktop             | Mobile |
+| ------------------- | ------ |
+| ![Banner Types](./images/banner-layout/1-wide-2-narrow-desktop.jpg) | ![Banner Types](./images/banner-layout/1-wide-2-narrow-mobile.jpg) |
+
+
+### Medium Stores (10-20 product categories)
+
+| Desktop             | Mobile |
+| ------------------- | ------ |
+| ![Banner Types](./images/banner-layout/2-wide-2-narrow-desktop.jpg) | ![Banner Types](./images/banner-layout/2-wide-2-narrow-mobile.jpg) |
+
+
+### Large Stores (More than 20 product categories)
+
+| Desktop             | Mobile |
+| ------------------- | ------ |
+| ![Banner Types](./images/banner-layout/3-wide-2-narrow-desktop.jpg) | ![Banner Types](./images/banner-layout/3-wide-2-narrow-mobile.jpg) |
+
 ## Uploading a new banner
+
+::: warning
+The Dashboard is currently being updated to reflect the new banner solution. This document will be updated as soon as the Dashboard screen is updated.
+:::
+
 1. Click on 'Banners' in your dashboard sidebar
 
 ![Banner Sidebar](./images/banner_sidebar.png)

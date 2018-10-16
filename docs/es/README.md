@@ -11,7 +11,7 @@ footer: © 2018 DataCue (PTE. LTD.)
 Para comenzar, puede encontrar algunos de los siguientes enlaces útiles:
 
 - ¿Nuevo en DataCue? Haga clic en la guía [plataforma](#plataformas-de-ecommerce) que coincida con su tienda.
-- ¿Quieres iniciar sesión en el tablero? diríjase a [aquí](https://app.datacue.co/)
+- ¿Quieres iniciar sesión en el dashboard? diríjase a [aquí](https://app.datacue.co/)
 - ¿No tienes cuenta aún? Puede registrarse para obtener una en [datacue.co](https://datacue.co/sign-up).
 - ¿Atascado? Siéntase libre de [contáctenos](https://datacue.co/contact) o [tweet nosotros @DataCueCo](https://twitter.com/datacueco).
 

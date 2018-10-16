@@ -1,10 +1,10 @@
 ---
 title: Basics
-summary: Las características básicas del tablero
+summary: Las características básicas del dashboard
 ---
 
 # Iniciar sesión
-Para acceder al tablero, [haga clic aquí](https://app.datacue.co)
+Para acceder al dashboard, [haga clic aquí](https://app.datacue.co)
 
 ![Pantalla de inicio de sesión](./images/login.jpg)
 

@@ -4,44 +4,93 @@ summary: Gestionando tus banners
 ---
 
 # Banners
-Los banners son la parte más destacada de su página de inicio. Por lo general, se muestran inmediatamente arriba de la tapa para atraer a los usuarios a un grupo de productos. Por lo general, estos podrían ser:
 
-- Categorías de productos (por ejemplo: Jeans)
-- Marca de producto
-- Promociones en alugunas productos
+Los banners son la parte más prominente de tu página de inicio. Por lo general, se muestran inmediatamente encima del pliegue para atraer a los usuarios a un grupo de productos. Típicamente estos podrían ser:
 
-Debido a su capacidad para atraer la atención, es muy importante mostrar banners relevantes a sus visitantes. Digamos que un hombre visitó su tienda y estaba mirando pantalones ayer. Cuando regrese hoy, es mejor que le enseñemos una pancarta con pantalones similares en lugar de nuestra última colección de vestidos.
+- Categorías de productos (por ejemplo: jeans)
+- Marcas de productos.
+
+Debido a su capacidad para atraer la atención, es muy importante mostrar banners relevantes a sus visitantes en lugar de mostrarles a todos lo mismo.
 
 # Inicio rápido
 
-- Configure su ecommerce para mostrar main banners y / o sub banners en su página de inicio.
-- Sube los banners que tienes usando el dashboard.
-- Los banners nuevos demorarán unas horas en procesarse y aparecer en su sitio web.
+1. Decida qué [layout](#layout-de-banner) prefiere.
+
+2. Sube todos los banners que tienes actualmente.
+
+3. Vea las recomendaciones del panel para decidir qué categorías priorizar qué banners crear.
 
 ::: tip CONSEJO
-Si elimina o actualiza un banner, este cambio se aplica inmediatamente.
+Si elimina o actualiza un banner, este cambio se aplica de inmediato.
 :::
 
-# Detalles
+## Tipos de banner
 
-## Main o Sub
-DataCue admite dos tipos de banners, que llamamos `main` y `sub`.
+DataCue soporta 3 tipos de banners:
 
-![Tipos de Banner](./images/banner_types.jpg)
+1. Banner amplio
+2. Banner estrecho
+3. Banner estático
 
-**Los main banners** son típicamente los banners de gran tamaño que se muestran en la parte superior de una página de inicio.
+### Banner amiplio (relación de aspecto 5:3)
 
-**Los sub banners** son típicamente las imágenes más pequeñas que se muestran en la parte superior de una página de inicio.
+![Tipos de banner](./images/banner-wide.jpg)
 
-Algunos consejos
+Los banners amiplios se utilizan para atraer la mayor atención, ya que son más grandes y brindan espacio para que uses elementos como texto estilizado para atraer la atención. Mostraremos las banners anchas de colecciones que el usuario encuentre más interesantes.
 
-- No te preocupes si tienes una definición diferente de main banner y sub banner. Puede cargar imágenes más grandes como banners secundarios y banners más pequeños.
-- Podrías elegir usar solo un tipo `main` o `sub`
+Tamaño recomendado: 1200 x 720 px
+
+### Banner estrecho (relación de aspecto 2:3)
+
+![Tipos de banner](./images/banner-narrow.jpg)
+
+Las banners estrechos son un complemento de la pancarta ancha porque son más pequeñas. Después de seleccionar los banners amiplios, buscaremos todos los banners estrechos que el usuario encuentre interesantes.
+
+Tamaño recomendado: 480 x 720 px
+
+::: tip CONSEJO
+Puede cargar un banner 'amiplio' y 'estrecho' para una categoría de producto. Nos aseguraremos de que ambos no aparezcan al mismo tiempo.
+:::
+
+Mostraremos los banners estrechos de las colecciones que el usuario encuentra más interesantes que aún no se muestran como un banner amiplio. Esto significa que los banners amiplios tienen prioridad.
+
+### Banner estático
+
+![Tipos de banner](./images/banner-wide-static.jpg)
+
+Los banners "estáticos" no son personalizados y seguirán siendo los mismos para todos. Utilícelo cuando desee promocionar un nuevo producto o hacer cualquier otro tipo de mensaje amplio con sus clientes.
+
+## Layout de banner
+
+Según la cantidad de colecciones que tenga, tenemos varios diseños de banner para elegir. Si conoce HTML + CSS, también puede hacer un diseño completamente personalizado y simplemente decirnos dónde insertar los banners personalizados.
+
+Hemos realizado diseños para diferentes tamaños de tiendas en función de la cantidad de categorías de productos que tiene. Estas son solo sugerencias, por lo que si desea utilizar una categoría destinada a categorías de productos superiores/inferiores, no dude en probarlo.
+
+### Pequeñas tiendas (10 o menos categorías de productos)
+
+| Escritorio | Móvil |
+| ------------------- | ------ |
+| ![Tipos de banner](./images/banner-layout-small-desktop.jpg) | ![Tipos de banner](./images/banner-layout-small-mobile.jpg) |
+
+
+### Tiendas medianas (10-20 categorías de productos)
+
+| Escritorio | Móvil |
+| ------------------- | ------ |
+| ![Tipos de banner](./images/banner-layout-medium-desktop.jpg) | ![Tipos de banner](./images/banner-layout-medium-mobile.jpg) |
+
+
+### Grandes tiendas (Mas de 20 categorías de productos)
+
+| Escritorio | Móvil |
+| ------------------- | ------ |
+| ![Tipos de banner](./images/banner-layout-large-desktop.jpg) | ![Tipos de banner](./images/banner-layout-large-mobile.jpg) |
+
+## Subiendo un nuevo banner
 
 ::: warning AVISO
-Asegúrese de que los tamaños de banner sean consistentes para evitar problemas de diseño en su sitio web.
+El dashboard se está actualizando para reflejar la nueva solución de banner. Este documento se actualizará tan pronto como se actualice el dashboard.
 :::
-
 
 ## Carga de un nuevo banner
 1. Haga clic en 'Banners' en la barra lateral del dashboard
