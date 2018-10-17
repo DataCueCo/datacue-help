@@ -66,25 +66,25 @@ Según la cantidad de colecciones que tenga, tenemos varios diseños de banner p
 
 Hemos realizado diseños para diferentes tamaños de tiendas en función de la cantidad de categorías de productos que tiene. Estas son solo sugerencias, por lo que si desea utilizar una categoría destinada a categorías de productos superiores/inferiores, no dude en probarlo.
 
-### Pequeñas tiendas (10 o menos categorías de productos)
+### Bajo variedad de productos (10 o menos categorías de productos)
 
 | Escritorio | Móvil |
 | ------------------- | ------ |
-| ![Tipos de banner](./images/banner-layout-small-desktop.jpg) | ![Tipos de banner](./images/banner-layout-small-mobile.jpg) |
+| ![Tipos de banner](./images/banner-layout/1-wide-2-narrow-desktop.jpg) | ![Tipos de banner](./images/banner-layout/1-wide-2-narrow-mobile.jpg) |
 
 
-### Tiendas medianas (10-20 categorías de productos)
-
-| Escritorio | Móvil |
-| ------------------- | ------ |
-| ![Tipos de banner](./images/banner-layout-medium-desktop.jpg) | ![Tipos de banner](./images/banner-layout-medium-mobile.jpg) |
-
-
-### Grandes tiendas (Mas de 20 categorías de productos)
+### Medio variedad de productos (10-20 categorías de productos)
 
 | Escritorio | Móvil |
 | ------------------- | ------ |
-| ![Tipos de banner](./images/banner-layout-large-desktop.jpg) | ![Tipos de banner](./images/banner-layout-large-mobile.jpg) |
+| ![Tipos de banner](./images/banner-layout/2-wide-2-narrow-desktop.jpg) | ![Tipos de banner](./images/banner-layout/2-wide-2-narrow-mobile.jpg) |
+
+
+### Alto variedad de productos (Mas de 20 categorías de productos)
+
+| Escritorio | Móvil |
+| ------------------- | ------ |
+| ![Tipos de banner](./images/banner-layout/3-wide-2-narrow-desktop.jpg) | ![Tipos de banner](./images/banner-layout/3-wide-2-narrow-mobile.jpg) |
 
 ## Subiendo un nuevo banner
 

@@ -66,21 +66,21 @@ Depending how many collections you have, we have multiple banner layouts to choo
 
 We've made layouts for different store sizes based on how many product categories you have. These are only suggestions so if you want to use a category that is meant for higher / lower product categories - feel free to try it.
 
-### Small Stores (10 or fewer product categories)
+### Low product variety (10 or fewer product categories)
 
 | Desktop             | Mobile |
 | ------------------- | ------ |
 | ![Banner Types](./images/banner-layout/1-wide-2-narrow-desktop.jpg) | ![Banner Types](./images/banner-layout/1-wide-2-narrow-mobile.jpg) |
 
 
-### Medium Stores (10-20 product categories)
+### Medium product variety (10-20 product categories)
 
 | Desktop             | Mobile |
 | ------------------- | ------ |
 | ![Banner Types](./images/banner-layout/2-wide-2-narrow-desktop.jpg) | ![Banner Types](./images/banner-layout/2-wide-2-narrow-mobile.jpg) |
 
 
-### Large Stores (More than 20 product categories)
+### High product variety (More than 20 product categories)
 
 | Desktop             | Mobile |
 | ------------------- | ------ |
