@@ -54,11 +54,13 @@ You can upload both a 'wide' and 'narrow' banner for a product category. We will
 
 We will show the narrow banners of collections that the user finds the most interesting that are not already shown as a wide banner. This means wide banners have priority.
 
-### Static Banner
+### Static Banner (aspect ratio 5:3)
 
 ![Banner Types](./images/banner-wide-static.jpg)
 
 'Static' banners are not personalized and will remain the same for everyone. Use this when you want to promote a new product, or do any other type of broad messaging with your customers.
+
+Recommended size: 1200 x 720 px
 
 ## Banner Layout
 
@@ -78,7 +80,6 @@ We've made layouts for different store sizes based on how many product categorie
 | Desktop             | Mobile |
 | ------------------- | ------ |
 | ![Banner Types](./images/banner-layout/2-wide-2-narrow-desktop.jpg) | ![Banner Types](./images/banner-layout/2-wide-2-narrow-mobile.jpg) |
-
 
 ### High product variety (More than 20 product categories)
 

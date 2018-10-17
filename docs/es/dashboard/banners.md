@@ -54,11 +54,13 @@ Puede cargar un banner 'amiplio' y 'estrecho' para una categoría de producto. N
 
 Mostraremos los banners estrechos de las colecciones que el usuario encuentra más interesantes que aún no se muestran como un banner amiplio. Esto significa que los banners amiplios tienen prioridad.
 
-### Banner estático
+### Banner estático (relación de aspecto 5:3)
 
 ![Tipos de banner](./images/banner-wide-static.jpg)
 
 Los banners "estáticos" no son personalizados y seguirán siendo los mismos para todos. Utilícelo cuando desee promocionar un nuevo producto o hacer cualquier otro tipo de mensaje amplio con sus clientes.
+
+Tamaño recomendado: 1200 x 720 px
 
 ## Layout de banner
 
