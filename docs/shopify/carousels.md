@@ -23,14 +23,13 @@ You can configure them on your dashboard.
 
 2. Go to the theme editor to add a new section.
 
-3. Find the "datacue" category and pick "DataCue Recommendations".
+3. Find the "datacue" category and pick "DataCue Product Recommendations".
 
 4. Drag the newly added section to where you want the carousels to appear.
 
    ![Adding the carousel to the home page](./images/homepage_carousel.png)
 
 5. Save your changes and you're done!
-
 
 ### Product page
 
@@ -57,4 +56,3 @@ Alternatively, you can find a CSS class that your theme gives to the product des
 (as an example, the Turbo theme uses `.main.content`), and type that in the app settings, like this:
 
 ![Using CSS selectors to position the carousels](./images/selector.png)
-
