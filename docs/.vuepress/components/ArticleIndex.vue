@@ -16,22 +16,26 @@
 
 <script>
 export default {
-    props: {
+  props: {
+    type: String,
+    lang: {
       type: String,
-      lang: {
-        type: String,
-        default: ''
-      },
-    },
-    computed: {
-        langStr () {
-            return `${this.lang===''?'':'/'+this.lang}`
-        },
-        posts() {
-            return this.$site.pages
-                .filter(x => x.path.startsWith(`${this.langStr}/${this.type}/`) && !x.frontmatter.blog_index)
-                .sort((a, b) => a < b?-1:1);
-        }
+      default: ""
     }
-}
+  },
+  computed: {
+    langStr() {
+      return `${this.lang === "" ? "" : "/" + this.lang}`;
+    },
+    posts() {
+      return this.$site.pages
+        .filter(
+          x =>
+            x.path.startsWith(`${this.langStr}/${this.type}/`) &&
+            !x.frontmatter.blog_index
+        )
+        .sort((a, b) => (a < b ? 1 : -1));
+    }
+  }
+};
 </script>
