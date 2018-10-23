@@ -30,7 +30,7 @@ You can customize three settings in your notifications panel:
 
 ## Advanced Positioning
 
-The default and easiest way to get started is to have a floating notification bell. 
+The default and easiest way to get started is to have a floating notification bell.
 
 If you want to integrate the notifications icon into your navigation bar, simply place the following HTML snippet into your home page theme file. The floating bell icon will automatically be disabled if we detect the HTML snippet below on your webpage.
 
