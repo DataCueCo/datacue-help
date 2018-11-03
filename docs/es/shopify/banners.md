@@ -1,4 +1,5 @@
 ---
+position: 1
 title: Banners
 summary: Configura los banners de la página de inicio.
 ---

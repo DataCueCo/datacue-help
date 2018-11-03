@@ -1,4 +1,5 @@
 ---
+position: 1
 title: Lo básico del Dashboard
 summary: Algunos tips básicos para el panel de control.
 ---

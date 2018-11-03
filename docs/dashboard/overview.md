@@ -1,4 +1,5 @@
 ---
+position: 2
 title: Overview
 summary: Sales performance of your e-commerce store.
 ---

@@ -34,7 +34,20 @@ export default {
             x.path.startsWith(`${this.langStr}/${this.type}/`) &&
             !x.frontmatter.blog_index
         )
-        .sort((a, b) => (a < b ? 1 : -1));
+        .sort((a, b) => {
+          if(typeof a.frontmatter.position == 'number' && typeof b.frontmatter.position == 'number'){
+            return a.frontmatter.position-b.frontmatter.position;
+          }
+          if(typeof a.frontmatter.position == 'number' && typeof b.frontmatter.position != 'number'){
+            return -1;
+          }
+          if(typeof a.frontmatter.position != 'number' && typeof b.frontmatter.position == 'number'){
+            return 1;
+          }
+          if(a.frontmatter.title < b.frontmatter.title) { return -1; }
+          if(a.frontmatter.title > b.frontmatter.title) { return 1; }
+          return 0;
+        });
     }
   }
 };

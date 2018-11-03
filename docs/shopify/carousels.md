@@ -1,4 +1,5 @@
 ---
+position: 3
 title: Product carousels
 summary: Configure your product recommendations
 ---

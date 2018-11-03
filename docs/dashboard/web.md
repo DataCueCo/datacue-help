@@ -1,4 +1,5 @@
 ---
+position: 3
 title: Web
 summary: DataCue's recommendations performance for your e-commerce store.
 ---

@@ -1,4 +1,5 @@
 ---
+position: 4
 title: Email
 summary: How to manage email campaigns.
 ---

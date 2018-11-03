@@ -1,4 +1,5 @@
 ---
+position: 2
 title: Notifications
 summary: Configure your web notifications
 ---

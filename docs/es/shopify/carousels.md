@@ -1,4 +1,5 @@
 ---
+position: 3
 title: Carousel de productos
 summary: Configura tus recomendaciones de productos.
 ---

@@ -1,4 +1,5 @@
 ---
+position: 5
 title: Banners
 summary: Cómo gestionar tus banners.
 ---

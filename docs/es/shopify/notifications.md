@@ -1,4 +1,5 @@
 ---
+position: 2
 title: Notificaciones
 summary: Configura tus notificaciones web.
 ---

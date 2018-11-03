@@ -1,4 +1,5 @@
 ---
+position: 1
 title: Dashboard basics
 summary: Some basic tips for the dashboard.
 ---

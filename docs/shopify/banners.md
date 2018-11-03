@@ -1,4 +1,5 @@
 ---
+position: 1
 title: Banners
 summary: Configure your home page banners.
 ---
