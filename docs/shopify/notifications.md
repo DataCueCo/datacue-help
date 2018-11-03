@@ -15,8 +15,8 @@ DataCue can show personalized notifications to a user if a product they looked a
 
 ## Quick Start
 
-1. Turn ON notifications from the notifications panel on your dashboard and you're ready to go.
-2. No step 2, that's all you need to do!
+1. Login to your dashbaord and click on Notifications
+2. Customize the settings as you like (see next chapter for a description) or leave the defaults as is - that's it!
 
 ## Customization
 
@@ -24,9 +24,9 @@ You can customize three settings in your notifications panel:
 
 1. Position to show the notification bell, you can pick between top left, top right, bottom left or bottom right. (See the [next topic](#advanced-positioning) for a more advanced method)
 
-2. Pick a panel color which is helpful to match the panel design better to your website. If you're a developer, feel free to override the CSS we use to make more advanced design changes.
+2. Pick a panel color to match the colors with your website. If you're a developer, feel free to override the CSS we use to make more advanced design changes.
 
-3. Customize the text shown in the panel, helpful if your website is not in english, or if you just want to use your own distinctive copy.
+3. Select the language between English and Spanish to match your website. If you have a request for another language, let us know!
 
 ## Advanced Positioning
 
