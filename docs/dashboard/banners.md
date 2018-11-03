@@ -1,36 +1,32 @@
 ---
 title: Banners
-summary: Managing your banners
+summary: How to manage you banners.
 ---
 
 # Banners
 
-Banners are the most prominent part of your home page. They are typically displayed immediately above the fold to attract users to a group of products. Typically these could be:
+Banners are the most prominent part of your home page. They are typically displayed immediately above the fold (the part of the page that typically requires scrolling to be seen) to attract users to a group of products. Typically these could be:
 
 - Product categories (e.g. Jeans)
-- Product brands
+- Product brands.
 
 Due to their ability to attract attention, it's very important to show relevant banners to your visitors instead of showing everybody the same thing.
 
 ## Quick Start
 
-1. Decide what [layout](#banner-layout) you prefer.
+1. Before getting started you should review the different banner types supported by DataCue.  
+[Jump to Banner Types](#banner-types).
 
-2. Upload all the banners you currently have.
+1. Then you can decide what layout works best for you.  
+[Jump to Banner Layout](#banner-layout)
 
-3. View the dashboard recommendations to decide which categories to prioritize which banners to create.
+1. Upload all the banners.  
+[Jump to Uploading a new banner](#uploading-a-new-banner)  
 
-::: tip
-If you delete or update a banner, this change is applied immediately.
-:::
+<!-- 1. View the dashboard recommendations to decide which categories to prioritize which banners to create.-->
 
 ## Banner Types
-
-DataCue supports 3 types of banners:
-
-1. Wide Banner
-2. Narrow Banner
-3. Static Banner
+DataCue supports 3 types of banners explained below.
 
 ### Wide Banner (aspect ratio 5:3)
 
@@ -38,7 +34,7 @@ DataCue supports 3 types of banners:
 
 Wide banners are used to attract the most attention as they are larger and provide space for you to use elements like stylized text to attract attention. We will show the wide banners of collections that the user finds the most interesting.
 
-Recommended size: 1200 x 720 px
+Recommended size: **1200 x 720 px**
 
 ### Narrow Banner (aspect ratio 2:3)
 
@@ -46,13 +42,13 @@ Recommended size: 1200 x 720 px
 
 Narrow banners act as a complement to the wide banner because they are smaller. After the wide banners are selected, we will look for all narrow banners that a user would find interesting.
 
-Recommended size: 480 x 720 px
+We will show the narrow banners of collections that the user finds the most interesting that are not already shown as a wide banner. This means wide banners have priority.
+
+Recommended size: **480 x 720 px**
 
 ::: tip
 You can upload both a 'wide' and 'narrow' banner for a product category. We will make sure that both don't appear at the same time.
 :::
-
-We will show the narrow banners of collections that the user finds the most interesting that are not already shown as a wide banner. This means wide banners have priority.
 
 ### Static Banner (aspect ratio 5:3)
 
@@ -60,13 +56,13 @@ We will show the narrow banners of collections that the user finds the most inte
 
 'Static' banners are not personalized and will remain the same for everyone. Use this when you want to promote a new product, or do any other type of broad messaging with your customers.
 
-Recommended size: 1200 x 720 px
+Recommended size: **1200 x 720 px**
 
 ## Banner Layout
 
-Depending how many collections you have, we have multiple banner layouts to choose from. If you know HTML + CSS, you can also do a completely custom layout and just tell us where to insert the personalized banners.
+We've made multiple layouts for different store sizes based on how many product categories you have. These are only suggestions so if you want to use a category that is meant for higher / lower product categories - feel free to try it.
 
-We've made layouts for different store sizes based on how many product categories you have. These are only suggestions so if you want to use a category that is meant for higher / lower product categories - feel free to try it.
+If you know HTML + CSS, you can also do a completely custom layout and just insert them using the API.
 
 ### Low product variety (10 or fewer product categories)
 
@@ -93,13 +89,17 @@ We've made layouts for different store sizes based on how many product categorie
 The Dashboard is currently being updated to reflect the new banner solution. This document will be updated as soon as the Dashboard screen is updated.
 :::
 
+::: tip
+If you delete or update a banner, this change is applied immediately.
+:::
+
 1. Click on 'Banners' in your dashboard sidebar
 
 ![Banner Sidebar](./images/banner_sidebar.png)
 
-2. In the upload banner section, select the category you wish to associate with the banner.
+2. In the upload banner section, select the category you wish to associate with the banner.  
 
-    - We'll tell you which categories are the most popular sellers so you can prioritize
+    **Note**: We'll tell you which categories are the most popular sellers so you can prioritize.
 
 3. We'll automatically generate the link for you based on the category you selected, you can modify it if you want to.
 
@@ -108,5 +108,3 @@ The Dashboard is currently being updated to reflect the new banner solution. Thi
 ![Banner Upload](./images/banner_upload_form.jpg)
 
 5. Click on `Upload`, thats it! You'll soon see your new banner appear in the existing banners section.
-
-![Banner Upload Button](./images/banner_upload_btn.png)

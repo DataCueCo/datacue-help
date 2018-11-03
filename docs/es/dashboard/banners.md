@@ -1,72 +1,70 @@
 ---
 title: Banners
-summary: Gestionando tus banners
+summary: Cómo gestionar tus banners.
 ---
 
 # Banners
 
-Los banners son la parte más prominente de tu página de inicio. Por lo general, se muestran inmediatamente encima del pliegue para atraer a los usuarios a un grupo de productos. Típicamente estos podrían ser:
+Los banners son la parte más notoria de tu página de inicio. Por lo general, se muestran inmediatamente encima del pliegue (la zona the la página que requiere scrolling para ser vista) para atraer a los usuarios a un grupo de productos. Típicamente estos podrían ser:
 
 - Categorías de productos (por ejemplo: jeans)
 - Marcas de productos.
 
-Debido a su capacidad para atraer la atención, es muy importante mostrar banners relevantes a sus visitantes en lugar de mostrarles a todos lo mismo.
+Debido a su capacidad para atraer la atención, es muy importante mostrar banners relevantes a tus visitantes en lugar de mostrarles a todos lo mismo.
 
-# Inicio rápido
 
-1. Decida qué [layout](#layout-de-banner) prefiere.
+## Inicio rápido
 
-2. Sube todos los banners que tienes actualmente.
+1. Antes de comenzar, revisa los diferentes tipos de banner soportados por DataCue.  
+[Ir a Tipos de Banner](#tipos-de-banner).
 
-3. Vea las recomendaciones del panel para decidir qué categorías priorizar qué banners crear.
+1. Luego puedes decidir qué diseño funciona mejor para ti.  
+[Ir al Disposición de Banners](#disposicion-de-banners)
 
-::: tip CONSEJO
-Si elimina o actualiza un banner, este cambio se aplica de inmediato.
-:::
+1. Sube todos los banners.  
+[Ir a Subir un Nuevo Banner](#subir-un-nuevo-banner)
+
+<!-- 1. Vea las recomendaciones del panel para decidir qué categorías priorizar qué pancartas crear .-->
+
 
 ## Tipos de banner
+DataCue soporta 3 tipos de banners explicados a continuación.
 
-DataCue soporta 3 tipos de banners:
-
-1. Banner amplio
-2. Banner estrecho
-3. Banner estático
-
-### Banner amiplio (relación de aspecto 5:3)
+### Banner ancho (relación de aspecto 5:3)
 
 ![Tipos de banner](./images/banner-wide.jpg)
 
-Los banners amiplios se utilizan para atraer la mayor atención, ya que son más grandes y brindan espacio para que uses elementos como texto estilizado para atraer la atención. Mostraremos las banners anchas de colecciones que el usuario encuentre más interesantes.
+Los banners amplios se utilizan para atraer la mayor atención ya que son más grandes y brindan espacio para que uses elementos como texto estilizado para atraer la atención. Mostraremos los banners anchos de colecciones que el usuario encuentre más interesantes.
 
-Tamaño recomendado: 1200 x 720 px
+Tamaño recomendado: **1200 x 720 px**
 
-### Banner estrecho (relación de aspecto 2:3)
+### Banner angosto (relación de aspecto 2:3)
 
 ![Tipos de banner](./images/banner-narrow.jpg)
 
-Las banners estrechos son un complemento de la pancarta ancha porque son más pequeñas. Después de seleccionar los banners amiplios, buscaremos todos los banners estrechos que el usuario encuentre interesantes.
+Los banners angostos son un complemento al banner ancho porque son más pequeños. Después de seleccionar los banners anchos, buscaremos todos los banners angostos que el usuario encuentre interesantes.
 
-Tamaño recomendado: 480 x 720 px
+Mostraremos los banners angostos de las colecciones que el usuario encuentra más interesantes que aún no se muestran como un banner ancho. Esto significa que los banners anchos tienen prioridad.
+
+Tamaño recomendado: **480 x 720 px**
 
 ::: tip CONSEJO
-Puede cargar un banner 'amiplio' y 'estrecho' para una categoría de producto. Nos aseguraremos de que ambos no aparezcan al mismo tiempo.
+Puedes cargar un banner 'ancho' y 'angosto' para una categoría de producto. Nos aseguraremos de que ambos no aparezcan al mismo tiempo.
 :::
-
-Mostraremos los banners estrechos de las colecciones que el usuario encuentra más interesantes que aún no se muestran como un banner amiplio. Esto significa que los banners amiplios tienen prioridad.
 
 ### Banner estático (relación de aspecto 5:3)
 
 ![Tipos de banner](./images/banner-wide-static.jpg)
 
-Los banners "estáticos" no son personalizados y seguirán siendo los mismos para todos. Utilícelo cuando desee promocionar un nuevo producto o hacer cualquier otro tipo de mensaje amplio con sus clientes.
+Los banners "estáticos" no son personalizados y seguirán siendo los mismos para todos. Utilízalo cuando desees promocionar un nuevo producto o hacer cualquier otro tipo de mensaje amplio con tus clientes.
 
-Tamaño recomendado: 1200 x 720 px
+Tamaño recomendado: **1200 x 720 px**
 
-## Layout de banner
+## Disposición de banners
 
-Según la cantidad de colecciones que tenga, tenemos varios diseños de banner para elegir. Si conoce HTML + CSS, también puede hacer un diseño completamente personalizado y simplemente decirnos dónde insertar los banners personalizados.
+Hemos realizado múltiples diseños para diferentes tamaños de tiendas en función de la cantidad de categorías de productos que tiene. Estos son solo una sugerencia, por lo que si quieres utilizar una categoría destinada a categorías de productos superiores / inferiores, no dudes en probarlo.
 
-Hemos realizado diseños para diferentes tamaños de tiendas en función de la cantidad de categorías de productos que tiene. Estas son solo sugerencias, por lo que si desea utilizar una categoría destinada a categorías de productos superiores/inferiores, no dude en probarlo.
+Si sabes HTML + CSS, también puedes hacer un diseño completamente personalizado e simplemente insertarlos usando la API.
 
 ### Bajo variedad de productos (10 o menos categorías de productos)
 
@@ -88,26 +86,28 @@ Hemos realizado diseños para diferentes tamaños de tiendas en función de la c
 | ------------------- | ------ |
 | ![Tipos de banner](./images/banner-layout/3-wide-2-narrow-desktop.jpg) | ![Tipos de banner](./images/banner-layout/3-wide-2-narrow-mobile.jpg) |
 
-## Subiendo un nuevo banner
+## Subir un nuevo banner
 
 ::: warning AVISO
 El dashboard se está actualizando para reflejar la nueva solución de banner. Este documento se actualizará tan pronto como se actualice el dashboard.
 :::
 
-## Carga de un nuevo banner
-1. Haga clic en 'Banners' en la barra lateral del dashboard
+::: tip
+Si eliminas o actualizas un banner, este cambio se aplica de inmediato.
+:::
+1. Haz clic en 'Banners' en la barra lateral del dashboard
 
 ![Banner Sidebar](./images/banner_sidebar.png)
 
-2. En la sección del banner de carga, seleccione la categoría que desea asociar con el banner.
-    
-    - Le diremos qué categorías son los vendedores más populares para que pueda priorizar
+2. En la sección del banner de carga, selecciona la categoría que deseas asociar con el banner.  
 
-3. Generaremos automáticamente el enlace según la categoría que seleccionó, puede modificarlo si desea
+    **Nota**: Te diremos qué categorías son las vendedoras más populares para que puedas priorizar.
 
-4. Arrastre y suelte una imagen en el cuadro rayado, o simplemente haga clic en ella para buscar la imagen del banner y subirla.
+3. Generaremos automáticamente el enlace según la categoría que seleccionaste, puedes modificarlo si deseas.
+
+4. Arrastra y suelta una imagen en el cuadro rayado, o simplemente haz clic en ella para buscar la imagen del banner y subirla.
 
 ![Carga de Banner](./images/banner_upload_form.jpg)
 
-5. Haga clic en `Cargar`, ¡eso es todo! Pronto verá aparecer su nuevo banner en la sección de banners existentes.
+5. Haz clic en `Cargar`, ¡eso es todo! Pronto verás aparecer tu nuevo banner en la sección de banners existentes.
 ![Botón de carga del banner](./images/banner_upload_btn.png)

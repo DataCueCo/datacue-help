@@ -6,10 +6,10 @@
         <h2>
             <router-link :to="post.path">{{ post.frontmatter.title }}</router-link>
         </h2>
-        
+
         <p>{{ post.frontmatter.summary }}</p>
 
-        <p><router-link :to="post.path">{{ lang==='es'?'Lee mas':'Read more' }}</router-link></p>
+        <p><router-link :to="post.path">{{ lang==='es'?'Más info':'Read more' }}</router-link></p>
     </div>
 </div>
 </template>

@@ -1,14 +1,14 @@
 ---
 title: Banners
-summary: Configure your home page banners
+summary: Configure your home page banners.
 ---
 
 # Banners
 
-Banners are the most prominent part of your home page. They are typically displayed immediately above the fold to attract users to a group of products. Typically these could be:
+Banners are the most prominent part of your home page. They are typically displayed immediately above the fold (the part of the page that typically requires scrolling to be seen) to attract users to a group of products. Typically these could be:
 
 - Product categories (e.g. Jeans)
-- Product brands
+- Product brands.
 
 Due to their ability to attract attention, it's very important to show relevant banners to your visitors instead of showing everybody the same thing.
 
@@ -24,7 +24,7 @@ Due to their ability to attract attention, it's very important to show relevant 
 
 4. Find the "datacue" category and pick "DataCue Banners".
 
-5. Pick or upload a static banner, and make it link somewhere. This one will be shown to every visitor.
+5. Pick or upload a static banner and make it link somewhere. This one will be shown to every visitor.
 
    ![Uploading a static banner](./images/homepage_banners.png)
 

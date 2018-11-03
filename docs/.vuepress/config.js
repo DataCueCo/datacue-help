@@ -12,12 +12,12 @@ module.exports = {
     '/': {
       lang: 'en-US', // this will be set as the lang attribute on <html>
       title: 'DataCue',
-      description: 'Show your users just the products they want'
+      description: 'Show your users just the products they want.'
     },
     '/es/': {
       lang: 'es',
       title: 'DataCue',
-      description: 'Muestre a sus usuarios solo los productos que desean'
+      description: 'Muestra a tus usuarios solo los productos que desean.'
     }
   },
   themeConfig: {
@@ -29,7 +29,7 @@ module.exports = {
         label: 'English',
         // text for the edit-on-github link
         editLinkText: 'Edit this page on GitHub',
-        // config for Service Worker 
+        // config for Service Worker
         serviceWorker: {
           updatePopup: {
             message: "New content is available.",
@@ -41,9 +41,10 @@ module.exports = {
           { text: 'Home', link: 'https://datacue.co' },
         ],
         sidebar: [
+          ['/', 'Getting started'],
           ['/dashboard/', 'Dashboard'],
           ['/shopify/', 'Shopify'],
-          ['/custom/', 'Custom'],
+          ['/custom/', 'Custom stores'],
         ]
       },
       '/es/': {
@@ -51,7 +52,7 @@ module.exports = {
         label: 'Español',
         serviceWorker: {
           updatePopup: {
-            message: "Nuevo contenido está disponible.",
+            message: "Nuevo contenido disponible.",
             buttonText: "Refrescar"
           }
         },
@@ -60,9 +61,10 @@ module.exports = {
           { text: 'Inicio', link: 'https://datacue.co/es' },
         ],
         sidebar: [
-          ['/es/dashboard/', 'Dashboard'],
+          ['/es/', 'Para empezar'],
+          ['/es/dashboard/', 'Dashboard (Panel de Control)'],
           ['/es/shopify/', 'Shopify'],
-          ['/es/custom/', 'Custom'],
+          ['/es/custom/', 'Tiendas a medida (Custom)'],
         ]
       }
     },

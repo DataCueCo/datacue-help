@@ -1,13 +1,13 @@
 ---
 title: Overview
-summary: Sales performance of your e-commerce store
+summary: Sales performance of your e-commerce store.
 ---
 
 # Overview
 View your store sales performance
 
 ## Quick Start
-- Use the date picker on the top right to select the to and from dates to view overall results in
+- Filter by date: Use the date picker on the top right to select the to and from dates to view overall results in the specified range.
 - The 4 summary cards show you your store sales performance
     - Sales value
     - Number of orders

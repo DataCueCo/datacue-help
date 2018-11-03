@@ -1,6 +1,6 @@
 ---
-title: Basics
-summary: Las características básicas del dashboard
+title: Lo básico del Dashboard
+summary: Algunos tips básicos para el panel de control.
 ---
 
 # Iniciar sesión
@@ -9,6 +9,6 @@ Para acceder al dashboard, [haga clic aquí](https://app.datacue.co)
 ![Pantalla de inicio de sesión](./images/login.jpg)
 
 ## Inicio rápido
-- Use la barra lateral para acceder a las diferentes funciones de DataCue
-- Puede cambiar su idioma preferido entre inglés y español con el pie de página
-- Haz clic en "Cerrar sesión" cuando termines de utilizar el enlace en la parte superior derecha del panel de control.
+- Usa la barra lateral para acceder a las diferentes funciones de DataCue.
+- Puedes cambiar tu idioma preferido entre inglés y español con el pie de página.
+- Cuando termines, haz clic en "Cerrar sesión" en la parte superior derecha del dashboard.

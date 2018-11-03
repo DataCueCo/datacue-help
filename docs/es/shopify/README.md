@@ -4,8 +4,6 @@ blog_index: true
 
 # Guía de Shopify
 
-Bienvenido a nuestra guía sobre cómo instalar y usar DataCue en su tienda Shopify.
-
-Shopify está en versión beta privada en este momento, [regístrate](https://datacue.co/sign-up) para unirse.
+Bienvenido a nuestra guía de cómo instalar y usar DataCue en tu tienda Shopify. DataCue está en versión beta privada en este momento, [regístrate](https://datacue.co/sign-up) para unirte.
 
 <ArticleIndex type="shopify" lang="es" />

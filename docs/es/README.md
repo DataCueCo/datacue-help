@@ -2,29 +2,37 @@
 home: true
 heroImage: /datacue_hero.svg
 actionText: Empezar →
-actionLink: /es/dashboard/
+actionLink: ./#para-empezar
 footer: © 2018 DataCue (PTE. LTD.)
 ---
 
-## Empezando
+## Para empezar
 
-Para comenzar, puede encontrar algunos de los siguientes enlaces útiles:
+### ¿Qué es DataCue?
+Revisa [nuestro sitio web](https://www.datacue.co/es/home) para enterarte cómo DataCue puede ayudarte!
 
-- ¿Nuevo en DataCue? Haga clic en la guía [plataforma](#plataformas-de-ecommerce) que coincida con su tienda.
-- ¿Quieres iniciar sesión en el dashboard? diríjase a [aquí](https://app.datacue.co/)
-- ¿No tienes cuenta aún? Puede registrarse para obtener una en [datacue.co](https://datacue.co/sign-up).
-- ¿Atascado? Siéntase libre de [contáctenos](https://datacue.co/contact) o [tweet nosotros @DataCueCo](https://twitter.com/datacueco).
+### ¿No tienes cuenta aún?
+Puedes obtener una registrándote en [datacue.co](https://datacue.co/sign-up).
+
+### ¿Quieres iniciar sesión en el dashboard?
+Ingresa al panel de control haciendo [click aquí](https://app.datacue.co/)
+
+### ¿Cómo puedo integrar DataCue en mi sitio web?
+Haz clic en la guía de [plataforma](#plataformas-de-ecommerce) que coincida con tu tienda.
+
+### ¿Atascado?
+[Contáctanos](https://datacue.co/contact) o envíanos un [tweet @DataCueCo](https://twitter.com/datacueco).
+
 
 ## Plataformas de ecommerce
+En este momento DataCue puede ser instalado de dos formas: en una tienda Shopify como aplicación o en una tienda de ecommerce a la medida integrando la API de DataCue. Haz clic en tu plataforma de ecommerce para empezar.
 
-Haga clic en su plataforma de ecommerce para comenzar.
+### [Shopify](/es/shopify/)
+Aprende cómo personalizar tu tienda Shopify con la aplicación DataCue.
 
-### [Shopify](/shopify/)
-Aprenda cómo personalizar su tienda Shopify con la aplicación DataCue.
+### [A la medida](/es/custom/)
+Aprende cómo personalizar tu tienda utilizando la API de DataCue.
 
-### [Custom](/custom/)
-Aprenda cómo personalizar su tienda utilizando la API de DataCue.
 
 ## DataCue Dashboard
-
 <ArticleIndex type="dashboard" lang="es" />
