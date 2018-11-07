@@ -36,3 +36,15 @@ Due to their ability to attract attention, it's very important to show relevant 
 6. Drag the newly added section to where you want the banners to appear.
 
 7. Save your changes and you're done!
+
+## Changing your static banner
+
+1. Go to the theme editor (`Home / Customize theme / Customize theme / Customize`).
+
+   ![Theme settings](./images/customize_theme.png)
+
+2. Click on the DataCue Banners section
+
+3. Use the 'select image' button to upload a new image, ensure you follow the size guidelines of an aspect ratio of 5:3 (recommended size is 1200 x 720 px). Then enter a link for where the user should go to when they click on the static banner.
+
+   ![Uploading a static banner](./images/homepage_banners.png)

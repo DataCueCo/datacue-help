@@ -32,3 +32,15 @@ Debido a su capacidad para atraer la atención, es muy importante mostrar banner
 6. Arrastra la sección recién agregada donde deseas que aparezcan los banners.
 
 7. ¡Guarda tus cambios y listo!
+
+## Cambiando tu banner estático
+
+1. Vaya al editor de temas (`Inicio / Tienda en línea / Personalizar`).
+
+   ![Theme settings](./images/customize_theme.png)
+
+2. Haga clic en la sección Banners de DataCue.
+
+3. Use el botón 'seleccionar imagen' para cargar una nueva imagen, asegúrese de seguir las pautas de tamaño de una relación de aspecto de 5:3 (el tamaño recomendado es 1200 x 720 px). Luego ingrese un enlace al que debe ir el usuario cuando haga clic en el banner estático.
+
+   ![Uploading a static banner](./images/homepage_banners.png)
