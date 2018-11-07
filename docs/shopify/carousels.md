@@ -22,10 +22,13 @@ You can configure them on your dashboard.
 
    ![Enabling recommendations](./images/enable.png)
 
-2. Go to the theme editor to add a new section  
-(`Home / Customize theme / Customize theme / Customize`).
+2. Go to the theme editor (`Home / Customize theme / Customize theme / Customize`).
 
-3. Find the "datacue" category and pick "DataCue Product Recommendations".
+   ![Theme settings](./images/customize_theme.png)
+
+3. Click "Add section", then find the "datacue" category and pick "DataCue Products".
+
+   ![Adding a new section](./images/add_section_products.png)
 
 4. Drag the newly added section to where you want the carousels to appear.
 

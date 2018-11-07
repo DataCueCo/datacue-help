@@ -21,9 +21,13 @@ Due to their ability to attract attention, it's very important to show relevant 
 
    ![Enabling recommendations](./images/enable.png)
 
-3. Go to the theme editor to add a new section.
+3. Go to the theme editor (`Home / Customize theme / Customize theme / Customize`).
 
-4. Find the "datacue" category and pick "DataCue Banners".
+   ![Theme settings](./images/customize_theme.png)
+
+4. Click "Add section", then find the "datacue" category and pick "DataCue Banners".
+
+   ![Adding a new section](./images/add_section_banners.png)
 
 5. Pick or upload a static banner and make it link somewhere. This one will be shown to every visitor.
 
