@@ -19,23 +19,23 @@ Due to their ability to attract attention, it's very important to show relevant 
 
    ![Enabling recommendations](./images/enable.png)
 
-3. Go to the theme editor (`Home / Customize theme / Customize theme / Customize`).
+2. Go to the theme editor (`Home / Customize theme / Customize theme / Customize`).
 
    ![Theme settings](./images/customize_theme.png)
 
-4. Click "Add section", then find the "datacue" category and pick "DataCue Banners".
+3. Click "Add section", then find the "datacue" category and pick "DataCue Banners".
 
    ![Adding a new section](./images/add_section_banners.png)
 
-5. Pick or upload a static banner and make it link somewhere. A static banner is shown to every visitor.
+4. Pick or upload a static banner and make it link somewhere. A static banner is shown to every visitor.
 
    ![Uploading a static banner](./images/homepage_banners.png)
 
-6. Drag the newly added section to where you want the banners to appear. We recommend adding this at the top just after your navigation bar.
+5. Drag the newly added section to where you want the banners to appear. We recommend adding this at the top just after your navigation bar.
 
-7. Save your changes and you're done with Shopify settings!
+6. Save your changes and you're done with Shopify settings!
 
-8. Follow the instructions in [the dashboard banners guide](/dashboard/banners.html) to pick the layout you want and upload your first banners. Alternatively, read our guide on building your own [custom layout](#custom-layout).
+7. Follow the instructions in [the dashboard banners guide](/dashboard/banners.html) to pick the layout you want and upload your first banners. Alternatively, read our guide on building your own [custom layout](#custom-layout).
 
 ## Changing your static banner
 
