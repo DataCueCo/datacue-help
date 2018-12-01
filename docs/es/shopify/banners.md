@@ -51,7 +51,7 @@ Está bien, así que has visto nuestros diseños de banner y tienes algo más so
 
 DataCue admite dos tamaños de banner, llamémoslos main y sub. Puedes elegir el tamaño que desees, pero deben ser consistentes. Por ejemplo, digamos que quieres un diseño como este:
 
-! [Diseño personalizado] (./ images / custom-layout.png)
+![Diseño personalizado](./images/custom-layout.png)
 
 Esto es lo que entendemos por coherente: todas las banners main son del mismo tamaño y tambien todas las sub son del mismo tamaño.
 
