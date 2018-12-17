@@ -15,23 +15,19 @@ Debido a su capacidad para atraer la atención, es muy importante mostrar banner
 
 ## Inicio Rápido
 
-1. Una vez que tengas instalada la aplicación Shopify DataCue, ve a la configuración de la aplicación y habilita las recomendaciones.
+1. Ingresa al editor de temas para agregar una nueva sección.
 
-    ![Recomendaciones de habilitación](../../shopify/images/enable.png)
+2. Busca la categoría "datacue" y selecciona "DataCue Banners".
 
-2. Ingresa al editor de temas para agregar una nueva sección.
-
-3. Busca la categoría "datacue" y selecciona "DataCue Banners".
-
-4. Elige o carga un banner estático y hazlo apuntar a algún lado. Este será mostrado a todos los visitantes.
+3. Elige o carga un banner estático y hazlo apuntar a algún lado. Este será mostrado a todos los visitantes.
 
    ![Cargando un banner estático](../../shopify/images/homepage_banners.png)
 
-5. Arrastra la sección recién agregada donde deseas que aparezcan los banners.
+4. Arrastra la sección recién agregada donde deseas que aparezcan los banners.
 
-7. ¡Guarda tus cambios y listo!
+5. ¡Guarda tus cambios y listo!
 
-8. Sigue las instrucciones en [la guía de banners del dashboard](/es/dashboard/banners.html) para seleccionar el diseño y cargar tus primeros banners. Alternativamente, lea nuestra guía sobre cómo crear tu propio [diseño personalizado](#diseno-personalizado).
+6. Sigue las instrucciones en [la guía de banners del dashboard](/es/dashboard/banners.html) para seleccionar el diseño y cargar tus primeros banners. Alternativamente, lea nuestra guía sobre cómo crear tu propio [diseño personalizado](#diseno-personalizado).
 
 ## Cambiando tu banner estático
 

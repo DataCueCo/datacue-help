@@ -18,23 +18,19 @@ You can configure them on your dashboard.
 
 ### Home page
 
-1. After you have the Shopify DataCue app installed, go to app settings and enable recommendations.
-
-   ![Enabling recommendations](./images/enable.png)
-
-2. Go to the theme editor (`Home / Customize theme / Customize theme / Customize`).
+1. Go to the theme editor (`Home / Customize theme / Customize theme / Customize`).
 
    ![Theme settings](./images/customize_theme.png)
 
-3. Click "Add section", then find the "datacue" category and pick "DataCue Products".
+2. Click "Add section", then find the "datacue" category and pick "DataCue Products".
 
    ![Adding a new section](./images/add_section_products.png)
 
-4. Drag the newly added section to where you want the carousels to appear.
+3. Drag the newly added section to where you want the carousels to appear.
 
    ![Adding the carousel to the home page](./images/homepage_carousel.png)
 
-5. Save your changes and you're done!
+4. Save your changes and you're done!
 
 ### Product page
 
@@ -55,6 +51,4 @@ Then paste a special tag near the end of your template, where you want DataCue t
 
 #### Method 2
 
-Alternatively, you can find a CSS class, given by your theme, for the product description section (as an example, the Turbo theme uses `.main.content`) and type that in the app settings, like this:
-
-![Using CSS selectors to position the carousels](./images/selector.png)
+Alternatively, you can find a CSS class, given by your theme, for the product description section (as an example, the Turbo theme uses `.main.content`) and enter it in the dashboard.
