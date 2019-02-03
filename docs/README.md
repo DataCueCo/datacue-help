@@ -12,7 +12,7 @@ footer: © 2018 DataCue (PTE. LTD.)
 Check [our website](https://www.datacue.co/) to see how DataCue can work for you!
 
 ### No account yet?
-You can sign up for one at [datacue.co](https://datacue.co/sign-up).
+You can sign up for one at [datacue.co](https://app.datacue.co/en/sign-up).
 
 ### Want to sign in to the dashboard?
 Go to the dashboard [clicking here](https://app.datacue.co/).
