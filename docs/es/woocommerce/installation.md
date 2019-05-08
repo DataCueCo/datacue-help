@@ -27,7 +27,7 @@ Depending on your countries privacy laws, you may need to explicitly get permiss
 
 # Quick start
 
-1. Download the plugin [here](https://cdn.datacue.co/downloads/datacue-woocommerce-latest.zip).
+1. Download the plugin [here](https://cdn.datacue.co/assets/integrations/datacue-woocommerce-latest.zip).
 
 2. Install the plugin on your WordPress Admin site by clicking on Plugins > Add New > Upload plugin > Choose File > select the ZIP file you just downloaded and click Install Now.
 
