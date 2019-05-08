@@ -18,21 +18,28 @@ You can sign up for one at [datacue.co](https://app.datacue.co/en/sign-up).
 Go to the dashboard [clicking here](https://app.datacue.co/).
 
 ### How do I add DataCue to my website?
-Click on the [platform](#e-commerce-platforms) guide that matches your store.
+Scroll down to the [installation](#e-commerce-platforms) guide that matches your store.
+
+### How do I use DataCue?
+Scroll down to the [usage](#e-commerce-platforms) guide.
 
 ### Stuck?
 Feel free to [contact us](https://datacue.co/contact) or [tweet us @DataCueCo](https://twitter.com/datacueco).
 
 
-## E-Commerce Platforms
-Right now DataCue can be installed in one of two ways: inside a Shopify store as an app or in a custom e-commerce store using DataCue's API. Click on your e-commerce platform to get started.
+## Installing DataCue
+DataCue can be installed in one of two ways: inside a Shopify store as an app or in a custom e-commerce store using DataCue's API. Click on your e-commerce platform to get started.
 
 ### [Shopify](/shopify/)
-Learn how to personalize your Shopify store with the DataCue app.
+Personalize your Shopify store by installing the DataCue app.
+
+### Magento / WooCommerce / PrestaShop
+Integration in progress. [Contact us](mailto:contact@datacue.co?Subject=DataCue%20integration) if you're interested to use it on your store.
+
+Alternatively, it's pretty easy to integrate the store yourself, just follow the custom instructions [below](#custom).
 
 ### [Custom](/custom/)
-Learn how to personalize your store using the DataCue API.
+Personalize your store using the DataCue API. Basic coding skills required.
 
-
-## DataCue Dashboard
+## Using DataCue
 <ArticleIndex type="dashboard" />
