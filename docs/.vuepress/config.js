@@ -43,7 +43,9 @@ module.exports = {
         sidebar: [
           ['/', 'Getting started'],
           ['/dashboard/', 'Dashboard'],
+          ['/prestashop/', 'PrestaShop'],
           ['/shopify/', 'Shopify'],
+          ['/woocommerce/', 'WooCommerce'],
           ['/custom/', 'Custom stores'],
         ]
       },
@@ -63,7 +65,9 @@ module.exports = {
         sidebar: [
           ['/es/', 'Para empezar'],
           ['/es/dashboard/', 'Dashboard (Panel de Control)'],
+          ['/es/prestashop/', 'PrestaShop'],
           ['/es/shopify/', 'Shopify'],
+          ['/es/woocommerce/', 'WooCommerce'],
           ['/es/custom/', 'Tiendas a medida (Custom)'],
         ]
       }
