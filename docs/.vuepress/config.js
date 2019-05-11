@@ -37,8 +37,8 @@ module.exports = {
           }
         },
         nav: [
-          { text: 'Sign Up', link: 'https://datacue.co/sign-up' },
-          { text: 'Home', link: 'https://datacue.co' },
+          { text: 'Sign Up', link: 'https://app.datacue.co/en/sign-up' },
+          { text: 'Home', link: 'https://app.datacue.co/login' },
         ],
         sidebar: [
           ['/', 'Getting started'],
@@ -59,8 +59,8 @@ module.exports = {
           }
         },
         nav: [
-          { text: 'Regístrate', link: 'https://datacue.co/sign-up' },
-          { text: 'Inicio', link: 'https://datacue.co/es' },
+          { text: 'Regístrate', link: 'https://app.datacue.co/es/sign-up' },
+          { text: 'Inicio', link: 'https://app.datacue.co/login' },
         ],
         sidebar: [
           ['/es/', 'Para empezar'],
