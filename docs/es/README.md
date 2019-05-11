@@ -31,7 +31,7 @@ Haz clic en la guía de [plataforma](#plataformas-de-ecommerce) que coincida con
 
 ## Instalando DataCue
 
-DataCue se puede instalar en cualquier plataforma de e-commerce. Tenemos integraciones para las plataformas más populares, para las demás puedes conectarse directamente a nuestra API.
+DataCue se puede instalar en cualquier plataforma de e-commerce. Tenemos integraciones para las plataformas más populares; respecto a las demás, puedes conectarte directamente a nuestra API.
 
 Seleccione tu plataforma de e-commerce para comenzar.
 
