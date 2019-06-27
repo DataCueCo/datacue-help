@@ -2,7 +2,15 @@
 
 module.exports = {
   title: ' ',
-  serviceWorker: true,
+  plugins: {
+    '@vuepress/pwa': {
+      serviceWorker: true,
+      updatePopup: true
+    },
+    '@vuepress/google-analytics': {
+      ga: 'UA-106234501-3'
+    }
+  },
   head: [
     ['link', { rel: 'shortcut icon', type: "image/x-icon", href: `/favicon.ico` }]
   ],
@@ -30,12 +38,6 @@ module.exports = {
         // text for the edit-on-github link
         editLinkText: 'Edit this page on GitHub',
         // config for Service Worker
-        serviceWorker: {
-          updatePopup: {
-            message: "New content is available.",
-            buttonText: "Refresh"
-          }
-        },
         nav: [
           { text: 'Sign Up', link: 'https://app.datacue.co/en/sign-up' },
           { text: 'Home', link: 'https://app.datacue.co/login' },
@@ -52,12 +54,6 @@ module.exports = {
       '/es/': {
         selectText: 'Idiomas',
         label: 'Español',
-        serviceWorker: {
-          updatePopup: {
-            message: "Nuevo contenido disponible.",
-            buttonText: "Refrescar"
-          }
-        },
         nav: [
           { text: 'Regístrate', link: 'https://app.datacue.co/es/sign-up' },
           { text: 'Inicio', link: 'https://app.datacue.co/login' },
