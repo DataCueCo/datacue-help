@@ -2,7 +2,7 @@
 summary: Build your own custom layouts to bring your own designs to life instead of using our standard recommendation widgets.
 ---
 
-# Advanced Widget Customization (Pro plan only)
+# Widget Customization Avanzado (Pro plan only)
 
 ## Banner Diseño
 
