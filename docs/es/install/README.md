@@ -2,8 +2,8 @@
 blog_index: true
 ---
 
-# Pick a platform
+# Elige una plataforma
 
-Bring personalization to your store is an exciting journey. We'll be with you every step of the way. Pick your e-commerce platform below and let's get you setup.
+Llevar el poder de la personalización a tu tienda web es emocionante, sin duda. Estaremos junto a ti en este proceso. Elige tu plataforma de e-commerce abajo y ¡comencemos! 
 
 <ArticleIndex type="install" />

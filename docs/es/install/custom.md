@@ -3,22 +3,22 @@ position: 5
 summary: Install DataCue using our easy to use API
 ---
 
-# Other stores
+# Otras plataformas
 
-Integrating DataCue with your custom built store is easy because it's an API at heart.
+Intgrar DataCue con tu plataforma personalizada es facil, pues en esencia, somos una API. 
 
-Broadly speaking, there are two things you need to do to enable DataCue on your store.
+A nivel general, hay dos cosas que debes hacer para dejar DataCue andando en tu tienda web. 
 
-## 1. Backend data
+## 1. Datos de Backend
 
-Send us your customers, products and orders. We use this data to understand the purchasing behaviour on your store and build recommendations for existing customers and new ones.
+Envíanos tus productos, lista de pedidos, y clientes. Estos datos son importantes a la hora de entender el comportamiento de TUS usuarios en tu sitio, sus hábitos de compra, y saber cómo recomendar productos de valor. 
 
-## 2. Show recommendations
+## 2. Mostrar recomendaciones
 
-This part requires installing our JavaScript library which does two things. Firstly, it tells us the activities each visitor is doing. Secondly, it uses this information to show personalized content like banners and products on your website.
+Esta parte requiere instalar nuestra biblioteca de JavaScript. Esta hará dos cpsas. Primero, nos dirá las acciones que cada usuario hace en tu sitio. Segundo, tomará esta información para mostrar contenido personalizado en forma de banners y productos en tu sitio. 
 
-Both the above are easy to implement because we have libraries and sample code in the most popular programming languages.
+Ambas cosas son fáciles de emplementar. Tenemos bibiliotecas y códigos de ejemplo, en todos los lenguajes de programación populares. 
 
-To get you started, point your developer to our [Developer Documentation](https://developer.datacue.co/).
+PAra empezar, si no eres quien desarrolla, lleva a tu desarrollador a nuestra [Documentación para desarrolladores](https://developer.datacue.co/).
 
-Please [contact us](https://datacue.co/contact) if you have any questions/doubts and we'd be glad to help.
+Por favor [contáctanos](https://datacue.co/contact) si tienes dudas. Felices de ayudarte. 

@@ -4,73 +4,66 @@ summary: Personalize your PrestaShop store by installing the DataCue module.
 
 # PrestaShop <Badge text="private beta" type="warn"/>
 
-Welcome to our guide on how to install and use DataCue on your PrestaShop store.
+¡Bienvenido a nuestra guía sobre cómo instalar y usar DataCue en tu tienda PrestaShop! 
 
-**Stuck?**
+**Confundido?**
 
-Just reach out to us using the support email in your PrestaShop admin panel and we'll help you get started.
+Contáctanos usando el mail de soporte desde tu panel de control PrestaShop, y te ayudaremos a que quedes listo. 
 
-## Installation
+## Instalación
 
-### Before You Start
+### Antes de empezar
 
-Here are some things to know before you begin the integration process.
+Hay un par de cosas que debes saber antes de comenzar tu proceso de integración. 
 
-- The DataCue module for PrestaShop requires at least PrestaShop 1.6 or higher.
+- El módulo DataCue para PrestaShop requiere la versión PrestaShop 1.6 o superior.
 
-- Please test this plugin in a staging environment **first** before installing it on production servers. Modules may sometimes affect each other, and the last place you want to discover this is on your live site. Ideally, your staging environment is a clone of your actual production site.
+- Por favor, prueba este plugin en un ambiente de prueba o "staging", **antes** de instalar en tu servidor de producción. Algunas veces los módulos peuden afectarse unos a otros, y no queremos descubrirlo en vivo en tu sitio web. Idealmente, tu zona de prueba será un clon de tu actual sitio web de producción. 
 
-- DataCue for PrestaShop syncs your products, your customer’s first name, last name, email address, and orders.
+- DataCue para PrestaShop sincronizará tus productos, nombre y correo de tus clientes, y pedidos. Esta inforamción es importante para que DataCue entienda el comportamiento de tus usuarios en línea.
 
-- DataCue for PrestaShop also installs our Javascript library on your home page, product pages, category pages and search results page. The Javascript library personalizes your website content to each visitor's activity.
+- DataCue para PrestaShop también isntala nuestra biblioteca de Javascript en tu página de inicio, páginas de producto y categoría, y página de búsquedas. Esta biblioteca Javascript personalizará el contenido de tu sitio para cada usuario que te visite. 
 
-Depending on your countries privacy laws, you may need to explicitly get permission from the user to use content personalization. Please consult with legal counsel if you're in any doubt.
+Dependiendo de las leyes de privacidad de tu país, puedes necesitar permiso explícito de parte de tu consumidor para aplicar personalización de contenido. Consulta con tus organismos legales si tienes dudas en la materia. 
 
 
-### Installing the module
+### Instalando el módulo
 
-1. PrestaShop is in private beta [contact us](https://datacue.co/contact) to get the installer.
+1. PrestaShop está en modo beta privado, [contáctanos](https://datacue.co/contact) para tener el instalador. 
 
-2. Install the module from your PrestaShop Admin panel by clicking on `Modules Manager > Upload a Module`. Select the ZIP file of the DataCue installer.
+2. Instala el módulo desde tu panel de control de PrestaShop al hacer click en `Administración de módulos > Subir un módulo`. Selecciona el archivo ZIP del instalador DataCue. 
 
-    ![PrestaShop Modules](./images/prestashop_module_manager.gif)
+    ![Módulos PrestaShop](./images/prestashop_module_manager.gif)
 
-3. Once installed, scroll down to find the DataCue module under "Others".
+3. Una vez instalado, desplázate hacia abajo en la página para ver el módulo DataCue en "otros". 
 
-4. Enter your DataCue API Key and Secret and press "Save" to connect your store to DataCue. You can find the API Key and Secret on the first screen you see when you login to your [DataCue dashboard](https://app.datacue.co). 
+4. Ingresa tu "Key and Secret" proporcionados por DataCue API y presiona "guardar", para conectar tu tienda con DataCue. Encontrarás Key y Secret en la primera pantalla cuando inicias sesión en tu [Panel de Control DataCue](https://app.datacue.co). 
 
-    ::: tip
-    If you dismissed the API key + secret screen for any reason, don't worry. You can access it again by clicking on your store name on the top right click on "Developer" from the menu.
+    ::: Tip
+    Si por algún motivo no ves tu Key y Secret de la API en esta pantalla, no te preocupes. Puedes acceder a ella al hacer click en el nombre de tu tienda web, arriba a la derecha, cuando seleccionas "Desarrollador" en el menú.
     :::
     
-5. Depending on the size of your store the sync process can take a few mins to a few hours. You can monitor progress by switching to the "sync" tab.
+5. Dependiendo del tamaño de tu tienda, el proceso de sincronización tomará entre un par de minutos y unas pocas horas. Puedes hacer seguimiento al proceso al ir a la pestaña de "sincronización". 
 
-### Disable or Uninstall the module
+### Deshabilitar o desinstalar el módulo 
 
-When you disable or Uninstall DataCue for PrestaShop, we remove all changes made to your store including the Javascript. We also immediately stop syncing any changes to your store data with DataCue.
+Cuando deshabilitas o desinstalas el módulo DataCue en PrestaShop, todos los cambios hechos en tu tienda serán removidos, incluyendo el Javascript. A la vez, termina la sincronización de cualquier dato de tu tienda con DataCue.
 
-To disable DataCue for PrestaShop, follow these steps.
+Para deshabilitar DataCue para PrestaShop:
 
-- Log in to your PrestaShop admin panel.
+- Inicia sesión en tu panel de administrador PrestaShop.
 
-- On the left navigation panel, click `Module Manager`, and scroll down to the DataCue module.
+- En el panel de navegación izquierdo, haz click en `Administración de Módulos`, y desliza hacia abajo en la página hasta ver el módulo DataCue.
 
 - Select the drop down menu on the right of the module and select Disable or Uninstall.
 
-## Add recommendations
+## Agrega recomendaciones
 
-DataCue uses "shortcodes" to help you easily add dynamic banners and product recommendations to your website without requiring any code knowledge. You can read more about them [here (wordpress.com).](https://en.support.wordpress.com/shortcodes/)
+### Banners (Planes Growth y Pro)
 
-::: tip
-Did you know that WooCommerce is a plugin for WordPress? Most features offered by WordPress can be used on WooCommerce like shortcodes.
-:::
+1. Selecciona el banner que quieras usar como "Banner estático", el que verán todos tus visitantes. Sube una imagen. Si no sabes cuál, anda a lo simple: tu colección más popular o una promoción del momento. Asegúrate de que la imagen tenga una relación de aspecto de 5:3 (tamaño recomendado es 1200 x 720 px). Aprende más de banners estáticos [aquí](/banners).
 
-
-### Banners (growth plan and higher)
-
-1. Select a banner to use as as your "Static Banner", a banner that all your visitors see. Upload a banner image to be shown to all your visitors. If you're unsure, pick a banner to highlight your most popular collection or a promotion. Ensure the image has an aspect ratio of 5:3 (recommended size is 1200 x 720 px). Learn more about static banners [here](/banners).
-
-2. Insert the following html in your `index.tpl` file:
+2. Inserta este HTML en tu documento de `index.tpl`:
 
     ```html
     <div
@@ -80,51 +73,51 @@ Did you know that WooCommerce is a plugin for WordPress? Most features offered b
     ></div>
     ```
 
-    Remember to change the urls for `data-dc-static-img`  and `data-dc-static-link` correctly.
+    Recuerda cambiar las URLs de `data-dc-static-img`  y `data-dc-static-link` de forma correcta.
 
-    `static-img` is the URL of the image you uploaded in step 1.
-    `static-link` is the link to send the user when they click on the banner. Set an appropriate URL for your store, typically a category page.
+    `static-img` es la URL de la imagen que subiste en el punto 1 (banner estático). 
+    `static-link` es el link usado al que se envía el usuario cuando hace click en este banner. Pon una URL apropiada. Por lo general, es una página de categoría. 
 
-3. The default layout DataCue uses for your banners shows 2 dynamic banners and 1 static banner on one row. You can customize this by going to `Banners > Settings` in your DataCue dashboard. Read more about it [here](/banners/layout.html). Alternatively, find out how to build your own [custom layout](#custom-layout).
+3. El diseño que DataCue usa por defecto para los banners, muestra dos banners dinámicos y uno estático en una misma fila. Puedes cambiar esto si quieres, yenod a `Banners > Congfiguraciones` en tu panel de control DataCue. Lee más sobre esto [aquí](/banners/layout.html). Alternativamente, descubre cómo construir tu propia gilla de banners en [diseño personalizado](#custom-layout).
 
-#### Changing your static banner later
+#### Después: cambiando tu banner estático
 
-1. Upload a new image to your server and copy the URL. Ensure the image has an aspect ratio of 5:3 (recommended size is 1200 x 720 px). Update the link for the static banner if necessary.
+1. Sube una nueva foto a tu servidor y copia su URL. Asegúrate de que la relación de aspecto de la imagen sea de 5:3 (tamaño recomendado 1200 x 720 px). Actualiza el link del banner estático si es necesario.
 
-2. Edit your `index.tpl` file and find the `data-dc-banners` html snippet and and change the `static-img` to the URL you copied from step 1. Set the `static-link` attribute as appropriate.
+2. Edita tu documento `index.tpl` y encuentra el pedacito de código HTML de  `data-dc-banners` html. Copia la `static-img` a la URL que tomaste del paso 1. Configura el banner `estático-link según corresponda.
 
-### Setup Product Recommendations (All plans)
+### Setear recomendaciones de producto (Todos los planes)
 
-**Home page**
+**Página de Inicio**
 
-Insert the following html in your `index.tpl` file:
-
-```html
-<div data-dc-products></div>
-```
-
-**Product page**
-
-Insert the following html in your `product.tpl` file:
+Inserta el siguiente HTML en tu documento `index.tpl`:
 
 ```html
 <div data-dc-products></div>
 ```
 
-### Match widgets to your theme
+**Página de Producto**
 
-DataCue's product carousels have a default design which will need some adjustments to match the look/feel of your store. This is really important so nothing looks out of place.
+Inserta el siguiente HTML en tu documento `product.tpl`:
 
-**Test mode**
+```html
+<div data-dc-products></div>
+```
 
-The first thing you should do is set DataCue into test mode. In test mode, you can pick a list of user accounts as test users. To see the recommendations, you have to sign in as a test user to your store. All other visitors don't see any changes. This is very helpful to play with the design till you're happy with the look/feel.
+### Acomoda a tu estilo
 
-You will need to know a little CSS to match the design, so there are two options
+Los carruseles de producto de DataCue vienen en un estilo determinado, por lo que querrás hacerle algunos ajustes para adaptarlo al estilo de tu tienda. ¡Esto es muy importante!, para que nada parezca fuera de lugar.
 
-**1. Let us help you (recommended)**
+**Modo de prueba**
 
-When you sign up, we'll get in touch with you and offer to help you with setting up your store.
+Lo primero que debes hacer es setear DataCue en su Modo de Prueba. Este modo te permite tener una lista de usuarios que pueden ver cómo quedaría tu web usando DataCue, mientras el resto del público verá tu web como antes. Estos usuarios con permiso deben iniciar sesión en tu sitio para ver el modo de prueba. Los demás visitantes no verán ningún cambio. Esto te permite jugar con el diseño DataCue hasta que te parezca que está perfecto para salir en vivo. 
 
-**2. Do it yourself**
+Necesitarás saber algo de CSS para que quedes a tono con tu diseño actual. Tienes dos opciones. 
 
-Feel free to reach out if you need any help.
+**1. Te podemos ayudar (recomendado)**
+
+Cuando te registres en DataCue, nos contactamos contigo. Te preguntaremos si quieres ayuda para setear tu tienda con DataCue. ¡Toma nuestra oferta!
+
+**2. Hazlo tú mism@**
+
+Ponte creativo. Acude a nosotros ante dudas o comentarios.

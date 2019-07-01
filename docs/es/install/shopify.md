@@ -5,133 +5,133 @@ summary: Personalize your Shopify store by installing the DataCue app.
 
 # Shopify
 
-Welcome to our guide on how to install and use DataCue on your Shopify store.
+¡Bienvenido a nuestra guía sobre cómo instalar y usar DataCue en tu tienda Shopify!
 
-**Stuck?**
+**¿Confundido?**
 
-Just reach out to us using the support email in your Shopify app and we'll help you get started.
+Contáctanos usando el correo de soporte de tu app de Shopify y estaremos felices de ayudarte a comenzar. 
 
-## Install the app
+## Instala la app
 
-First things first, if you haven't already done so, install the Shopify app.
+Lo primero es lo primero. Si aún no lo has hecho, isntala la aplicación DataCue en Shopify.
 
-1. Click [here](https://app.datacue.co/en/onboarding/shopify) to begin the installation process.
+1. Haz click [aquí](https://app.datacue.co/en/onboarding/shopify) para comenzar la instalación.
 
-    ![Shopify Installation](./images/en-shopify-install-step2.png)
+    ![Instalación de Shopify](./images/en-shopify-install-step2.png)
 
-2. Enter your "my shopify" URL and click on Install.
+2. Ingresa tu URL de "my shopify" y haz click en Instalar.
 
-3. You'll be re-directed to your Shopify admin panel. Login if needed and click on "Install app".
+3. Serás redirigido a tu panel de administrador Shopify. Inicia sesión si es necesario y haz click en "Instalar app".
 
-4. Once the app is installed, click on Login to Dashboard to complete the sign-up process.
+4. Una vez está instalada, hazk click en Iniciar Sesión en Dashboard. Completa el proceso de registro. 
 
-## Add Recommendations
+## Agrega recomendaciones inteligentes
 
-### Quick start: Add Banners + Products to your home page
+### Inicio rápido: Agrega banners dinámicos y recomendaciones de producto a tu página de inicio
 
-![Install banners and products](./images/shopify_add_recommendations.gif)
+![Instala banners y productos](./images/shopify_add_recommendations.gif)
 
-### Setup banner (growth plan and higher) recommendations
+### Configura tus Banners (Planes Growth o Pro) 
 
-1. Click on "Online Store" on your sidebar
-    ![Online store](./images/online_store.png)
+1. Haz click en "Tienda Online" en tu menú lateral
+    ![Tienda online](./images/online_store.png)
 
-2. Click on "Customize" to go to the theme editor
+2. Haz click en "Personalizar" para ir al editor de Temas. 
 
-    ![Customize button](./images/customize_btn.png)
+    ![Personalizar](./images/customize_btn.png)
 
-3. Click on "Add section", add the "DataCue Banners" section
+3. Haz click en "Añadir sección", y agrega la sección llamada "DataCue Banners" 
 
-    ![Add section](./images/add_section_banners.png)
+    ![Añadir sección](./images/add_section_banners.png)
 
-4. Click on "Select Image" to pick your static banner. Static banners are defined by you and appear for all your visitors. Use them to highlight your most popular collection or a promotion. Ensure the image has an aspect ratio of 5:3 (recommended size is 1200 x 720 px). Learn more about static banners [here](/banners).
+4. Elige la imagen del que será tu banner estático (se mostrará a todos tus usuarios, independiente de su comportamiento). Haz click en "Seleccionar Imagen" y súbela. Idealmente, será una imagen que refleje tus colecciones más populares, o una promoción del momento. Asegúrate de que la imagen tenga una relación de aspecto de 5:3 (el tamaño recomendado es 1200 x 720 px). Aprende un poco más sobre banners estáticos [aquí](/banners).
 
-   ![Uploading a static banner](./images/homepage_banners.png)
+   ![Subiendo un banner estático](./images/homepage_banners.png)
 
-5. Click on the back button above, and then drag the newly added banners section to the top. We recommend adding this at the top just after your navigation bar. Go ahead and hide / remove any existing banner elements you used to have like slideshows.
+5. Haz click en el botón para ir atrás. Puedes arrastrar la sección de Banners que recién agregaste, a la posición deseada. Te recomendamos dejarla justo bajo tu barra de navegación. Puedes ocultar secciones que ya no usarás, como sliders antiguos.
 
-    ![Drag sections](./images/drag_banners_products.gif)
+    ![Reordena tus secciones](./images/drag_banners_products.gif)
 
-6. Save your changes
+6. Guarda tus cambios
 
-7. The default layout DataCue uses for your banners shows 2 dynamic banners and 1 static banner on one row. You can customize this by going to `Banners > Settings` in your DataCue dashboard. Read more about it [here](/banners/layout.html). Alternatively, find out how to build your own [custom layout](#custom-layout).
+7. El diseño por defecto de banners DataCue considera dos banners dinámicos y un banner estático, en una misma fila. Puedes personalizar este diseño al ir a `Banners > Configuración` en tu panel de control DataCue. Lee más sobre nuestros diseños [aquí](/banners/layout.html). Alternativamente, puedes querer [construir tu propio diseño](#custom-layout).
 
-#### Changing your static banner later
+#### Modificando tu banner estático
 
-1. Go to DataCue Banner settings from your Shopify admin panel (`Online Store > Customize theme > DataCue Banners`).
+1. PAra esto, anda a las configuraciones de DataCue Banners en tu panel de administrador Shopify (`Tienda online > Personalizar tema > DataCue Banners`).
 
-2. Click on the 'select image' button to upload a new image. Ensure the image has an aspect ratio of 5:3 (recommended size is 1200 x 720 px). Update the link for the static banner if necessary.
+2. Click en el botón de 'seleccionar imagen' y sube una nueva imagen. Nuevamente, asegúrate de mantener la relación de aspecto 5:3 (tamaño recomendado es 1200 x 720 px). Actualiza el link al que llegará el banner estático, si es necesario. 
 
-### Setup Product Recommendations (All plans)
+### Configura recomendaciones de producto (Todos los planes)
 
-**Home page**
+**Página de Inicio**
 
-1. Go to the theme editor (`Home / Customize theme / Customize theme / Customize`).
+1. Anda al editor de temas (`Inicio / Personalizar tema / Personalizar`).
 
-   ![Theme settings](./images/customize_theme.png)
+   ![Configuración de temas](./images/customize_theme.png)
 
-2. Click "Add section", then find the "Datacue" category and pick "DataCue Products".
+2. Click en "añadir sección", y encuentra la categoría "Datacue". Elige "Productos DataCue".
 
-   ![Adding a new section](./images/add_section_products.png)
+   ![Añadiendo una nueva sección](./images/add_section_products.png)
 
-3. Drag the newly added section to where you want the carousels to appear.
-    ![Drag sections](./images/drag_banners_products.gif)
+3. Arrastra esta sección recién agregada a la posición donde quieras ver este carrusel de productos. 
+    ![Arrastra secciones](./images/drag_banners_products.gif)
 
-4. Save your changes and you're done!
+4. Guarda tus cambios. ¡Estás listo!
 
-**Product page**
+**Páginas de Producto**
 
-Most themes don't allow adding custom sections to product pages, but you can do it manually.
+La mayoría de los temas no permiten agregar secciones personalizadas a páginas de producto; pero puedes hacerlo manualmente. 
 
-If you're familiar with theme editing, you can find the product page template
-(`templates/product.liquid`) in the code editor:
+Si estás familiarizado con editar temas, sabes que puedes encontrar el template de la página de producto en (`templates/product.liquid`), en el editor de código:
 
-![Finding product.liquid](./images/find_template.png)
+![Encontrar el product.liquid](./images/find_template.png)
 
-Then paste a special tag near the end of your template, where you want DataCue to insert the carousels:
+Pega este código especial al final del template, allí donde quieras ver las recomendaciones de producto DataCue:
 
 ```html
 <div data-dc-products></div>
 ```
 
-![Add product recommendations to product page](./images/shopify_add_code_product_page.gif)
+![Agrega recomendaciones de producto a tu página de producto](./images/shopify_add_code_product_page.gif)
 
-**Advanced positioning**
 
-You can also place each product recommendation in different parts of your product page. Just modify the code slightly to tell us what type of recommendation you want and insert the code where you want it to appear.
+**Elige posiciones avanzadas**
 
-Related products
+Puedes querer poner nuestros carruseles de recomendaciones de producto en distintas partes de tu página de producto. Modifica un poco el código para decirnos qué tipo de recomendación quieres, e insértalo en la posición deseada. 
+
+Productos relacionados
 
 ```html
 `<div data-dc-products="related"></div>`
 ```
 
-Similar products
+Productos similares
 
 ```html
 `<div data-dc-products="similar"></div>`
 ```
 
-Recently viewed products
+Productos recientemente vistos
 
 ```html
 `<div data-dc-products="recent"></div>`
 ```
 
-### Match widgets to your theme
+### Adapta a tu estilo
 
-DataCue's product carousels have a default design which will need some adjustments to match the look/feel of your store. This is really important so nothing looks out of place.
+Los carruseles de producto DataCue vienen con un dseño por defecto, que puedes querer cambiar para que se asemeje al look de tu sitio. Esto es muy importante, pues la idea es que nada parezca fuera de lugar. 
 
-**Test mode**
+**Modo de prueba**
 
-The first thing you should do is set DataCue into test mode. In test mode, you can pick a list of user accounts as test users. To see the recommendations, you have to sign in as a test user to your store. All other visitors don't see any changes. This is very helpful to play with the design till you're happy with the look/feel.
+Lo primero que debes hacer ahora es poner DataCue en su modo de prueba. Esto te permite elegir una lsita de cuentas (usuarios) que verán las recomendaciones DataCue, mientras el resto de tus visitas no verán cambios aún. Para ver las recomendaciones, los usuarios de prueba deben iniciar sesión en tu sitio. Esto es muy útil para que juegues con el diseño, hasta que sientas que tu sitio está listo para salir en vivo. 
 
-You will need to know a little CSS to match the design, so there are two options
+Necesitarás  will need to know a little CSS to match the design, so there are two options
 
-**1. Let us help you (recommended)**
+**1. Te podemos ayudar (recomendado)**
 
-When you install the app, we'll get in touch with you and offer to help you with setting up your store.
+Cuando te registres en DataCue, nos contactamos contigo. Te preguntaremos si quieres ayuda para setear tu tienda con DataCue. ¡Toma nuestra oferta!
 
-**2. Do it yourself**
+**2. Hazlo tú mism@**
 
-Wow, go right ahead. We've made a file called datacue_custom.css in your theme code. You can add all the styles you need in there so it's nicely separated from the other style code in your store. Feel free to reach out if you need any help.
+Cool! Adelante. Hemos creado un archivo llamado datacue_custom.css, en tu editor de temas. Puedes agregar todos los estilos que quieras ahí y quedarán separados de otros estilos de código de tu tienda. Si necesitas ayuda o tienes dudas, contáctanos. 

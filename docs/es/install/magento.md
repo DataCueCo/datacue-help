@@ -5,8 +5,8 @@ summary: Personalize your Magento 2 store by installing the DataCue extension.
 
 # Magento 2 <Badge text="alpha" type="error"/>
 
-Welcome to our guide on how to install and use DataCue on your Magento store.
+¡Bienvenido a nuestra guía sobre cómo instalar y usar DataCue en tu tienda Magento! 
 
-**Stuck?**
+**Confundido?**
 
-Just reach out to us using the support email in your Magento extension and we'll help you get started.
+Contáctanos usando el mail de soporte que está en tu extensión Magento, y estaremos felices de apoyarte. 

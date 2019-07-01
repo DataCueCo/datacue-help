@@ -5,90 +5,91 @@ summary: Personalize your WooCommerce store by installing the DataCue plugin.
 
 # WooCommerce <Badge text="beta" type="warn"/>
 
-Welcome to our guide on how to install and use DataCue on your WooCommerce store.
+¡Bienvenido a nuestra guía sobre cómo instalar y usar DataCue en tu tienda WooCommerce!
 
-**Stuck?**
+**¿Confundido?**
 
-Just reach out to us using the support email in your WooCommerce admin panel and we'll help you get started.
+Contáctanos usando el correo de soporte de tu panel de WooCommerce y estaremos felices de ayudarte a comenzar. 
 
-## Installation
+## Instalación
 
-### Before You Start
+### Antes de comenzar
 
-Here are some things to know before you install the plugin.
+Aquí hay un par de cosas que debes saber antes de instalar el plugin. 
 
-- You must have the WooCommerce plugin already installed and activated in WordPress.
+- Debes tener el plugin de WooCommerce instalado y activo en WordPress.
 
-- Your host environment must meet WooCommerce's minimum requirements, including PHP 7.0 or greater.
+- Tu servidor debe cumplir con los requerimientos mínimos de WooCommerce, incluyendo PHP 7.0 o superior.
 
-- Please test this plugin in a staging environment **first** before installing it on production servers. Plugins may sometimes affect each other, and the last place you want to discover this is on your live site. Ideally, your staging environment is a clone of your actual production site.
+- Por favor, prueba este plugin DataCue en un ambiente de prueba o "staging", **antes** de instalar en tus servidores de producción. Los plugins a veces se afectan entre sí, y no queremos descubrirlo en tu sitio web en vivo. Idealmente tu sitio de prueba será un clon de tu sitio de producción. 
 
-- Caching plugins may interfere with the syncing process, we recommend you turn any **OFF** before the installation until the sync has completed successfully.
+- Plugins de almacenamiento caché pueden interferir con este proceso de sincronización. Te recomendamos **apagarlos** antes de la instalación, hasta que esta se haya completado. 
 
-- DataCue for WooCommerce syncs your product catalog; your customer’s first name, last name and email address; and orders.
+- DataCue para WooCommerce sincronizará tu catálogo de productos, nombre y correo de tus clientes, y tus pedidos. 
 
-- DataCue for WooCommerce also installs our Javascript library on your home page, product pages, category pages and search results page. The Javascript library personalizes your website content to each visitor's activity.
+- DataCue para WooCommerce instalará nuestra biblioteca de Javascript en tus páginas de inicio, producto, categoría y búsquedas. Esta biblioteca Javascript personalizará el contenido de tu sitio para cada usuario que te visite. 
 
-Depending on your countries privacy laws, you may need to explicitly get permission from the user to use content personalization. Please consult with legal counsel if you're in any doubt.
+Dependiendo de las leyes de privacidad de tu país, puedes necesitar permiso explícito de parte de tu consumidor para aplicar personalización de contenido. Consulta con tus organismos legales si tienes dudas en la materia. 
 
 
-### Installing the plugin
+### Instalando el plugin
 
-1. Download the plugin
+1. Descarga el plugin
 
     <Button link="https://cdn.datacue.co/assets/integrations/datacue-woocommerce-latest.zip" text="Download"/>
 
-    ::: tip
-    Safari on Mac OS X may sometimes auto expand your ZIP file into a folder. You may wish to use another browser if this happens. Alternatively, you can disable the `Open "safe" files after downloading` option in Safari preferences.
+    ::: Tip
+    Safari en Mac OS X puede expandir automáticamente tu archivo ZIP a una carpeta. Si es el caso, puedse preferir usar otro navegador. O bien, puedes deshabilitar la opción `Abrir archivos "seguros" tras la descarga`  en tus preferencias de Safari.
     :::
 
-2. Install the plugin from your WordPress / WooCommerce Admin panel by clicking on `Plugins > Add New > Upload plugin > Choose File`. Select the ZIP file you just downloaded and click Install Now.
+2. Instala el plugin desde tu panel de control de administrador en WordPress / WooCommerce. Haz clcik en `Plugins > Agregar nuevo > Subir plugin > Elegir archivo`. Selecciona la carpeta ZIP que descargaste y haz click en "instalar ahora".
 
-    ![WooCommerce Plugin Installation](./images/woocommerce-install-plugin.gif)
+    ![Instalando el Plugin de WooCommerce](./images/woocommerce-install-plugin.gif)
 
-3. Once installed, select "Activate Plugin"
+3. Una vez instalado, selecciona "Activar Plugin"
 
-4. Enter your DataCue API Key and Secret and press "Save" to connect your store to DataCue. You can find the API Key and Secret on the first screen you see when you login to your [DataCue dashboard](https://app.datacue.co). 
+4. Ingresa tu Key y Secret de la API DataCue. Haz click en "guardar" para conectar tu tienda con DataCue. Encontrarás tu Key y Secret de la API en la primera pantalla cuando inicias sesión en tu [Panel de control DataCue](https://app.datacue.co). 
 
-    ![WooCommerce API creds](./images/woocommerce-enter-api-creds.gif)
+    ![Credenciales de la API para WooCommerce](./images/woocommerce-enter-api-creds.gif)
 
-    ::: tip
-    If you dismissed the API key + secret screen for any reason, don't worry. You can access it again by clicking on your store name on the top right click on "Developer" from the menu.
+    ::: Tip
+    Si por algún motivo no ves tu Key y Secret de la API en esta pantalla, no te preocupes. Puedes acceder a ella al hacer click en el nombre de tu tienda web, arriba a la derecha, cuando seleccionas "Desarrollador" en el menú.
     :::
 
     
-5. Depending on the size of your store the sync process can take a few mins to a few hours. You can monitor progress by switching to the "sync" tab.
+5. Dependiendo del tamaño de tu tienda, el proceso de sincronización tomará entre un par de minutos y unas pocas horas. Puedes hacer seguimiento al proceso al ir a la pestaña de "sincronización". 
 
-### Deactivate or Delete the Plugin
+### Desactiva o borra el plugin
 
-When you deactivate DataCue for WooCommerce, we remove all changes made to your store including the Javascript. We also immediately stop syncing any changes to your store data with DataCue.
+Cuando deshabilitas DataCue para WooCommerce, todos los cambios hechos en tu tienda serán removidos, incluyendo el Javascript. A la vez, termina la sincronización de cualquier dato de tu tienda con DataCue.
 
-To deactivate DataCue for WooCommerce, follow these steps.
 
-- Log in to your WordPress admin panel.
+Para desactivar DataCue para WooCommerce, sigue estos pasos.
 
-- On the left navigation panel, click Plugins, and choose Installed Plugins.
+- Inicia sesión en tu panel de administrador WordPress.
 
-- Click the box next to the DataCue for WooCommerce plugin, and click Deactivate.
+- En el panel de navegación izquierdo, haz click en Plugins. Elige Plugins instalados.
 
-- After you deactivate the plugin, you will have the option to Delete the plugin. 
+- Haz click en el botón al lado del plugin DataCue para WooCommerce. Haz click en Desactivar.
 
-::: tip
-If you see an error that the plugin is still active, you are most likely running a caching plugin. Disable the cache / refresh the cache and try deleting it again.
+- Una vez desactivas el plugin, tienes también la opción de eliminarlo. 
+
+::: Tip
+Si ves que por error, el plugin sigue activo, lo más probable es que tengas corriendo un plugin de almacenamiento caché. Desactiva el caché y actualiza. Luego, borra el plugin nuevamente.
 :::
 
-## Add recommendations
+## Agrega recomendaciones
 
-DataCue uses "shortcodes" to help you easily add dynamic banners and product recommendations to your website without requiring any code knowledge. You can read more about them [here (wordpress.com).](https://en.support.wordpress.com/shortcodes/)
+DataCue usa "códigos cortos" para ayudarte a agregar rápidamente banners dinámicos y recomendaciones de producto a tu sitio, sin requerir saber programar. Si quieres saber más, revisa [aquí (wordpress.com).](https://en.support.wordpress.com/shortcodes/)
 
-::: tip
-Did you know that WooCommerce is a plugin for WordPress? Most features offered by WordPress can be used on WooCommerce like shortcodes.
+::: Tip
+¿Sabías que WooCommerce es un plugin para WordPress? Gran parte de las funcionalidades que ofrece WordPress pueden usarse en WooCommerce, como códigos cortos. 
 :::
 
 
-### Banners (growth plan and higher)
+### Banners (Planes Growth y Pro)
 
-1. Select a banner to use as as your "Static Banner", a banner that all your visitors see. From your Dashboard go to `Media > Add New`, and select a banner image to be shown to all your visitors. If you're unsure, pick a banner to highlight your most popular collection or a promotion. Ensure the image has an aspect ratio of 5:3 (recommended size is 1200 x 720 px). Learn more about static banners [here](/banners).
+1. Elige una imagen que usarás como "banner estático", que verán todos tus usuarios por igual. Desde tu panel de control WooCommerce, anda a `Media > Agregar nuevo`, y elige esta imagen. Si no sabes cuál banner elegir, te vas a la segura poniendo alguna categoría o colección popular. O bien, una promoción. Asegúrate de que la relación de aspecto sea 5:3 (el tamaño recomendado es 1200 x 720 px). Aprende más sobre banners estáticos [aquí](/banners).
 
 2. Click on the newly uploaded image in your "Media Library" and copy the URL. You'll need this for the next step.
 

@@ -2,35 +2,35 @@
 summary: Build your own custom layouts to bring your own designs to life instead of using our standard recommendation widgets.
 ---
 
-# Widget Customization Avanzado (Pro plan only)
+# Diseña tu propio estilo de banners (Exclusivo Pro Plan)
 
-## Banner Diseño
+## Banners
 
-OK so you've looked at our banner layout designs, and you've got something fancier in mind. Fret not, we can take care of it.
+¡Ahá! Has revisado nuestros templates prediseñados de banners, pero tienes ganas de algo diferente. Podemos crear justo ESO que estás pensando. 
 
-DataCue supports two banner sizes, lets call them main and sub. You can pick any size you want but they need to be consistent. For instance, lets say you want a layout like this:
+DataCue permite tener dos tamaños de banners: les llamaremos banner principal ("main") y secundario ("sub"). Puedes elegir cualquier tamaño para cada uno, mientras seas consistente. Supongamos que hoy estás buscando un diseño así:
 
 ![Custom Layout](./images/custom-layout.png)
 
-This is what we mean by consistent: all the mains are the same size, and all the subs are the same size.
+A esto nos referimos con ser consistente: todos los banners principales deben tener el mismo tamaño entre sí, y lo mismo aplica para los secundarios. 
 
-Lets implement this!
+¡Manos a la obra!
 
-::: tip
-Our standard banner layouts are tastefully designed and mobile responsive. Designing your own layout means you need to take care of this functionality yourself.
+::: Tip
+Nuestros estilos prediseñados de banners han sido cuidadosamente probados y son 100% responsivos a móvil. Crear tu propio diseño significa que debes preocuparte de esto por ti mismo. 
 :::
 
-So here's what you need to do:
+Esto es lo que debes hacer:
 
-1. Design your layout using a combination of two different sizes.
+1. Crea tu diseño de grilla de banners, usando una combinación de dos tamaños de banner.
 
-2. In the dashboard, go to banner settings (`Banners > Settings`)
+2. En tu dashboard, anda a Configuración de Banners (`Banners > Configuración`)
 
-3. Select `Custom` and select the number of main and sub banners you need. For the design above, we need 2 main and 2 sub banners.
+3. Elige `Personalizado` y selecciona la cantidad de banners que quieres tener. PAra el diseño de arriba, por ejemplo, serían dos Main y dos Sub. 
 
- ![Banner Settings](./images/banner-settings.png)
+ ![Configuración de Banners](./images/banner-settings.png)
 
-4. Insert an HTML snippet like so, and style it with CSS as you like:
+4. Inserta un pedacito de código HTML y dale estilo con CSS como se te ocurra.
 
 ```html
  <div class="custom-banners">
@@ -63,17 +63,17 @@ So here's what you need to do:
  .custom-big { grid-row: span 2; }
 ```
 
-The code above is just a basic example, but the idea is similar for any layout.
+El código de arriba es un ejemplo básico. La idea aplica para cualquier diseño. 
 
-- You can use any class names you like on the `div` tags. They don't even have to be `div`s, you might have an existing structure you'd like to adapt. 
+- Puedes usar cualquier nombre en la etiqueta de `div`. Ni siquiera es necesario que sean `div`s, puedes usar cualquier estructura que tengas y quieras adaptar.  
 
-- The only requirement is that you add the correct attribute names. Main banners must have `data-dc-main-insert-banner` and `data-dc-sub-insert-banner` for sub. 
+- El único requisito es que agregues el nombre correcto de atributo. Los banners principales deben tener `data-dc-main-insert-banner` y los secundarios, `data-dc-sub-insert-banner`. 
 
-- The numbers tell us which order to insert the banners in. Something like put the 1st main banner here, put the 2nd main banner there.
+- Los números nos indican en qué orden insertamos los banners.
 
-- You can skip the static banner part if you want to make everything dynamic.
+- Puedes saltarte la parte del banner estático si quieres que todos tus banners sean dinámicos, y cambien según comportamiento de tu usuario. Si quieres un banner que sea igual para todos, entonces, ten un banner estático. 
 
-In case you're curious for more technical details. Our recommendations are sent as an array, see example below. The number refers to the index of the element in each array, starting with 1 instead of 0.
+Si estás curioso y quieres conocer más detalles técnicos: nuestras recomendaciones son enviadas como una orden. Los números se refieren al orden en que enviamos cada elemento, comenzando por un 1 en lugar de un 0. 
 
 ```json
  {
@@ -92,18 +92,18 @@ In case you're curious for more technical details. Our recommendations are sent 
 
 ## Notifications Icon Positioning
 
-Notifications come with a floating bell widget that you can set a default position for. Instead, you could integrate the bell into your navbar so it looks more native.
+Las notificaciones vienen en la forma de una campanita flotante; puedes elegir su posición en tu sitio. O bien, puedes integrarla a tu barra de navegación para que se vea más integrada. 
 
-1. Insert this HTML in your navbar where you want to see the button. You can style the `<a>` tag with any class you like.
+1. Inserta este HTML en tu barra de navegación, donde quieras poner este botón. Puedes configurar la etiqueta `<a>` con el estilo que desees. 
 
 ```html
 <a href="#" class="put-your-classname-here" data-dc-notification-button></a>
 ```
 
-You can style the bell with CSS as you like. The CSS below will do two things:
+Puedes darle la onda que quieras a esta campanita, con CSS. El CSS por defecto hará dos cosas:
 
-1. Make a small red bubble if there are unread notifications
-2. Set the bell icon color to black
+1. Creará una pequeña burbuja roja, que aparecerá cuando hayan notificaciones disponibles. 
+2. Pondrá el color del ícono de campana en negro. 
 
 ```css
 
