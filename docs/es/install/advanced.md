@@ -4,7 +4,7 @@ summary: Build your own custom layouts to bring your own designs to life instead
 
 # Advanced Widget Customization (Pro plan only)
 
-## Custom Banner Layout
+## Banner Diseño
 
 OK so you've looked at our banner layout designs, and you've got something fancier in mind. Fret not, we can take care of it.
 
