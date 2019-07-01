@@ -1,5 +1,4 @@
 ---
-blog_index: true
 summary: Learn how to manage dynamic banners with DataCue
 ---
 
@@ -80,10 +79,6 @@ If you know HTML + CSS, you can also do a completely custom layout and just inse
 | ![Banner Types](./images/banner-layout/3-wide-2-narrow-desktop.jpg) | ![Banner Types](./images/banner-layout/3-wide-2-narrow-mobile.jpg) |
 
 ## Uploading a new banner
-
-::: warning
-The Dashboard is currently being updated to reflect the new banner solution. This document will be updated as soon as the Dashboard screen is updated.
-:::
 
 ::: tip
 If you delete or update a banner, this change is applied immediately.
