@@ -4,9 +4,10 @@
 set -e
 
 # navigate to docs directory
-cd docs
+#cd docs
 
 # launch dev server
-vuepress dev
+#yarn run dev
 
-cd -
+#cd -
+yarn docs:dev

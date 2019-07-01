@@ -7,6 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
+    "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
   "repository": {
@@ -19,7 +20,11 @@
     "url": "https://github.com/DataCueCo/datacue-help/issues"
   },
   "homepage": "https://github.com/DataCueCo/datacue-help#readme",
-  "dependencies": {
-    "vuepress": "^0.14.2"
+  "dependencies": {},
+  "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.0.0-rc.1",
+    "@vuepress/plugin-pwa": "^1.0.0-rc.1",
+    "markdown-it-footnote": "^3.0.1",
+    "vuepress": "^1.0.0-rc.1"
   }
 }

@@ -1,7 +1,6 @@
 // /.vuepress/config.js
 
 module.exports = {
-  title: ' ',
   plugins: {
     '@vuepress/pwa': {
       serviceWorker: true,
@@ -9,6 +8,12 @@ module.exports = {
     },
     '@vuepress/google-analytics': {
       ga: 'UA-106234501-3'
+    }
+  },
+  markdown: {
+    extendMarkdown: md => {
+      // use more markdown-it plugins!
+      md.use(require('markdown-it-footnote'))
     }
   },
   head: [
@@ -20,15 +25,16 @@ module.exports = {
     '/': {
       lang: 'en-US', // this will be set as the lang attribute on <html>
       title: 'DataCue',
-      description: 'Show your users just the products they want.'
+      description: 'Automatically show each customers the content they want to buy.'
     },
     '/es/': {
       lang: 'es',
       title: 'DataCue',
-      description: 'Muestra a tus usuarios solo los productos que desean.'
+      description: 'Muestra automáticamente a cada cliente el contenido que quiere comprar.'
     }
   },
   themeConfig: {
+    sidebarDepth: 3,
     locales: {
       '/': {
         // text for the language dropdown
@@ -37,36 +43,72 @@ module.exports = {
         label: 'English',
         // text for the edit-on-github link
         editLinkText: 'Edit this page on GitHub',
-        // config for Service Worker
-        nav: [
-          { text: 'Sign Up', link: 'https://app.datacue.co/en/sign-up' },
-          { text: 'Home', link: 'https://app.datacue.co/login' },
-        ],
-        sidebar: [
-          ['/', 'Getting started'],
-          ['/dashboard/', 'Dashboard'],
-          ['/prestashop/', 'PrestaShop'],
-          ['/shopify/', 'Shopify'],
-          ['/woocommerce/', 'WooCommerce'],
-          ['/custom/', 'Custom stores'],
-        ]
+        //navbar
+        nav: require('./nav/en'),
+        sidebar: {
+          '/install/': getInstallSidebar('Install', 'Advanced'),
+          '/guide/': getGuideSidebar('Web', 'Email'),
+        },
       },
       '/es/': {
         selectText: 'Idiomas',
         label: 'Español',
-        nav: [
-          { text: 'Regístrate', link: 'https://app.datacue.co/es/sign-up' },
-          { text: 'Inicio', link: 'https://app.datacue.co/login' },
-        ],
-        sidebar: [
-          ['/es/', 'Para empezar'],
-          ['/es/dashboard/', 'Dashboard (Panel de Control)'],
-          ['/es/prestashop/', 'PrestaShop'],
-          ['/es/shopify/', 'Shopify'],
-          ['/es/woocommerce/', 'WooCommerce'],
-          ['/es/custom/', 'Tiendas a medida (Custom)'],
-        ]
+        editLinkText: 'Editar esta página en GitHub',
+        nav: require('./nav/es'),
+        sidebar: {
+          '/install/': getInstallSidebar('Instalar', 'Avanzado'),
+          '/guide/': getGuideSidebar('Web', 'Correo'),
+        },
       }
     },
   }
+}
+
+function getInstallSidebar(groupA, groupB) {
+  return [
+    {
+      title: groupA,
+      sidebarDepth: 2,
+      collapsable: false,
+      children: [
+        '',
+        'shopify',
+        'woocommerce',
+        'prestashop',
+        'magento'
+      ]
+    },
+    {
+      title: groupB,
+      sidebarDepth: 2,
+      collapsable: false,
+      children: [
+        'custom',
+        'advanced'
+      ]
+    }
+  ]
+}
+
+function getGuideSidebar(groupA, groupB) {
+  return [
+    {
+      title: groupA,
+      sidebarDepth: 2,
+      collapsable: false,
+      children: [
+        'banners',
+        'products',
+        'notifications'
+      ]
+    },
+    {
+      title: groupB,
+      sidebarDepth: 2,
+      collapsable: false,
+      children: [
+        'email',
+      ]
+    }
+  ]
 }

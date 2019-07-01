@@ -6,11 +6,15 @@ actionLink: /#getting-started
 footer: © 2018 DataCue (PTE. LTD.)
 ---
 
+# DataCue Help
+
 ## Getting Started
 
 ### What is DataCue?
 
-Check [our website](https://www.datacue.co/) to see how DataCue can work for you!
+The best websites always shows you content relevant to your interests. This is called personalization and it's effective because as a visitor you see things you care about. DataCue personalizes your e-commerce store for each visitor to help you increase sales.
+
+Read on to find out how to personalize your store.
 
 ### No account yet?
 
@@ -22,39 +26,59 @@ Go to the dashboard [clicking here](https://app.datacue.co/).
 
 ### How do I add DataCue to my website?
 
-Scroll down to the [installation](#e-commerce-platforms) guide that matches your store.
+Scroll down to the [installation](#installing-datacue) guide that matches your store.
 
 ### Stuck?
 
 Feel free to [contact us](https://datacue.co/contact) or [tweet us @DataCueCo](https://twitter.com/datacueco).
 
+## [Installing DataCue](/install)
 
-## Installing DataCue
+<Button text="Installation Guide" link="/install" />
 
-DataCue can be installed on any e-commerce platform. We have integrations for the most popular platforms, for the others you may connect to our API directly.
+DataCue can be installed on any e-commerce platform. We have integrations for the most popular platforms. If your platform doesn't have an integration, just connect to our easy to use API directly.
 
 Select your e-commerce platform to get started.
 
-### [PrestaShop](/prestashop/)
+### [Magento 2](/install/magento)
+
+Personalize your WooCommerce store by installing the DataCue extension.
+
+### [PrestaShop](/install/prestashop/)
 
 Personalize your PrestaShop store by installing the DataCue module.
 
-### [Shopify](/shopify/)
+### [Shopify](/install/shopify/)
 
 Personalize your Shopify store by installing the DataCue app.
 
-### [WooCommerce](/woocommerce/)
+### [WooCommerce](/install/woocommerce/)
 
 Personalize your WooCommerce store by installing the DataCue plugin.
-
-### Magento 2
-
-Integration in progress. [Contact us](mailto:contact@datacue.co?Subject=DataCue%20integration) if you're interested to use it on your store.
 
 ### [Others](/custom/)
 
 Personalize your store using the DataCue recommendations API. Basic coding skills required.
 
+
 ## Using DataCue
 
-<ArticleIndex type="dashboard" />
+Learn about the different features DataCue offers and how to get the best out of them.
+
+<Button text="User Guide" link="/guide" />
+
+### [Banners](/banners)
+
+Personalize your WooCommerce store by installing the DataCue extension.
+
+### [Email](/email)
+
+Personalize your PrestaShop store by installing the DataCue module.
+
+### [Products](/products)
+
+Personalize your PrestaShop store by installing the DataCue module.
+
+### [Notifications](/notifications/)
+
+Personalize your Shopify store by installing the DataCue app.
