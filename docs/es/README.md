@@ -20,7 +20,7 @@ Sigue leyendo para saber cómo personalizamos tu tienda.
 
 Puedes crear una en [datacue.co](https://app.datacue.co/es/sign-up).
 
-### ¿Quieres inciar sesión en tu Panel de Control DataCue?
+### ¿Quieres inciar sesión en tu Panel de Control?
 
 Anda a tu Panel de Control (Dashboard) haciendo click [aquí](https://app.datacue.co/).
 
@@ -69,16 +69,16 @@ Aprende sobre las diferentes funcionalidades que ofrece DataCue y cómo sacarles
 
 ### [Banners](/banners)
 
-Personalize your WooCommerce store by installing the DataCue extension.
+Tus banners de siempre, hoy pueden cambiar según el comportamiento de tu usuario. 
 
 ### [Email](/email)
 
-Personalize your PrestaShop store by installing the DataCue module.
+Las campañas de correo funcionan mejor cuando envías información relevante a cada usuario.
 
 ### [Products](/products)
 
-Personalize your PrestaShop store by installing the DataCue module.
+Recomienda productos interesantes para cada visita, ¡aumenta el valor de tus ventas!
 
 ### [Notifications](/notifications/)
 
-Personalize your Shopify store by installing the DataCue app.
+Informa al usuario de cambios relevantes en precio o stock de productos que ha visto.

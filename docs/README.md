@@ -42,7 +42,7 @@ Select your e-commerce platform to get started.
 
 ### [Magento 2](/install/magento)
 
-Personalize your WooCommerce store by installing the DataCue extension.
+Personalize your Magento 2 store by installing the DataCue extension.
 
 ### [PrestaShop](/install/prestashop/)
 
@@ -69,16 +69,16 @@ Learn about the different features DataCue offers and how to get the best out of
 
 ### [Banners](/banners)
 
-Personalize your WooCommerce store by installing the DataCue extension.
+The banners of your store can automatically change to match your user's interest. 
 
 ### [Email](/email)
 
-Personalize your PrestaShop store by installing the DataCue module.
+E-mail campaings work better if your user gets relevant information!
 
 ### [Products](/products)
 
-Personalize your PrestaShop store by installing the DataCue module.
+Recommend relevant products for each one of your visits and increase the value of your sales.
 
 ### [Notifications](/notifications/)
 
-Personalize your Shopify store by installing the DataCue app.
+Let your user know about important changes in price of stock of the products they've seen.
