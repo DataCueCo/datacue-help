@@ -38,7 +38,7 @@ Dependiendo de las leyes de privacidad de tu país, puedes necesitar permiso exp
 
     <Button link="https://cdn.datacue.co/assets/integrations/datacue-woocommerce-latest.zip" text="Download"/>
 
-    ::: Tip
+    ::: tip Consejo
     Safari en Mac OS X puede expandir automáticamente tu archivo ZIP a una carpeta. Si es el caso, puedse preferir usar otro navegador. O bien, puedes deshabilitar la opción `Abrir archivos "seguros" tras la descarga`  en tus preferencias de Safari.
     :::
 
@@ -52,7 +52,7 @@ Dependiendo de las leyes de privacidad de tu país, puedes necesitar permiso exp
 
     ![Credenciales de la API para WooCommerce](./images/woocommerce-enter-api-creds.gif)
 
-    ::: Tip
+    ::: tip Consejo
     Si por algún motivo no ves tu Key y Secret de la API en esta pantalla, no te preocupes. Puedes acceder a ella al hacer click en el nombre de tu tienda web, arriba a la derecha, cuando seleccionas "Desarrollador" en el menú.
     :::
 
@@ -74,7 +74,7 @@ Para desactivar DataCue para WooCommerce, sigue estos pasos.
 
 - Una vez desactivas el plugin, tienes también la opción de eliminarlo. 
 
-::: Tip
+::: tip Consejo
 Si ves que por error, el plugin sigue activo, lo más probable es que tengas corriendo un plugin de almacenamiento caché. Desactiva el caché y actualiza. Luego, borra el plugin nuevamente.
 :::
 
@@ -82,7 +82,7 @@ Si ves que por error, el plugin sigue activo, lo más probable es que tengas cor
 
 DataCue usa "códigos cortos" para ayudarte a agregar rápidamente banners dinámicos y recomendaciones de producto a tu sitio, sin requerir saber programar. Si quieres saber más, revisa [aquí (wordpress.com).](https://en.support.wordpress.com/shortcodes/)
 
-::: Tip
+::: tip Consejo
 ¿Sabías que WooCommerce es un plugin para WordPress? Gran parte de las funcionalidades que ofrece WordPress pueden usarse en WooCommerce, como códigos cortos. 
 :::
 

@@ -1,14 +1,14 @@
 ---
 home: true
 heroImage: /datacue_hero.svg
-actionText: Get Started →
-actionLink: /#getting-started
-footer: © 2018-present DataCue (PTE. LTD.)
+actionText: Empezar →
+actionLink: ./#para-empezar
+footer: © 2018-present (PTE. LTD.)
 ---
 
 # DataCue Help
 
-## Getting Started
+## Para Empezar
 
 ### What is DataCue?
 
@@ -18,7 +18,7 @@ Read on to find out how to personalize your store.
 
 ### No account yet?
 
-You can sign up for one at [datacue.co](https://app.datacue.co/en/sign-up).
+You can sign up for one at [datacue.co](https://app.datacue.co/es/sign-up).
 
 ### Want to sign in to the dashboard?
 

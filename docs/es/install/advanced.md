@@ -16,7 +16,7 @@ A esto nos referimos con ser consistente: todos los banners principales deben te
 
 ¡Manos a la obra!
 
-::: Tip
+::: tip Consejo
 Nuestros estilos prediseñados de banners han sido cuidadosamente probados y son 100% responsivos a móvil. Crear tu propio diseño significa que debes preocuparte de esto por ti mismo. 
 :::
 
