@@ -17,9 +17,9 @@ Contáctanos usando el correo de soporte de tu panel de WooCommerce y estaremos 
 
 Aquí hay un par de cosas que debes saber antes de instalar el plugin. 
 
-- Debes tener el plugin de WooCommerce instalado y activo en WordPress.
+- Debes tener el **plugin de WooCommerce instalado y activo en WordPress**.
 
-- Tu servidor debe cumplir con los requerimientos mínimos de WooCommerce, incluyendo PHP 7.0 o superior.
+- Tu servidor debe cumplir con los requerimientos mínimos de WooCommerce, incluyendo **PHP 7.0 o superior**.
 
 - Por favor, prueba este plugin DataCue en un ambiente de prueba o "staging", **antes** de instalar en tus servidores de producción. Los plugins a veces se afectan entre sí, y no queremos descubrirlo en tu sitio web en vivo. Idealmente tu sitio de prueba será un clon de tu sitio de producción. 
 
@@ -34,11 +34,11 @@ Dependiendo de las leyes de privacidad de tu país, puedes necesitar permiso exp
 
 ### Instalando el plugin
 
-1. Descarga el plugin
+1. Descarga el Plugin
 
     <Button link="https://cdn.datacue.co/assets/integrations/datacue-woocommerce-latest.zip" text="Download"/>
 
-    ::: tip Consejo
+    ::: tip Tip
     Safari en Mac OS X puede expandir automáticamente tu archivo ZIP a una carpeta. Si es el caso, puedse preferir usar otro navegador. O bien, puedes deshabilitar la opción `Abrir archivos "seguros" tras la descarga`  en tus preferencias de Safari.
     :::
 
@@ -48,11 +48,11 @@ Dependiendo de las leyes de privacidad de tu país, puedes necesitar permiso exp
 
 3. Una vez instalado, selecciona "Activar Plugin"
 
-4. Ingresa tu Key y Secret de la API DataCue. Haz click en "guardar" para conectar tu tienda con DataCue. Encontrarás tu Key y Secret de la API en la primera pantalla cuando inicias sesión en tu [Panel de control DataCue](https://app.datacue.co). 
+4. Ingresa tu usuario y contraseña (Key y Secret) de la API DataCue. Haz click en "guardar" para conectar tu tienda con DataCue. Encontrarás tu Key y Secret de la API en la primera pantalla cuando inicies sesión en tu [Panel de control DataCue](https://app.datacue.co). 
 
     ![Credenciales de la API para WooCommerce](./images/woocommerce-enter-api-creds.gif)
 
-    ::: tip Consejo
+    ::: tip Tip
     Si por algún motivo no ves tu Key y Secret de la API en esta pantalla, no te preocupes. Puedes acceder a ella al hacer click en el nombre de tu tienda web, arriba a la derecha, cuando seleccionas "Desarrollador" en el menú.
     :::
 
@@ -74,7 +74,7 @@ Para desactivar DataCue para WooCommerce, sigue estos pasos.
 
 - Una vez desactivas el plugin, tienes también la opción de eliminarlo. 
 
-::: tip Consejo
+::: tip Tip
 Si ves que por error, el plugin sigue activo, lo más probable es que tengas corriendo un plugin de almacenamiento caché. Desactiva el caché y actualiza. Luego, borra el plugin nuevamente.
 :::
 
@@ -82,7 +82,7 @@ Si ves que por error, el plugin sigue activo, lo más probable es que tengas cor
 
 DataCue usa "códigos cortos" para ayudarte a agregar rápidamente banners dinámicos y recomendaciones de producto a tu sitio, sin requerir saber programar. Si quieres saber más, revisa [aquí (wordpress.com).](https://en.support.wordpress.com/shortcodes/)
 
-::: tip Consejo
+::: tip Tip
 ¿Sabías que WooCommerce es un plugin para WordPress? Gran parte de las funcionalidades que ofrece WordPress pueden usarse en WooCommerce, como códigos cortos. 
 :::
 
@@ -155,4 +155,4 @@ Cuando te registres en DataCue, nos contactaremos contigo. Te preguntaremos si q
 
 **2. Hazlo tú mism@**
 
-Cool! Adelante. Hemos creado un archivo llamado datacue_custom.css, en tu editor de temas. Puedes agregar todos los estilos que quieras ahí y quedarán separados de otros estilos de código de tu tienda. Si necesitas ayuda o tienes dudas, contáctanos.
+¡Cool! Adelante. Hemos creado un archivo llamado datacue_custom.css, en tu editor de temas. Puedes agregar todos los estilos que quieras ahí y quedarán separados de otros estilos de código de tu tienda. Si necesitas ayuda o tienes dudas, contáctanos.

@@ -134,4 +134,4 @@ Cuando te registres en DataCue, nos contactaremos contigo. Te preguntaremos si q
 
 **2. Hazlo tú mism@**
 
-Cool! Adelante. Hemos creado un archivo llamado datacue_custom.css, en tu editor de temas. Puedes agregar todos los estilos que quieras ahí y quedarán separados de otros estilos de código de tu tienda. Si necesitas ayuda o tienes dudas, contáctanos. 
+¡Cool! Adelante. Hemos creado un archivo llamado datacue_custom.css, en tu editor de temas. Puedes agregar todos los estilos que quieras ahí y quedarán separados de otros estilos de código de tu tienda. Si necesitas ayuda o tienes dudas, contáctanos. 
