@@ -130,7 +130,7 @@ Necesitarás  will need to know a little CSS to match the design, so there are t
 
 **1. Te podemos ayudar (recomendado)**
 
-Cuando te registres en DataCue, nos contactamos contigo. Te preguntaremos si quieres ayuda para setear tu tienda con DataCue. ¡Toma nuestra oferta!
+Cuando te registres en DataCue, nos contactaremos contigo. Te preguntaremos si quieres ayuda para setear tu tienda con DataCue. ¡Toma nuestra oferta!
 
 **2. Hazlo tú mism@**
 
