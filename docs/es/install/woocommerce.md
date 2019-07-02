@@ -89,70 +89,70 @@ DataCue usa "códigos cortos" para ayudarte a agregar rápidamente banners diná
 
 ### Banners (Planes Growth y Pro)
 
-1. Elige una imagen que usarás como "banner estático", que verán todos tus usuarios por igual. Desde tu panel de control WooCommerce, anda a `Media > Agregar nuevo`, y elige esta imagen. Si no sabes cuál banner elegir, te vas a la segura poniendo alguna categoría o colección popular. O bien, una promoción. Asegúrate de que la relación de aspecto sea 5:3 (el tamaño recomendado es 1200 x 720 px). Aprende más sobre banners estáticos [aquí](/banners).
+1. Elige una imagen que usarás como "banner estático", que verán todos tus usuarios por igual. Desde tu panel de control WooCommerce, anda a `Media > Agregar nuevo`, y elige esta imagen. Si no sabes qué banner elegir, te vas a la segura poniendo alguna categoría o colección popular. O bien, una promoción. Asegúrate de que la relación de aspecto sea 5:3 (el tamaño recomendado es 1200 x 720 px). Aprende más sobre banners estáticos [aquí](/banners).
 
-2. Click on the newly uploaded image in your "Media Library" and copy the URL. You'll need this for the next step.
+2. Haz click en la recién subida imagen en tu "Bilbioteca Multimedia" y copia su URL. La necesitarás en el siguiente paso. 
 
-3. From your Dashboard click on "Pages" and open your Home page. Insert the code snippet below right after your navigation bar. 
+3. Desde tu panel de control, haz click en "Páginas" y abre tu página de inicio. Inserta el pedazo de código que te mostramos acá, justo debajo de tu barra de navegación. 
 
-    Remember to change the urls for `static-img`  and `static-link` correctly.
+    Recuerda cambiar las URL de `static-img` y `static-link` correctamente.
 
-    `static-img` is the URL you got from the previous.
-    `static-link` is the link to send the user when they click on the banner. Set an appropriate URL for your store, typically a category page.
+    `static-img` es la URL que copiaste del banner en paso 2. 
+    `static-link` es el link al cual enviarás al usuario una vez que haga click en este banenr. Por lo general, este link es una página de categoría.
 
     ```
     [datacue-banners static-img="/path/to/img.jpg" static-link="/link/to/category"]
     ```
 
-4. The default layout DataCue uses for your banners shows 2 dynamic banners and 1 static banner on one row. You can customize this by going to `Banners > Settings` in your DataCue dashboard. Read more about it [here](/banners/layout.html). Alternatively, find out how to build your own [custom layout](#custom-layout).
+4. El diseño por defecto que DataCue usa para tus banners, incluye dos banners dinámicos y un banner estático, en una sola fila. Puedes personalizar esto al ir a tu panel de control DataCue, sección `Banners > Configuración`. Lee más sobre esto [aquí](/banners/layout.html). O bien, construye desde cero tu [propio diseño](#custom-layout).
 
-#### Changing your static banner later
+#### Modificando tu banner estático 
 
-1. Upload a new image to your WordPress media library and copy the URL. Ensure the image has an aspect ratio of 5:3 (recommended size is 1200 x 720 px). Update the link for the static banner if necessary.
+1. Cuando quieras cambiar tu banner estático, puedes subir la imagen deseada a tu biblioteca multimedia en WordPress y copia la URL de imagen. Recuerda que esta imagen tenga una relación de aspecto de 5:3 (y ojalá tamaño 1200 x 720 px). Refresca el link de la página de categoría o producto según sea necesario. 
 
-2. Go to "Pages" and edit your Home page.
+2. Ve a sección "Páginas" y edita tu Página de Inicio. 
 
-3. Find the datacue banners short code and change the `static-img` to the URL you copied from step 1. Set the `static-link` attribute as appropriate.
+3. Encuentra el código corto de los banners DataCue y cambia la `static-img` por la URL de imagen que copiaste en el paso 1. Configura el `static-link` como corresponda.
 
-### Setup Product Recommendations (All plans)
+### Configura recomendaciones de producto (Todos los planes)
 
-**Home page**
+**Página de Inicio**
 
-1. Go to the page editor and select your Home page.
+1. Ve al editor de páginas y selecciona tu página de Inicio. 
 
-2. Edit the code and add the product recommendations shortcode to where you want it.
+2. Edita el código y agrega el código corto de Recomendaciones de Producto al sitio donde quieras agregar estos carruseles. 
 
     ```
     [datacue-products]
     ```
 
-3. Save your changes and you're done!
+3. Guarda tus cambios. ¡Listo!
 
-**Product page**
+**Página de Producto**
 
-Customizing your product page requires editing of your theme PHP files. 
-If you're familiar with theme editing, you can find the product page template here: `plugins\woocommerce\templates\single-product\product-image.php`
+Para personalizar tu página de producto, debes editar los archivos PHP de tus temas. 
+Si estás familiarizado con edición de temas, puedes encontrar el template de página de producto aquí: `Plugins\WooCommerce\Templates\Single-product\Product-image.php`
 
-add the PHP code where you want to see the product recommendations.
+agrega el código PHP a donde quieras situar las recomendaciones de producto. 
 
 ```php
 <?php echo do_shortcode( '[datacue-products]' ); ?>
 ```
 
-### Match widgets to your theme
+### Adapta el estilo a tu tema
 
-DataCue's product carousels have a default design which will need some adjustments to match the look/feel of your store. This is really important so nothing looks out of place.
+Los productos recomendados DataCue vienen en un formato que puede no combinar con el diseño de tu sitio. Necesitas hacer algunos ajustes para lograr que todo se vea en orden. 
 
-**Test mode**
+**Modo de prueba**
 
-The first thing you should do is set DataCue into test mode. In test mode, you can pick a list of user accounts as test users. To see the recommendations, you have to sign in as a test user to your store. All other visitors don't see any changes. This is very helpful to play with the design till you're happy with the look/feel.
+Para esto, lo primero que debes hacer es dejar DataCue en modo de prueba. En este modo, puedes elegir un número de usuarios que sean tus usuarios de prueba. Solo ellos verán las recomendaciones, cuando inicien sesión en tu sitio web. El resto de los usuarios no verá cambios. Esto es muy útil para que juegues con el diseño de las recomendaciones DataCue, hasta que estés conforme para salir en vivo. 
 
-You will need to know a little CSS to match the design, so there are two options
+Necesitarás saber un poquito de CSS para adaptar tu diseño, así que tienes dos opciones. 
 
-**1. Let us help you (recommended)**
+**1. Te podemos ayudar (recomendado)**
 
-When you sign up, we'll get in touch with you and offer to help you with setting up your store.
+Cuando te registres en DataCue, nos contactamos contigo. Te preguntaremos si quieres ayuda para setear tu tienda con DataCue. ¡Toma nuestra oferta!
 
-**2. Do it yourself**
+**2. Hazlo tú mism@**
 
-Feel free to reach out if you need any help.
+Cool! Adelante. Hemos creado un archivo llamado datacue_custom.css, en tu editor de temas. Puedes agregar todos los estilos que quieras ahí y quedarán separados de otros estilos de código de tu tienda. Si necesitas ayuda o tienes dudas, contáctanos. .

@@ -9,13 +9,13 @@ Intgrar DataCue con tu plataforma personalizada es fácil, pues en esencia, somo
 
 A nivel general, hay dos cosas que debes hacer para dejar DataCue andando en tu tienda web. 
 
-## 1. Datos de Backend
+## 1. Envía tus datos de Back-end
 
 Envíanos tus productos, lista de pedidos, y clientes. Estos datos son importantes a la hora de entender el comportamiento de TUS usuarios en tu sitio, sus hábitos de compra, y saber cómo recomendar productos de valor. 
 
-## 2. Mostrar recomendaciones
+## 2. Muestra recomendaciones
 
-Esta parte requiere instalar nuestra biblioteca de JavaScript. Esta hará dos cpsas. Primero, nos dirá las acciones que cada usuario hace en tu sitio. Segundo, tomará esta información para mostrar contenido personalizado en forma de banners y productos en tu sitio. 
+Esta parte requiere instalar nuestra biblioteca de JavaScript. Esta hará dos cosas. Primero, nos dirá las acciones que cada usuario hace en tu sitio. Segundo, tomará esta información para mostrar contenido personalizado en forma de banners y productos en tu sitio. 
 
 Ambas cosas son fáciles de emplementar. Tenemos bibiliotecas y códigos de ejemplo, en todos los lenguajes de programación populares. 
 
