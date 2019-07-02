@@ -56,8 +56,8 @@ module.exports = {
         editLinkText: 'Editar esta página en GitHub',
         nav: require('./nav/es'),
         sidebar: {
-          '/install/': getInstallSidebar('Instalar', 'Avanzado'),
-          '/guide/': getGuideSidebar('Web', 'Correo'),
+          '/es/install/': getInstallSidebar('Instalar', 'Avanzado'),
+          '/es/guide/': getGuideSidebar('Web', 'Correo'),
         },
       }
     },

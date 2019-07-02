@@ -21,4 +21,4 @@ Ambas cosas son fáciles de emplementar. Tenemos bibiliotecas y códigos de ejem
 
 PAra empezar, si no eres quien desarrolla, lleva a tu desarrollador a nuestra [Documentación para desarrolladores](https://developer.datacue.co/).
 
-Por favor [contáctanos](https://datacue.co/contact) si tienes dudas. Felices de ayudarte. 
+Por favor [contáctanos](https://datacue.co/contact) si tienes dudas. Estaremos felices de ayudarte. 
