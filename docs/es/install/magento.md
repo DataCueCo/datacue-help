@@ -7,6 +7,6 @@ summary: Personalize your Magento 2 store by installing the DataCue extension.
 
 ¡Bienvenido a nuestra guía sobre cómo instalar y usar DataCue en tu tienda Magento! 
 
-**Confundido?**
+**¿Confundido?**
 
 Contáctanos usando el mail de soporte que está en tu extensión Magento, y estaremos felices de apoyarte. 

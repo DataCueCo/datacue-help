@@ -6,7 +6,7 @@ summary: Personalize your PrestaShop store by installing the DataCue module.
 
 ¡Bienvenido a nuestra guía sobre cómo instalar y usar DataCue en tu tienda PrestaShop! 
 
-**Confundido?**
+**¿Confundido?**
 
 Contáctanos usando el mail de soporte desde tu panel de control PrestaShop, y te ayudaremos a que quedes listo. 
 
@@ -16,11 +16,11 @@ Contáctanos usando el mail de soporte desde tu panel de control PrestaShop, y t
 
 Hay un par de cosas que debes saber antes de comenzar tu proceso de integración. 
 
-- El módulo DataCue para PrestaShop requiere la versión PrestaShop 1.6 o superior.
+- El módulo DataCue para PrestaShop requiere la versión **PrestaShop 1.6 o superior**.
 
 - Por favor, prueba este plugin en un ambiente de prueba o "staging", **antes** de instalar en tu servidor de producción. Algunas veces los módulos peuden afectarse unos a otros, y no queremos descubrirlo en vivo en tu sitio web. Idealmente, tu zona de prueba será un clon de tu actual sitio web de producción. 
 
-- DataCue para PrestaShop sincronizará tus productos, nombre y correo de tus clientes, y pedidos. Esta inforamción es importante para que DataCue entienda el comportamiento de tus usuarios en línea.
+- DataCue para PrestaShop sincronizará tus productos, nombre y correo de tus clientes, y pedidos. Esta información es importante para que DataCue entienda el comportamiento de tus usuarios en línea.
 
 - DataCue para PrestaShop también isntala nuestra biblioteca de Javascript en tu página de inicio, páginas de producto y categoría, y página de búsquedas. Esta biblioteca Javascript personalizará el contenido de tu sitio para cada usuario que te visite. 
 
@@ -37,9 +37,9 @@ Dependiendo de las leyes de privacidad de tu país, puedes necesitar permiso exp
 
 3. Una vez instalado, desplázate hacia abajo en la página para ver el módulo DataCue en "otros". 
 
-4. Ingresa tu "Key and Secret" proporcionados por DataCue API y presiona "guardar", para conectar tu tienda con DataCue. Encontrarás Key y Secret en la primera pantalla cuando inicias sesión en tu [Panel de Control DataCue](https://app.datacue.co). 
+4. Ingresa el usuario y clave de la API (API Key and Secret) proporcionados por DataCue. Presiona "guardar" para conectar tu tienda con DataCue. Encontrarás la Key y Secret en la primera pantalla cuando inicies sesión en tu [Panel de Control DataCue](https://app.datacue.co). 
 
-    ::: tip Consejo
+    ::: tip
     Si por algún motivo no ves tu Key y Secret de la API en esta pantalla, no te preocupes. Puedes acceder a ella al hacer click en el nombre de tu tienda web, arriba a la derecha, cuando seleccionas "Desarrollador" en el menú.
     :::
     
