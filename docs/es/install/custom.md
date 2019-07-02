@@ -5,7 +5,7 @@ summary: Install DataCue using our easy to use API
 
 # Otras plataformas
 
-Intgrar DataCue con tu plataforma personalizada es facil, pues en esencia, somos una API. 
+Intgrar DataCue con tu plataforma personalizada es fácil, pues en esencia, somos una API. 
 
 A nivel general, hay dos cosas que debes hacer para dejar DataCue andando en tu tienda web. 
 
