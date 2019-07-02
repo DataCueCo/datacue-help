@@ -12,7 +12,7 @@ footer: © 2018-present DataCue (PTE. LTD.)
 
 ### What is DataCue?
 
-The best websites always shows you content relevant to your interests. This is called personalization and it's effective because as a visitor you see things you care about. DataCue personalizes your e-commerce store for each visitor to help you increase sales.
+The best websites always shows you content relevant to your interests. This is called personalization and it's effective to increase conversion, because as a visitor you see things you care about. DataCue personalizes your e-commerce store for each visitor to help you increase sales.
 
 Read on to find out how to personalize your store.
 

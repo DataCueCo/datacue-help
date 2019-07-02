@@ -12,7 +12,7 @@ footer: © 2018-present (PTE. LTD.)
 
 ### ¿Qué es DataCue?
 
-Los mejores sitios de e-commerce son los que te muestran contenido relevante a tus intereses. Esto se llama personalización y es altamente efectiva, pues muestra a cada visita lo que realmente quiere ver y comprar. DataCue personaliza tu tienda online para cada usuario,ayudándote a vender más. 
+Los mejores sitios de e-commerce son los que te muestran contenido relevante a tus intereses. Esto se llama personalización y es altamente efectiva para mejorar conversión, mostrando a cada visita lo que quiere ver y comprar. DataCue personaliza tu tienda online para cada usuario, ayudándote a vender más. 
 
 Sigue leyendo para saber cómo personalizamos tu tienda. 
 
