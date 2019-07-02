@@ -73,7 +73,7 @@ Tus banners de siempre pueden cambiar según el comportamiento de tu usuario.
 
 ### [Email](/email)
 
-Las campañas de correo funcionan mejor cuando envías información relevante a cada usuario.
+Campañas de correo funcionan mejor cuando envías información relevante a quien la recibe.
 
 ### [Products](/products)
 
