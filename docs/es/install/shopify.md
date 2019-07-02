@@ -27,7 +27,7 @@ Lo primero es lo primero. Si aún no lo has hecho, isntala la aplicación DataCu
 
 ## Agrega recomendaciones inteligentes
 
-### Inicio rápido: Agrega banners dinámicos y recomendaciones de producto a tu página de inicio
+### Inicio rápido: Banners dinámicos y recomendaciones en tu página de inicio
 
 ![Instala banners y productos](./images/shopify_add_recommendations.gif)
 
@@ -126,7 +126,7 @@ Los carruseles de producto DataCue vienen con un dseño por defecto, que puedes 
 
 Lo primero que debes hacer ahora es poner DataCue en su modo de prueba. Esto te permite elegir una lsita de cuentas (usuarios) que verán las recomendaciones DataCue, mientras el resto de tus visitas no verán cambios aún. Para ver las recomendaciones, los usuarios de prueba deben iniciar sesión en tu sitio. Esto es muy útil para que juegues con el diseño, hasta que sientas que tu sitio está listo para salir en vivo. 
 
-Necesitarás  will need to know a little CSS to match the design, so there are two options
+Necesitarás saber un poco de CSS para adaptar el diseño. Tienes dos opciones.
 
 **1. Te podemos ayudar (recomendado)**
 

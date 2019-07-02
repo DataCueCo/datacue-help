@@ -16,7 +16,7 @@ A esto nos referimos con ser consistente: todos los banners principales deben te
 
 ¡Manos a la obra!
 
-::: Tip
+::: tip Tip
 Nuestros estilos prediseñados de banners han sido cuidadosamente probados y son 100% responsivos a móvil. Crear tu propio diseño significa que debes preocuparte de esto por ti mismo. 
 :::
 
@@ -90,9 +90,9 @@ Si estás curioso y quieres conocer más detalles técnicos: nuestras recomendac
  }
 ```
 
-## Notifications Icon Positioning
+## Posición del ícono de Notificaciones 
 
-Las notificaciones vienen en la forma de una campanita flotante; puedes elegir su posición en tu sitio. O bien, puedes integrarla a tu barra de navegación para que se vea más integrada. 
+Nuestras notificaciones vienen en la forma de una campanita flotante. Puedes elegir su posición en tu sitio. O bien, puedes dejarla fija en tu barra de navegación, para que se vea más integrada. 
 
 1. Inserta este HTML en tu barra de navegación, donde quieras poner este botón. Puedes configurar la etiqueta `<a>` con el estilo que desees. 
 
