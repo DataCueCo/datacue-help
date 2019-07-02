@@ -38,7 +38,7 @@ No te preocupes. [Contáctanos](https://datacue.co/contact) o [tweetéanos @Data
 
 DataCue puede instalarse sobre cualquier plataforma de e-commerce. Tenemos integraciones ya desarrolladas para las plataformas más populares. Si la tuya no está en esta lista, puedes conectarte directamente a nuestra API. 
 
-¡Selecciona tu plataforma e-commerce para que comencemos!
+¡Selecciona tu plataforma y comienza!
 
 ### [Magento 2](/install/magento)
 
