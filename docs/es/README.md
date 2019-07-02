@@ -1,14 +1,14 @@
 ---
 home: true
 heroImage: /datacue_hero.svg
-actionText: Get Started →
-actionLink: /#getting-started
-footer: © 2018 DataCue (PTE. LTD.)
+actionText: Empezar →
+actionLink: ./#para-empezar
+footer: © 2018-present (PTE. LTD.)
 ---
 
 # DataCue Help
 
-## Getting Started
+## Para Empezar
 
 ### What is DataCue?
 

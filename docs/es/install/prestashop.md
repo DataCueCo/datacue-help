@@ -39,7 +39,7 @@ Dependiendo de las leyes de privacidad de tu país, puedes necesitar permiso exp
 
 4. Ingresa tu "Key and Secret" proporcionados por DataCue API y presiona "guardar", para conectar tu tienda con DataCue. Encontrarás Key y Secret en la primera pantalla cuando inicias sesión en tu [Panel de Control DataCue](https://app.datacue.co). 
 
-    ::: Tip
+    ::: tip Consejo
     Si por algún motivo no ves tu Key y Secret de la API en esta pantalla, no te preocupes. Puedes acceder a ella al hacer click en el nombre de tu tienda web, arriba a la derecha, cuando seleccionas "Desarrollador" en el menú.
     :::
     

@@ -3,7 +3,7 @@ home: true
 heroImage: /datacue_hero.svg
 actionText: Get Started →
 actionLink: /#getting-started
-footer: © 2018 DataCue (PTE. LTD.)
+footer: © 2018-present DataCue (PTE. LTD.)
 ---
 
 # DataCue Help
