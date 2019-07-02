@@ -18,7 +18,7 @@ Read on to find out how to personalize your store.
 
 ### No account yet?
 
-You can sign up for one at [datacue.co](https://app.datacue.co/en/sign-up).
+You can sign up for one at [datacue.co](https://app.datacue.co/es/sign-up).
 
 ### Want to sign in to the dashboard?
 
