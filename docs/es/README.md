@@ -69,7 +69,7 @@ Aprende sobre las diferentes funcionalidades que ofrece DataCue y cómo sacarles
 
 ### [Banners](/banners)
 
-Tus banners de siempre, hoy pueden cambiar según el comportamiento de tu usuario. 
+Tus banners de siempre pueden cambiar según el comportamiento de tu usuario.
 
 ### [Email](/email)
 
