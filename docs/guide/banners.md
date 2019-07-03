@@ -96,8 +96,8 @@ If you delete or update a banner, this change is applied immediately.
 
 4. Drag and drop an image on to the striped box, or just click on it to browse for the banner image to upload it.
 
-    ![Banner Upload](./images/banner_upload_form.jpg)
+    ![Banner Upload](./images/banner_upload_form.png)
 
-5. Click on `Upload`, thats it! You'll soon see your new banner appear in the existing banners section.
+5. Click on `Upload`, thats it! You'll soon see your new banner appear in the existing banners section.git
 
     ![Banner upload button](./images/banner_upload_btn.png)
