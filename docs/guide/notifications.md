@@ -41,5 +41,5 @@ If you want to integrate the notifications icon into your navigation bar, simply
 ```
 
 ::: tip
-You customize the class names as you like if you want to do any further design customizations.
+Are you a developer? You can customize the class names as you like, if you want to do any further design customizations.
 :::
