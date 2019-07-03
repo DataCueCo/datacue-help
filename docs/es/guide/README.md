@@ -4,6 +4,6 @@ blog_index: true
 
 # Guía de usuario
 
-Elija un tema
+Elige un tema
 
 <ArticleIndex type="guide" lang="es" />

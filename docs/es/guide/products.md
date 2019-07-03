@@ -5,32 +5,32 @@ summary: Cómo administrar tus recomendaciones de productos
 
 # Recomendaciones de productos
 
-Las recomendaciones de productos son uno de los componentes más importantes de la personalización. Esto es especialmente cierto cuando tienes cientos de productos. A esa escala, es imposible presentar a su visitante todo lo que vende. En su lugar, necesita filtrar y curar lo que muestra a sus visitantes para que puedan tomar una decisión más rápido.
+Las recomendaciones de productos son uno de los componentes más importantes de la personalización. Esto es especialmente útil cuando tienes cientos de productos. A esa escala, es imposible presentar a tu visitante todo lo que vendes. Por el contrario, necesitas filtrar lo que es relevante mostrar a tus visitantes, para que puedan tomar una decisión más rápido.
 
 ## Tipos de recomendación
 
-DataCue admite 4 tipos de recomendaciones de productos que se explican a continuación.
+DataCue admite 4 tipos de recomendaciones de productos. Los explicamos a continuación.
 
-### Productos relacionados con los visitantes
+### Productos relacionados al visitante
 
-Una lista de productos basados ​​en las actividades del visitante y compras pasadas. La lista se actualiza dinámicamente en cada acción que realiza el visitante. Si este es un nuevo visitante, mostramos los productos más populares en su tienda.
+Esta lista de productos se basa ​​en las compras pasadas de tu visita y también en su actividad en tiempo real en el sitio. La lista se actualiza dinámicamente con cada nueva acción que la visita realiza. Para quien ingresa al sitio por primera vez, mostraremos los productos más populares de tu tienda.
 
-Esto se puede colocar en cualquier página EXCEPTO la página del producto.
+Este carrusel se puede poner en cualquier página, EXCEPTO en la página de producto.
 
-### Visitante visto recientemente
+### Productos vistos recientemente
 
-Todos los productos que el visitante ha visto recientemente en el pasado. Si el visitante es nuevo, este carrusel no aparece.
+Es fácil saber a qué nos referimos: son los productos que ha visto el usuario en un período cercano. Si nos visita por primera vez, este carrusel no aparece.
 
-Se puede colocar en cualquier página.
+Este carrusel se puede ubicar en cualquier página.
 
-### Relacionado con el producto actual
+### Productos relacionados con el producto actual
+
+Lo vemos **solo** en la página de producto.
+
+Mostraremos una lista de todos los productos relacionados con el producto visto actualmente, en función de los hábitos de compra de tus clientes. Por ejemplo, si el visitante observa el producto A y sabemos que este se compra con frecuencia con el producto B, G y F; verá B, G y F en esta lista.
+
+### Productos similares al producto actual
 
 Aparece **solo** en la página del producto.
 
-Mostramos una lista de todos los productos relacionados con el producto visto actualmente en función de los hábitos de compra de sus clientes. Por ejemplo, si el producto A se compra con frecuencia con el producto B, G y F, verá B, G y F en esta lista.
-
-### Similar al producto actual
-
-Aparece **solo** en la página del producto.
-
-Observamos las palabras utilizadas en la descripción, el título del producto y las categorías para encontrar productos similares al producto visto actualmente. Esta lista no contendrá ninguna venta cruzada y es útil si tiene muchos productos que son similares.
+Observamos las palabras utilizadas en la descripción, el título y las categorías en que se encuentra el producto, para encontrar productos similares al producto que se ve actualmente. Esta lista no contendrá ninguna venta cruzada, y es útil si tienes muchos productos que son similares entre sí. Facilitamos a tu visita que los descubra. 
