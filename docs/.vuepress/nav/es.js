@@ -1,10 +1,10 @@
 module.exports = [
     {
-        text: 'Instalar',
+        text: 'Guía de instalación',
         link: '/es/install/',
     },
     {
-        text: 'User Guide',
+        text: 'Guía de usuario',
         link: '/es/guide/'
     },
     {
