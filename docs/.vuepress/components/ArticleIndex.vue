@@ -4,7 +4,7 @@
   <div>
     <div v-for="post in posts">
       <h3>
-        <router-link :to="post.path">{{ post.title }}</router-link>
+        <router-link :to="post.path">{{ post.title || post.frontmatter.title }}</router-link>
       </h3>
 
       <p>{{ post.frontmatter.summary }}</p>

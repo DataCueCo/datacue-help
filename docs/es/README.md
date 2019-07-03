@@ -67,18 +67,18 @@ Aprende sobre las diferentes funcionalidades que ofrece DataCue y cómo sacarles
 
 <Button text="Guía de Usuario" link="/es/guide" />
 
-### [Banners](/banners)
+### [Banners](/es/guide/banners)
 
 Tus banners de siempre pueden cambiar según el comportamiento de tu usuario.
 
-### [Email](/email)
+### [Email](/es/guide/email)
 
 Campañas de correo funcionan mejor cuando envías información relevante a quien la recibe.
 
-### [Products](/products)
+### [Products](/es/guide/products)
 
 Recomienda productos interesantes para cada visita, ¡aumenta el valor de tus ventas!
 
-### [Notifications](/notifications/)
+### [Notifications](/es/guide/notifications/)
 
 Informa al usuario de cambios relevantes en precio o stock de productos que ha visto.

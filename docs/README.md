@@ -67,18 +67,18 @@ Learn about the different features DataCue offers and how to get the best out of
 
 <Button text="User Guide" link="/guide" />
 
-### [Banners](/banners)
+### [Banners](/guide/banners)
 
 The banners of your store can automatically change to match your user's interest. 
 
-### [Email](/email)
+### [Email](/guide/email)
 
 E-mail campaings work better if your user gets relevant information!
 
-### [Products](/products)
+### [Products](/guide/products)
 
 Recommend relevant products for each one of your visits and increase the value of your sales.
 
-### [Notifications](/notifications/)
+### [Notifications](/guide/notifications/)
 
 Let your user know about important changes in price of stock of the products they've seen.
