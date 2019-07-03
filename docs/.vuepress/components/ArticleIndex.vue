@@ -3,9 +3,9 @@
 <template>
   <div>
     <div v-for="post in posts">
-      <h2>
-        <router-link :to="post.path">{{ post.frontmatter.title }}</router-link>
-      </h2>
+      <h3>
+        <router-link :to="post.path">{{ post.title }}</router-link>
+      </h3>
 
       <p>{{ post.frontmatter.summary }}</p>
 

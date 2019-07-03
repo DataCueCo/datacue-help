@@ -32,27 +32,27 @@ Desliza hacia abajo hacia la guía de [instalación](#installing-datacue) que ap
 
 No te preocupes. [Contáctanos](https://datacue.co/contact) o [tweetéanos @DataCueCo](https://twitter.com/datacueco).
 
-## [Instalando DataCue](/install)
+## [Instalando DataCue](/es/install)
 
-<Button text="Guía de Instalación" link="/install" />
+<Button text="Guía de Instalación" link="/es/install" />
 
 DataCue puede instalarse sobre cualquier plataforma de e-commerce. Tenemos integraciones ya desarrolladas para las plataformas más populares. Si la tuya no está en esta lista, puedes conectarte directamente a nuestra API. 
 
 ¡Selecciona tu plataforma y comienza!
 
-### [Magento 2](/install/magento)
+### [Magento 2](/es/install/magento)
 
 Personaliza tu tienda Magento 2 al instalar la extensión DataCue.
 
-### [PrestaShop](/install/prestashop/)
+### [PrestaShop](/es/install/prestashop/)
 
 Personaliza tu tienda PrestaShop al instalar el módulo DataCue.
 
-### [Shopify](/install/shopify/)
+### [Shopify](/es/install/shopify/)
 
 Personaliza tu tienda Shopify al instalar la app DataCue.
 
-### [WooCommerce](/install/woocommerce/)
+### [WooCommerce](/es/install/woocommerce/)
 
 Personaliza tu tienda WooCommerce al instalar el plugin DataCue.
 
@@ -65,7 +65,7 @@ Personaliza tu tienda online usando nuestra API de recomendaciones. Requerido: h
 
 Aprende sobre las diferentes funcionalidades que ofrece DataCue y cómo sacarles el máximo provecho. 
 
-<Button text="Guía de Usuario" link="/guide" />
+<Button text="Guía de Usuario" link="/es/guide" />
 
 ### [Banners](/banners)
 
