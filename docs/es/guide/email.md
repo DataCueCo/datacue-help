@@ -1,17 +1,17 @@
 ---
-summary: How to manage email campaigns.
+position: 3
+summary: Cómo administrar campañas de email.
 ---
 
 # Email
+Crea y administra tus campañas de correo electrónico personalizadas por DataCue.
 
-Create and manage your personalized email campaigns by DataCue.
+## Inicio rápido
 
-## Quick Start
-
-- Filter by date: Use the date picker on the top right to select the to and from dates to view email results in the specified range.
-- The 4 summary cards show you overall email campaign performance:
-  - Sent: Number of sent emails.
-  - Opened: Number of opened emails.
-  - Clicked: Number of emails with at least one click.
-  - Conversions: Value of sales attributed to clicked emails.
-- View the campaign table to see results broken out by each campaign type.
+- Filtrar por fecha: Usa el selector de fecha en la parte superior derecha para seleccionar las fechas de inicio y fin para ver los resultados de correo electrónico en el rango especificado.
+- Las 4 tarjetas de resumen muestran el rendimiento general de la campaña de correo electrónico:
+    - Enviado: Numero de correos electrónicos enviados.
+    - Abierto: Numero de correos electrónicos abiertos.
+    - Haz clic: Número de correos electrónicos con al menos un clic.
+    - Conversiones: Valor de las ventas atribuidas a los correos electrónicos en los que se hizo clic.
+- Ve la tabla de campaña para ver los resultados desglosados por cada tipo de campaña.

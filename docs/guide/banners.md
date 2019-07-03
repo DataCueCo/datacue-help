@@ -99,3 +99,5 @@ If you delete or update a banner, this change is applied immediately.
     ![Banner Upload](./images/banner_upload_form.jpg)
 
 5. Click on `Upload`, thats it! You'll soon see your new banner appear in the existing banners section.
+
+    ![Banner upload button](./images/banner_upload_btn.png)

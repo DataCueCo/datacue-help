@@ -1,35 +1,36 @@
 ---
-summary: Configure your product recommendations
+position: 1
+summary: Cómo administrar tus recomendaciones de productos
 ---
 
-# Product Recommendations
+# Recomendaciones de productos
 
-Product recommendations are one of the most important components of personalization. This is especially true when you have hundreds of products. At that scale, it's impossible to introduce your visitor to everything you sell. Instead, you need to filter and curate what you show your visitors so they can make a decision faster.
+Las recomendaciones de productos son uno de los componentes más importantes de la personalización. Esto es especialmente cierto cuando tienes cientos de productos. A esa escala, es imposible presentar a su visitante todo lo que vende. En su lugar, necesita filtrar y curar lo que muestra a sus visitantes para que puedan tomar una decisión más rápido.
 
-## Recommendation Types
+## Tipos de recomendación
 
-DataCue supports 4 types of product recommendations explained below.
+DataCue admite 4 tipos de recomendaciones de productos que se explican a continuación.
 
-### Visitor Related Products
+### Productos relacionados con los visitantes
 
-A list of products based on the visitor's activities and past purchases. The list updates dynamically on every action the visitor takes. If this is a new visitor, we show the most popular products in your store.
+Una lista de productos basados ​​en las actividades del visitante y compras pasadas. La lista se actualiza dinámicamente en cada acción que realiza el visitante. Si este es un nuevo visitante, mostramos los productos más populares en su tienda.
 
-This can be placed on any page EXCEPT the product page.
+Esto se puede colocar en cualquier página EXCEPTO la página del producto.
 
-### Visitor Recently Viewed
+### Visitante visto recientemente
 
-All the products the visitor has recently viewed in the past. If the visitor is new, this carousel does not appear.
+Todos los productos que el visitante ha visto recientemente en el pasado. Si el visitante es nuevo, este carrusel no aparece.
 
-Can be placed on any page.
+Se puede colocar en cualquier página.
 
-### Related to current product
+### Relacionado con el producto actual
 
-Appears **only** on the product page.
+Aparece **solo** en la página del producto.
 
-We show a list of all products related to the currently viewed product based on your customers purchasing habits. For instance, if product A is bought frequently with product B, G and F - you will see B,G and F on this list.
+Mostramos una lista de todos los productos relacionados con el producto visto actualmente en función de los hábitos de compra de sus clientes. Por ejemplo, si el producto A se compra con frecuencia con el producto B, G y F, verá B, G y F en esta lista.
 
-### Similar to current product
+### Similar al producto actual
 
-Appears **only** on the product page. 
+Aparece **solo** en la página del producto.
 
-We look at the words used in the description, the product title and categories to find products similar to the currently viewed product. This list will not contain any cross sells and is useful if you have many products that are similar.
+Observamos las palabras utilizadas en la descripción, el título del producto y las categorías para encontrar productos similares al producto visto actualmente. Esta lista no contendrá ninguna venta cruzada y es útil si tiene muchos productos que son similares.

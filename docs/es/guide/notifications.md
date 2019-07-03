@@ -1,37 +1,38 @@
 ---
-summary: Configure your web notifications
+position: 4
+summary: Configura tus notificaciones web
 ---
 
-# Notifications
+# Notificaciones
 
-Pop-ups lead to a poor user experience because they are designed to interrupt and are often not relevant. Instead, it's better to simply let users know there is a notification so they can click on it if they are interested. Even better, those notifications should always be relevant so users are delighted instead of annoyed.
+Las ventanas emergentes conducen a una experiencia de usuario pobre porque están diseñadas para interrumpir y, a menudo, no son relevantes. En su lugar, es mejor simplemente informar a los usuarios que hay una notificación para que puedan hacer clic en ella si están interesados. Aún mejor, esas notificaciones siempre deben ser relevantes para que los usuarios estén encantados en lugar de molestos.
 
-DataCue can show personalized notifications to a user if a product they looked at recently is:
+DataCue puede mostrar notificaciones personalizadas a un usuario si un producto que vieron recientemente es:
 
-- Low in stock
-- New stock
-- On discount
+- Bajo en existencia
+- Nuevo stock
+- En descuento
 
-## Quick Start
+## Inicio rápido
 
-1. Login to your dashboard and click on Notifications.
-2. Customize the settings as you like (see next chapter for a description) or leave the defaults as is - that's it!
+1. Inicie sesión en su panel y haga clic en Notificaciones.
+2. Personalice la configuración como desee (consulte el capítulo siguiente para obtener una descripción) o deje los valores predeterminados como están: ¡eso es todo!
 
-## Customization
+## Personalización
 
-You can customize three settings in your notifications panel:
+Puedes personalizar tres configuraciones en tu panel de notificaciones:
 
-1. **Notification bell position**: you can pick between top left, top right, bottom left or bottom right. (See the [next topic](#advanced-positioning) for a more advanced method)
+1. **Posición de campana de notificación**: puede elegir entre la esquina superior izquierda, superior derecha, inferior izquierda o inferior derecha. (Consulte el [tema siguiente] (# posicionamiento avanzado) para un método más avanzado)
 
-2. **Pane color**: pick a panel color to match your website's colors. If you're a developer, feel free to override the CSS we use to make more advanced design changes.
+2. **Color del panel**: elija un color para el panel que coincida con los colores de su sitio web. Si es un desarrollador, no dude en anular el CSS que usamos para realizar cambios de diseño más avanzados.
 
-3. **Language**: select the language between English and Spanish to match your website. If you have a request for another language, let us know!
+3. **Idioma**: seleccione el idioma entre inglés y español para que coincida con su sitio web. Si tiene una solicitud para otro idioma, háganoslo saber!
 
-## Advanced Positioning
+## Posicionamiento avanzado
 
-The default and easiest way to get started is to have a floating notification bell.
+La forma predeterminada y más fácil de comenzar es tener un timbre de notificación flotante.
 
-If you want to integrate the notifications icon into your navigation bar, simply place the following HTML snippet into your home page theme file. The floating bell icon will automatically be disabled if we detect the HTML snippet below on your webpage.
+Si desea integrar el icono de notificaciones en su barra de navegación, simplemente coloque el siguiente fragmento de código HTML en el archivo de tema de su página de inicio. El ícono de la campana flotante se deshabilitará automáticamente si detectamos el fragmento de código HTML a continuación en su página web.
 
 ``` html
 <a class="datacue-notification" datacue-notification-bell>
@@ -40,6 +41,6 @@ If you want to integrate the notifications icon into your navigation bar, simply
 </a>
 ```
 
-::: tip
-You customize the class names as you like if you want to do any further design customizations.
+::: tip Tip
+Puedes personalizar los nombres de las clases como deseas si desea realizar otras personalizaciones de diseño.
 :::

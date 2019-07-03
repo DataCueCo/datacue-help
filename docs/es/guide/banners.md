@@ -1,101 +1,113 @@
 ---
-summary: Learn how to manage dynamic banners with DataCue
+position: 2
+summary: Cómo gestionar tus banners.
 ---
 
 # Banners
 
-Banners are the most prominent part of your home page. They are typically displayed immediately above the fold, the visible part of the page before you scroll. Banners tell users what to expect from your store and typically directs them to product categories.
+Los banners son la parte más notoria de tu página de inicio. Por lo general, se muestran inmediatamente encima del pliegue (la zona the la página que requiere scrolling para ser vista) para atraer a los usuarios a un grupo de productos. Típicamente estos podrían ser:
 
-Banners grab attention immediately. It's far more effective to show relevant banners per visitor instead of showing everybody the same thing.
+- Categorías de productos (por ejemplo: jeans)
+- Marcas de productos.
 
-## Quick Start
+Debido a su capacidad para atraer la atención, es muy importante mostrar banners relevantes a tus visitantes en lugar de mostrarles a todos lo mismo.
 
-1. Before getting started you should review the different banner types supported by DataCue.  
-[Jump to Banner Types](#banner-types).
 
-1. Then you can decide what layout works best for you.  
-[Jump to Banner Layout](#banner-layout)
+## Inicio rápido
 
-1. Upload all the banners.  
-[Jump to Uploading a new banner](#uploading-a-new-banner)  
+1. Antes de comenzar, revisa los diferentes tipos de banner soportados por DataCue.  
+[Ir a Tipos de Banner](#tipos-de-banner).
 
-## Banner Types
+1. Luego puedes decidir qué diseño funciona mejor para ti.  
+[Ir al Disposición de Banners](#disposicion-de-banners)
 
-DataCue supports 3 types of banners explained below.
+1. Sube todos los banners.  
+[Ir a Subir un Nuevo Banner](#subir-un-nuevo-banner)
 
-### Wide Banner (aspect ratio 5:3)
+<!-- 1. Vea las recomendaciones del panel para decidir qué categorías priorizar qué pancartas crear .-->
 
-![Banner Types](./images/banner-wide.jpg)
 
-Wide banners are used to attract the most attention as they are larger and provide space for you to use elements like stylized text to attract attention. We will show the wide banners of collections that the user finds the most interesting.
+## Tipos de banner
+DataCue soporta 3 tipos de banners explicados a continuación.
 
-Recommended size: **1200 x 720 px**
+### Banner ancho (relación de aspecto 5:3)
 
-### Narrow Banner (aspect ratio 2:3)
+![Tipos de banner](./images/banner-wide.jpg)
 
-![Banner Types](./images/banner-narrow.jpg)
+Los banners amplios se utilizan para atraer la mayor atención ya que son más grandes y brindan espacio para que uses elementos como texto estilizado para atraer la atención. Mostraremos los banners anchos de colecciones que el usuario encuentre más interesantes.
 
-Narrow banners act as a complement to the wide banner because they are smaller. After the wide banners are selected, we will look for all narrow banners that a user would find interesting.
+Tamaño recomendado: **1200 x 720 px**
 
-We will show the narrow banners of collections that the user finds the most interesting that are not already shown as a wide banner. This means wide banners have priority.
+### Banner angosto (relación de aspecto 2:3)
 
-Recommended size: **480 x 720 px**
+![Tipos de banner](./images/banner-narrow.jpg)
 
-::: tip
-You can upload both a 'wide' and 'narrow' banner for a product category. We will make sure that both don't appear at the same time.
+Los banners angostos son un complemento al banner ancho porque son más pequeños. Después de seleccionar los banners anchos, buscaremos todos los banners angostos que el usuario encuentre interesantes.
+
+Mostraremos los banners angostos de las colecciones que el usuario encuentra más interesantes que aún no se muestran como un banner ancho. Esto significa que los banners anchos tienen prioridad.
+
+Tamaño recomendado: **480 x 720 px**
+
+::: tip CONSEJO
+Puedes cargar un banner 'ancho' y 'angosto' para una categoría de producto. Nos aseguraremos de que ambos no aparezcan al mismo tiempo.
 :::
 
-### Static Banner (aspect ratio 5:3)
+### Banner estático (relación de aspecto 5:3)
 
-![Banner Types](./images/banner-wide-static.jpg)
+![Tipos de banner](./images/banner-wide-static.jpg)
 
-'Static' banners are not personalized and will remain the same for everyone. Use this when you want to promote a new product, or do any other type of broad messaging with your customers.
+Los banners "estáticos" no son personalizados y seguirán siendo los mismos para todos. Utilízalo cuando desees promocionar un nuevo producto o hacer cualquier otro tipo de mensaje amplio con tus clientes.
 
-Recommended size: **1200 x 720 px**
+Tamaño recomendado: **1200 x 720 px**
 
-## Banner Layout
+## Disposición de banners
 
-We've made multiple layouts for different store sizes based on how many product categories you have. These are only suggestions so if you want to use a category that is meant for higher / lower product categories - feel free to try it.
+Hemos realizado múltiples diseños para diferentes tamaños de tiendas en función de la cantidad de categorías de productos que tiene. Estos son solo una sugerencia, por lo que si quieres utilizar una categoría destinada a categorías de productos superiores / inferiores, no dudes en probarlo.
 
-If you know HTML + CSS, you can also do a completely custom layout and just insert them using the API.
+Si sabes HTML + CSS, también puedes hacer un diseño completamente personalizado e simplemente insertarlos usando la API.
 
-### Low product variety (10 or fewer product categories)
+### Bajo variedad de productos (10 o menos categorías de productos)
 
-| Desktop             | Mobile |
+| Escritorio | Móvil |
 | ------------------- | ------ |
-| ![Banner Types](./images/banner-layout/1-wide-2-narrow-desktop.jpg) | ![Banner Types](./images/banner-layout/1-wide-2-narrow-mobile.jpg) |
+| ![Tipos de banner](./images/banner-layout/1-wide-2-narrow-desktop.jpg) | ![Tipos de banner](./images/banner-layout/1-wide-2-narrow-mobile.jpg) |
 
 
-### Medium product variety (10-20 product categories)
+### Medio variedad de productos (10-20 categorías de productos)
 
-| Desktop             | Mobile |
+| Escritorio | Móvil |
 | ------------------- | ------ |
-| ![Banner Types](./images/banner-layout/2-wide-2-narrow-desktop.jpg) | ![Banner Types](./images/banner-layout/2-wide-2-narrow-mobile.jpg) |
+| ![Tipos de banner](./images/banner-layout/2-wide-2-narrow-desktop.jpg) | ![Tipos de banner](./images/banner-layout/2-wide-2-narrow-mobile.jpg) |
 
-### High product variety (More than 20 product categories)
 
-| Desktop             | Mobile |
+### Alto variedad de productos (Mas de 20 categorías de productos)
+
+| Escritorio | Móvil |
 | ------------------- | ------ |
-| ![Banner Types](./images/banner-layout/3-wide-2-narrow-desktop.jpg) | ![Banner Types](./images/banner-layout/3-wide-2-narrow-mobile.jpg) |
+| ![Tipos de banner](./images/banner-layout/3-wide-2-narrow-desktop.jpg) | ![Tipos de banner](./images/banner-layout/3-wide-2-narrow-mobile.jpg) |
 
-## Uploading a new banner
+## Subir un nuevo banner
 
-::: tip
-If you delete or update a banner, this change is applied immediately.
+::: warning AVISO
+El dashboard se está actualizando para reflejar la nueva solución de banner. Este documento se actualizará tan pronto como se actualice el dashboard.
 :::
 
-1. Click on 'Banners' in your dashboard sidebar
+::: tip
+Si eliminas o actualizas un banner, este cambio se aplica de inmediato.
+:::
+1. Haz clic en 'Banners' en la barra lateral del dashboard
 
     ![Banner Sidebar](./images/banner_sidebar.png)
 
-2. In the upload banner section, select the category you wish to associate with the banner.  
+2. En la sección del banner de carga, selecciona la categoría que deseas asociar con el banner.  
 
-    **Note**: We'll tell you which categories are the most popular sellers so you can prioritize.
+    **Nota**: Te diremos qué categorías son las vendedoras más populares para que puedas priorizar.
 
-3. We'll automatically generate the link for you based on the category you selected, you can modify it if you want to.
+3. Generaremos automáticamente el enlace según la categoría que seleccionaste, puedes modificarlo si deseas.
 
-4. Drag and drop an image on to the striped box, or just click on it to browse for the banner image to upload it.
+4. Arrastra y suelta una imagen en el cuadro rayado, o simplemente haz clic en ella para buscar la imagen del banner y subirla.
 
-    ![Banner Upload](./images/banner_upload_form.jpg)
+    ![Carga de Banner](./images/banner_upload_form.png)
 
-5. Click on `Upload`, thats it! You'll soon see your new banner appear in the existing banners section.
+5. Haz clic en `Cargar`, ¡eso es todo! Pronto verás aparecer tu nuevo banner en la sección de banners existentes.
+    ![Botón de carga del banner](./images/banner_upload_btn.png)
