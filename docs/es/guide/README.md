@@ -2,8 +2,8 @@
 blog_index: true
 ---
 
-# User Guide
+# Guía de usuario
 
-Pick a topic to read more about
+Elija un tema
 
 <ArticleIndex type="guide" lang="es" />
