@@ -1,8 +1,9 @@
 # datacue-help
+
 Help documentation for DataCue e-commerce personalization
 This project uses [Vue Press](http://vuepress.vuejs.org)
 
-# Setting it up
+## Setting it up
 
 1. Clone the repository
 2. Install VuePress (node and yarn are required)
