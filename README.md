@@ -5,7 +5,7 @@ This project uses [Vue Press](http://vuepress.vuejs.org)
 # Setting it up
 
 1. Clone the repository
-2. Install Vuepress (node and yarn are required)
+2. Install VuePress (node and yarn are required)
 
     ```bash
     yarn install
