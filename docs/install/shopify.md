@@ -56,6 +56,7 @@ First things first, if you haven't already done so, install the Shopify app.
 
 7. The default layout DataCue uses for your banners shows 2 dynamic banners and 1 static banner on one row. You can customize this by going to `Banners > Settings` in your DataCue dashboard. Read more about it [here](/guide/banners.html#banner-layout). Alternatively, find out how to build your own [custom layout](/install/advanced.html#custom-banner-layout).
 
+
 #### Changing your static banner later
 
 1. Go to DataCue Banner settings from your Shopify admin panel (`Online Store > Customize theme > DataCue Banners`).
