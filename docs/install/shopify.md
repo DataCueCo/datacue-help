@@ -44,7 +44,7 @@ First things first, if you haven't already done so, install the Shopify app.
 
     ![Add section](./images/add_section_banners.png)
 
-4. Click on "Select Image" to pick your static banner. Static banners are defined by you and appear for all your visitors. Use them to highlight your most popular collection or a promotion. Ensure the image has an aspect ratio of 5:3 (recommended size is 1200 x 720 px). Learn more about static banners [here](/banners).
+4. Click on "Select Image" to pick your static banner. Static banners are defined by you and appear for all your visitors. Use them to highlight your most popular collection or a promotion. Ensure the image has an aspect ratio of 5:3 (recommended size is 1200 x 720 px). Learn more about static banners [here](/guide/banners).
 
    ![Uploading a static banner](./images/homepage_banners.png)
 
@@ -54,7 +54,7 @@ First things first, if you haven't already done so, install the Shopify app.
 
 6. Save your changes
 
-7. The default layout DataCue uses for your banners shows 2 dynamic banners and 1 static banner on one row. You can customize this by going to `Banners > Settings` in your DataCue dashboard. Read more about it [here](/banners/layout.html). Alternatively, find out how to build your own [custom layout](#custom-layout).
+7. The default layout DataCue uses for your banners shows 2 dynamic banners and 1 static banner on one row. You can customize this by going to `Banners > Settings` in your DataCue dashboard. Read more about it [here](/guide/banners.html#banner-layout). Alternatively, find out how to build your own [custom layout](/install/advanced.html#custom-banner-layout).
 
 #### Changing your static banner later
 
