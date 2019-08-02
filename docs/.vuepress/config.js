@@ -84,7 +84,8 @@ function getInstallSidebar(groupA, groupB) {
       collapsable: false,
       children: [
         'custom',
-        'advanced'
+        'advanced',
+        'testmode'
       ]
     }
   ]

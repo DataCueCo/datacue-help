@@ -36,7 +36,7 @@ Haz click [aquí](https://apps.shopify.com/datacue) para comenzar la instalació
 
     ![Añadir sección](./images/add_section_banners.png)
 
-4. Elige la imagen del que será tu banner estático (se mostrará a todos tus usuarios, independiente de su comportamiento). Haz click en "Seleccionar Imagen" y súbela. Idealmente, será una imagen que refleje tus colecciones más populares, o una promoción del momento. Asegúrate de que la imagen tenga una relación de aspecto de 5:3 (el tamaño recomendado es 1200 x 720 px). Aprende un poco más sobre banners estáticos [aquí](/banners).
+4. Elige la imagen del que será tu banner estático (se mostrará a todos tus usuarios, independiente de su comportamiento). Haz click en "Seleccionar Imagen" y súbela. Idealmente, será una imagen que refleje tus colecciones más populares, o una promoción del momento. Asegúrate de que la imagen tenga una relación de aspecto de 5:3 (el tamaño recomendado es 1200 x 720 px). Aprende un poco más sobre banners estáticos [aquí](/es/guide/banners.html#banner-estatico-relacion-de-aspecto-5-3).
 
    ![Subiendo un banner estático](./images/homepage_banners.png)
 
@@ -46,11 +46,11 @@ Haz click [aquí](https://apps.shopify.com/datacue) para comenzar la instalació
 
 6. Guarda tus cambios
 
-7. El diseño por defecto de banners DataCue considera dos banners dinámicos y un banner estático, en una misma fila. Puedes personalizar este diseño al ir a `Banners > Configuración` en tu panel de control DataCue. Lee más sobre nuestros diseños [aquí](/banners/layout.html). Alternativamente, puedes querer [construir tu propio diseño](#custom-layout).
+7. El diseño por defecto de banners DataCue considera dos banners dinámicos y un banner estático, en una misma fila. Puedes personalizar este diseño al ir a `Banners > Configuración` en tu panel de control DataCue. Lee más sobre nuestros diseños [aquí](/es/guide/banners.html#disposicion-de-los-banners). Alternativamente, puedes querer construir tu propio diseño.
 
 #### Modificando tu banner estático
 
-1. PAra esto, anda a las configuraciones de DataCue Banners en tu panel de administrador Shopify (`Tienda online > Personalizar tema > DataCue Banners`).
+1. Para esto, anda a las configuraciones de DataCue Banners en tu panel de administrador Shopify (`Tienda online > Personalizar tema > DataCue Banners`).
 
 2. Click en el botón de 'seleccionar imagen' y sube una nueva imagen. Nuevamente, asegúrate de mantener la relación de aspecto 5:3 (tamaño recomendado es 1200 x 720 px). Actualiza el link al que llegará el banner estático, si es necesario. 
 
@@ -116,7 +116,7 @@ Los carruseles de producto DataCue vienen con un dseño por defecto, que puedes 
 
 **Modo de prueba**
 
-Lo primero que debes hacer ahora es poner DataCue en su modo de prueba. Esto te permite elegir una lsita de cuentas (usuarios) que verán las recomendaciones DataCue, mientras el resto de tus visitas no verán cambios aún. Para ver las recomendaciones, los usuarios de prueba deben iniciar sesión en tu sitio. Esto es muy útil para que juegues con el diseño, hasta que sientas que tu sitio está listo para salir en vivo. 
+Lo primero que debes hacer ahora es poner DataCue en su modo de prueba. Esto te permite elegir una lsita de cuentas (usuarios) que verán las recomendaciones DataCue, mientras el resto de tus visitas no verán cambios aún. Para ver las recomendaciones, los usuarios de prueba deben iniciar sesión en tu sitio. Esto es muy útil para que juegues con el diseño, hasta que sientas que tu sitio está listo para salir en vivo. Para aprender a configurar DataCue en modo de prueba, haga clic en [aquí](/es/install/testmode.html#establecer-datacue-en-modo-de-prueba)
 
 Necesitarás saber un poco de CSS para adaptar el diseño. Tienes dos opciones.
 

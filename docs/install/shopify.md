@@ -36,7 +36,7 @@ Click [here](https://apps.shopify.com/datacue) to install the app from the Shopi
 
     ![Add section](./images/add_section_banners.png)
 
-4. Click on "Select Image" to pick your static banner. Static banners are defined by you and appear for all your visitors. Use them to highlight your most popular collection or a promotion. Ensure the image has an aspect ratio of 5:3 (recommended size is 1200 x 720 px). Learn more about static banners [here](/banners).
+4. Click on "Select Image" to pick your static banner. Static banners are defined by you and appear for all your visitors. Use them to highlight your most popular collection or a promotion. Ensure the image has an aspect ratio of 5:3 (recommended size is 1200 x 720 px). Learn more about static banners [here](/guide/banners).
 
    ![Uploading a static banner](./images/homepage_banners.png)
 
@@ -46,7 +46,8 @@ Click [here](https://apps.shopify.com/datacue) to install the app from the Shopi
 
 6. Save your changes
 
-7. The default layout DataCue uses for your banners shows 2 dynamic banners and 1 static banner on one row. You can customize this by going to `Banners > Settings` in your DataCue dashboard. Read more about it [here](/banners/layout.html). Alternatively, find out how to build your own [custom layout](#custom-layout).
+7. The default layout DataCue uses for your banners shows 2 dynamic banners and 1 static banner on one row. You can customize this by going to `Banners > Settings` in your DataCue dashboard. Read more about it [here](/guide/banners.html#banner-layout). Alternatively, find out how to build your own [custom layout](/install/advanced.html#custom-banner-layout).
+
 
 #### Changing your static banner later
 
@@ -116,7 +117,7 @@ DataCue's product carousels have a default design which will need some adjustmen
 
 **Test mode**
 
-The first thing you should do is set DataCue into test mode. In test mode, you can pick a list of user accounts as test users. To see the recommendations, you have to sign in as a test user to your store. All other visitors don't see any changes. This is very helpful to play with the design till you're happy with the look/feel.
+The first thing you should do is set DataCue into test mode from your dashboard. In test mode, you can pick a list of user accounts as test users. To see the recommendations, you have to sign in as a test user to your store. All other visitors don't see any changes. This is very helpful to play with the design till you're happy with the look/feel. To learn how to set DataCue to test mode, click [here](/install/testmode.html)
 
 You will need to know a little CSS to match the design, so there are two options
 
