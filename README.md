@@ -13,4 +13,3 @@ This project uses [Vue Press](http://vuepress.vuejs.org)
     ```
 
 3. Now run `yarn docs:dev` and you will see a local version of the documentation. This will update live as you save your changes.
-

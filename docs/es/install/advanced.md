@@ -90,7 +90,7 @@ Si estás curioso y quieres conocer más detalles técnicos: nuestras recomendac
  }
 ```
 
-## Posición del ícono de Notificaciones 
+## Posición del ícono de Notificaciones
 
 Nuestras notificaciones vienen en la forma de una campanita flotante. Puedes elegir su posición en tu sitio. O bien, puedes dejarla fija en tu barra de navegación, para que se vea más integrada. 
 

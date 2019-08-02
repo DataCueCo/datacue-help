@@ -15,15 +15,7 @@ Just reach out to us using the support email in your Shopify app and we'll help 
 
 First things first, if you haven't already done so, install the Shopify app.
 
-1. Click [here](https://app.datacue.co/en/onboarding/shopify) to begin the installation process.
-
-    ![Shopify Installation](./images/en-shopify-install-step2.png)
-
-2. Enter your "my shopify" URL and click on Install.
-
-3. You'll be re-directed to your Shopify admin panel. Login if needed and click on "Install app".
-
-4. Once the app is installed, click on Login to Dashboard to complete the sign-up process.
+Click [here](https://apps.shopify.com/datacue) to install the app from the Shopify app store.
 
 ## Add Recommendations
 

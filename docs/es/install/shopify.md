@@ -13,17 +13,9 @@ Contáctanos usando el correo de soporte de tu app de Shopify y estaremos felice
 
 ## Instala la app
 
-Lo primero es lo primero. Si aún no lo has hecho, isntala la aplicación DataCue en Shopify.
+Lo primero es lo primero. Si aún no lo has hecho, instala la aplicación DataCue en Shopify.
 
-1. Haz click [aquí](https://app.datacue.co/en/onboarding/shopify) para comenzar la instalación.
-
-    ![Instalación de Shopify](./images/en-shopify-install-step2.png)
-
-2. Ingresa tu URL de "my shopify" y haz click en Instalar.
-
-3. Serás redirigido a tu panel de administrador Shopify. Inicia sesión si es necesario y haz click en "Instalar app".
-
-4. Una vez está instalada, hazk click en Iniciar Sesión en Dashboard. Completa el proceso de registro. 
+Haz click [aquí](https://apps.shopify.com/datacue) para comenzar la instalación desde la app store de Shopify.
 
 ## Agrega recomendaciones inteligentes
 
