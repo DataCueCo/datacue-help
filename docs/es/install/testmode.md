@@ -4,27 +4,27 @@ summary: Set DataCue to testmode from your dashboard to make sure the CSS matche
 
 # Modo de prueba
 
-## Establecer DataCue en modo de prueba
+## Establecer DataCue en su modo de prueba
 
-Lo primero que debes hacer después de descargar DataCue es configurarlo en Modo de prueba hasta que estés satisfecho con el diseño.
+Lo primero que debes hacer después de descargar DataCue, es configurarlo en Modo de prueba. ¡Deja este modo hasta que estés satisfech@ con el diseño!
 
-1. Haga clic en [aquí] (https://app.datacue.co) para iniciar sesión en tu panel de control.
+1. Haga click [aquí] (https://app.datacue.co) para iniciar sesión en tu Panel de Control.
 
-2. En el panel de control, vayas a la configuración en la esquina superior derecha
+2. En el Panel de Control, anda a la configuración, en la esquina superior derecha.
 
-3. Haz clic en la pestaña Desarrollador
+3. Haz click en la pestaña "Desarrollador".
 
-4. Actives el modo de prueba
+4. Activa el modo de prueba.
 
     ![Test mode](./images/test-mode.png)
 
 ## Seleccionar usuarios de prueba
 
-Una vez que las recomendaciones están listas y después de haber agregado el carrusel de recomendaciones del producto DataCue, puedes comenzar a ver las recomendaciones. ¡Emocionante!
+Una vez que las recomendaciones estén listas y después de haber agregado el carrusel de recomendaciones de producto DataCue, puedes comenzar a verlas. ¡Emocionante!
 
-Para hacer esto, solo necesitas seleccionar una lista de correos electrónicos de usuarios como usuarios de prueba. Simplemente comiences a escribir el correo electrónico del usuario de prueba y lo completaremos automáticamente por ti.
+Para hacer esto, solo necesitas seleccionar una lista de correos electrónicos que serán tus usuarios de prueba. Solo ellos verán el contenido DataCue mientras estés en modo Prueba. Simplemente escribe el correo electrónico del usuario de prueba y el resto, lo haremos por ti.
 
 ![Test mode](./images/test-users.png)
 
-Para ver las recomendaciones, debes iniciar sesión como usuario de prueba en su tienda. Todos los demás visitantes no verán ningún cambio.
+Para ver las recomendaciones, deberás iniciar sesión como usuario de prueba en tu tienda. Todos los demás visitantes no verán ningún cambio.
 
