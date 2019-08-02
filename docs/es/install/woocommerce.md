@@ -1,6 +1,6 @@
 ---
 position: 2
-summary: Personalize your WooCommerce store by installing the DataCue plugin.
+summary: Personalice tu tienda WooCommerce instalando el complemento DataCue.
 ---
 
 # WooCommerce <Badge text="beta" type="warn"/>

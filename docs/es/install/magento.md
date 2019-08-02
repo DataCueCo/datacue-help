@@ -1,11 +1,13 @@
 ---
 position: 3
-summary: Personalize your Magento 2 store by installing the DataCue extension.
+summary: Personalice tu tienda Magento 2 instalando el extensión DataCue.
 ---
 
-# Magento 2 <Badge text="alpha" type="error"/>
+# Magento 2 <Badge text="private beta" type="warn"/>
 
-¡Bienvenido a nuestra guía sobre cómo instalar y usar DataCue en tu tienda Magento! 
+¡Bienvenido a nuestra guía sobre cómo instalar y usar DataCue en tu tienda Magento!
+
+La extensión Magento 2 está en beta privada [contáctenos] (https://datacue.co/contact) para obtener el instalador.
 
 **¿Confundido?**
 

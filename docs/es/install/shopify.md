@@ -1,6 +1,6 @@
 ---
 position: 1
-summary: Personalize your Shopify store by installing the DataCue app.
+summary: Personalice tu tienda Shopify instalando el app DataCue.
 ---
 
 # Shopify

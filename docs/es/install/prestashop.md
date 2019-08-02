@@ -1,5 +1,5 @@
 ---
-summary: Personalize your PrestaShop store by installing the DataCue module.
+summary: Personalice tu tienda PrestaShop instalando el modulo DataCue.
 ---
 
 # PrestaShop <Badge text="private beta" type="warn"/>
