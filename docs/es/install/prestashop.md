@@ -59,7 +59,7 @@ Para deshabilitar DataCue para PrestaShop:
 
 ## Agrega recomendaciones
 
-### Banners (Planes Growth y Pro)
+### Banners
 
 1. Selecciona el banner que quieras usar como "Banner estático", el que verán todos tus visitantes. Sube una imagen. Si no sabes cuál, anda a lo simple: tu colección más popular o una promoción del momento. Asegúrate de que la imagen tenga una relación de aspecto de 5:3 (tamaño recomendado es 1200 x 720 px). Aprende más de banners estáticos [aquí](/banners).
 
@@ -86,7 +86,7 @@ Para deshabilitar DataCue para PrestaShop:
 
 2. Edita tu documento `index.tpl` y encuentra el pedacito de código HTML de  `data-dc-banners` html. Copia la `static-img` a la URL que tomaste del paso 1. Configura el banner `estático-link según corresponda.
 
-### Setear recomendaciones de producto (Todos los planes)
+### Setear recomendaciones de producto
 
 **Página de Inicio**
 

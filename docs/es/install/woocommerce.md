@@ -87,7 +87,7 @@ DataCue usa "códigos cortos" para ayudarte a agregar rápidamente banners diná
 :::
 
 
-### Banners (Planes Growth y Pro)
+### Banners
 
 1. Elige una imagen que usarás como "banner estático", que verán todos tus usuarios por igual. Desde tu panel de control WooCommerce, anda a `Media > Agregar nuevo`, y elige esta imagen. Si no sabes qué banner elegir, te vas a la segura poniendo alguna categoría o colección popular. O bien, una promoción. Asegúrate de que la relación de aspecto sea 5:3 (el tamaño recomendado es 1200 x 720 px). Aprende más sobre banners estáticos [aquí](/banners).
 
@@ -114,7 +114,7 @@ DataCue usa "códigos cortos" para ayudarte a agregar rápidamente banners diná
 
 3. Encuentra el código corto de los banners DataCue y cambia la `static-img` por la URL de imagen que copiaste en el paso 1. Configura el `static-link` como corresponda.
 
-### Configura recomendaciones de producto (Todos los planes)
+### Configura recomendaciones de producto
 
 **Página de Inicio**
 

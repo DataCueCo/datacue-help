@@ -59,7 +59,7 @@ To disable DataCue for PrestaShop, follow these steps.
 
 ## Add recommendations
 
-### Banners (growth plan and higher)
+### Banners
 
 1. Select a banner to use as as your "Static Banner", a banner that all your visitors see. Upload a banner image to be shown to all your visitors. If you're unsure, pick a banner to highlight your most popular collection or a promotion. Ensure the image has an aspect ratio of 5:3 (recommended size is 1200 x 720 px). Learn more about static banners [here](/banners).
 
@@ -86,7 +86,7 @@ To disable DataCue for PrestaShop, follow these steps.
 
 2. Edit your `index.tpl` file and find the `data-dc-banners` html snippet and and change the `static-img` to the URL you copied from step 1. Set the `static-link` attribute as appropriate.
 
-### Setup Product Recommendations (All plans)
+### Setup Product Recommendations
 
 **Home page**
 

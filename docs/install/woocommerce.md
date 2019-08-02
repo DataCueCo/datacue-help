@@ -86,7 +86,7 @@ Did you know that WooCommerce is a plugin for WordPress? Most features offered b
 :::
 
 
-### Banners (growth plan and higher)
+### Banners
 
 1. Select a banner to use as as your "Static Banner", a banner that all your visitors see. From your Dashboard go to `Media > Add New`, and select a banner image to be shown to all your visitors. If you're unsure, pick a banner to highlight your most popular collection or a promotion. Ensure the image has an aspect ratio of 5:3 (recommended size is 1200 x 720 px). Learn more about static banners [here](/banners).
 
@@ -113,7 +113,7 @@ Did you know that WooCommerce is a plugin for WordPress? Most features offered b
 
 3. Find the datacue banners short code and change the `static-img` to the URL you copied from step 1. Set the `static-link` attribute as appropriate.
 
-### Setup Product Recommendations (All plans)
+### Setup Product Recommendations
 
 **Home page**
 

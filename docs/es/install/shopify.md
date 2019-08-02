@@ -23,7 +23,7 @@ Haz click [aquí](https://apps.shopify.com/datacue) para comenzar la instalació
 
 ![Instala banners y productos](./images/shopify_add_recommendations.gif)
 
-### Configura tus Banners (Planes Growth o Pro) 
+### Configura tus Banners
 
 1. Haz click en "Tienda Online" en tu menú lateral
     ![Tienda online](./images/online_store.png)
@@ -54,7 +54,7 @@ Haz click [aquí](https://apps.shopify.com/datacue) para comenzar la instalació
 
 2. Click en el botón de 'seleccionar imagen' y sube una nueva imagen. Nuevamente, asegúrate de mantener la relación de aspecto 5:3 (tamaño recomendado es 1200 x 720 px). Actualiza el link al que llegará el banner estático, si es necesario. 
 
-### Configura recomendaciones de producto (Todos los planes)
+### Configura recomendaciones de producto
 
 **Página de Inicio**
 

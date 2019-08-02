@@ -23,7 +23,7 @@ Click [here](https://apps.shopify.com/datacue) to install the app from the Shopi
 
 ![Install banners and products](./images/shopify_add_recommendations.gif)
 
-### Setup banner (growth plan and higher) recommendations
+### Setup banner recommendations
 
 1. Click on "Online Store" on your sidebar
     ![Online store](./images/online_store.png)
@@ -55,7 +55,7 @@ Click [here](https://apps.shopify.com/datacue) to install the app from the Shopi
 
 2. Click on the 'select image' button to upload a new image. Ensure the image has an aspect ratio of 5:3 (recommended size is 1200 x 720 px). Update the link for the static banner if necessary.
 
-### Setup Product Recommendations (All plans)
+### Setup Product Recommendations
 
 **Home page**
 
