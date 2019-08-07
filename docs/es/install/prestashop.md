@@ -1,4 +1,6 @@
 ---
+position: 4
+filter: platform
 summary: Personalice tu tienda PrestaShop instalando el modulo DataCue.
 ---
 

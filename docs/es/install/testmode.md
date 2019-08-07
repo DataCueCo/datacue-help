@@ -1,5 +1,6 @@
 ---
-summary: Set DataCue to testmode from your dashboard to make sure the CSS matches the style of your store
+filter: advanced
+summary: Configure DataCue en modo de prueba para modificar su CSS sin afectar a los visitantes de su sitio
 ---
 
 # Modo de prueba

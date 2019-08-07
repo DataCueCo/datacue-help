@@ -1,5 +1,6 @@
 ---
-summary: Build your own custom layouts to bring your own designs to life instead of using our standard recommendation widgets.
+filter: advanced
+summary: Hagas tus propios diseños personalizados para banners y notificaciones.
 ---
 
 # Diseña tu propio estilo de banners
@@ -12,7 +13,7 @@ DataCue permite tener dos tamaños de banners: les llamaremos banner principal (
 
 ![Custom Layout](./images/custom-layout.png)
 
-A esto nos referimos con ser consistente: todos los banners principales deben tener el mismo tamaño entre sí, y lo mismo aplica para los secundarios. 
+A esto nos referimos con ser consistente: todos los banners principales deben tener el mismo tamaño entre sí, y lo mismo aplica para los secundarios.
 
 ¡Manos a la obra!
 

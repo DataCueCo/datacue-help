@@ -1,4 +1,5 @@
 ---
+filter: advanced
 summary: Build your own custom layouts to bring your own designs to life instead of using our standard recommendation widgets.
 ---
 

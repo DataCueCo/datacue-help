@@ -1,5 +1,6 @@
 ---
-summary: Set DataCue to testmode from your dashboard to make sure the CSS matches the style of your store
+filter: advanced
+summary: Set DataCue to testmode adjust widget designs with CSS without disturbing your site visitors
 ---
 
 # Test Mode

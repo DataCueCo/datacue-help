@@ -1,4 +1,6 @@
 ---
+position: 4
+filter: platform
 summary: Personalize your PrestaShop store by installing the DataCue module.
 ---
 

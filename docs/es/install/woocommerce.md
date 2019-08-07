@@ -1,5 +1,6 @@
 ---
 position: 2
+filter: platform
 summary: Personalice tu tienda WooCommerce instalando el complemento DataCue.
 ---
 

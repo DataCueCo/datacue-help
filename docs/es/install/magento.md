@@ -1,5 +1,6 @@
 ---
 position: 3
+filter: platform
 summary: Personalice tu tienda Magento 2 instalando el extensión DataCue.
 ---
 

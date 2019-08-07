@@ -1,4 +1,5 @@
 ---
+filter: advanced
 position: 5
 summary: Install DataCue using our easy to use API
 ---

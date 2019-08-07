@@ -23,6 +23,10 @@ export default {
     lang: {
       type: String,
       default: ""
+    },
+    fmfilter: {
+      type: String,
+      default: ""
     }
   },
   computed: {
@@ -31,11 +35,19 @@ export default {
     },
     posts() {
       return this.$site.pages
-        .filter(
-          page =>
+        .filter(page => {
+          if (this.fmfilter) {
+            return (
+              page.path.startsWith(`${this.langStr}/${this.type}/`) &&
+              !page.frontmatter.blog_index &&
+              page.frontmatter.filter === this.fmfilter
+            );
+          }
+          return (
             page.path.startsWith(`${this.langStr}/${this.type}/`) &&
             !page.frontmatter.blog_index
-        )
+          );
+        })
         .sort((a, b) => {
           if (
             typeof a.frontmatter.position == "number" &&

@@ -1,5 +1,6 @@
 ---
 position: 3
+filter: platform
 summary: Personalize your Magento 2 store by installing the DataCue extension.
 ---
 

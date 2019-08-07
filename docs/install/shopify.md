@@ -1,5 +1,6 @@
 ---
 position: 1
+filter: platform
 summary: Personalize your Shopify store by installing the DataCue app.
 ---
 

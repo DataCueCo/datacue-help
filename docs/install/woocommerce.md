@@ -1,5 +1,6 @@
 ---
 position: 2
+filter: platform
 summary: Personalize your WooCommerce store by installing the DataCue plugin.
 ---
 
