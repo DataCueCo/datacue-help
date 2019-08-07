@@ -18,7 +18,7 @@ Contáctanos usando el mail de soporte desde tu panel de control PrestaShop, y t
 
 Hay un par de cosas que debes saber antes de comenzar tu proceso de integración. 
 
-- El módulo DataCue para PrestaShop requiere la versión **PrestaShop 1.6 o superior**.
+- El módulo DataCue para PrestaShop requiere la versión **PrestaShop 1.7.4 o superior**.
 
 - Por favor, prueba este plugin en un ambiente de prueba o "staging", **antes** de instalar en tu servidor de producción. Algunas veces los módulos peuden afectarse unos a otros, y no queremos descubrirlo en vivo en tu sitio web. Idealmente, tu zona de prueba será un clon de tu actual sitio web de producción. 
 
