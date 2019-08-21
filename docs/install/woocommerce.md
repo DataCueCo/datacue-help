@@ -104,7 +104,7 @@ Did you know that WooCommerce is a plugin for WordPress? Most features offered b
     [datacue-banners static-img="/path/to/img.jpg" static-link="/link/to/category"]
     ```
 
-4. The default layout DataCue uses for your banners shows 2 dynamic banners and 1 static banner on one row. You can customize this by going to `Banners > Settings` in your DataCue dashboard. Read more about it [here](/banners/layout.html). Alternatively, find out how to build your own [custom layout](#custom-layout).
+4. The default layout DataCue uses for your banners shows 2 dynamic banners and 1 static banner on one row. You can customize this by going to `Settings > Banners` in your DataCue dashboard. Read more about it [here](/banners/layout.html). Alternatively, find out how to build your own [custom layout](#custom-layout).
 
 #### Changing your static banner later
 

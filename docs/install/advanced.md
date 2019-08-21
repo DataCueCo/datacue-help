@@ -25,7 +25,7 @@ So here's what you need to do:
 
 1. Design your layout using a combination of two different sizes.
 
-2. In the dashboard, go to banner settings (`Banners > Settings`)
+2. In the dashboard, go to banner settings (`Settings > Banners`)
 
 3. Select `Custom` and select the number of main and sub banners you need. For the design above, we need 2 main and 2 sub banners.
 

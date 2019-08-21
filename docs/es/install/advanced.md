@@ -25,7 +25,7 @@ Esto es lo que debes hacer:
 
 1. Crea tu diseño de grilla de banners, usando una combinación de dos tamaños de banner.
 
-2. En tu dashboard, anda a Configuración de Banners (`Banners > Configuración`)
+2. En tu dashboard, anda a Configuración de Banners (`Configuración > Banners`)
 
 3. Elige `Personalizado` y selecciona la cantidad de banners que quieres tener. PAra el diseño de arriba, por ejemplo, serían dos Main y dos Sub. 
 

@@ -80,7 +80,7 @@ To disable DataCue for PrestaShop, follow these steps.
     `static-img` is the URL of the image you uploaded in step 1.
     `static-link` is the link to send the user when they click on the banner. Set an appropriate URL for your store, typically a category page.
 
-3. The default layout DataCue uses for your banners shows 2 dynamic banners and 1 static banner on one row. You can customize this by going to `Banners > Settings` in your DataCue dashboard. Read more about it [here](/banners/layout.html). Alternatively, find out how to build your own [custom layout](#custom-layout).
+3. The default layout DataCue uses for your banners shows 2 dynamic banners and 1 static banner on one row. You can customize this by going to `Settings > Banners` in your DataCue dashboard. Read more about it [here](/banners/layout.html). Alternatively, find out how to build your own [custom layout](#custom-layout).
 
 #### Changing your static banner later
 

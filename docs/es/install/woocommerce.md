@@ -105,7 +105,7 @@ DataCue usa "códigos cortos" para ayudarte a agregar rápidamente banners diná
     [datacue-banners static-img="/path/to/img.jpg" static-link="/link/to/category"]
     ```
 
-4. El diseño por defecto que DataCue usa para tus banners, incluye dos banners dinámicos y un banner estático, en una sola fila. Puedes personalizar esto al ir a tu panel de control DataCue, sección `Banners > Configuración`. Lee más sobre esto [aquí](/banners/layout.html). O bien, construye desde cero tu [propio diseño](#custom-layout).
+4. El diseño por defecto que DataCue usa para tus banners, incluye dos banners dinámicos y un banner estático, en una sola fila. Puedes personalizar esto al ir a tu panel de control DataCue, sección `Configuración > Banners`. Lee más sobre esto [aquí](/banners/layout.html). O bien, construye desde cero tu [propio diseño](#custom-layout).
 
 #### Modificando tu banner estático 
 

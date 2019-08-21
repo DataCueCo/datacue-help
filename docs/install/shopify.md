@@ -26,29 +26,57 @@ Click [here](https://apps.shopify.com/datacue) to install the app from the Shopi
 
 ### Setup banner recommendations
 
-1. Click on "Online Store" on your sidebar
-    ![Online store](./images/online_store.png)
+#### Themes with section support
 
-2. Click on "Customize" to go to the theme editor
+1. Head to your theme editor, Click on `Online Store` on your side bar and click on the `Customize` button.
 
-    ![Customize button](./images/customize_btn.png)
-
-3. Click on "Add section", add the "DataCue Banners" section
+2. Click on `Add section`, then add the section `DataCue Banners`
 
     ![Add section](./images/add_section_banners.png)
 
-4. Click on "Select Image" to pick your static banner. Static banners are defined by you and appear for all your visitors. Use them to highlight your most popular collection or a promotion. Ensure the image has an aspect ratio of 5:3 (recommended size is 1200 x 720 px). Learn more about static banners [here](/guide/banners).
+    ::: tip Tip
+    Don't see any sections? It's likely your theme doesn't support them. Scroll down to view instructions for themes that don't support sections.
+    :::
+
+3. Upload your static banner by clicking on `Select Image`.
+
+    Static banners are defined by you and appear for all your visitors. Use them to highlight your most popular collection or a promotion. Ensure the image has an aspect ratio of 5:3 (recommended size is 1200 x 720 px). Learn more about static banners [here](/guide/banners).
 
    ![Uploading a static banner](./images/homepage_banners.png)
 
-5. Click on the back button above, and then drag the newly added banners section to the top. We recommend adding this at the top just after your navigation bar. Go ahead and hide / remove any existing banner elements you used to have like slideshows.
+4. Click on the back button, then drag the banners section to the top. Hide / remove any existing banner type elements you used to have like slideshows.
 
     ![Drag sections](./images/drag_banners_products.gif)
 
-6. Save your changes
+5. Save your changes
 
-7. The default layout DataCue uses for your banners shows 2 dynamic banners and 1 static banner on one row. You can customize this by going to `Banners > Settings` in your DataCue dashboard. Read more about it [here](/guide/banners.html#banner-layout). Alternatively, find out how to build your own [custom layout](/install/advanced.html#custom-banner-layout).
+Refer our Banners usage guide [here](/guide/banners.html#banner-layout) to find out how to customize the layout, and add new banners.
 
+#### Themes without sections support
+
+1. Upload your static banner by going to `Settings > Files`. Click on `Upload files` and select the image you want.
+
+    Static banners are defined by you and appear for all your visitors. Use them to highlight your most popular collection or a promotion. Ensure the image has an aspect ratio of 5:3 (recommended size is 1200 x 720 px). Learn more about static banners [here](/guide/banners).
+
+2. Copy the URL next to the image you uploaded, you'll need it later.
+
+    ![Copy Banner URL](./images/copy_banner_url.png)
+
+3. Click on `Online store` on your sidebar then click on `Actions > Edit Code`
+
+4. Type `index.liquid`, click on it in the search results. Then paste the code below at the position you want (higher the better). Remember to paste the static banner URL you got from step 1 in `data-dc-static-img` and the link for the static banner in `data-dc-static-link`.
+
+    ``` html
+    <div
+    data-dc-banners
+    data-dc-static-img="<url you copied from step 1>"
+    data-dc-static-link="link/to/chosen/category"
+    ></div>
+    ```
+
+    ![Insert Banner code](./images/insert-banner-code.gif)
+
+5. Click on `Save` and you're done! Check your home page to ensure everything looks good, you can move the position of the code to adjust the location of the banners.
 
 #### Changing your static banner later
 
