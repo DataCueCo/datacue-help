@@ -22,79 +22,81 @@ Esta extensión es solo apta para Magento 2. Usuarios en Magento 1 pueden referi
 
 Aquí hay algunos detalles que debes conocer antes de comenzar la instalación. 
 
-- The DataCue module for Magento 2 requires at least **Magento 2.3 or higher**.
+- El módulo DataCue para Magento 2 requiere al menos la versión **Magento 2.3 o superior**.
 
-- Please test this plugin in a staging environment **first** before installing it on production servers. modules may sometimes affect each other, and the last place you want to discover this is on your live site. Ideally, your staging environment is a clone of your actual production site.
+- Por favor, prueba este plugin en un ambiente de Staging **antes** de instalar en tu servidor de producción. Los módulos o extensiones algunas veces se afectan entre sí, y lo último que quieres (creemos que es así) es descubrirlo en tu sitio en vivo. Idealmente, tu Staging será un clon de tu sitio de producción actual. 
 
-- DataCue for Magento 2 syncs your products, your customer’s first name, last name, email address, and orders.
+- DataCue para Magento 2 sincronizará tus productos y pedidos, además de nombres y correos de tu usuarios.
 
-- DataCue for Magento 2 also installs our Javascript library on your home page, product pages, category pages and search results page. The Javascript library personalizes your website content to each visitor's activity.
+- DataCue para Magento 2 instalará nuestra biblioteca Javascript en tu páginas de inicio, producto, categoría y de resultados. La biblioteca Javascript personalizará el contenido de tu sitio, según la actividad de cada visita online. 
 
-Depending on your countries privacy laws, you may need to explicitly get permission from the user to use content personalization. Please consult with legal counsel if you're in any doubt.
+Dependiendo de las leyes de privacidad de tu país, puede que debas solicitar permiso explícito de tu usuario para personalizar su contenido. Por favor, consulta los aspectos legales de tu zona si tienes dudas. 
 
-### Installing the module
+### Instala la extensión
 
-1. Go to the root directory of your Magento installation.
+1. Ve a la raíz del directorio de instalación en Magento.
 
-2. Run the following commands
+2. Corre los siguientes comandos. 
 
     ``` shell
-    # set Magento to maintenance mode
-    bin/magento maintenance:enable #if in production mode
-    # install the module
+    # setea Magento en su modo de mantenimiento 
+    bin/magento maintenance:enable #si está en modo de producción
+    # instala el módulo
     composer require datacue/magento_module
-    # enable the module
+    # activa el módulo
     bin/magento module:enable --clear-static-content DataCue_MagentoModule
     bin/magento setup:upgrade
     bin/magento cache:clean
     bin/magento setup:di:compile
     ```
 
-3. Optional but recommended steps
+3. Pasos opcionales (¡pero recomendados!) 
 
     ``` shell
-    # deploy static content
+    # muestra contenido estático 
     bin/magento setup:static-content:deploy en_US #add all locales you're using here like es_CL
 
-    # update your index tables
+    # actualiza tus tablas de índice
     bin/magento indexer:reindex
 
-    # avoid cache conflicts by doing a flush
+    # evita conflictos en caché, con un flush
     bin/magento cache:flush
     ```
 
-4. Check that installation is OK and disable maintenance mode
-    
+4. Comprueba que la instalación está OK. Desactiva el modo de mantenimiento. 
+
     ``` shell
-    # Make sure the module is enabled.
+    # Asegúrate de que el módulo esté activo. 
     bin/magento module:status DataCue_MagentoModule
 
-    # Disable maintenance mode
+    # Desactiva el módulo de mantenimiento 
     bin/magento maintenance:disable
     ```
 
-5. Login to your Magento 2 store's admin panel. You will find a link called DataCue Settings under the Marketing section. Click on it.
+5. Ingresa a tu panel de administrador de Magento 2. Encontrarás un link, llamado DataCue Settings, debajo de la sección de Marketing. Haz click en él.
     
-    ![DataCue Admin Panel](./images/magento_panel.png)
+    ![Panel de administrador DataCue](./images/magento_panel.png)
 
-6. Enter your API key and API secret (you can find it on your dashboard) and press Save.
+6. Ingresa tu API key y API secret (encontrarás ambas en tu panel de control DataCue) y haz click en Guardar. 
     
-    Depending on the size of your store the sync process can take a few mins to a few hours.
+    Dependiendo del tamaño de tu tienda, el proceso de sincronización variará entre unos pocos minutos y unas pocas horas. 
 
     :::tip Tip
-    Don't have a DataCue account? [sign up here](https://app.datacue.co/en/sign-up)
+    No tienes una cuenta DataCue? [Regístrate aquí](https://app.datacue.co/en/sign-up)
     :::
 
-#### Troubleshooting
+#### Soluciona problemas
 
-The most common issue is due to incorrect file permissions. Make sure all the important folders like `generated`, `pub` and `vendor` have the same permissions as the magento user.
+El asunto más común que puede surgir se debe a permisos incorrectos. Asegúrate de que todas las carpetas importantes, como `generated`, `pub` y `vendor` tengan los mismos permisos que el usuario Magento. 
 
 
-### Disable or Uninstall the module
+### Desactiva o desinstala el módulo 
 
-When you deactivate and delete DataCue for Magento, we remove all changes made to your store including the Javascript. We also immediately stop syncing any changes to your store data with DataCue. To deactivate DataCue for Magento 2, follow these steps.
+Cuando desactivas y eliminas DataCue para Magento, removeremos todos los cambios hechos en tu tienda, incluyendo el Javascript. Adicionalmente, detendremos toda sincronización entre tu tienda y DataCue. 
 
-1. Go to the root directory of Magento 2.
+Para desactivar DataCue de Magento 2, sigue estos pasos.
+
+1. Ve a la raíz del directorio para Magento 2.
 
     ``` shell
     bin/magento module:disable --clear-static-content DataCue_MagentoModule
