@@ -54,7 +54,7 @@ Dependiendo de las leyes de privacidad de tu país, puede que debas solicitar pe
 
     ``` shell
     # muestra contenido estático 
-    bin/magento setup:static-content:deploy en_US #add all locales you're using here like es_CL
+    bin/magento setup:static-content:deploy en_US #agrega los detalles locales que estés usando, como es_CL
 
     # actualiza tus tablas de índice
     bin/magento indexer:reindex
@@ -82,7 +82,7 @@ Dependiendo de las leyes de privacidad de tu país, puede que debas solicitar pe
     Dependiendo del tamaño de tu tienda, el proceso de sincronización variará entre unos pocos minutos y unas pocas horas. 
 
     :::tip Tip
-    No tienes una cuenta DataCue? [Regístrate aquí](https://app.datacue.co/en/sign-up)
+    ¿No tienes una cuenta DataCue? [Regístrate aquí](https://app.datacue.co/en/sign-up)
     :::
 
 #### Soluciona problemas
@@ -106,68 +106,68 @@ Para desactivar DataCue de Magento 2, sigue estos pasos.
     bin/magento setup:di:compile
     ```
 
-2. You may need to change file permissions or ownership of the generated files after the uninstallation.
+2. Puede que debas cambiar los permisos o el dueño de los archivos generados, tras la desinstalación. 
 
-3. Confirm the module is now deleted.
+3. Confirma que el módulo haya sido eliminado. 
 
     ```shell
     bin/magento module:status DataCue_MagentoModule
     ```
 
-## Add recommendations
+## Agrega recomendaciones
 
 ### Banners
 
-1. Upload a fixed banner that all your visitors see. Make sure it has a publicly accessible URL, you'll need it later.
+1. Sube un banner fijo que será visto por todas tus visitas, independiente de su comportamiento. Asegúrate de que tenga una URL de acceso público, pues la necesitarás luego.
 
-    If you're unsure, pick a banner to highlight your most popular collection or a promotion. Ensure the image has an aspect ratio of 5:3 (recommended size is 1200 x 720 px). Learn more about static banners [here](/banners).
+    Si no sabes qué imagen elegir, selecciona tu colección más popular, o una promoción del momento. Asegúrate de que la imagen tenga una relación de aspecto de 5:3 (el tamaño ideal es 1200 x 720 px). Aprende más sobre este banner estático [aquí](/banners).
 
-2. Click `Content` on your left side bar.
+2. Haz click en el menú izquierdo, en `Contenido`.
 
-3. Pick a `Block` thats in your home page, or directly go to your home page under `Pages`. Click on `Edit`.
+3. Elige un `Bloque` de tu página de inicio, o directamente ve a tu página de inicio en `Páginas`. Haz click en `Editar`.
 
-4. Click on the `Insert Widget` button.
+4. Haz click en el botón de `Insertar Widget`.
 
-5. In widget type selector, choose `DataCue Banner`, fill in `Banner Image` with the URL from step 1 and enter the link for that banner under `Banner Link`.
+5. En el selector de tipos de widget, elige `Banner DataCue`, pon la URL de la imagen en `Imagen del Banner` (la del paso 1) y agrega el link en `Link del Banner`.
 
-6. Click `Insert Widget` and then save the current page or block.
+6. Haz click en `Insertar Widget` y guarda la página o bloque. 
 
-7. You should see the banner image that you uploaded on your home page.
+7. Deberías poder ver la imagen del banner que subiste, en tu página de inicio. 
 
-The default layout DataCue uses for your banners shows 2 dynamic banners and 1 static banner on one row. You can customize this by going to `Settings > Banners` in your DataCue dashboard. Read more about it [here](/banners/layout.html). 
+La disposición de banners que DataCue usa mostrará, por defecto, 2 banners dinámicos y 1 dinámico en una sola fila. Puedes cambiar esta disposición en `Configuraciones > Banners` desde tu panel DataCue. Averigua más [aquí](/banners/layout.html). 
 
-Want to build your own custom layout? [read this](#custom-layout).
+Hey...¿Quieres construir tu propia disposición de banners? [Lee esto](#custom-layout).
 
-#### Changing your static banner later
+#### Cambiando tu banner estático
 
-1. Upload a new image to your server and copy the URL. Ensure the image has an aspect ratio of 5:3 (recommended size is 1200 x 720 px). Update the link for the static banner if necessary.
+1. Sube una nueva imagen a tu servidor y copia su URL.  a new image to your server and copy the URL. Asegúrate de que la imagen tenga una relación de aspecto de 5:3 (el tamaño ideal es 1200 x 720 px). Actualiza el link, si es necesario.
 
-2. Edit the `block` or `page` where you inserted the banner widget. Edit the image URL to the new image you uploaded and and change the `link` to the banner as appropriate.
+2. Edita el `bloque` o `página` donde insertaste el widget para el banner. Edita la URL para que corresponda a la nueva imagen y el `link` como corresponda. 
 
-### Setup Product Recommendations
+### Configura recomendaciones de productos 
 
-1. Click `Content` on your left side bar.
+1. Haz click en `Contenido` en tu menú izquierdo. 
 
-2. Pick a `Block` or `Page` corresponding to the page you want to insert the recommendations.
+2. Elige un `Bloque` o `Página` correspondiente a la página donde quieres insertar las recomendaciones.
 
-3. Click on the `Insert Widget` button and choose `Datacue Products`. Pick `All` and save your changes.
+3. Haz click en el botón `Insertar Widget` y elige `Productos Datacue`. Selecciona `Todos` y guarda tus cambios. 
 
-4. As soon as product recommendations are ready, you will start seeing them on your site.
+4. Apenas tus recomendaciones se hayan generado, podrás verlas en tu sitio. 
 
-### Match widgets to your theme
+### Adapta tus widgets a tu tema
 
-DataCue's product carousels have a default design which will need some adjustments to match the look/feel of your store. This is really important so nothing looks out of place.
+Los carruseles de productos DataCue tienen un diseño por defecto. Pueden necesitar algunos ajustes para asimilarse al look/feel de tu tienda. Esto es muy importante, para que nada parezca fuera de lugar.
 
-#### Test mode
+#### Modo de test
 
-The first thing you should do is set DataCue into test mode. In test mode, you can pick a list of user accounts as test users. To see the recommendations, you have to sign in as a test user to your store. All other visitors don't see any changes. This is very helpful to play with the design till you're happy with the look/feel.
+Lo primero, será llevar a DataCue a su modo de prueba o test. En este modo, puedes elegir a una lista de usuarios como usuarios de prueba. Ellos verán las recomendaciones, si inician sesión en la tienda. Los demás usuarios no verán ningún cambio en tu sitio aún. Esto es útil para jugar con el diseño hasta que estés satisfecho con tu trabajo. 
 
-You will need to know a little CSS to match the design, so there are two options
+Nota: Necesitarás saber un poco de CSS para ajustar tu diseño. Hay dos opciones. 
 
-**1. Let us help you (recommended)**
+**1. Podemos ayudarte (recomendado)**
 
-When you sign up, we'll get in touch with you and offer to help you with setting up your store.
+Cuando crees tu sesión, nos pondremos en contacto contigo y te ofreceremos apoyo en esto. 
 
-**2. Do it yourself**
+**2. Hazlo tú mismo**
 
-Feel free to reach out if you need any help.
+Siéntete libre de contactarnos cuando quieras a contact@datacue.co.
