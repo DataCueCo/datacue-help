@@ -4,7 +4,7 @@ filter: platform
 summary: Personalize your PrestaShop store by installing the DataCue module.
 ---
 
-# PrestaShop <Badge text="private beta" type="warn"/>
+# PrestaShop <Badge text="beta" type="success"/>
 
 Welcome to our guide on how to install and use DataCue on your PrestaShop store.
 

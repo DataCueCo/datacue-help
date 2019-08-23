@@ -4,7 +4,7 @@ filter: platform
 summary: Personalice tu tienda WooCommerce instalando el complemento DataCue.
 ---
 
-# WooCommerce <Badge text="beta" type="warn"/>
+# WooCommerce <Badge text="beta" type="success"/>
 
 ¡Bienvenido a nuestra guía sobre cómo instalar y usar DataCue en tu tienda WooCommerce!
 

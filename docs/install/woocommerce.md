@@ -4,7 +4,7 @@ filter: platform
 summary: Personalize your WooCommerce store by installing the DataCue plugin.
 ---
 
-# WooCommerce <Badge text="beta" type="warn"/>
+# WooCommerce <Badge text="beta" type="success"/>
 
 Welcome to our guide on how to install and use DataCue on your WooCommerce store.
 

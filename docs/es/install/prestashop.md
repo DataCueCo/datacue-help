@@ -4,7 +4,7 @@ filter: platform
 summary: Personalice tu tienda PrestaShop instalando el modulo DataCue.
 ---
 
-# PrestaShop <Badge text="private beta" type="warn"/>
+# PrestaShop <Badge text="private beta" type="success"/>
 
 ¡Bienvenido a nuestra guía sobre cómo instalar y usar DataCue en tu tienda PrestaShop! 
 
