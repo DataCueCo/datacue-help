@@ -1,19 +1,19 @@
 ---
 position: 3
 filter: platform
-summary: Personalize your Magento 2 store by installing the DataCue module.
+summary: Personalize your Magento store by installing the DataCue module.
 ---
 
 # Magento <Badge text="beta" type="success"/>
 
-Welcome to our guide on how to install and use DataCue on your Magento 2 store.
+Welcome to our guide on how to install and use DataCue on your Magento store.
 
 **Stuck?**
 
-Just reach out to us using the support email in your Magento 2 admin panel and we'll help you get started.
+Just reach out to us using the support email in your Magento admin panel and we'll help you get started.
 
 ::: warning Warning
-This module is ONLY for Magento 2. Magento 1 users should refer to our [API documentation](https://developer.datacue.co).
+This module is ONLY for Magento 2.3 and higher. Magento 2 users should upgrade their systems. If you're on Magento 1, please refer to our [API documentation](https://developer.datacue.co) to integrate.
 :::
 
 ## Installation
@@ -22,13 +22,13 @@ This module is ONLY for Magento 2. Magento 1 users should refer to our [API docu
 
 Here are some things to know before you begin the integration process.
 
-- The DataCue module for Magento 2 requires at least **Magento 2.3 or higher**.
+- The DataCue module for Magento requires at least **Magento 2.3 or higher**.
 
-- Please test this plugin in a staging environment **first** before installing it on production servers. modules may sometimes affect each other, and the last place you want to discover this is on your live site. Ideally, your staging environment is a clone of your actual production site.
+- Please test this module in a staging environment **first** before installing it on production servers. Modules may sometimes affect each other, and the LAST place you want to discover this is on your live site. Ideally, your staging environment is a clone of your actual production site.
 
-- DataCue for Magento 2 syncs your products, your customer’s first name, last name, email address, and orders.
+- DataCue for Magento syncs your products, your customer’s first name, last name, email address, and orders.
 
-- DataCue for Magento 2 also installs our Javascript library on your home page, product pages, category pages and search results page. The Javascript library personalizes your website content to each visitor's activity.
+- It also installs our Javascript library on your home page, product pages, category pages and search results page. The Javascript library personalizes your website content to each visitor's activity.
 
 Depending on your countries privacy laws, you may need to explicitly get permission from the user to use content personalization. Please consult with legal counsel if you're in any doubt.
 
@@ -38,7 +38,7 @@ Depending on your countries privacy laws, you may need to explicitly get permiss
 
 2. Run the following commands
 
-    ``` shell
+    ``` bash
     # set Magento to maintenance mode
     bin/magento maintenance:enable #if in production mode
     # install the module
@@ -52,7 +52,7 @@ Depending on your countries privacy laws, you may need to explicitly get permiss
 
 3. Optional but recommended steps
 
-    ``` shell
+    ``` bash
     # deploy static content
     bin/magento setup:static-content:deploy en_US #add all locales you're using here like es_CL
 
@@ -64,8 +64,8 @@ Depending on your countries privacy laws, you may need to explicitly get permiss
     ```
 
 4. Check that installation is OK and disable maintenance mode
-    
-    ``` shell
+
+    ``` bash
     # Make sure the module is enabled.
     bin/magento module:status DataCue_MagentoModule
 
@@ -73,12 +73,12 @@ Depending on your countries privacy laws, you may need to explicitly get permiss
     bin/magento maintenance:disable
     ```
 
-5. Login to your Magento 2 store's admin panel. You will find a link called DataCue Settings under the Marketing section. Click on it.
-    
+5. Login to your Magento store's admin panel. You will find a link called DataCue Settings under the Marketing section. Click on it.
+
     ![DataCue Admin Panel](./images/magento_panel.png)
 
 6. Enter your API key and API secret (you can find it on your dashboard) and press Save.
-    
+
     Depending on the size of your store the sync process can take a few mins to a few hours.
 
     :::tip Tip
@@ -89,14 +89,13 @@ Depending on your countries privacy laws, you may need to explicitly get permiss
 
 The most common issue is due to incorrect file permissions. Make sure all the important folders like `generated`, `pub` and `vendor` have the same permissions as the magento user.
 
-
 ### Disable or Uninstall the module
 
-When you deactivate and delete DataCue for Magento, we remove all changes made to your store including the Javascript. We also immediately stop syncing any changes to your store data with DataCue. To deactivate DataCue for Magento 2, follow these steps.
+When you deactivate and delete DataCue for Magento, we remove all changes made to your store including the Javascript. We also immediately stop syncing any changes to your store data with DataCue. To deactivate DataCue for Magento, follow these steps.
 
-1. Go to the root directory of Magento 2.
+1. Go to the root directory of Magento.
 
-    ``` shell
+    ``` bash
     bin/magento module:disable --clear-static-content DataCue_MagentoModule
 
     bin/magento module:uninstall --clear-static-content DataCue_MagentoModule
@@ -108,7 +107,7 @@ When you deactivate and delete DataCue for Magento, we remove all changes made t
 
 3. Confirm the module is now deleted.
 
-    ```shell
+    ``` bash
     bin/magento module:status DataCue_MagentoModule
     ```
 
@@ -132,7 +131,7 @@ When you deactivate and delete DataCue for Magento, we remove all changes made t
 
 7. You should see the banner image that you uploaded on your home page.
 
-The default layout DataCue uses for your banners shows 2 dynamic banners and 1 static banner on one row. You can customize this by going to `Settings > Banners` in your DataCue dashboard. Read more about it [here](/banners/layout.html). 
+The default layout DataCue uses for your banners shows 2 dynamic banners and 1 static banner on one row. You can customize this by going to `Settings > Banners` in your DataCue dashboard. Read more about it [here](/banners/layout.html).
 
 Want to build your own custom layout? [read this](#custom-layout).
 
