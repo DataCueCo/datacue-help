@@ -1,7 +1,7 @@
 ---
 position: 3
 filter: platform
-summary: Personalize your Magento 2 store by installing the DataCue extension.
+summary: Personalize your Magento 2 store by installing the DataCue module.
 ---
 
 # Magento <Badge text="beta" type="success"/>
@@ -13,7 +13,7 @@ Welcome to our guide on how to install and use DataCue on your Magento 2 store.
 Just reach out to us using the support email in your Magento 2 admin panel and we'll help you get started.
 
 ::: warning Warning
-This extension is ONLY for Magento 2. Magento 1 users should refer to our [API documentation](https://developer.datacue.co).
+This module is ONLY for Magento 2. Magento 1 users should refer to our [API documentation](https://developer.datacue.co).
 :::
 
 ## Installation
@@ -22,9 +22,9 @@ This extension is ONLY for Magento 2. Magento 1 users should refer to our [API d
 
 Here are some things to know before you begin the integration process.
 
-- The DataCue extension for Magento 2 requires at least **Magento 2.3 or higher**.
+- The DataCue module for Magento 2 requires at least **Magento 2.3 or higher**.
 
-- Please test this plugin in a staging environment **first** before installing it on production servers. Extensions may sometimes affect each other, and the last place you want to discover this is on your live site. Ideally, your staging environment is a clone of your actual production site.
+- Please test this plugin in a staging environment **first** before installing it on production servers. modules may sometimes affect each other, and the last place you want to discover this is on your live site. Ideally, your staging environment is a clone of your actual production site.
 
 - DataCue for Magento 2 syncs your products, your customer’s first name, last name, email address, and orders.
 
@@ -32,7 +32,7 @@ Here are some things to know before you begin the integration process.
 
 Depending on your countries privacy laws, you may need to explicitly get permission from the user to use content personalization. Please consult with legal counsel if you're in any doubt.
 
-### Installing the extension
+### Installing the module
 
 1. Go to the root directory of your Magento installation.
 
@@ -41,10 +41,10 @@ Depending on your countries privacy laws, you may need to explicitly get permiss
     ``` shell
     # set Magento to maintenance mode
     bin/magento maintenance:enable #if in production mode
-    # install the extension
-    composer require datacue/magento_extension
-    # enable the extension
-    bin/magento extension:enable --clear-static-content DataCue_Magentoextension
+    # install the module
+    composer require datacue/magento_module
+    # enable the module
+    bin/magento module:enable --clear-static-content DataCue_MagentoModule
     bin/magento setup:upgrade
     bin/magento cache:clean
     bin/magento setup:di:compile
@@ -66,8 +66,8 @@ Depending on your countries privacy laws, you may need to explicitly get permiss
 4. Check that installation is OK and disable maintenance mode
     
     ``` shell
-    # Make sure the extension is enabled.
-    bin/magento extension:status DataCue_Magentoextension
+    # Make sure the module is enabled.
+    bin/magento module:status DataCue_MagentoModule
 
     # Disable maintenance mode
     bin/magento maintenance:disable
@@ -90,7 +90,7 @@ Depending on your countries privacy laws, you may need to explicitly get permiss
 The most common issue is due to incorrect file permissions. Make sure all the important folders like `generated`, `pub` and `vendor` have the same permissions as the magento user.
 
 
-### Disable or Uninstall the extension
+### Disable or Uninstall the module
 
 When you deactivate and delete DataCue for Magento, we remove all changes made to your store including the Javascript. We also immediately stop syncing any changes to your store data with DataCue. To deactivate DataCue for Magento 2, follow these steps.
 
@@ -106,7 +106,7 @@ When you deactivate and delete DataCue for Magento, we remove all changes made t
 
 2. You may need to change file permissions or ownership of the generated files after the uninstallation.
 
-3. Confirm the extension is now deleted.
+3. Confirm the module is now deleted.
 
     ```shell
     bin/magento module:status DataCue_MagentoModule
