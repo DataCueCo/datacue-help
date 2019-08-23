@@ -6,14 +6,14 @@ summary: Personalize your Magento 2 store by installing the DataCue module.
 
 # Magento <Badge text="beta" type="success"/>
 
-Welcome to our guide on how to install and use DataCue on your Magento 2 store.
+Bienvenido a nuestra guía para instalar y usar DataCue en tu tienda Magento 2.
 
-**Stuck?**
+*¿*Confundido?**
 
-Just reach out to us using the support email in your Magento 2 admin panel and we'll help you get started.
+Contáctanos usando el mail de soporte desde tu panel de control Magento 2, y te ayudaremos a que quedes listo. 
 
-::: warning Warning
-This module is ONLY for Magento 2. Magento 1 users should refer to our [API documentation](https://developer.datacue.co).
+::: warning Advertencia
+Esta extensión es solo apta para Magento 2. Usuarios en Magento 1 pueden referirse a nuestra [Documentación API](https://developer.datacue.co).
 :::
 
 ## Installation
