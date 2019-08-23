@@ -6,7 +6,7 @@ summary: Personalize your Magento 2 store by installing the DataCue module.
 
 # Magento 2 <Badge text="beta" type="success"/>
 
-Bienvenido a nuesontra guía para instalar y usar DataCue en tu tienda Magento 2.
+Bienvenido a nuestra guía para instalar y usar DataCue en tu tienda Magento 2.
 
 *¿*Confundido?**
 
