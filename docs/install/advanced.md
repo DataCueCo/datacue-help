@@ -9,7 +9,9 @@ summary: Build your own custom layouts to bring your own designs to life instead
 
 OK so you've looked at our banner layout designs, and you've got something fancier in mind. Fret not, we can take care of it.
 
-DataCue supports two banner sizes, lets call them main and sub. You can pick any size you want but they need to be consistent. For instance, lets say you want a layout like this:
+DataCue supports two types of dynamic banners, we call them main and sub. You can pick any size you want but they need to be consistent. You can also add as many 'static' banners as you like, which are not controlled by DataCue.
+
+For instance, lets say you want a layout like this:
 
 ![Custom Layout](./images/custom-layout.png)
 
