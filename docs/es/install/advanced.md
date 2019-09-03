@@ -98,7 +98,9 @@ Nuestras notificaciones vienen en la forma de una campanita flotante. Puedes ele
 1. Inserta este HTML en tu barra de navegación, donde quieras poner este botón. Puedes configurar la etiqueta `<a>` con el estilo que desees. 
 
 ```html
-<a href="#" class="put-your-classname-here" data-dc-notification-button></a>
+<a href="#" class="put-your-classname-here" data-dc-notification-button>
+<img src="my-notification-icon.svg"/>
+</a>
 ```
 
 Puedes darle la onda que quieras a esta campanita, con CSS. El CSS por defecto hará dos cosas:

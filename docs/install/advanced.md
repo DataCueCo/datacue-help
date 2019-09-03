@@ -98,7 +98,9 @@ Notifications come with a floating bell widget that you can set a default positi
 1. Insert this HTML in your navbar where you want to see the button. You can style the `<a>` tag with any class you like.
 
 ```html
-<a href="#" class="put-your-classname-here" data-dc-notification-button></a>
+<a href="#" class="put-your-classname-here" data-dc-notification-button>
+<img src="my-notification-icon.svg"/>
+</a>
 ```
 
 You can style the bell with CSS as you like. The CSS below will do two things:
