@@ -75,7 +75,8 @@ function getInstallSidebar(groupA, groupB) {
         'shopify',
         'woocommerce',
         'prestashop',
-        'magento'
+        'magento',
+        'vtex'
       ]
     },
     {

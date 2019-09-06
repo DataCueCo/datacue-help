@@ -1,6 +1,6 @@
 ---
 filter: advanced
-position: 5
+position: 6
 summary: Install DataCue using our easy to use API
 ---
 
