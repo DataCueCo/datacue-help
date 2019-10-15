@@ -97,21 +97,10 @@ In case you're curious for more technical details. Our recommendations are sent 
 
 Notifications come with a floating bell widget that you can set a default position for. Instead, you could integrate the bell into your navbar so it looks more native.
 
-1. Insert this HTML in your navbar where you want to see the button. You can style the `<a>` tag with any class you like.
+Insert this HTML code inside your navbar where you want to see the button. You may need a developer to help you position the bell perfectly.
 
 ```html
-<a href="#" class="put-your-classname-here" data-dc-notification-button>
-<img src="my-notification-icon.svg"/>
-</a>
-```
-
-You can style the bell with CSS as you like. The CSS below will do two things:
-
-1. Make a small red bubble if there are unread notifications
-2. Set the bell icon color to black
-
-```css
-
+<style>
 [data-dc-notification-button].has-unread::before {
   content: '';
   position: absolute;
@@ -120,7 +109,24 @@ You can style the bell with CSS as you like. The CSS below will do two things:
   border-radius: 50%;
   background-color: #f42121;
 }
+[data-dc-notification-button] > svg {
+  fill: black;
+  width: 1.5rem;
+}
+</style>
 
-
-[data-dc-notification-button] > svg { fill: #000; }
+<a href="#" data-dc-notification-button>
+<svg id="datacue-notification-icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 15"> <title>DataCue Notifications</title><path d="M11.38,11.22a2.19,2.19,0,0,1-.88-2V6.35A4.42,4.42,0,0,0,6,2,4.42,4.42,0,0,0,1.5,6.35V9.23a2.19,2.19,0,0,1-.88,2A1.26,1.26,0,0,0,0,12.32v0a1.23,1.23,0,0,0,1.26,1.22h9.48A1.23,1.23,0,0,0,12,12.35v0A1.26,1.26,0,0,0,11.38,11.22Z"/><path d="M7.05,1A1.05,1.05,0,0,0,5,1a1.05,1.05,0,0,0,2.1,0Z"/><path d="M6,15a2.26,2.26,0,0,0,1.84-.94H4.16A2.26,2.26,0,0,0,6,15Z"/>
+</svg>
+</a>
 ```
+
+1. To change the colour of the bell, replace this line
+  `fill: black;`
+  with the HEX code of the colour you want. e.g. `fill: #FF5733` for orange.
+
+2. To change the icon to something else, simply replace the `<svg>` tag with your own image.
+
+::: tip
+Are you a developer? You can use CSS class names as you like for more advanced design customizations.
+:::

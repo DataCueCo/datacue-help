@@ -95,21 +95,10 @@ Si estás curioso y quieres conocer más detalles técnicos: nuestras recomendac
 
 Nuestras notificaciones vienen en la forma de una campanita flotante. Puedes elegir su posición en tu sitio. O bien, puedes dejarla fija en tu barra de navegación, para que se vea más integrada. 
 
-1. Inserta este HTML en tu barra de navegación, donde quieras poner este botón. Puedes configurar la etiqueta `<a>` con el estilo que desees. 
+Inserta este HTML en tu barra de navegación, donde quieras poner este botón. Es posible que necesite un desarrollador que lo ayude a colocar la campana perfectamente.
 
 ```html
-<a href="#" class="put-your-classname-here" data-dc-notification-button>
-<img src="my-notification-icon.svg"/>
-</a>
-```
-
-Puedes darle la onda que quieras a esta campanita, con CSS. El CSS por defecto hará dos cosas:
-
-1. Creará una pequeña burbuja roja, que aparecerá cuando hayan notificaciones disponibles. 
-2. Pondrá el color del ícono de campana en negro. 
-
-```css
-
+<style>
 [data-dc-notification-button].has-unread::before {
   content: '';
   position: absolute;
@@ -118,7 +107,24 @@ Puedes darle la onda que quieras a esta campanita, con CSS. El CSS por defecto h
   border-radius: 50%;
   background-color: #f42121;
 }
+[data-dc-notification-button] > svg {
+  fill: black;
+  width: 1.5rem;
+}
+</style>
 
-
-[data-dc-notification-button] > svg { fill: #000; }
+<a href="#" data-dc-notification-button>
+<svg id="datacue-notification-icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 15"> <title>DataCue Notifications</title><path d="M11.38,11.22a2.19,2.19,0,0,1-.88-2V6.35A4.42,4.42,0,0,0,6,2,4.42,4.42,0,0,0,1.5,6.35V9.23a2.19,2.19,0,0,1-.88,2A1.26,1.26,0,0,0,0,12.32v0a1.23,1.23,0,0,0,1.26,1.22h9.48A1.23,1.23,0,0,0,12,12.35v0A1.26,1.26,0,0,0,11.38,11.22Z"/><path d="M7.05,1A1.05,1.05,0,0,0,5,1a1.05,1.05,0,0,0,2.1,0Z"/><path d="M6,15a2.26,2.26,0,0,0,1.84-.94H4.16A2.26,2.26,0,0,0,6,15Z"/>
+</svg>
+</a>
 ```
+
+1. Para cambiar el color de la campana, reemplace esta línea
+  `fill: black;`
+  con el código HEX del color que quieras. p.ej. `fill: #FF5733` para naranja.
+
+2. Para cambiar el ícono, simplemente reemplaces la etiqueta `<svg>` con su propia imagen.
+
+::: tip Tip
+¿Eres desarrollador? Puedes darle la onda que quieras a esta campanita, con CSS
+:::

@@ -9,7 +9,7 @@ Pop-ups lead to a poor user experience because they are designed to interrupt an
 DataCue can show personalized notifications to a user if a product they looked at recently is:
 
 - Low in stock
-- New stock
+- Back in stock
 - On discount
 
 ## Quick Start
@@ -31,15 +31,4 @@ You can customize three settings in your notifications panel:
 
 The default and easiest way to get started is to have a floating notification bell.
 
-If you want to integrate the notifications icon into your navigation bar, simply place the following HTML snippet into your home page theme file. The floating bell icon will automatically be disabled if we detect the HTML snippet below on your webpage.
-
-``` html
-<a class="datacue-notification" datacue-notification-bell>
-    <span class="datacue-show-notifications"></span>
-    <span class="datacue-show-notifications-count"></span>
-</a>
-```
-
-::: tip
-Are you a developer? You can customize the class names as you like, if you want to do any further design customizations.
-:::
+If you want to integrate the notifications icon into your navigation bar, follow our [advanced positioning guide](/install/advanced.html#notifications-icon-positioning).

@@ -32,15 +32,4 @@ Puedes utilizar tres configuraciones en tu panel de notificaciones:
 
 La forma predeterminada y más fácil de comenzar es tener un ícono de notificación flotante.
 
-Si deseas integrar el icono de notificaciones a tu barra de navegación, dejándolo fijo, simplemente inserta el siguiente fragmento de código HTML en el archivo de tema de tu página de inicio. El ícono de la campana flotante se deshabilitará automáticamente cuando detectemos este código en tu página web.
-
-``` html
-<a class="datacue-notification" datacue-notification-bell>
-    <span class="datacue-show-notifications"></span>
-    <span class="datacue-show-notifications-count"></span>
-</a>
-```
-
-::: tip Tip
-¿Eres desarrollador? Puedes personalizar los nombres de las clases como desees.
-:::
+Si deseas integrar el icono de notificaciones a tu barra de navegación, sigues nuestra [guía avanzada](/install/es/advanced.html#notifications-icon-positioning).
