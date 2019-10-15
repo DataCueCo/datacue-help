@@ -95,7 +95,7 @@ Si estás curioso y quieres conocer más detalles técnicos: nuestras recomendac
 
 Nuestras notificaciones vienen en la forma de una campanita flotante. Puedes elegir su posición en tu sitio. O bien, puedes dejarla fija en tu barra de navegación, para que se vea más integrada. 
 
-Inserta este HTML en tu barra de navegación, donde quieras poner este botón. Es posible que necesites un desarrollador que lo ayude a colocar la campana perfectamente.
+Inserta este HTML en tu barra de navegación, donde quieras poner este botón. Es posible que necesites un desarrollador que te ayude a colocar la campana perfectamente.
 
 ```html
 <style>
