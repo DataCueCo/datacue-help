@@ -95,7 +95,7 @@ Si estás curioso y quieres conocer más detalles técnicos: nuestras recomendac
 
 Nuestras notificaciones vienen en la forma de una campanita flotante. Puedes elegir su posición en tu sitio. O bien, puedes dejarla fija en tu barra de navegación, para que se vea más integrada. 
 
-Inserta este HTML en tu barra de navegación, donde quieras poner este botón. Es posible que necesite un desarrollador que lo ayude a colocar la campana perfectamente.
+Inserta este HTML en tu barra de navegación, donde quieras poner este botón. Es posible que necesites un desarrollador que lo ayude a colocar la campana perfectamente.
 
 ```html
 <style>
@@ -119,11 +119,11 @@ Inserta este HTML en tu barra de navegación, donde quieras poner este botón. E
 </a>
 ```
 
-1. Para cambiar el color de la campana, reemplace esta línea
+1. Para cambiar el color de la campana, reemplaza esta línea
   `fill: black;`
   con el código HEX del color que quieras. p.ej. `fill: #FF5733` para naranja.
 
-2. Para cambiar el ícono, simplemente reemplaces la etiqueta `<svg>` con su propia imagen.
+2. Para cambiar el ícono, simplemente reemplaza la etiqueta `<svg>` con su propia imagen.
 
 ::: tip Tip
 ¿Eres desarrollador? Puedes darle la onda que quieras a esta campanita, con CSS
