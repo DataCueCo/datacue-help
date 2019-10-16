@@ -25,7 +25,7 @@ module.exports = {
     '/': {
       lang: 'en-US', // this will be set as the lang attribute on <html>
       title: 'DataCue',
-      description: 'Automatically show each customers the content they want to buy.'
+      description: 'Automatically show each customer the content they want to buy.'
     },
     '/es/': {
       lang: 'es',
