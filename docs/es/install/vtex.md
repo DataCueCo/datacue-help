@@ -108,25 +108,25 @@ Dependiendo de las leyes de privacidad de tu país, puedes necesitar permiso exp
     <vtex:template id="datacueScripts" />
     ```
 
-### Disable or Uninstall the module
+### Desconecta o desinstala el módulo 
 
-To disable DataCue for VTEX, follow these steps.
+Para desconectar DataCue para VTEX, sigue estos pasos. 
 
-- Log in to your VTEX admin panel.
+- Log in en tu panel de administrador VTEX.
 
-- Go to `Store Setup > CMS > Layout`, then in the CMS navigate to `HTML Templates`.
+- Ve a `Configuración de tienda > CMS > Layout`, y luego en el CMS navega a `HTML Templates`.
 
-- Find the templates for your home page, product page, category page, search results and 404 page, and remove the line `<vtex:template id="datacueScripts" />` from them.
+- Encuentra el template de tu página de Inicio, Producto, Categoría, Resultados de búsqueda y Error 404 y  remueve la línea `<vtex:template id="datacueScripts" />` de ellos.
 
-- If you want to completely uninstall DataCue, remove the `datacueScripts` sub-template from the `Sub Templates` directory.
+- Si quieres completamente desisntalar DataCue, remueve el `datacueScripts` sub-template del directorio de `Sub Templates`.
 
-## Add recommendations
+## Agrega recomendaciones
 
 ### Banners
 
-1. Select a banner to use as as your "Static Banner", a banner that all your visitors see. Upload a banner image to be shown to all your visitors. If you're unsure, pick a banner to highlight your most popular collection or a promotion. Ensure the image has an aspect ratio of 5:3 (recommended size is 1200 x 720 px). Learn more about static banners [here](/banners).
+1. Selecciona un banner que quieras usar como tu "Banner estático", ese que verán todas tus visitas. Si no estás seguro cuál usar, recurre a lo sencillo: tu categoría más popular o una promoción. Sube la imagen y asegúrate de que tenga una relación de aspecto de 5:3 (tamaño recomendado es 1200 x 720 px). Aprende más de banners estáticos [aquí](/banners).
 
-2. Insert the following html in your home page template:
+2. Inserta el siguiente html en el template de tu página de Inicio:
 
     ```html
     <div
@@ -136,22 +136,22 @@ To disable DataCue for VTEX, follow these steps.
     ></div>
     ```
 
-    Remember to change the urls for `data-dc-static-img`  and `data-dc-static-link` correctly.
+    Recuerda cambiar la URL y link de tu banner estático, en `data-dc-static-img`  y `data-dc-static-link` según corresponda.
 
-    `static-img` is the URL of the image you uploaded in step 1.
-    `static-link` is the link to send the user when they click on the banner. Set an appropriate URL for your store, typically a category page.
+    `static-img` es la URL de la imagen que subiste en el paso 1.
+    `static-link` es el link al que enviarás a tu usuario una vez haga click en esta imagen. Generalmente será la página de una colección.
 
-3. The default layout DataCue uses for your banners shows 2 dynamic banners and 1 static banner on one row. You can customize this by going to `Settings > Banners` in your DataCue dashboard. Read more about it [here](/banners/layout.html). Alternatively, find out how to build your own [custom layout](#custom-layout).
+3. El diseño que DataCue usa por defecto para tus banners, considera 2 banners dinámicos angostos con 1 banner estático más ancho, todos en una sola línea. Puedes personalizar esto en `Configuración > Banners` en tu panel de control DataCue. Lee más sobre las opciones que tienes [aquí](/banners/layout.html). Alternativamente, averigua cómo construir tu [propio diseño](#custom-layout).
 
-#### Changing your static banner later
+#### Cambiando tu banner estático
 
-1. Upload a new image to your server and copy the URL. Ensure the image has an aspect ratio of 5:3 (recommended size is 1200 x 720 px). Update the link for the static banner if necessary.
+1. Sube una nueva imagen a tu servidor y copia su URL. Asegúrate de la relación de aspecto de 5:3 (tamaño recomendado es 1200 x 720 px). Actualiza el link del banner si es necesario. 
 
-2. Edit your home page template and find the `data-dc-banners` html snippet and and change the `static-img` to the URL you copied from step 1. Set the `static-link` attribute as appropriate.
+2. Edita tu template de la página de producto y encuentra el snippet html `data-dc-banners`. Cambia `static-img` para que sea la URL de tu imagen, que obtuviste en el paso anterior. Define el `static-link` como corresponda.
 
-### Setup Product Recommendations
+### Configura recomendaciones de productos 
 
-In the template of a page you want the recommendations displayed on (home, product, category, search results, 404), insert:
+Puedes desplegar recomendaciones de producto en las páginas de Inicio, Producto, Categoría, Resultados de búsqueda, Error 404. Para esto, ve al template y agrega:
 
 ```html
 <div data-dc-products></div>
@@ -159,18 +159,18 @@ In the template of a page you want the recommendations displayed on (home, produ
 
 ### Match widgets to your theme
 
-DataCue's product grids have a default design which will need some adjustments to match the look/feel of your store. This is really important so nothing looks out of place.
+Las grillas de productos DataCue tienen un diseño por defecto, que necesitará un par de ajustes para que quede igual al diseño de tu tienda. Esto es muy importante para que nada parezca fuera de lugar. Puedes recurrir a lo siguiente para hacer estos ajustes.
 
-**Test mode**
+**Modo de Prueba**
 
-The first thing you should do is set DataCue into test mode. In test mode, you can pick a list of user accounts as test users. To see the recommendations, you have to sign in as a test user to your store. All other visitors don't see any changes. This is very helpful to play with the design till you're happy with the look/feel.
+Lo primero será poner DataCue en su modo de Prueba. Este modo te permite elegir a algunos usuarios que serán usuarios de prueba. Si estos inician sesión en el sitio, solo ellos verán las recomendaciones DataCue, mientras los demás usuarios no verán cambios. Esto es útil para que juegues con el diseño de las recomendaciones hasta que estés satisfecho con su look. 
 
-You will need to know a little CSS to match the design, so there are two options
+Para ajustar al diseño de tu tienda, necesitarás saber un poco de CSS. Hay dos alternativas.
 
-**1. Let us help you (recommended)**
+**1. Te podemos ayudar (recomendado)**
 
-When you sign up, we'll get in touch with you and offer to help you with setting up your store.
+Cuando te registres en DataCue, recibirás un correo de contacto. ¡Escríbenos para hacernos saber que necesitas apoyo en esto!
 
-**2. Do it yourself**
+**2. Hazlo tú mism@**
 
-Feel free to reach out if you need any help.
+¡Cool! Adelante. Hemos creado un archivo llamado datacue_custom.css, en tu editor de temas. Puedes agregar todos los estilos que quieras ahí y quedarán separados de otros estilos de código de tu tienda. Si necesitas ayuda o tienes dudas, contáctanos.

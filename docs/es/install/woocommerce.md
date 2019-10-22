@@ -152,7 +152,7 @@ Necesitarás saber un poquito de CSS para adaptar tu diseño, así que tienes do
 
 **1. Te podemos ayudar (recomendado)**
 
-Cuando te registres en DataCue, nos contactaremos contigo. Te preguntaremos si quieres ayuda para setear tu tienda con DataCue. ¡Toma nuestra oferta!
+Cuando te registres en DataCue, recibirás un correo de contacto. ¡Escríbenos para hacernos saber que necesitas apoyo en esto!
 
 **2. Hazlo tú mism@**
 
