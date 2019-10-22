@@ -8,29 +8,29 @@ summary: Personaliza tu tienda VTEX instalando el módulo DataCue.
 
 Bienvenido a nuestra guía para instalar y usar DataCue en tu tienda VTEX.
 
-**Stuck?**
+**¿Confundido?**
 
-Just [reach out to us](https://datacue.co/contact) if you have any questions/doubts and we'll help you get started.
+Simplemente [contáctanos](https://datacue.co/contact) ante cualquier duda o comentario y te ayudaremos a comenzar.
 
-## Installation
+## Instalación
 
-### Before You Start
+### Antes de comenzar
 
-Here are some things to know before you begin the integration process.
+Hay algunas cosas que debes saber antes de comenzar el proceso de integración. 
 
-- DataCue for VTEX syncs your products, your customer’s first name, last name, email address, and orders.
+- DataCue para VTEX sincronizará tus productos, nombre de tu usuario y correo, y tus pedidos. 
 
-- DataCue for VTEX also installs our Javascript library on your home page, product pages, category pages and search results page. The Javascript library personalizes your website content to each visitor's activity.
+- DataCue para VTEX instalará nuestra biblioteca Javascript en tu página de inicio, de producto, categoría y de resultados. La biblioteca Javascript personalizará el contenido de tu web para cada usuario según su comportamiento.
 
-Depending on your countries privacy laws, you may need to explicitly get permission from the user to use content personalization. Please consult with legal counsel if you're in any doubt.
+Dependiendo de las leyes de privacidad de tu país, puedes necesitar permiso explícito de parte de tu consumidor para aplicar personalización de contenido. Consulta con tus organismos legales si tienes dudas en la materia. 
 
-### Installing the module
+### Instalando el módulo
 
-1. VTEX is in private beta, [contact us](https://datacue.co/contact) to get your store connected.
+1. VTEX está en modo beta privado, [contáctanos](https://datacue.co/contact) para conectar tu tienda.
 
-2. Depending on the size of your store the sync process can take a few mins to a few hours.
+2. Dependiendo del tamaño de tu tienda, el proceos de sincronización tomará entre unos minutos y unas pocas horas. 
 
-3. From your VTEX Admin panel, go to `Store Setup > CMS > Layout`, then in the CMS navigate to `HTML Templates > Sub Templates`.
+3. De tu panel de administrador VTEX, ve a `Configuración de tienda > CMS > Layout`, y en CMS navega a `Templates HTML > Sub Templates`.
 
 4. Create a new sub-template, name it `datacueScripts`, and paste the following code as its contents (remember to replace the API key with the one you'll get from us after connecting your store):
 
