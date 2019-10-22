@@ -1,7 +1,7 @@
 ---
 position: 3
 filter: platform
-summary: Personaliza your Magento store by installing the DataCue module.
+summary: Personaliza tu tienda Magento instalando el módulo DataCue.
 ---
 
 # Magento <Badge text="beta" type="success"/>

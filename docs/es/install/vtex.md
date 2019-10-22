@@ -1,7 +1,7 @@
 ---
 position: 5
 filter: platform
-summary: Personalize your VTEX store by installing the DataCue module.
+summary: Personaliza tu tienda VTEX instalando el módulo DataCue.
 ---
 
 # VTEX <Badge text="beta" type="success"/>

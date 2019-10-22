@@ -1,7 +1,7 @@
 ---
 position: 5
 filter: advanced
-summary: Integrar DataCue con tu plataforma personalizada
+summary: Integra DataCue a tu plataforma personalizada
 ---
 
 # Otras plataformas

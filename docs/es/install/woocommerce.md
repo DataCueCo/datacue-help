@@ -1,7 +1,7 @@
 ---
 position: 2
 filter: platform
-summary: Personalice tu tienda WooCommerce instalando el complemento DataCue.
+summary: Personaliza tu tienda WooCommerce instalando el plugin DataCue.
 ---
 
 # WooCommerce <Badge text="beta" type="success"/>

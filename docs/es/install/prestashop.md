@@ -1,7 +1,7 @@
 ---
 position: 4
 filter: platform
-summary: Personalice tu tienda PrestaShop instalando el modulo DataCue.
+summary: Personaliza tu tienda PrestaShop instalando el módulo DataCue.
 ---
 
 # PrestaShop <Badge text="private beta" type="success"/>

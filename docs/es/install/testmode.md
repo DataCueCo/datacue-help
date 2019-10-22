@@ -1,6 +1,6 @@
 ---
 filter: advanced
-summary: Configure DataCue en modo de prueba para modificar su CSS sin afectar a los visitantes de su sitio
+summary: Configura DataCue en modo de prueba para modificar tu CSS sin afectar a los visitantes de tu sitio
 ---
 
 # Modo de prueba

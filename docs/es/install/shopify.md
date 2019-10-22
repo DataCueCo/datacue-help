@@ -1,7 +1,7 @@
 ---
 position: 1
 filter: platform
-summary: Personalice tu tienda Shopify instalando el app DataCue.
+summary: Personaliza tu tienda Shopify instalando la app DataCue.
 ---
 
 # Shopify
