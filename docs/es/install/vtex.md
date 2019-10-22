@@ -32,7 +32,7 @@ Dependiendo de las leyes de privacidad de tu país, puedes necesitar permiso exp
 
 3. De tu panel de administrador VTEX, ve a `Configuración de tienda > CMS > Layout`, y en CMS navega a `Templates HTML > Sub Templates`.
 
-4. Create a new sub-template, name it `datacueScripts`, and paste the following code as its contents (remember to replace the API key with the one you'll get from us after connecting your store):
+4. Crea un nuevo sub-template, llámalo `datacueScripts`, y pega el siguiente código como parte de su contenido (recuerda reemplazar la API Key con la que obtuviste de nosotros cuando creaste tu cuenta):
 
     ```html
     <script>
@@ -102,7 +102,7 @@ Dependiendo de las leyes de privacidad de tu país, puedes necesitar permiso exp
     <script src="https://cdn.datacue.co/js/datacue-storefront.js"></script>
     ```
 
-5. Go up to `HTML Templates`, find the templates for your home page, product page, category page, search results and 404 page, and in each of those, paste the following line at the end, after any VTEX scripts, preferably just before the closing `</body>` tag:
+5. Ve hacia `HTML Templates`, encuentra los templates para tu página de Inicio, Producto, Categoría, Resultados de búsqueda y Error 404. En cada una de estas, pega la siguiente línea al final tras cualquier script VTEX - de preferencia, será antes del tag de cierre `</body>`:
 
     ```html
     <vtex:template id="datacueScripts" />
