@@ -1,6 +1,6 @@
 ---
 filter: advanced
-summary: Hagas tus propios diseños personalizados para banners y notificaciones.
+summary: Haz tus propios diseños personalizados de banners y notificaciones.
 ---
 
 # Diseña tu propio estilo de banners
