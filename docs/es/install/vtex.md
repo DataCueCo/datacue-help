@@ -6,7 +6,7 @@ summary: Personaliza tu tienda VTEX instalando el módulo DataCue.
 
 # VTEX <Badge text="beta" type="success"/>
 
-Welcome to our guide on how to install and use DataCue on your VTEX store.
+Bienvenido a nuestra guía para instalar y usar DataCue en tu tienda VTEX.
 
 **Stuck?**
 
