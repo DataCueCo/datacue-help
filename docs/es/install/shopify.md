@@ -117,14 +117,14 @@ Los carruseles de producto DataCue vienen con un dseño por defecto, que puedes 
 
 **Modo de prueba**
 
-Lo primero que debes hacer ahora es poner DataCue en su modo de prueba. Esto te permite elegir una lsita de cuentas (usuarios) que verán las recomendaciones DataCue, mientras el resto de tus visitas no verán cambios aún. Para ver las recomendaciones, los usuarios de prueba deben iniciar sesión en tu sitio. Esto es muy útil para que juegues con el diseño, hasta que sientas que tu sitio está listo para salir en vivo. Para aprender a configurar DataCue en modo de prueba, haga clic en [aquí](/es/install/testmode.html#establecer-datacue-en-modo-de-prueba)
+Lo primero que debes hacer ahora es poner DataCue en su modo de prueba. Esto te permite elegir una lista de cuentas (usuarios) que verán las recomendaciones DataCue, mientras el resto de tus visitas no verá cambios aún. Para ver las recomendaciones, los usuarios de prueba deberán iniciar sesión en tu sitio.
 
-Necesitarás saber un poco de CSS para adaptar el diseño. Tienes dos opciones.
+Esto es muy útil para que juegues con el diseño, hasta que sientas que tu sitio está listo para salir en vivo. Para aprender a configurar DataCue en modo de prueba, haz clic en [aquí](/es/install/testmode.html#establecer-datacue-en-modo-de-prueba)
 
-**1. Te podemos ayudar (recomendado)**
+**Personaliza el diseño desde tu panel DataCue**
 
-Cuando te registres en DataCue, nos contactaremos contigo. Te preguntaremos si quieres ayuda para setear tu tienda con DataCue. ¡Toma nuestra oferta!
+Para ajustar al diseño de tu tienda, cuentas con una amigable herramienta que estará disponible para ti en tu panel de control DataCue. Puedes acceder a ella en la sección Configuración > Productos.
 
-**2. Hazlo tú mism@**
+**¿Dudas?**
 
-¡Cool! Adelante. Hemos creado un archivo llamado datacue_custom.css, en tu editor de temas. Puedes agregar todos los estilos que quieras ahí y quedarán separados de otros estilos de código de tu tienda. Si necesitas ayuda o tienes dudas, contáctanos. 
+Si tienes preguntas o comentarios respecto a este editor de diseño, ¡no dudes en hacérnoslas saber!

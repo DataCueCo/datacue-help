@@ -161,12 +161,10 @@ Los carruseles de productos DataCue tienen un diseño por defecto. Pueden necesi
 
 Lo primero, será llevar a DataCue a su modo de prueba o test. En este modo, puedes elegir a una lista de usuarios como usuarios de prueba. Ellos verán las recomendaciones, si inician sesión en la tienda. Los demás usuarios no verán ningún cambio en tu sitio aún. Esto es útil para jugar con el diseño hasta que estés satisfecho con tu trabajo.
 
-Nota: Necesitarás saber un poco de CSS para ajustar tu diseño. Hay dos opciones:
+**Personaliza el diseño desde tu panel DataCue**
 
-**1. Podemos ayudarte (recomendado)**
+Para ajustar al diseño de tu tienda, cuentas con una amigable herramienta que estará disponible para ti en tu panel de control DataCue. Puedes acceder a ella en la sección Configuración > Productos.
 
-Cuando crees tu sesión, nos pondremos en contacto contigo y te ofreceremos apoyo en esto.
+**¿Dudas?**
 
-**2. Hazlo tú mismo**
-
-Siéntete libre de contactarnos cuando quieras a contact@datacue.co.
+Si tienes preguntas o comentarios respecto a este editor de diseño, ¡no dudes en hacérnoslas saber!

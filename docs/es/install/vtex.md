@@ -165,12 +165,10 @@ Las grillas de productos DataCue tienen un diseño por defecto, que necesitará 
 
 Lo primero será poner DataCue en su modo de Prueba. Este modo te permite elegir a algunos usuarios que serán usuarios de prueba. Si estos inician sesión en el sitio, solo ellos verán las recomendaciones DataCue, mientras los demás usuarios no verán cambios. Esto es útil para que juegues con el diseño de las recomendaciones hasta que estés satisfecho con su look. 
 
-Para ajustar al diseño de tu tienda, necesitarás saber un poco de CSS. Hay dos alternativas.
+**Personaliza el diseño desde tu panel DataCue**
 
-**1. Te podemos ayudar (recomendado)**
+Para ajustar al diseño de tu tienda, cuentas con una amigable herramienta que estará disponible para ti en tu panel de control DataCue. Puedes acceder a ella en la sección Configuración > Productos.
 
-Cuando te registres en DataCue, recibirás un correo de contacto. ¡Escríbenos para hacernos saber que necesitas apoyo en esto!
+**¿Dudas?**
 
-**2. Hazlo tú mism@**
-
-¡Cool! Adelante. Hemos creado un archivo llamado datacue_custom.css, en tu editor de temas. Puedes agregar todos los estilos que quieras ahí y quedarán separados de otros estilos de código de tu tienda. Si necesitas ayuda o tienes dudas, contáctanos.
+Si tienes preguntas o comentarios respecto a este editor de diseño, ¡no dudes en hacérnoslas saber!

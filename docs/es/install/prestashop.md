@@ -114,12 +114,10 @@ Los carruseles de producto de DataCue vienen en un estilo determinado, por lo qu
 
 Lo primero que debes hacer es setear DataCue en su Modo de Prueba. Este modo te permite tener una lista de usuarios que pueden ver cómo quedaría tu web usando DataCue, mientras el resto del público verá tu web como antes. Estos usuarios con permiso deben iniciar sesión en tu sitio para ver el modo de prueba. Los demás visitantes no verán ningún cambio. Esto te permite jugar con el diseño DataCue hasta que te parezca que está perfecto para salir en vivo. 
 
-Necesitarás saber algo de CSS para que quedes a tono con tu diseño actual. Tienes dos opciones. 
+**Personaliza el diseño desde tu panel DataCue**
 
-**1. Te podemos ayudar (recomendado)**
+Para ajustar al diseño de tu tienda, cuentas con una amigable herramienta que estará disponible para ti en tu panel de control DataCue. Puedes acceder a ella en la sección Configuración > Productos.
 
-Cuando te registres en DataCue, nos contactaremos contigo. Te preguntaremos si quieres ayuda para setear tu tienda con DataCue. ¡Toma nuestra oferta!
+**¿Dudas?**
 
-**2. Hazlo tú mism@**
-
-Ponte creativo. Acude a nosotros ante dudas o comentarios.
+Si tienes preguntas o comentarios respecto a este editor de diseño, ¡no dudes en hacérnoslas saber!

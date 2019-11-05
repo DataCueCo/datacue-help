@@ -148,12 +148,11 @@ Los productos recomendados DataCue vienen en un formato que puede no combinar co
 
 Para esto, lo primero que debes hacer es dejar DataCue en modo de prueba. En este modo, puedes elegir un número de usuarios que sean tus usuarios de prueba. Solo ellos verán las recomendaciones, cuando inicien sesión en tu sitio web. El resto de los usuarios no verá cambios. Esto es muy útil para que juegues con el diseño de las recomendaciones DataCue, hasta que estés conforme para salir en vivo. 
 
-Necesitarás saber un poquito de CSS para adaptar tu diseño, así que tienes dos opciones. 
+**Personaliza el diseño desde tu panel DataCue**
 
-**1. Te podemos ayudar (recomendado)**
+Para ajustar al diseño de tu tienda, cuentas con una amigable herramienta que estará disponible para ti en tu panel de control DataCue. Puedes acceder a ella en la sección Configuración > Productos.
 
-Cuando te registres en DataCue, recibirás un correo de contacto. ¡Escríbenos para hacernos saber que necesitas apoyo en esto!
+**¿Dudas?**
 
-**2. Hazlo tú mism@**
+Si tienes preguntas o comentarios respecto a este editor de diseño, ¡no dudes en hacérnoslas saber!
 
-¡Cool! Adelante. Hemos creado un archivo llamado datacue_custom.css, en tu editor de temas. Puedes agregar todos los estilos que quieras ahí y quedarán separados de otros estilos de código de tu tienda. Si necesitas ayuda o tienes dudas, contáctanos.
