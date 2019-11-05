@@ -152,6 +152,8 @@ Para esto, lo primero que debes hacer es dejar DataCue en modo de prueba. En est
 
 Para ajustar al diseño de tu tienda, cuentas con una amigable herramienta que estará disponible para ti en tu panel de control DataCue. Puedes acceder a ella en la sección Configuración > Productos.
 
+
+
 **¿Dudas?**
 
 Si tienes preguntas o comentarios respecto a este editor de diseño, ¡no dudes en hacérnoslas saber!
