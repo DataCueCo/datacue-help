@@ -6,7 +6,7 @@ summary: Personaliza tu tienda VTEX instalando el módulo DataCue.
 
 # VTEX <Badge text="beta" type="success"/>
 
-¡Bienvenido a nuestra guía para instalar y usar DataCue en tu tienda VTEX! DataCue para VTEX está en modo beta privado aún.  
+¡Bienvenido a nuestra guía para instalar y usar DataCue en tu tienda VTEX! 
 
 **¿Confundido?**
 
@@ -26,7 +26,7 @@ Dependiendo de las leyes de privacidad de tu país, puedes necesitar permiso exp
 
 ### Paso 1: Instalando el módulo
 
-1. [Contáctanos](https://datacue.co/contact) para enviarnos una API Key y Secret, y conectaremos tu tienda.
+1. DataCue para VTEX está en modo beta privado aún. [Contáctanos](https://datacue.co/contact) para enviarnos una API Key y Secret, y conectaremos tu tienda.
 
 2. De tu panel de administrador VTEX, ve a `Configuración de tienda > CMS > Layout`, y en CMS navega a `Templates HTML > Sub Templates`.
 
@@ -106,17 +106,6 @@ Dependiendo de las leyes de privacidad de tu país, puedes necesitar permiso exp
     <vtex:template id="datacueScripts" />
     ```
 
-### Desconecta o desinstala el módulo 
-
-Para desconectar DataCue para VTEX, sigue estos pasos. 
-
-- Log in en tu panel de administrador VTEX.
-
-- Ve a `Configuración de tienda > CMS > Layout`, y luego en el CMS navega a `HTML Templates`.
-
-- Encuentra el template de tu página de Inicio, Producto, Categoría, Resultados de búsqueda y Error 404 y  remueve la línea `<vtex:template id="datacueScripts" />` de ellos.
-
-- Si quieres completamente desisntalar DataCue, remueve el `datacueScripts` sub-template del directorio de `Sub Templates`.
 
 ## Paso 2: Agrega recomendaciones
 
@@ -170,3 +159,15 @@ Para ajustar al diseño de tu tienda, cuentas con una amigable herramienta que e
 **¿Dudas?**
 
 Si tienes preguntas o comentarios respecto a este editor de diseño, ¡no dudes en hacérnoslas saber!
+
+### Desconecta o desinstala el módulo 
+
+Para desconectar DataCue para VTEX, sigue estos pasos. 
+
+- Log in en tu panel de administrador VTEX.
+
+- Ve a `Configuración de tienda > CMS > Layout`, y luego en el CMS navega a `HTML Templates`.
+
+- Encuentra el template de tu página de Inicio, Producto, Categoría, Resultados de búsqueda y Error 404 y  remueve la línea `<vtex:template id="datacueScripts" />` de ellos.
+
+- Si quieres completamente desisntalar DataCue, remueve el `datacueScripts` sub-template del directorio de `Sub Templates`.
