@@ -160,6 +160,7 @@ Para ajustar al diseño de tu tienda, cuentas con una amigable herramienta que e
 
 Si tienes preguntas o comentarios respecto a este editor de diseño, ¡no dudes en hacérnoslas saber!
 
+
 ### Desconecta o desinstala el módulo 
 
 Para desconectar DataCue para VTEX, sigue estos pasos. 
