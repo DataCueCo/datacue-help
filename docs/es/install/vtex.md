@@ -6,7 +6,7 @@ summary: Personaliza tu tienda VTEX instalando el módulo DataCue.
 
 # VTEX <Badge text="beta" type="success"/>
 
-Bienvenido a nuestra guía para instalar y usar DataCue en tu tienda VTEX.
+¡Bienvenido a nuestra guía para instalar y usar DataCue en tu tienda VTEX! DataCue para VTEX está en modo beta privado aún.  
 
 **¿Confundido?**
 
@@ -16,23 +16,21 @@ Simplemente [contáctanos](https://datacue.co/contact) ante cualquier duda o com
 
 ### Antes de comenzar
 
-Hay algunas cosas que debes saber antes de comenzar el proceso de integración. 
+Hay algunas cosas que debes saber antes de comenzar el proceso de instalación. 
 
-- DataCue para VTEX sincronizará tus productos, nombre de tu usuario y correo, y tus pedidos. 
+- Al instalar DataCue para VTEX, DataCue sincronizará tus productos, nombre de tu usuario y correo, y tus pedidos. Esto es lo que ocurrirá cuando realices el Paso 1 de nuestras instrucciones. Dependiendo del tamaño de tu tienda, el proceso de sincronización tomará entre unos minutos y unas pocas horas.
 
-- DataCue para VTEX instalará nuestra biblioteca Javascript en tu página de inicio, de producto, categoría y de resultados. La biblioteca Javascript personalizará el contenido de tu web para cada usuario según su comportamiento.
+- DataCue para VTEX instalará nuestra biblioteca Javascript en tu página de inicio, de producto, categoría y de resultados. La biblioteca Javascript personalizará el contenido de tu web para cada usuario según su comportamiento. Esto es lo que ocurrirá cuando realices el Paso 2 de nuestras instrucciones.
 
 Dependiendo de las leyes de privacidad de tu país, puedes necesitar permiso explícito de parte de tu consumidor para aplicar personalización de contenido. Consulta con tus organismos legales si tienes dudas en la materia. 
 
 ### Paso 1: Instalando el módulo
 
-1. VTEX está en modo beta privado, [contáctanos](https://datacue.co/contact) para conectar tu tienda.
+1. [Contáctanos](https://datacue.co/contact) para enviarnos una API Key y Secret, y conectaremos tu tienda.
 
-2. Dependiendo del tamaño de tu tienda, el proceos de sincronización tomará entre unos minutos y unas pocas horas. 
+2. De tu panel de administrador VTEX, ve a `Configuración de tienda > CMS > Layout`, y en CMS navega a `Templates HTML > Sub Templates`.
 
-3. De tu panel de administrador VTEX, ve a `Configuración de tienda > CMS > Layout`, y en CMS navega a `Templates HTML > Sub Templates`.
-
-4. Crea un nuevo sub-template, llámalo `datacueScripts`, y pega el siguiente código como parte de su contenido (recuerda reemplazar la API Key con la que obtuviste de nosotros cuando creaste tu cuenta):
+3. Crea un nuevo sub-template, llámalo `datacueScripts`, y pega el siguiente código como parte de su contenido (recuerda reemplazar la API Key con la que obtuviste de nosotros cuando creaste tu cuenta):
 
     ```html
     <script>
@@ -102,7 +100,7 @@ Dependiendo de las leyes de privacidad de tu país, puedes necesitar permiso exp
     <script src="https://cdn.datacue.co/js/datacue-storefront.js"></script>
     ```
 
-5. Ve hacia `HTML Templates`, encuentra los templates para tu página de Inicio, Producto, Categoría, Resultados de búsqueda y Error 404. En cada una de estas, pega la siguiente línea al final tras cualquier script VTEX - de preferencia, será antes del tag de cierre `</body>`:
+4. Ve hacia `HTML Templates`, encuentra los templates para tu página de Inicio, Producto, Categoría, Resultados de búsqueda y Error 404. En cada una de estas, pega la siguiente línea al final tras cualquier script VTEX - de preferencia, será antes del tag de cierre `</body>`:
 
     ```html
     <vtex:template id="datacueScripts" />
