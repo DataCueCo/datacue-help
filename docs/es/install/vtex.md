@@ -24,7 +24,7 @@ Hay algunas cosas que debes saber antes de comenzar el proceso de integración.
 
 Dependiendo de las leyes de privacidad de tu país, puedes necesitar permiso explícito de parte de tu consumidor para aplicar personalización de contenido. Consulta con tus organismos legales si tienes dudas en la materia. 
 
-### Instalando el módulo
+### Paso 1: Instalando el módulo
 
 1. VTEX está en modo beta privado, [contáctanos](https://datacue.co/contact) para conectar tu tienda.
 
@@ -120,7 +120,7 @@ Para desconectar DataCue para VTEX, sigue estos pasos.
 
 - Si quieres completamente desisntalar DataCue, remueve el `datacueScripts` sub-template del directorio de `Sub Templates`.
 
-## Agrega recomendaciones
+## Paso 2: Agrega recomendaciones
 
 ### Banners
 
@@ -157,7 +157,7 @@ Puedes desplegar recomendaciones de producto en las páginas de Inicio, Producto
 <div data-dc-products></div>
 ```
 
-### Match widgets to your theme
+### Paso 3: Adecúa el diseño
 
 Las grillas de productos DataCue tienen un diseño por defecto, que necesitará un par de ajustes para que quede igual al diseño de tu tienda. Esto es muy importante para que nada parezca fuera de lugar. Puedes recurrir a lo siguiente para hacer estos ajustes.
 
