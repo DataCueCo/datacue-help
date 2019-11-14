@@ -162,12 +162,12 @@ Tienes dos alternativas para esto.
 
 Para ajustar al diseño de tu tienda de manera básica, cuentas con una amigable herramienta que estará disponible en tu panel de control DataCue. Puedes acceder a ella en la sección Configuración > Productos.
 
-Para realizar cambios avanzados, puedes realizar los cambios que quieras con CSS. ¡[Contáctanos](https://datacue.co/contact) si necesitas apoyo!
+Para realizar cambios avanzados, puedes realizar los cambios que quieras con CSS. 
 
 
 **¿Dudas?**
 
-Si tienes preguntas o comentarios respecto a este editor de diseño, ¡no dudes en hacérnoslas saber!
+¡[Contáctanos](https://datacue.co/contact) si necesitas apoyo!
 
 
 ### Desconecta o desinstala el módulo 
