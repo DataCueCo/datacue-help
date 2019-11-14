@@ -14,7 +14,7 @@ Simplemente [contáctanos](https://datacue.co/contact) ante cualquier duda o com
 
 ## Instalación
 
-### Antes de comenzar
+### Cosas que debes saber antes de comenzar
 
 Hay algunas cosas que debes saber antes de comenzar el proceso de instalación. 
 
