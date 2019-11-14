@@ -22,6 +22,8 @@ Hay algunas cosas que debes saber antes de comenzar el proceso de instalación.
 
 - DataCue para VTEX instalará nuestra biblioteca Javascript en tu página de inicio, de producto, categoría y de resultados de búsqueda. La biblioteca Javascript personalizará el contenido de tu web para cada usuario según su comportamiento. Esto es lo que ocurrirá cuando realices el Paso 2 de nuestras instrucciones.
 
+- Una vez que hayas completado los pasos de nuestra instalación, podrás acceder a tu Panel de Control DataCue. Este te permitirá subir tus banners, configurar recomendaciones y medir desempeño. Para conocer más sobre nuestras funcionalidades, visita nuestra [Guía de Usuario](https://help.datacue.co/es/guide/)
+
 Dependiendo de las leyes de privacidad de tu país, puedes necesitar permiso explícito de parte de tu consumidor para aplicar personalización de contenido. Consulta con tus organismos legales si tienes dudas en la materia. 
 
 ### Paso 1: Instalando el módulo
