@@ -20,7 +20,7 @@ Hay algunas cosas que debes saber antes de comenzar el proceso de instalación.
 
 - Al instalar DataCue para VTEX, DataCue sincronizará tus productos, nombre de tu usuario y correo, y tus pedidos. Esto es lo que ocurrirá cuando realices el Paso 1 de nuestras instrucciones. Dependiendo del tamaño de tu tienda, el proceso de sincronización tomará entre unos minutos y unas pocas horas.
 
-- DataCue para VTEX instalará nuestra biblioteca Javascript en tu página de inicio, de producto, categoría y de resultados. La biblioteca Javascript personalizará el contenido de tu web para cada usuario según su comportamiento. Esto es lo que ocurrirá cuando realices el Paso 2 de nuestras instrucciones.
+- DataCue para VTEX instalará nuestra biblioteca Javascript en tu página de inicio, de producto, categoría y de resultados de búsqueda. La biblioteca Javascript personalizará el contenido de tu web para cada usuario según su comportamiento. Esto es lo que ocurrirá cuando realices el Paso 2 de nuestras instrucciones.
 
 Dependiendo de las leyes de privacidad de tu país, puedes necesitar permiso explícito de parte de tu consumidor para aplicar personalización de contenido. Consulta con tus organismos legales si tienes dudas en la materia. 
 
