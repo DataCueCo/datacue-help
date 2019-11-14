@@ -26,7 +26,7 @@ Dependiendo de las leyes de privacidad de tu país, puedes necesitar permiso exp
 
 ### Paso 1: Instalando el módulo
 
-1. DataCue para VTEX está en modo beta privado aún. [Contáctanos](https://datacue.co/contact) para enviarnos una API Key y Secret, y conectaremos tu tienda.
+1. DataCue para VTEX está en modo beta privado aún. [Contáctanos](https://datacue.co/contact) para enviarnos una API Key y Secret, y conectaremos tu tienda por ti.
 
 2. De tu panel de administrador VTEX, ve a `Configuración de tienda > CMS > Layout`, y en CMS navega a `Templates HTML > Sub Templates`.
 
@@ -156,7 +156,7 @@ Lo primero será poner DataCue en su modo de Prueba. Este modo te permite elegir
 
 Tienes dos alternativas para esto. 
 
-Para ajustar al diseño de tu tienda de manera básica, cuentas con una amigable herramienta que estará disponible para ti en tu panel de control DataCue. Puedes acceder a ella en la sección Configuración > Productos.
+Para ajustar al diseño de tu tienda de manera básica, cuentas con una amigable herramienta que estará disponible en tu panel de control DataCue. Puedes acceder a ella en la sección Configuración > Productos.
 
 Para realizar cambios avanzados, puedes realizar los cambios que quieras con CSS. ¡[Contáctanos](https://datacue.co/contact) si necesitas apoyo!
 
