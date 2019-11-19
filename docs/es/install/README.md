@@ -10,6 +10,6 @@ Llevar el poder de la personalización a tu tienda online es emocionante, sin du
 
 <ArticleIndex lang="es" type="install" fmfilter="platform" />
 
-# Avanzado
+# Realiza configuraciones avanzadas
 
 <ArticleIndex lang="es" type="install" fmfilter="advanced" />
