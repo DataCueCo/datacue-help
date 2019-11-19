@@ -12,9 +12,7 @@ summary: Personaliza tu tienda PrestaShop instalando el módulo DataCue.
 
 Contáctanos usando el mail de soporte desde tu panel de control PrestaShop, y te ayudaremos a que quedes listo. 
 
-## Instalación
-
-### Antes de empezar
+## Antes de empezar
 
 Hay un par de cosas que debes saber antes de comenzar tu proceso de integración. 
 
@@ -22,14 +20,14 @@ Hay un par de cosas que debes saber antes de comenzar tu proceso de integración
 
 - Por favor, prueba este plugin en un ambiente de prueba o "staging", **antes** de instalar en tu servidor de producción. Algunas veces los módulos peuden afectarse unos a otros, y no queremos descubrirlo en vivo en tu sitio web. Idealmente, tu zona de prueba será un clon de tu actual sitio web de producción. 
 
-- DataCue para PrestaShop sincronizará tus productos, nombre y correo de tus clientes, y pedidos. Esta información es importante para que DataCue entienda el comportamiento de tus usuarios en línea.
+- DataCue para PrestaShop sincronizará tus productos, nombre y correo de tus clientes, y pedidos. Esta información es importante para que DataCue entienda el comportamiento de tus usuarios en línea. Esto es lo que ocurrirá cuando realices el paso 1 de nuestra Instalación (ver más abajo).
 
-- DataCue para PrestaShop también isntala nuestra biblioteca de Javascript en tu página de inicio, páginas de producto y categoría, y página de búsquedas. Esta biblioteca Javascript personalizará el contenido de tu sitio para cada usuario que te visite. 
+- DataCue para PrestaShop también isntala nuestra biblioteca de Javascript en tu página de inicio, páginas de producto y categoría, y página de búsquedas. Esta biblioteca Javascript personalizará el contenido de tu sitio para cada usuario que te visite. Esto es lo que ocurrirá cuando realices el paso 2 de nuestra Instalación.
 
-Dependiendo de las leyes de privacidad de tu país, puedes necesitar permiso explícito de parte de tu consumidor para aplicar personalización de contenido. Consulta con tus organismos legales si tienes dudas en la materia. 
+- Dependiendo de las leyes de privacidad de tu país, puedes necesitar permiso explícito de parte de tu consumidor para aplicar personalización de contenido. Consulta con tus organismos legales si tienes dudas en la materia. 
 
 
-### Instalando el módulo
+## Paso 1: Instalando el módulo
 
 1. PrestaShop está en modo beta privado, [contáctanos](https://datacue.co/contact) para tener el instalador. 
 
@@ -47,19 +45,8 @@ Dependiendo de las leyes de privacidad de tu país, puedes necesitar permiso exp
     
 5. Dependiendo del tamaño de tu tienda, el proceso de sincronización tomará entre un par de minutos y unas pocas horas. Puedes hacer seguimiento al proceso al ir a la pestaña de "sincronización". 
 
-### Deshabilitar o desinstalar el módulo 
 
-Cuando deshabilitas o desinstalas el módulo DataCue en PrestaShop, todos los cambios hechos en tu tienda serán removidos, incluyendo el Javascript. A la vez, termina la sincronización de cualquier dato de tu tienda con DataCue.
-
-Para deshabilitar DataCue para PrestaShop:
-
-- Inicia sesión en tu panel de administrador PrestaShop.
-
-- En el panel de navegación izquierdo, haz click en `Administración de Módulos`, y desliza hacia abajo en la página hasta ver el módulo DataCue.
-
-- Select the drop down menu on the right of the module and select Disable or Uninstall.
-
-## Agrega recomendaciones
+## Paso 2: Agrega recomendaciones
 
 ### Banners
 
@@ -82,7 +69,7 @@ Para deshabilitar DataCue para PrestaShop:
 
 3. El diseño que DataCue usa por defecto para los banners, muestra dos banners dinámicos y uno estático en una misma fila. Puedes cambiar esto si quieres, yenod a `Configuración > Banners` en tu panel de control DataCue. Lee más sobre esto [aquí](/banners/layout.html). Alternativamente, descubre cómo construir tu propia gilla de banners en [diseño personalizado](#custom-layout).
 
-#### Después: cambiando tu banner estático
+#### Cambia tu banner estático
 
 1. Sube una nueva foto a tu servidor y copia su URL. Asegúrate de que la relación de aspecto de la imagen sea de 5:3 (tamaño recomendado 1200 x 720 px). Actualiza el link del banner estático si es necesario.
 
@@ -106,18 +93,34 @@ Inserta el siguiente HTML en tu documento `product.tpl`:
 <div data-dc-products></div>
 ```
 
-### Acomoda a tu estilo
+## Paso 3: Adapta a tu estilo
 
 Los carruseles de producto de DataCue vienen en un estilo determinado, por lo que querrás hacerle algunos ajustes para adaptarlo al estilo de tu tienda. ¡Esto es muy importante!, para que nada parezca fuera de lugar.
 
 **Modo de prueba**
 
-Lo primero que debes hacer es setear DataCue en su Modo de Prueba. Este modo te permite tener una lista de usuarios que pueden ver cómo quedaría tu web usando DataCue, mientras el resto del público verá tu web como antes. Estos usuarios con permiso deben iniciar sesión en tu sitio para ver el modo de prueba. Los demás visitantes no verán ningún cambio. Esto te permite jugar con el diseño DataCue hasta que te parezca que está perfecto para salir en vivo. 
+Lo primero que puedes hacer es setear DataCue en su Modo de Prueba. Este modo te permite tener una lista de usuarios que pueden ver cómo quedaría tu web usando DataCue, mientras el resto del público verá tu web como antes. Estos usuarios con permiso deben iniciar sesión en tu sitio para ver el modo de prueba. Los demás visitantes no verán ningún cambio. Esto te permite jugar con el diseño DataCue hasta que te parezca que está perfecto para salir en vivo. 
 
-**Personaliza el diseño desde tu panel DataCue**
+**Personaliza el diseño**
 
-Para ajustar al diseño de tu tienda, cuentas con una amigable herramienta que estará disponible para ti en tu panel de control DataCue. Puedes acceder a ella en la sección Configuración > Productos.
+Tienes dos alternativas para esto. Primero, para ajustar al diseño de tu tienda de manera básica, cuentas con una amigable herramienta que estará disponible en tu panel de control DataCue. Puedes acceder a ella en la sección Configuración > Productos.
+
+Segundo, si lo que quieres es realizar cambios avanzados, puedes hacer los ajustes que necesites con CSS. 
+
+
+## Deshabilita o desinstala el módulo 
+
+Cuando deshabilitas o desinstalas el módulo DataCue en PrestaShop, todos los cambios hechos en tu tienda serán removidos, incluyendo el Javascript. A la vez, termina la sincronización de cualquier dato de tu tienda con DataCue.
+
+Para deshabilitar DataCue para PrestaShop:
+
+- Inicia sesión en tu panel de administrador PrestaShop.
+
+- En el panel de navegación izquierdo, haz click en `Administración de Módulos`, y desliza hacia abajo en la página hasta ver el módulo DataCue.
+
+- Selecciona el menú a la derecha del módulo, y elige Desinstalar o Deshabilitar. ¡Listo!
+
 
 **¿Dudas?**
 
-Si tienes preguntas o comentarios respecto a este editor de diseño, ¡no dudes en hacérnoslas saber!
+¡[Contáctanos](https://datacue.co/contact) si necesitas apoyo! 

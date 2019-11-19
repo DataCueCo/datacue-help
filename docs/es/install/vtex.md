@@ -12,9 +12,7 @@ summary: Personaliza tu tienda VTEX instalando el módulo DataCue.
 
 Simplemente [contáctanos](https://datacue.co/contact) ante cualquier duda o comentario y te ayudaremos a comenzar.
 
-## Instalación
-
-### Cosas que debes saber antes de comenzar
+## Antes de comenzar
 
 Hay algunas cosas que debes saber antes de comenzar el proceso de instalación. 
 
@@ -28,7 +26,7 @@ Hay algunas cosas que debes saber antes de comenzar el proceso de instalación.
 
 - Dependiendo de las leyes de privacidad de tu país, puedes necesitar permiso explícito de parte de tu consumidor para aplicar personalización de contenido. Consulta con tus organismos legales si tienes dudas en la materia. 
 
-### Paso 1: Instalando el módulo
+## Paso 1: Instalando el módulo
 
 1. DataCue para VTEX está en modo beta privado aún. [Contáctanos](https://datacue.co/contact) para enviarnos una API Key y Secret, y conectaremos tu tienda por ti.
 
@@ -134,7 +132,7 @@ Hay algunas cosas que debes saber antes de comenzar el proceso de instalación.
 
 3. El diseño que DataCue usa por defecto para tus banners, considera 2 banners dinámicos angostos con 1 banner estático más ancho, todos en una sola línea. Puedes personalizar esto en `Configuración > Banners` en tu panel de control DataCue. Lee más sobre las opciones que tienes [aquí](/banners/layout.html). Alternativamente, averigua cómo construir tu [propio diseño](#custom-layout).
 
-#### Cambiando tu banner estático
+#### Cambia tu banner estático
 
 1. Sube una nueva imagen a tu servidor y copia su URL. Asegúrate de la relación de aspecto de 5:3 (tamaño recomendado es 1200 x 720 px). Actualiza el link del banner si es necesario. 
 
@@ -148,7 +146,7 @@ Puedes desplegar recomendaciones de producto en las páginas de Inicio, Producto
 <div data-dc-products></div>
 ```
 
-### Paso 3: Adecúa el diseño
+## Paso 3: Adecúa el diseño
 
 Las grillas de productos DataCue tienen un diseño por defecto, que necesitará un par de ajustes para que quede igual al diseño de tu tienda. Esto es muy importante para que nada parezca fuera de lugar. Puedes recurrir a lo siguiente para hacer estos ajustes.
 
@@ -158,19 +156,12 @@ Lo primero será poner DataCue en su modo de Prueba. Este modo te permite elegir
 
 **Personaliza el diseño**
 
-Tienes dos alternativas para esto. 
+Tienes dos alternativas para esto. Primero, para ajustar al diseño de tu tienda de manera básica, cuentas con una amigable herramienta que estará disponible en tu panel de control DataCue. Puedes acceder a ella en la sección Configuración > Productos.
 
-Para ajustar al diseño de tu tienda de manera básica, cuentas con una amigable herramienta que estará disponible en tu panel de control DataCue. Puedes acceder a ella en la sección Configuración > Productos.
-
-Para realizar cambios avanzados, puedes realizar los cambios que quieras con CSS. 
+Segundo, si lo que quieres es realizar cambios avanzados, puedes hacer los ajustes que necesites con CSS.
 
 
-**¿Dudas?**
-
-¡[Contáctanos](https://datacue.co/contact) si necesitas apoyo!
-
-
-### Desconecta o desinstala el módulo 
+## Desconecta o desinstala el módulo 
 
 Para desconectar DataCue para VTEX, sigue estos pasos. 
 
@@ -181,3 +172,8 @@ Para desconectar DataCue para VTEX, sigue estos pasos.
 - Encuentra el template de tu página de Inicio, Producto, Categoría, Resultados de búsqueda y Error 404 y  remueve la línea `<vtex:template id="datacueScripts" />` de ellos.
 
 - Si quieres completamente desisntalar DataCue, remueve el `datacueScripts` sub-template del directorio de `Sub Templates`.
+
+
+**¿Dudas?**
+
+¡[Contáctanos](https://datacue.co/contact) si necesitas apoyo! 

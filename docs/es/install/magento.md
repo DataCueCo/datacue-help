@@ -16,9 +16,7 @@ Contáctanos usando el mail de soporte desde tu panel de control Magento, y te a
 Esta extensión es solo apta para Magento 2.3. Usuarios en Magento 1 pueden referirse a nuestra [Documentación API](https://developer.datacue.co).
 :::
 
-## Instalación
-
-### Antes de comenzar
+## Antes de comenzar
 
 Aquí hay algunos detalles que debes conocer antes de comenzar la instalación.
 
@@ -26,13 +24,13 @@ Aquí hay algunos detalles que debes conocer antes de comenzar la instalación.
 
 - Por favor, prueba este plugin en un ambiente de Staging **antes** de instalar en tu servidor de producción. Los módulos o extensiones algunas veces se afectan entre sí, y lo último que quieres (creemos que es así) es descubrirlo en tu sitio en vivo. Idealmente, tu Staging será un clon de tu sitio de producción actual.
 
-- DataCue para Magento sincronizará tus productos y pedidos, además de nombres y correos de tu usuarios.
+- DataCue para Magento sincronizará tus productos y pedidos, además de nombres y correos de tu usuarios. Esto es lo que ocurrirá cuando realices el paso 1 de nuestra Instalación (ver más abajo).
 
-- Se instalará nuestra biblioteca Javascript en tu páginas de inicio, producto, categoría y de resultados. La biblioteca Javascript personalizará el contenido de tu sitio, según la actividad de cada visita online.
+- Se instalará nuestra biblioteca Javascript en tu páginas de inicio, producto, categoría y de resultados. La biblioteca Javascript personalizará el contenido de tu sitio, según la actividad de cada visita online. Esto es lo que ocurrirá cuando realices el paso 2 de nuestra Instalación.
 
-Dependiendo de las leyes de privacidad de tu país, puede que debas solicitar permiso explícito de tu usuario para personalizar su contenido. Por favor, consulta los aspectos legales de tu zona si tienes dudas.
+- Dependiendo de las leyes de privacidad de tu país, puede que debas solicitar permiso explícito de tu usuario para personalizar su contenido. Por favor, consulta los aspectos legales de tu zona si tienes dudas.
 
-### Instala la extensión
+## Paso 1: Instala la extensión
 
 1. Ve a la raíz del directorio de instalación en Magento.
 
@@ -89,31 +87,8 @@ Dependiendo de las leyes de privacidad de tu país, puede que debas solicitar pe
 
 El asunto más común que puede surgir se debe a permisos incorrectos. Asegúrate de que todas las carpetas importantes, como `generated`, `pub` y `vendor` tengan los mismos permisos que el usuario Magento.
 
-### Desactiva o desinstala el módulo
 
-Cuando desactivas y eliminas DataCue para Magento, removeremos todos los cambios hechos en tu tienda, incluyendo el Javascript. Adicionalmente, detendremos toda sincronización entre tu tienda y DataCue.
-
-Para desactivar DataCue de Magento, sigue estos pasos.
-
-1. Ve a la raíz del directorio para Magento.
-
-    ``` bash
-    bin/magento module:disable --clear-static-content DataCue_MagentoModule
-
-    bin/magento module:uninstall --clear-static-content DataCue_MagentoModule
-
-    bin/magento setup:di:compile
-    ```
-
-2. Puede que debas cambiar los permisos o el dueño de los archivos generados, tras la desinstalación.
-
-3. Confirma que el módulo haya sido eliminado.
-
-    ``` bash
-    bin/magento module:status DataCue_MagentoModule
-    ```
-
-## Agrega recomendaciones
+## Paso 2: Agrega recomendaciones
 
 ### Banners
 
@@ -137,7 +112,7 @@ La disposición de banners que DataCue usa mostrará, por defecto, 2 banners din
 
 Hey...¿Quieres construir tu propia disposición de banners? [Lee esto](#custom-layout).
 
-#### Cambiando tu banner estático
+#### Cambia tu banner estático
 
 1. Sube una nueva imagen a tu servidor y copia su URL.  a new image to your server and copy the URL. Asegúrate de que la imagen tenga una relación de aspecto de 5:3 (el tamaño ideal es 1200 x 720 px). Actualiza el link, si es necesario.
 
@@ -153,18 +128,45 @@ Hey...¿Quieres construir tu propia disposición de banners? [Lee esto](#custom-
 
 4. Apenas tus recomendaciones se hayan generado, podrás verlas en tu sitio.
 
-### Adapta tus widgets a tu tema
+## Paso 3: adapta tus recomendaciones a tu propio diseño
 
 Los carruseles de productos DataCue tienen un diseño por defecto. Pueden necesitar algunos ajustes para asimilarse al look/feel de tu tienda. Esto es muy importante, para que nada parezca fuera de lugar.
 
-#### Modo de test
+#### Modo de prueba
 
 Lo primero, será llevar a DataCue a su modo de prueba o test. En este modo, puedes elegir a una lista de usuarios como usuarios de prueba. Ellos verán las recomendaciones, si inician sesión en la tienda. Los demás usuarios no verán ningún cambio en tu sitio aún. Esto es útil para jugar con el diseño hasta que estés satisfecho con tu trabajo.
 
-**Personaliza el diseño desde tu panel DataCue**
+**Personaliza el diseño**
 
-Para ajustar al diseño de tu tienda, cuentas con una amigable herramienta que estará disponible para ti en tu panel de control DataCue. Puedes acceder a ella en la sección Configuración > Productos.
+Tienes dos alternativas para esto. Primero, para ajustar al diseño de tu tienda de manera básica, cuentas con una amigable herramienta que estará disponible en tu panel de control DataCue. Puedes acceder a ella en la sección Configuración > Productos.
+
+Segundo, si lo que quieres es realizar cambios avanzados, puedes hacer los ajustes que necesites con CSS.
+
+
+## Desactiva o desinstala el módulo
+
+Cuando desactivas y eliminas DataCue para Magento, removeremos todos los cambios hechos en tu tienda, incluyendo el Javascript. Adicionalmente, detendremos toda sincronización entre tu tienda y DataCue.
+
+Para desactivar DataCue de Magento, sigue estos pasos.
+
+1. Ve a la raíz del directorio para Magento.
+
+    ``` bash
+    bin/magento module:disable --clear-static-content DataCue_MagentoModule
+
+    bin/magento module:uninstall --clear-static-content DataCue_MagentoModule
+
+    bin/magento setup:di:compile
+    ```
+
+2. Puede que debas cambiar los permisos o el dueño de los archivos generados, tras la desinstalación.
+
+3. Confirma que el módulo haya sido eliminado.
+
+    ``` bash
+    bin/magento module:status DataCue_MagentoModule
+    ```
 
 **¿Dudas?**
 
-Si tienes preguntas o comentarios respecto a este editor de diseño, ¡no dudes en hacérnoslas saber!
+¡[Contáctanos](https://datacue.co/contact) si necesitas apoyo! 
