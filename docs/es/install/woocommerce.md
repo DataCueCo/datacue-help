@@ -65,7 +65,7 @@ Aquí hay un par de cosas que debes saber antes de instalar el plugin.
 DataCue usa "códigos cortos" para ayudarte a agregar rápidamente banners dinámicos y recomendaciones de producto a tu sitio, sin requerir saber programar. Si quieres saber más, revisa [aquí (wordpress.com).](https://en.support.wordpress.com/shortcodes/)
 
 ::: tip Tip
-¿Sabías que WooCommerce es un plugin para WordPress? Gran parte de las funcionalidades que ofrece WordPress pueden usarse en WooCommerce, como códigos cortos. 
+OK, en realidad no es un tip, ya sabes que WooCommerce es un plugin para WordPress... Por eso, gran parte de las funcionalidades que ofrece WordPress pueden usarse en WooCommerce, como códigos cortos. 
 :::
 
 

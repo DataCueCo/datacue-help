@@ -12,9 +12,11 @@ footer: © 2018-present DataCue (PTE. LTD.)
 
 ### What is DataCue?
 
-The best websites always shows you content relevant to your interests. This is called personalization and it's effective to increase conversion, because as a visitor you see things you care about. DataCue personalizes your e-commerce store for each visitor to help you increase sales.
+The best websites always shows you content relevant to your interests. This is called personalization and it's effective to increase conversion, because as a visitor you see things you care about. 
 
-Read on to find out how to personalize your store.
+DataCue personalizes your e-commerce store for each visitor to help you increase sales. This happens automatically, so you don't need to set up complicated rules or depend from a third-party to set up the experience you want to create for your users.
+
+Get started in less than a day! Read on to find out how to personalize your store.
 
 ### No account yet?
 
@@ -22,7 +24,9 @@ You can sign up for one at [datacue.co](https://app.datacue.co/en/sign-up).
 
 ### Want to sign in to the dashboard?
 
-Go to the dashboard [clicking here](https://app.datacue.co/).
+You can see DataCue Dashboard [clicking here](https://app.datacue.co/). This dashboard allows you to manage the experience you create for your users, measure performance and learn from your data. 
+
+PS: You won't be able to see Dashboard completely until you do not select a DataCue Plan, thus having an active Account.  
 
 ### How do I add DataCue to my website?
 
@@ -73,16 +77,16 @@ Learn about the different features DataCue offers and how to get the best out of
 
 ### [Banners](/guide/banners)
 
-The banners of your store can automatically change to match your user's interest. 
-
-### [Email](/guide/email)
-
-E-mail campaings work better if your user gets relevant information!
+The banners of your store can automatically change to match your user's interest. Being the most prominent area of your Home, showing relevant banners can lead to less bounce rate and more time of navigation in your store.
 
 ### [Products](/guide/products)
 
-Recommend relevant products for each one of your visits and increase the value of your sales.
+Recommend relevant products for each one of your visits in different pages of your website. Increase the value of your sales by cross-selling and upselling, automatically.
 
 ### [Notifications](/guide/notifications/)
 
-Let your user know about important changes in price of stock of the products they've seen.
+Let your user know about important changes in price or stock of the products they've seen. Create urgency when needed, without distracting with invasive Pop-ups.
+
+### [Email](/guide/email)
+
+Get your users back to your website with attractive information. Your e-mail campaign will work better!
