@@ -12,11 +12,11 @@ footer: © 2018-present (PTE. LTD.)
 
 ### ¿Qué es DataCue?
 
-Los mejores sitios de e-commerce son los que crean experiencias relevantes a los intereses de su cliente. Esto se llama personalización, y es altamente efectiva para mejorar conversión. 
+Los mejores sitios de e-commerce son los que crean experiencias relevantes para sus visitas. Adaptar el sitio web a los intereses del usuario se llama personalización, y es altamente efectiva para convertir a las visitas en clientes.  
 
-DataCue personaliza tu tienda online para cada usuario, ayudándote a vender más. Todo esto ocurre de manera automática, sin necesidad reglas complejas ni largos tiempos de integración, ¡puedes comenzar en menos de un día! Lo mejor de todo: puedes administrar tú mims@ la experiencia que crearás en tu sitio, sin necesidad de depender de terceros.
+DataCue personaliza tu tienda online para cada uno de tus usuarios, ayudándote a vender más. Todo esto ocurre de manera automática, sin que necesites reglas complejas, largos tiempos de integración, ni depender de terceros que administren tu personalización. 
 
-¡Sigue leyendo para saber cómo agregar personalización a tu tienda! 
+¡Comienza en menos de un día con DataCue! Sigue leyendo para saber cómo agregar personalización a tu tienda. 
 
 ### ¿No tienes una cuenta aún?
 
@@ -40,7 +40,7 @@ No te preocupes, a veces nos mareamos con tanta información. [Contáctanos](htt
 
 <Button text="Guía de Instalación" link="/es/install" />
 
-DataCue puede instalarse sobre cualquier plataforma de e-commerce. Tenemos integraciones nativas para las plataformas más populares. Si la tuya no está en esta lista, puedes conectarte directamente a nuestra API. 
+DataCue puede instalarse sobre cualquier plataforma de e-commerce. Tenemos integraciones nativas para las plataformas más populares. Si la tuya no está en esta lista, puedes conectarte directamente a nuestra API, eligiendo "Otras Plataformas".
 
 ¡Selecciona tu plataforma y comienza!
 
@@ -67,21 +67,21 @@ Personaliza tu tienda online usando nuestra API de recomendaciones. NOTA: Se req
 
 ## Usando DataCue
 
-Aprende sobre las diferentes funcionalidades que ofrece DataCue y cómo sacarles el máximo provecho. 
+DataCue entrega distintas funcionalidades que se adaptarán a los intereses de tu usuario. Estas tienen distintos objetivos; aprende sobre ellas y por qué son relevantes para tu tienda.
 
 <Button text="Guía de Usuario" link="/es/guide" />
 
 ### [Banners](/es/guide/banners)
 
-Tus banners de siempre ahora pueden cambiar según el comportamiento de tu usuario. Prueba tus creativos, y muestra siempre contenido atractivo que disminuya tu tasa de rebote y aumente los tiempos de permanencia en tu sitio.
+Tus banners son la parte más prominente de tu Home. Con DataCue, pueden cambiar automáticamente según el comportamiento de tu usuario. Prueba tus creativos, y muestra siempre contenido atractivo que disminuya tu tasa de rebote y aumente los tiempos de permanencia en tu sitio.
 
 ### [Recomendaciones de Productos](/es/guide/products)
 
-Entrega sugerencias relevantes de productos, en diferentes páginas de tu sitio. Fomenta venta cruzada y upsell.
+Entregando sugerencias relevantes de productos, en diferentes páginas de tu sitio, fomentas venta cruzada y upsell. Llega directamente a la intención de compra de tu usuario y aumenta el valor de tu ticket promedio, sin moverte de tu silla.
 
 ### [Notificaciones](/es/guide/notifications/)
 
-Informando al usuario de cambios en precio o stock de los productos que ha visto, enriqueces su experiencia de compra y creas urgencia cuando sea necesario.
+Informando sutilmente al usuario de cambios en precio o stock de los productos que ha visto, enriqueces su experiencia de compra y creas urgencia..¡cuando sea necesario! No lo distraigas con Pop-ups que distraen su navegación. Tu usuario te lo agradecerá.
 
 ### [E-mail](/es/guide/email)
 
