@@ -70,7 +70,9 @@ Lo primero es lo primero. Si aún no lo has hecho, instala la aplicación DataCu
 
 4. Guarda tus cambios. ¡Estás listo!
 
-**Páginas de Producto**
+**Páginas de Producto y Otras Páginas**
+
+En esta sección podrás agregar carruseles de productos a diferentes páginas de tu sitio que no son tu Home. Por ejemplo, páginas de Producto, de Carrito o de Error 404. ¡Ponte creativo para personalizar la experiencia de tus usuarios en distintas etapas de su proceso!
 
 La mayoría de los temas no permiten agregar secciones personalizadas a páginas de producto; pero puedes hacerlo manualmente. 
 
@@ -87,7 +89,7 @@ Pega este código especial al final del template, allí donde quieras ver las re
 ![Agrega recomendaciones de producto a tu página de producto](./images/shopify_add_code_product_page.gif)
 
 
-**Elige posiciones avanzadas**
+**Elige posiciones avanzadas de tus carruseles**
 
 Puedes querer poner nuestros carruseles de recomendaciones de producto en distintas partes de tu página de producto. Modifica un poco el código para decirnos qué tipo de recomendación quieres, e insértalo en la posición deseada. 
 
