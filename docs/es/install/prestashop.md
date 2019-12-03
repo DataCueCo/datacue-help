@@ -29,7 +29,7 @@ Hay un par de cosas que debes saber antes de comenzar tu proceso de integración
 
 ## Paso 1: Instalando el módulo
 
-1. PrestaShop está en modo beta privado, [contáctanos](https://datacue.co/contact) para tener el instalador. 
+1. Puedes descargar el instalador DataCue para PrestaShop en este [link](https://cdn.datacue.co/assets/integrations/datacue-prestashop-latest.zip). 
 
 2. Instala el módulo desde tu panel de control de PrestaShop al hacer click en `Administración de módulos > Subir un módulo`. Selecciona el archivo ZIP del instalador DataCue. 
 
