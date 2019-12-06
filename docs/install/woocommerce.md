@@ -141,18 +141,16 @@ add the PHP code where you want to see the product recommendations.
 
 ### Match widgets to your theme
 
-DataCue's product carousels have a default design which will need some adjustments to match the look/feel of your store. This is really important so nothing looks out of place.
+DataCue's product recommendations have a default design which will need some adjustments to match the look/feel of your store. This is really important so nothing looks out of place.
 
-**Test mode**
+### Customize recommendations look/feel
 
-The first thing you should do is set DataCue into test mode. In test mode, you can pick a list of user accounts as test users. To see the recommendations, you have to sign in as a test user to your store. All other visitors don't see any changes. This is very helpful to play with the design till you're happy with the look/feel.
+#### 1. Friendly design editor
 
-You will need to know a little CSS to match the design, so there are two options
+You can customize most of the look/feel of the product sections yourself with our super easy design editor. Just play with the settings till the preview looks good to you and save your changes.
 
-**1. Let us help you (recommended)**
+![Design editor tool](./images/design-editor.png)
 
-When you sign up, we'll get in touch with you and offer to help you with setting up your store.
+#### 2. Advanced designs with CSS
 
-**2. Do it yourself**
-
-Feel free to reach out if you need any help.
+If you want to make advanced changes, feel free to use CSS directly. We've made all the elements within the product recommendation widget accessible with unique class names.

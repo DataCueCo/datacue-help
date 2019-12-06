@@ -12,15 +12,17 @@ Welcome to our guide on how to install and use DataCue on your Shopify store.
 
 Just reach out to us using the support email in your Shopify app and we'll help you get started.
 
-## Install the app
+## Step 1: Install the app
 
 First things first, if you haven't already done so, install the Shopify app.
 
 Click [here](https://apps.shopify.com/datacue) to install the app from the Shopify app store.
 
-## Add Recommendations
+## Step 2: Add Recommendations
 
-### Quick start: Add Banners + Products to your home page
+### Quick start
+
+Add Banners + Products to your home page
 
 ![Install banners and products](./images/shopify_add_recommendations.gif)
 
@@ -101,16 +103,15 @@ Refer our Banners usage guide [here](/guide/banners.html#banner-layout) to find 
 
 4. Save your changes and you're done!
 
-**Product page**
+**Product page and other pages**
 
 Most themes don't allow adding custom sections to product pages, but you can do it manually.
 
-If you're familiar with theme editing, you can find the product page template
-(`templates/product.liquid`) in the code editor:
+If you're familiar with theme editing, you edit the code of the template you need. For instance the product page template is usually in `templates/product.liquid`.
 
 ![Finding product.liquid](./images/find_template.png)
 
-Then paste a special tag near the end of your template, where you want DataCue to insert the carousels:
+Then paste a special tag near the end of your template, where you want DataCue to insert the product recommendations:
 
 ```html
 <div data-dc-products></div>
@@ -140,20 +141,48 @@ Recently viewed products
 `<div data-dc-products="recent"></div>`
 ```
 
-### Match widgets to your theme
+## Step 3: Match widgets to your theme
 
-DataCue's product carousels have a default design which will need some adjustments to match the look/feel of your store. This is really important so nothing looks out of place.
+DataCue's product recommendations have a default design which will need some adjustments to match the look/feel of your store. This is really important so nothing looks out of place.
 
-**Test mode**
+### Test mode
 
 The first thing you should do is set DataCue into test mode from your dashboard. In test mode, you can pick a list of user accounts as test users. To see the recommendations, you have to sign in as a test user to your store. All other visitors don't see any changes. This is very helpful to play with the design till you're happy with the look/feel. To learn how to set DataCue to test mode, click [here](/install/testmode.html)
 
-You will need to know a little CSS to match the design, so there are two options
+### Customize recommendations look/feel
 
-**1. Let us help you (recommended)**
+#### 1. Friendly design editor
 
-When you install the app, we'll get in touch with you and offer to help you with setting up your store.
+You can customize most of the look/feel of the product sections yourself with our super easy design editor. Just play with the settings till the preview looks good to you and save your changes.
 
-**2. Do it yourself**
+![Design editor tool](./images/design-editor.png)
 
-Wow, go right ahead. We've made a file called datacue_custom.css in your theme code. You can add all the styles you need in there so it's nicely separated from the other style code in your store. Feel free to reach out if you need any help.
+#### 2. Advanced designs with CSS
+
+If you want to make advanced changes, feel free to use CSS directly. We've made all the elements within the product recommendation widget accessible with unique class names.
+
+## Uninstalling the app
+
+We're sorry to see you go! Uninstalling the app can be done easily by clicking on the trash icon next to the DataCue app in your Shopify admin section.
+
+When you uninstall the app:
+
+- Billing is immediately stopped.
+- All your store data like customers, orders and products are immediately deleted from DataCue.
+- Your dashboard account and banners will continue to exist. You can delete all your banners from the dashboard should you wish.
+
+When an app is uninstalled, the app cannot make any modifications to your store. This means that some DataCue code will continue to remain in your theme. It is harmless but it's recommended to completely remove it.
+
+To remove all DataCue code:
+
+1. Go to the Shopify code editor (`Online Store > Actions > Edit Code`).
+
+2. Find `theme.liquid` and open it
+
+3. Make a local backup just in case!
+
+4. Locate the code block labeled DataCue and delete it (make sure to ONLY remove DataCue code and nothing else).
+
+5. Save your changes and in another tab verify that your site is working correctly. If all OK, you can close the code editor.
+
+If for any reason, your site does not behave correctly after this change, restore the code using your local backup. Then repeat the above steps taking care NOT to delete anything except the block labelled DataCue.
