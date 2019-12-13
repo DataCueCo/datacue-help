@@ -107,7 +107,7 @@ Para comenzar, sugerimos que crees idealmente 10 banners, para tus categorías y
 Cuando tengamos datos de comportamiento de tus usuarios, podremos mostrarte el desempeño de tus banners. Sabrás qué tantos clicks y compras tiene cada uno, y cuáles conviene cambiar para asegurar que están logrando su objetivo. ¡Hurra! Ya no tendrás contenido que no apunte a mejorar tu conversión en tu sitio.
 
 ::: tip Tip
-Cuando elimines o subas un banner, el cambio se reflejará en tu sitio en pocos minutos, si el proceso se realizó correctamente.
+Cuando elimines un banner, el cambio se reflejará en tu sitio en pocos minutos.
 :::
 
 1. Primero, en el menú izquierdo tu Panel de Control DataCue, haz click en 'Banners'.
