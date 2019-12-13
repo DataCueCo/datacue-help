@@ -9,7 +9,7 @@ summary: Configura DataCue en modo de prueba para modificar tu CSS sin afectar a
 
 Lo primero que debes hacer después de descargar DataCue, es configurarlo en Modo de prueba. ¡Deja este modo hasta que estés satisfech@ con el diseño!
 
-1. Haga click [aquí] (https://app.datacue.co) para iniciar sesión en tu Panel de Control.
+1. Haga click [aquí](https://app.datacue.co) para iniciar sesión en tu Panel de Control.
 
 2. En el Panel de Control, anda a la configuración, en la esquina superior derecha.
 
@@ -28,4 +28,3 @@ Para hacer esto, solo necesitas seleccionar una lista de correos electrónicos q
 ![Test mode](./images/test-users.png)
 
 Para ver las recomendaciones, deberás iniciar sesión como usuario de prueba en tu tienda. Todos los demás visitantes no verán ningún cambio.
-
