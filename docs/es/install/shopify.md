@@ -8,9 +8,7 @@ summary: Personaliza tu tienda Shopify instalando la app DataCue.
 
 ¡Bienvenido a nuestra guía sobre cómo instalar y usar DataCue en tu tienda Shopify! 
 
-**¿Confundido?**
-
-Contáctanos usando el correo de soporte de tu app de Shopify y estaremos felices de ayudarte a comenzar. 
+Si en algún paso estás confundido, contáctanos usando el correo de soporte de tu app de Shopify y estaremos felices de ayudarte a comenzar. 
 
 ## Paso 1: Instala la app
 

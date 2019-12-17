@@ -8,9 +8,7 @@ summary: Personaliza tu tienda VTEX instalando el módulo DataCue.
 
 ¡Bienvenido a nuestra guía para instalar y usar DataCue en tu tienda VTEX! 
 
-**¿Confundido?**
-
-Simplemente [contáctanos](https://datacue.co/contact) ante cualquier duda o comentario y te ayudaremos a comenzar.
+Si en algún paso estás confundido, [contáctanos](https://datacue.co/contact) y te ayudaremos a comenzar.
 
 ## Antes de comenzar
 

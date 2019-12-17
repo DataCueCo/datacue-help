@@ -8,9 +8,7 @@ summary: Personaliza tu tienda WooCommerce instalando el plugin DataCue.
 
 Bienvenido a nuestra guía sobre cómo instalar y usar DataCue en tu tienda WooCommerce. ¡Wooohoo!
 
-**¿Confundido?**
-
-Contáctanos usando el correo de soporte de tu panel de WooCommerce y estaremos felices de ayudarte a comenzar. 
+Si en algún paso estás confundido, contáctanos usando el correo de soporte de tu panel de WooCommerce y estaremos felices de ayudarte a comenzar. 
 
 ## Instalación
 

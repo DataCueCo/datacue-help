@@ -8,9 +8,7 @@ summary: Personaliza tu tienda PrestaShop instalando el módulo DataCue.
 
 ¡Bienvenido a nuestra guía sobre cómo instalar y usar DataCue en tu tienda PrestaShop! 
 
-**¿Confundido?**
-
-Contáctanos usando el mail de soporte desde tu panel de control PrestaShop, y te ayudaremos a que quedes listo. 
+Si en algún paso estás confundido, contáctanos usando el mail de soporte desde tu panel de control PrestaShop, y te ayudaremos a que quedes listo. 
 
 ## Antes de empezar
 

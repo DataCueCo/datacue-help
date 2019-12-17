@@ -8,9 +8,7 @@ summary: Personaliza tu tienda Magento instalando el módulo DataCue.
 
 Bienvenido a nuestra guía para instalar y usar DataCue en tu tienda Magento.
 
-**¿Confundido?**
-
-Contáctanos usando el mail de soporte desde tu panel de control Magento, y te ayudaremos a que quedes listo.
+Si en algún paso estás confundido, contáctanos usando el mail de soporte desde tu panel de control Magento, y te ayudaremos a que quedes listo.
 
 ::: warning Advertencia
 Esta extensión es solo apta para Magento 2.3. Usuarios en Magento 1 pueden referirse a nuestra [Documentación API](https://developer.datacue.co).
