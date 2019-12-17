@@ -16,7 +16,7 @@ Contáctanos usando el correo de soporte de tu panel de WooCommerce y estaremos 
 
 ### Antes de comenzar
 
-Aquí hay un par de cosas que debes saber antes de instalar el plugin. 
+Aquí hay un par de cosas que debes saber antes de instalar el plugin.
 
 - Debes tener el **plugin de WooCommerce instalado y activo en WordPress**.
 

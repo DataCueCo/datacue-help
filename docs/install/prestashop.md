@@ -31,7 +31,13 @@ Depending on your countries privacy laws, you may need to explicitly get permiss
 
 ### Installing the module
 
-1. PrestaShop is in private beta [contact us](https://datacue.co/contact) to get the installer.
+1. Download the module
+
+    <Button link="https://cdn.datacue.co/assets/integrations/datacue-prestashop-latest.zip" text="Download"/>
+
+    ::: tip
+    Safari on Mac OS X may sometimes auto expand your ZIP file into a folder. You may wish to use another browser if this happens. Alternatively, you can disable the `Open "safe" files after downloading` option in Safari preferences.
+    :::
 
 2. Install the module from your PrestaShop Admin panel by clicking on `Modules Manager > Upload a Module`. Select the ZIP file of the DataCue installer.
 
