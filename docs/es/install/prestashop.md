@@ -31,7 +31,7 @@ Hay un par de cosas que debes saber antes de comenzar tu proceso de integración
 
 1. Descarga el modulo
 
-    <Button link="https://cdn.datacue.co/assets/integrations/datacue-woocommerce-latest.zip" text="Download"/>
+    <Button link="https://cdn.datacue.co/assets/integrations/datacue-prestashop-latest.zip" text="Download"/>
 
     ::: tip Tip
     Safari en Mac OS X puede expandir automáticamente tu archivo ZIP a una carpeta. Si es el caso, puedse preferir usar otro navegador. O bien, puedes deshabilitar la opción `Abrir archivos "seguros" tras la descarga`  en tus preferencias de Safari.
