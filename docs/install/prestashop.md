@@ -104,7 +104,7 @@ Insert the following html in your `index.tpl` file:
 <div data-dc-products></div>
 ```
 
-#### All other pages
+#### Product page and other pages
 
 ```html
 <div data-dc-products></div>
