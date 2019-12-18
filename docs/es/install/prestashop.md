@@ -46,7 +46,7 @@ Hay un par de cosas que debes saber antes de comenzar tu proceso de integración
 4. Ingresa el usuario y clave de la API (API Key and Secret) proporcionados por DataCue. Presiona "guardar" para conectar tu tienda con DataCue. Encontrarás la Key y Secret en la primera pantalla cuando inicies sesión en tu [Panel de Control DataCue](https://app.datacue.co). 
 
     ::: tip Tip
-    Si por algún motivo no ves tu Key y Secret de la API en esta pantalla, no te preocupes. Puedes acceder a ella al hacer click en el nombre de tu tienda web, arriba a la derecha, cuando seleccionas "Desarrollador" en el menú.
+    Si por algún motivo no ves tu Clave y Secreto de la API en esta pantalla, no te preocupes. Puedes acceder a ella, yendo a `Configuración > Desarrollador` arriba en tu panel de control de DataCue.
     :::
     
 5. Dependiendo del tamaño de tu tienda, el proceso de sincronización tomará entre un par de minutos y unas pocas horas. Puedes hacer seguimiento al proceso al ir a la pestaña de "sincronización". 
@@ -73,7 +73,7 @@ Hay un par de cosas que debes saber antes de comenzar tu proceso de integración
     `static-img` es la URL de la imagen que subiste en el punto 1 (banner estático). 
     `static-link` es el link usado al que se envía el usuario cuando hace click en este banner. Pon una URL apropiada. Por lo general, es una página de categoría. 
 
-3. El diseño que DataCue usa por defecto para los banners, muestra dos banners dinámicos y uno estático en una misma fila. Puedes cambiar esto si quieres, yenod a `Configuración > Banners` en tu panel de control DataCue. Lee más sobre esto [aquí](/banners/layout.html). Alternativamente, descubre cómo construir tu propia gilla de banners en [diseño personalizado](#custom-layout).
+3. El diseño que DataCue usa por defecto para los banners, muestra dos banners dinámicos y uno estático en una misma fila. Puedes cambiar esto si quieres, yendo a `Configuración > Banners` en tu panel de control DataCue. Lee más sobre esto [aquí](/banners/layout.html). Alternativamente, descubre cómo construir tu propia gilla de banners en [diseño personalizado](#custom-layout).
 
 #### Cambia tu banner estático
 
@@ -83,7 +83,7 @@ Hay un par de cosas que debes saber antes de comenzar tu proceso de integración
 
 ### Setear recomendaciones de producto
 
-**Página de Inicio**
+#### Página de inicio
 
 Inserta el siguiente HTML en tu documento `index.tpl`:
 
@@ -91,13 +91,23 @@ Inserta el siguiente HTML en tu documento `index.tpl`:
 <div data-dc-products></div>
 ```
 
-**Página de Producto**
-
-Inserta el siguiente HTML en tu documento `product.tpl`:
+#### Página de producto y otras páginas
 
 ```html
 <div data-dc-products></div>
 ```
+
+Incluye el código HTML de arriba para agregar recomendaciones de producto a la siguientes páginas:
+
+1. Página de producto
+2. Página de categoría
+3. Página de búsqueda
+4. Página de carrito
+5. Página de Error 404
+
+El tipo de recomendación de producto que verás en cada página, lo puedes activar o desactivar desde tu panel de control DataCue.
+
+Ejemplo: Tal vez solo quieres mostrar "Productos recientemente vistos" en tu página de error 404, pero en otra página, activar "Productos Similares" y "Relacionados". ¡Todo esto lo haces con solo unos clicks!
 
 ## Paso 3: Adapta a tu estilo
 

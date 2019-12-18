@@ -96,7 +96,7 @@ To disable DataCue for PrestaShop, follow these steps.
 
 ### Setup Product Recommendations
 
-**Home page**
+#### Home page
 
 Insert the following html in your `index.tpl` file:
 
@@ -104,13 +104,23 @@ Insert the following html in your `index.tpl` file:
 <div data-dc-products></div>
 ```
 
-**Product page**
-
-Insert the following html in your `product.tpl` file:
+#### All other pages
 
 ```html
 <div data-dc-products></div>
 ```
+
+Include the above HTML to add product recommendations to the following pages:
+
+1. Product page
+2. Category page
+3. Search page
+4. Cart page
+5. 404 page
+
+Don't worry, you can activate / deactivate different types of recommendations for each page from your DataCue dashboard.
+
+For e.g. you can tell us to only show recently viewed products on the 404 page, but related products and similar products on the product page with just a click.
 
 ### Match widgets to your theme
 

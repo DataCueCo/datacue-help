@@ -88,9 +88,9 @@ Refer our Banners usage guide [here](/guide/banners.html#banner-layout) to find 
 
 ### Setup Product Recommendations
 
-**Home page**
+#### Home page
 
-1. Go to the theme editor (`Home / Customize theme / Customize theme / Customize`).
+1. Head to your theme editor, Click on `Online Store` on your side bar and click on the `Customize` button.
 
    ![Theme settings](./images/customize_theme.png)
 
@@ -103,15 +103,27 @@ Refer our Banners usage guide [here](/guide/banners.html#banner-layout) to find 
 
 4. Save your changes and you're done!
 
-**Product page and other pages**
+#### Product page and other pages
 
-Most themes don't allow adding custom sections to product pages, but you can do it manually.
+Most themes don't allow adding custom sections to other pages, but you can do it easily by pasting a code snippet.
 
-If you're familiar with theme editing, you edit the code of the template you need. For instance the product page template is usually in `templates/product.liquid`.
+Product recommendations can be added to the following pages:
+
+- Product page
+- Category page
+- Search page
+- Cart page
+- 404 page
+
+To get started:
+
+1. Head to your theme code editor, Click on `Online Store` on your side bar, click on the `Actions` button and select `Edit code`.
+
+2. Type the name of the template you want to edit, below is an example of editing the product template.
 
 ![Finding product.liquid](./images/find_template.png)
 
-Then paste a special tag near the end of your template, where you want DataCue to insert the product recommendations:
+3. Insert this snippet where you want to insert the product recommendations. You can move it up / down as you like till you're happy with the position.
 
 ```html
 <div data-dc-products></div>
@@ -119,7 +131,7 @@ Then paste a special tag near the end of your template, where you want DataCue t
 
 ![Add product recommendations to product page](./images/shopify_add_code_product_page.gif)
 
-**Advanced positioning**
+#### Advanced positioning
 
 You can also place each product recommendation in different parts of your product page. Just modify the code slightly to tell us what type of recommendation you want and insert the code where you want it to appear.
 

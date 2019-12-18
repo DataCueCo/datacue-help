@@ -116,7 +116,7 @@ Did you know that WooCommerce is a plugin for WordPress? Most features offered b
 
 ### Setup Product Recommendations
 
-**Home page**
+#### Home page
 
 1. Go to the page editor and select your Home page.
 
@@ -128,16 +128,25 @@ Did you know that WooCommerce is a plugin for WordPress? Most features offered b
 
 3. Save your changes and you're done!
 
-**Product page**
+#### Product page and other pages
 
-Customizing your product page requires editing of your theme PHP files. 
-If you're familiar with theme editing, you can find the product page template here: `plugins\woocommerce\templates\single-product\product-image.php`
+    ```php
+    <?php echo do_shortcode( '[datacue-products]' ); ?>
+    ```
 
-add the PHP code where you want to see the product recommendations.
+Include the above PHP to add product recommendations to the following pages:
 
-```php
-<?php echo do_shortcode( '[datacue-products]' ); ?>
-```
+1. Product page
+2. Category page
+3. Search page
+4. Cart page
+5. 404 page
+
+This may require editing of your theme PHP files. For instance the product page template is usually found here: `plugins\woocommerce\templates\single-product\product-image.php`
+
+Don't worry, you can activate / deactivate different types of recommendations for each page from your DataCue dashboard. 
+
+For e.g. you can tell us to only show recently viewed products on the 404 page, but related products and similar products on the product page with just a click.
 
 ### Match widgets to your theme
 
