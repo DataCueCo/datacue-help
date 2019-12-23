@@ -3,7 +3,7 @@ filter: advanced
 summary: Haz tus propios diseños personalizados de banners y notificaciones.
 ---
 
-# Diseña tu propio estilo de banners
+# Diseña tu propio estilo en banners y notificaciones
 
 ## Banners
 
