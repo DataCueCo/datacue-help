@@ -116,7 +116,7 @@ Did you know that WooCommerce is a plugin for WordPress? Most features offered b
 
 ### Setup Product Recommendations
 
-**Home page**
+#### Home page
 
 1. Go to the page editor and select your Home page.
 
@@ -128,31 +128,38 @@ Did you know that WooCommerce is a plugin for WordPress? Most features offered b
 
 3. Save your changes and you're done!
 
-**Product page**
+#### Product page and other pages
 
-Customizing your product page requires editing of your theme PHP files. 
-If you're familiar with theme editing, you can find the product page template here: `plugins\woocommerce\templates\single-product\product-image.php`
+    ```php
+    <?php echo do_shortcode( '[datacue-products]' ); ?>
+    ```
 
-add the PHP code where you want to see the product recommendations.
+Include the above PHP to add product recommendations to the following pages:
 
-```php
-<?php echo do_shortcode( '[datacue-products]' ); ?>
-```
+1. Product page
+2. Category page
+3. Search page
+4. Cart page
+5. 404 page
+
+This may require editing of your theme PHP files. For instance the product page template is usually found here: `plugins\woocommerce\templates\single-product\product-image.php`
+
+Don't worry, you can activate / deactivate different types of recommendations for each page from your DataCue dashboard. 
+
+For e.g. you can tell us to only show recently viewed products on the 404 page, but related products and similar products on the product page with just a click.
 
 ### Match widgets to your theme
 
-DataCue's product carousels have a default design which will need some adjustments to match the look/feel of your store. This is really important so nothing looks out of place.
+DataCue's product recommendations have a default design which will need some adjustments to match the look/feel of your store. This is really important so nothing looks out of place.
 
-**Test mode**
+### Customize recommendations look/feel
 
-The first thing you should do is set DataCue into test mode. In test mode, you can pick a list of user accounts as test users. To see the recommendations, you have to sign in as a test user to your store. All other visitors don't see any changes. This is very helpful to play with the design till you're happy with the look/feel.
+#### 1. Friendly design editor
 
-You will need to know a little CSS to match the design, so there are two options
+You can customize most of the look/feel of the product sections yourself with our super easy design editor. Just play with the settings till the preview looks good to you and save your changes.
 
-**1. Let us help you (recommended)**
+![Design editor tool](./images/design-editor.png)
 
-When you sign up, we'll get in touch with you and offer to help you with setting up your store.
+#### 2. Advanced designs with CSS
 
-**2. Do it yourself**
-
-Feel free to reach out if you need any help.
+If you want to make advanced changes, feel free to use CSS directly. We've made all the elements within the product recommendation widget accessible with unique class names.

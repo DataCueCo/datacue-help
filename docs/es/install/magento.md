@@ -128,18 +128,27 @@ Hey...¿Quieres construir tu propia disposición de banners? [Lee esto](#custom-
 
 ## Paso 3: adapta tus recomendaciones a tu propio diseño
 
-Los carruseles de productos DataCue tienen un diseño por defecto. Pueden necesitar algunos ajustes para asimilarse al look/feel de tu tienda. Esto es muy importante, para que nada parezca fuera de lugar.
+Los carruseles de producto DataCue vienen con un diseño por defecto, que puedes querer cambiar para que se asemeje al look de tu sitio. Esto es muy importante, pues la idea es que nada parezca fuera de lugar.
 
-#### Modo de prueba
+### Modo de prueba
 
-Lo primero, será llevar a DataCue a su modo de prueba o test. En este modo, puedes elegir a una lista de usuarios como usuarios de prueba. Ellos verán las recomendaciones, si inician sesión en la tienda. Los demás usuarios no verán ningún cambio en tu sitio aún. Esto es útil para jugar con el diseño hasta que estés satisfecho con tu trabajo.
+Lo primero que debes hacer ahora es poner DataCue en su modo de prueba. Esto te permite elegir una lista de cuentas (usuarios) que verán las recomendaciones DataCue, mientras el resto de tus visitas no verá cambios aún. Para ver las recomendaciones, los usuarios de prueba deberán iniciar sesión en tu sitio.
 
-**Personaliza el diseño**
+Esto es muy útil para que juegues con el diseño, hasta que sientas que tu sitio está listo para salir en vivo. Para aprender a configurar DataCue en modo de prueba, haz clic en [aquí](/es/install/testmode.html#establecer-datacue-en-modo-de-prueba)
 
-Tienes dos alternativas para esto. Primero, para ajustar al diseño de tu tienda de manera básica, cuentas con una amigable herramienta que estará disponible en tu panel de control DataCue. Puedes acceder a ella en la sección Configuración > Productos.
+### Personaliza el diseño
 
-Segundo, si lo que quieres es realizar cambios avanzados, puedes hacer los ajustes que necesites con CSS.
+Tienes dos alternativas para esto:
 
+#### 1. Una amigable herramienta para ajustar al diseño
+
+Puedes ajustar al diseño de tu tienda facilmente con una amigable herramienta. Puedes acceder a ella en tu panel de control DataCue en la sección `Configuración > Productos`.
+
+![Encontrar el product.liquid](./images/design-editor.png)
+
+#### 2. CSS para cambios avanzados
+
+Si lo que quieres es realizar cambios avanzados, puedes hacer los ajustes que necesites con CSS.
 
 ## Desactiva o desinstala el módulo
 

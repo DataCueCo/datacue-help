@@ -14,7 +14,7 @@ Si en algún paso estás confundido, contáctanos usando el correo de soporte de
 
 ### Antes de comenzar
 
-Aquí hay un par de cosas que debes saber antes de instalar el plugin. 
+Aquí hay un par de cosas que debes saber antes de instalar el plugin.
 
 - Debes tener el **plugin de WooCommerce instalado y activo en WordPress**.
 
@@ -52,7 +52,7 @@ Aquí hay un par de cosas que debes saber antes de instalar el plugin.
     ![Credenciales de la API para WooCommerce](./images/woocommerce-enter-api-creds.gif)
 
     ::: tip Tip
-    Si por algún motivo no ves tu Key y Secret de la API en esta pantalla, no te preocupes. Puedes acceder a ella al hacer click en el nombre de tu tienda web, arriba a la derecha, cuando seleccionas "Desarrollador" en el menú.
+    Si por algún motivo no ves tu Clave y Secreto de la API en esta pantalla, no te preocupes. Puedes acceder a ella, yendo a `Configuración > Desarrollador` arriba en tu panel de control de DataCue
     :::
 
 5. Dependiendo del tamaño de tu tienda, el proceso de sincronización tomará entre un par de minutos y unas pocas horas. Puedes hacer seguimiento al proceso al ir a la pestaña de "sincronización". 
@@ -65,7 +65,6 @@ DataCue usa "códigos cortos" para ayudarte a agregar rápidamente banners diná
 ::: tip Tip
 OK, en realidad no es un tip, ya sabes que WooCommerce es un plugin para WordPress... Por eso, gran parte de las funcionalidades que ofrece WordPress pueden usarse en WooCommerce, como códigos cortos. 
 :::
-
 
 ### Banners
 
@@ -96,7 +95,7 @@ OK, en realidad no es un tip, ya sabes que WooCommerce es un plugin para WordPre
 
 ### Configura recomendaciones de producto
 
-**Página de Inicio**
+#### Página de inicio
 
 1. Ve al editor de páginas y selecciona tu página de Inicio. 
 
@@ -108,30 +107,47 @@ OK, en realidad no es un tip, ya sabes que WooCommerce es un plugin para WordPre
 
 3. Guarda tus cambios. ¡Listo!
 
-**Página de Producto**
-
-Para personalizar tu página de producto, debes editar los archivos PHP de tus temas. 
-Si estás familiarizado con edición de temas, puedes encontrar el template de página de producto aquí: `Plugins\WooCommerce\Templates\Single-product\Product-image.php`
-
-agrega el código PHP a donde quieras situar las recomendaciones de producto. 
+#### Página de producto y otras páginas
 
 ```php
 <?php echo do_shortcode( '[datacue-products]' ); ?>
 ```
 
+Incluye el código PHP de arriba para agregar recomendaciones de producto a la siguientes páginas:
+
+1. Página de producto
+2. Página de categoría
+3. Página de búsqueda
+4. Página de carrito
+5. Página de Error 404
+
+El tipo de recomendación de producto que verás en cada página, lo puedes activar o desactivar desde tu panel de control DataCue.
+
+Ejemplo: Tal vez solo quieres mostrar "Productos recientemente vistos" en tu página de error 404, pero en otra página, activar "Productos Similares" y "Relacionados". ¡Todo esto lo haces con solo unos clicks!
+
 ## Paso 3: Adapta el estilo a tu tema
 
-Los productos recomendados DataCue vienen en un formato que puede no combinar con el diseño de tu sitio. Necesitas hacer algunos ajustes para lograr que todo se vea en orden. 
+Los carruseles de producto DataCue vienen con un diseño por defecto, que puedes querer cambiar para que se asemeje al look de tu sitio. Esto es muy importante, pues la idea es que nada parezca fuera de lugar.
 
-**Modo de prueba**
+### Modo de prueba
 
-Para esto, lo primero que debes hacer es dejar DataCue en modo de prueba. En este modo, puedes elegir un número de usuarios que sean tus usuarios de prueba. Solo ellos verán las recomendaciones, cuando inicien sesión en tu sitio web. El resto de los usuarios no verá cambios. Esto es muy útil para que juegues con el diseño de las recomendaciones DataCue, hasta que estés conforme para salir en vivo. 
+Lo primero que debes hacer ahora es poner DataCue en su modo de prueba. Esto te permite elegir una lista de cuentas (usuarios) que verán las recomendaciones DataCue, mientras el resto de tus visitas no verá cambios aún. Para ver las recomendaciones, los usuarios de prueba deberán iniciar sesión en tu sitio.
 
-**Personaliza el diseño**
+Esto es muy útil para que juegues con el diseño, hasta que sientas que tu sitio está listo para salir en vivo. Para aprender a configurar DataCue en modo de prueba, haz clic en [aquí](/es/install/testmode.html#establecer-datacue-en-modo-de-prueba)
 
-Tienes dos alternativas para esto. Primero, para ajustar al diseño de tu tienda de manera básica, cuentas con una amigable herramienta que estará disponible en tu panel de control DataCue. Puedes acceder a ella en la sección Configuración > Productos.
+### Personaliza el diseño
 
-Segundo, si lo que quieres es realizar cambios avanzados, puedes hacer los ajustes que necesites con CSS.
+Tienes dos alternativas para esto:
+
+#### 1. Una amigable herramienta para ajustar al diseño
+
+Puedes ajustar al diseño de tu tienda facilmente con una amigable herramienta. Puedes acceder a ella en tu panel de control DataCue en la sección `Configuración > Productos`.
+
+![Encontrar el product.liquid](./images/design-editor.png)
+
+#### 2. CSS para cambios avanzados
+
+Si lo que quieres es realizar cambios avanzados, puedes hacer los ajustes que necesites con CSS.
 
 ## Desactiva o elimina el plugin
 

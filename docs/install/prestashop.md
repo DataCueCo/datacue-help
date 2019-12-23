@@ -18,7 +18,7 @@ Just reach out to us using the support email in your PrestaShop admin panel and 
 
 Here are some things to know before you begin the integration process.
 
-- The DataCue module for PrestaShop requires at least **PrestaShop 1.7.4 or higher**.
+- The DataCue module for PrestaShop requires at least **PrestaShop 1.7.0 or higher**.
 
 - Please test this plugin in a staging environment **first** before installing it on production servers. Modules may sometimes affect each other, and the last place you want to discover this is on your live site. Ideally, your staging environment is a clone of your actual production site.
 
@@ -31,7 +31,13 @@ Depending on your countries privacy laws, you may need to explicitly get permiss
 
 ### Installing the module
 
-1. PrestaShop is in private beta [contact us](https://datacue.co/contact) to get the installer.
+1. Download the module
+
+    <Button link="https://cdn.datacue.co/assets/integrations/datacue-prestashop-latest.zip" text="Download"/>
+
+    ::: tip
+    Safari on Mac OS X may sometimes auto expand your ZIP file into a folder. You may wish to use another browser if this happens. Alternatively, you can disable the `Open "safe" files after downloading` option in Safari preferences.
+    :::
 
 2. Install the module from your PrestaShop Admin panel by clicking on `Modules Manager > Upload a Module`. Select the ZIP file of the DataCue installer.
 
@@ -90,7 +96,7 @@ To disable DataCue for PrestaShop, follow these steps.
 
 ### Setup Product Recommendations
 
-**Home page**
+#### Home page
 
 Insert the following html in your `index.tpl` file:
 
@@ -98,28 +104,36 @@ Insert the following html in your `index.tpl` file:
 <div data-dc-products></div>
 ```
 
-**Product page**
-
-Insert the following html in your `product.tpl` file:
+#### Product page and other pages
 
 ```html
 <div data-dc-products></div>
 ```
 
+Include the above HTML to add product recommendations to the following pages:
+
+1. Product page
+2. Category page
+3. Search page
+4. Cart page
+5. 404 page
+
+Don't worry, you can activate / deactivate different types of recommendations for each page from your DataCue dashboard.
+
+For e.g. you can tell us to only show recently viewed products on the 404 page, but related products and similar products on the product page with just a click.
+
 ### Match widgets to your theme
 
-DataCue's product carousels have a default design which will need some adjustments to match the look/feel of your store. This is really important so nothing looks out of place.
+DataCue's product recommendations have a default design which will need some adjustments to match the look/feel of your store. This is really important so nothing looks out of place.
 
-**Test mode**
+### Customize recommendations look/feel
 
-The first thing you should do is set DataCue into test mode. In test mode, you can pick a list of user accounts as test users. To see the recommendations, you have to sign in as a test user to your store. All other visitors don't see any changes. This is very helpful to play with the design till you're happy with the look/feel.
+#### 1. Friendly design editor
 
-You will need to know a little CSS to match the design, so there are two options
+You can customize most of the look/feel of the product sections yourself with our super easy design editor. Just play with the settings till the preview looks good to you and save your changes.
 
-**1. Let us help you (recommended)**
+![Design editor tool](./images/design-editor.png)
 
-When you sign up, we'll get in touch with you and offer to help you with setting up your store.
+#### 2. Advanced designs with CSS
 
-**2. Do it yourself**
-
-Feel free to reach out if you need any help.
+If you want to make advanced changes, feel free to use CSS directly. We've made all the elements within the product recommendation widget accessible with unique class names.

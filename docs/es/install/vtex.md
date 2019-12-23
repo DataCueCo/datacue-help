@@ -146,18 +146,27 @@ Puedes desplegar recomendaciones de producto en las páginas de Inicio, Producto
 
 ## Paso 3: Adecúa el diseño
 
-Las grillas de productos DataCue tienen un diseño por defecto, que necesitará un par de ajustes para que quede igual al diseño de tu tienda. Esto es muy importante para que nada parezca fuera de lugar. Puedes recurrir a lo siguiente para hacer estos ajustes.
+Los carruseles de producto DataCue vienen con un diseño por defecto, que puedes querer cambiar para que se asemeje al look de tu sitio. Esto es muy importante, pues la idea es que nada parezca fuera de lugar.
 
-**Modo de Prueba**
+### Modo de prueba
 
-Lo primero será poner DataCue en su modo de Prueba. Este modo te permite elegir a algunos usuarios que serán usuarios de prueba. Si estos inician sesión en el sitio, solo ellos verán las recomendaciones DataCue, mientras los demás usuarios no verán cambios. Esto es útil para que juegues con el diseño de las recomendaciones hasta que estés satisfecho con su look. 
+Lo primero que debes hacer ahora es poner DataCue en su modo de prueba. Esto te permite elegir una lista de cuentas (usuarios) que verán las recomendaciones DataCue, mientras el resto de tus visitas no verá cambios aún. Para ver las recomendaciones, los usuarios de prueba deberán iniciar sesión en tu sitio.
 
-**Personaliza el diseño**
+Esto es muy útil para que juegues con el diseño, hasta que sientas que tu sitio está listo para salir en vivo. Para aprender a configurar DataCue en modo de prueba, haz clic en [aquí](/es/install/testmode.html#establecer-datacue-en-modo-de-prueba)
 
-Tienes dos alternativas para esto. Primero, para ajustar al diseño de tu tienda de manera básica, cuentas con una amigable herramienta que estará disponible en tu panel de control DataCue. Puedes acceder a ella en la sección Configuración > Productos.
+### Personaliza el diseño
 
-Segundo, si lo que quieres es realizar cambios avanzados, puedes hacer los ajustes que necesites con CSS.
+Tienes dos alternativas para esto:
 
+#### 1. Una amigable herramienta para ajustar al diseño
+
+Puedes ajustar al diseño de tu tienda facilmente con una amigable herramienta. Puedes acceder a ella en tu panel de control DataCue en la sección `Configuración > Productos`.
+
+![Encontrar el product.liquid](./images/design-editor.png)
+
+#### 2. CSS para cambios avanzados
+
+Si lo que quieres es realizar cambios avanzados, puedes hacer los ajustes que necesites con CSS.
 
 ## Desconecta o desinstala el módulo 
 

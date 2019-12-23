@@ -14,7 +14,7 @@ Si en algún paso estás confundido, contáctanos usando el mail de soporte desd
 
 Hay un par de cosas que debes saber antes de comenzar tu proceso de integración. 
 
-- El módulo DataCue para PrestaShop requiere la versión **PrestaShop 1.7.4 o superior**.
+- El módulo DataCue para PrestaShop requiere la versión **PrestaShop 1.7.0 o superior**.
 
 - Por favor, prueba este plugin en un ambiente de prueba o "staging", **antes** de instalar en tu servidor de producción. Algunas veces los módulos peuden afectarse unos a otros, y no queremos descubrirlo en vivo en tu sitio web. Idealmente, tu zona de prueba será un clon de tu actual sitio web de producción. 
 
@@ -27,7 +27,13 @@ Hay un par de cosas que debes saber antes de comenzar tu proceso de integración
 
 ## Paso 1: Instalando el módulo
 
-1. Puedes descargar el instalador DataCue para PrestaShop en este [link](https://cdn.datacue.co/assets/integrations/datacue-prestashop-latest.zip). 
+1. Descarga el modulo
+
+    <Button link="https://cdn.datacue.co/assets/integrations/datacue-prestashop-latest.zip" text="Download"/>
+
+    ::: tip Tip
+    Safari en Mac OS X puede expandir automáticamente tu archivo ZIP a una carpeta. Si es el caso, puedse preferir usar otro navegador. O bien, puedes deshabilitar la opción `Abrir archivos "seguros" tras la descarga`  en tus preferencias de Safari.
+    :::
 
 2. Instala el módulo desde tu panel de control de PrestaShop al hacer click en `Administración de módulos > Subir un módulo`. Selecciona el archivo ZIP del instalador DataCue. 
 
@@ -38,7 +44,7 @@ Hay un par de cosas que debes saber antes de comenzar tu proceso de integración
 4. Ingresa el usuario y clave de la API (API Key and Secret) proporcionados por DataCue. Presiona "guardar" para conectar tu tienda con DataCue. Encontrarás la Key y Secret en la primera pantalla cuando inicies sesión en tu [Panel de Control DataCue](https://app.datacue.co). 
 
     ::: tip Tip
-    Si por algún motivo no ves tu Key y Secret de la API en esta pantalla, no te preocupes. Puedes acceder a ella al hacer click en el nombre de tu tienda web, arriba a la derecha, cuando seleccionas "Desarrollador" en el menú.
+    Si por algún motivo no ves tu Clave y Secreto de la API en esta pantalla, no te preocupes. Puedes acceder a ella, yendo a `Configuración > Desarrollador` arriba en tu panel de control de DataCue.
     :::
     
 5. Dependiendo del tamaño de tu tienda, el proceso de sincronización tomará entre un par de minutos y unas pocas horas. Puedes hacer seguimiento al proceso al ir a la pestaña de "sincronización". 
@@ -65,7 +71,7 @@ Hay un par de cosas que debes saber antes de comenzar tu proceso de integración
     `static-img` es la URL de la imagen que subiste en el punto 1 (banner estático). 
     `static-link` es el link usado al que se envía el usuario cuando hace click en este banner. Pon una URL apropiada. Por lo general, es una página de categoría. 
 
-3. El diseño que DataCue usa por defecto para los banners, muestra dos banners dinámicos y uno estático en una misma fila. Puedes cambiar esto si quieres, yenod a `Configuración > Banners` en tu panel de control DataCue. Lee más sobre esto [aquí](/banners/layout.html). Alternativamente, descubre cómo construir tu propia gilla de banners en [diseño personalizado](#custom-layout).
+3. El diseño que DataCue usa por defecto para los banners, muestra dos banners dinámicos y uno estático en una misma fila. Puedes cambiar esto si quieres, yendo a `Configuración > Banners` en tu panel de control DataCue. Lee más sobre esto [aquí](/banners/layout.html). Alternativamente, descubre cómo construir tu propia gilla de banners en [diseño personalizado](#custom-layout).
 
 #### Cambia tu banner estático
 
@@ -75,7 +81,7 @@ Hay un par de cosas que debes saber antes de comenzar tu proceso de integración
 
 ### Setear recomendaciones de producto
 
-**Página de Inicio**
+#### Página de inicio
 
 Inserta el siguiente HTML en tu documento `index.tpl`:
 
@@ -83,28 +89,47 @@ Inserta el siguiente HTML en tu documento `index.tpl`:
 <div data-dc-products></div>
 ```
 
-**Página de Producto**
-
-Inserta el siguiente HTML en tu documento `product.tpl`:
+#### Página de producto y otras páginas
 
 ```html
 <div data-dc-products></div>
 ```
 
+Incluye el código HTML de arriba para agregar recomendaciones de producto a la siguientes páginas:
+
+1. Página de producto
+2. Página de categoría
+3. Página de búsqueda
+4. Página de carrito
+5. Página de Error 404
+
+El tipo de recomendación de producto que verás en cada página, lo puedes activar o desactivar desde tu panel de control DataCue.
+
+Ejemplo: Tal vez solo quieres mostrar "Productos recientemente vistos" en tu página de error 404, pero en otra página, activar "Productos Similares" y "Relacionados". ¡Todo esto lo haces con solo unos clicks!
+
 ## Paso 3: Adapta a tu estilo
 
-Los carruseles de producto de DataCue vienen en un estilo determinado, por lo que querrás hacerle algunos ajustes para adaptarlo al estilo de tu tienda. ¡Esto es muy importante!, para que nada parezca fuera de lugar.
+Los carruseles de producto DataCue vienen con un diseño por defecto, que puedes querer cambiar para que se asemeje al look de tu sitio. Esto es muy importante, pues la idea es que nada parezca fuera de lugar.
 
-**Modo de prueba**
+### Modo de prueba
 
-Lo primero que puedes hacer es setear DataCue en su Modo de Prueba. Este modo te permite tener una lista de usuarios que pueden ver cómo quedaría tu web usando DataCue, mientras el resto del público verá tu web como antes. Estos usuarios con permiso deben iniciar sesión en tu sitio para ver el modo de prueba. Los demás visitantes no verán ningún cambio. Esto te permite jugar con el diseño DataCue hasta que te parezca que está perfecto para salir en vivo. 
+Lo primero que debes hacer ahora es poner DataCue en su modo de prueba. Esto te permite elegir una lista de cuentas (usuarios) que verán las recomendaciones DataCue, mientras el resto de tus visitas no verá cambios aún. Para ver las recomendaciones, los usuarios de prueba deberán iniciar sesión en tu sitio.
 
-**Personaliza el diseño**
+Esto es muy útil para que juegues con el diseño, hasta que sientas que tu sitio está listo para salir en vivo. Para aprender a configurar DataCue en modo de prueba, haz clic en [aquí](/es/install/testmode.html#establecer-datacue-en-modo-de-prueba)
 
-Tienes dos alternativas para esto. Primero, para ajustar al diseño de tu tienda de manera básica, cuentas con una amigable herramienta que estará disponible en tu panel de control DataCue. Puedes acceder a ella en la sección Configuración > Productos.
+### Personaliza el diseño
 
-Segundo, si lo que quieres es realizar cambios avanzados, puedes hacer los ajustes que necesites con CSS. 
+Tienes dos alternativas para esto:
 
+#### 1. Una amigable herramienta para ajustar al diseño
+
+Puedes ajustar al diseño de tu tienda facilmente con una amigable herramienta. Puedes acceder a ella en tu panel de control DataCue en la sección `Configuración > Productos`.
+
+![Encontrar el product.liquid](./images/design-editor.png)
+
+#### 2. CSS para cambios avanzados
+
+Si lo que quieres es realizar cambios avanzados, puedes hacer los ajustes que necesites con CSS.
 
 ## Deshabilita o desinstala el módulo 
 
