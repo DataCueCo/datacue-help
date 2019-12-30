@@ -141,9 +141,10 @@ Por otro lado, DataCue te permite tener contenido útil. Desde tu Panel de Contr
 
 En el menú izquierdo de tu Panel, ve a la sección Banners. Inmediatamente verás tus banners ordenados por tamaño (Ancho o Angosto) si ya los subiste. 
 
-- Puedes ordenar tus banners por Vistas, Clicks o Puntuación. La puntuación estará calculada en base a las conversiones del banner, es decir, compras a partir de clicks. 
+- Puedes ordenar tus banners por Vistas, Clicks o Puntuación. La puntuación estará calculada en base a los datos del banner (vistas, clicks y conversiones). También puedes elegir una fecha para la que quieras ver los datos de vistas, clicks y conversiones.
+Debes saber que la puntuación de un banner toma los datos históricos de toda la vida del banner, ¡independiente de la fecha que estés observando!
 - Verás íconos bajo el banner que serán recomendaciones a tomar, por ejemplo, cambiar un banner que no está desempeñándose bien. Sabrás cuáles son tus banners más exitosos en cada momento.
 
 ::: tip Tip
-No solo obtendrás estos datos desde tu Panel de Control. Nos aseguraremos de que observes tu rendimiento, por lo que te enviaremos semanalmente un correo con tus banners y productos más y menos populares, y consejos para mejorar. 
+No solo obtendrás estos datos desde tu Panel de Control. Nos aseguraremos de que observes tu rendimiento semanalmente, por lo que te enviaremos un correo con tus banners y productos más y menos populares, y consejos para mejorar. 
 :::
