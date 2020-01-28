@@ -12,20 +12,22 @@ DataCue can show personalized notifications to a user if a product they looked a
 - Back in stock
 - On discount
 
+  ![Banner Sidebar](./images/notifications-widget.png)
+
 ## Quick Start
 
 1. Login to your dashboard and click on Notifications.
-2. Customize the settings as you like (see next chapter for a description) or leave the defaults as is - that's it!
+2. Customize the settings as you like and you're done
 
 ## Customization
 
-You can customize three settings in your notifications panel:
+You can customize two settings in your notifications panel:
+
+![Banner Settings](./images/notifications-settings.png)
 
 1. **Notification bell position**: you can pick between top left, top right, bottom left or bottom right. (See the [next topic](#advanced-positioning) for a more advanced method)
 
 2. **Pane color**: pick a panel color to match your website's colors. If you're a developer, feel free to override the CSS we use to make more advanced design changes.
-
-3. **Language**: select the language between English and Spanish to match your website. If you have a request for another language, let us know!
 
 ## Advanced Positioning
 
