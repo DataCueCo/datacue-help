@@ -16,7 +16,7 @@ Just reach out to us using the support email in your Magento admin panel and we'
 This module is ONLY for Magento 2.3 and higher. Magento 2 users should upgrade their systems. If you're on Magento 1, please refer to our [API documentation](https://developer.datacue.co) to integrate.
 :::
 
-## Installation
+## Step 1: Installation
 
 ### Before You Start
 
@@ -32,7 +32,7 @@ Here are some things to know before you begin the integration process.
 
 Depending on your countries privacy laws, you may need to explicitly get permission from the user to use content personalization. Please consult with legal counsel if you're in any doubt.
 
-### Step 1: Installing the module
+### Installing the module
 
 1. Go to the root directory of your Magento installation.
 
@@ -112,7 +112,7 @@ The default layout DataCue uses for your banners shows 2 dynamic banners and 1 s
 
 Want to build your own custom layout? [read this](#custom-layout).
 
-#### Changing your static banner later
+#### Changing your static banner
 
 1. Upload a new image to your server and copy the URL. Ensure the image has an aspect ratio of 5:3 (recommended size is 1200 x 720 px). Update the link for the static banner if necessary.
 
@@ -128,9 +128,13 @@ Want to build your own custom layout? [read this](#custom-layout).
 
 4. As soon as product recommendations are ready, you will start seeing them on your site.
 
-### Match widgets to your theme
+## Step 3: Match widgets to your theme
 
 DataCue's product recommendations have a default design which will need some adjustments to match the look/feel of your store. This is really important so nothing looks out of place.
+
+### Test mode
+
+The first thing you should do is set DataCue into test mode from your dashboard. In test mode, you can pick a list of user accounts as test users. To see the recommendations, you have to sign in as a test user to your store. All other visitors don't see any changes. This is very helpful to play with the design till you're happy with the look/feel. To learn how to set DataCue to test mode, click [here](/install/testmode.html)
 
 ### Customize recommendations look/feel
 
@@ -144,7 +148,7 @@ You can customize most of the look/feel of the product sections yourself with ou
 
 If you want to make advanced changes, feel free to use CSS directly. We've made all the elements within the product recommendation widget accessible with unique class names.
 
-### Disable or Uninstall the module
+## Disable or Uninstall the module
 
 When you deactivate and delete DataCue for Magento, we remove all changes made to your store including the Javascript. We also immediately stop syncing any changes to your store data with DataCue. To deactivate DataCue for Magento, follow these steps.
 

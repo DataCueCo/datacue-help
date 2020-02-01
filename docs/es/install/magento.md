@@ -14,7 +14,7 @@ Si en algún paso estás confundido, contáctanos usando el mail de soporte desd
 Esta extensión es solo apta para Magento 2.3. Usuarios en Magento 1 pueden referirse a nuestra [Documentación API](https://developer.datacue.co).
 :::
 
-## Instalación
+## Paso 1: Instalación
 
 ### Antes de comenzar
 
@@ -30,7 +30,7 @@ Aquí hay algunos detalles que debes conocer antes de comenzar la instalación.
 
 - Dependiendo de las leyes de privacidad de tu país, puede que debas solicitar permiso explícito de tu usuario para personalizar su contenido. Por favor, consulta los aspectos legales de tu zona si tienes dudas.
 
-### Paso 1: Instala la extensión
+### Instala la extensión
 
 1. Ve a la raíz del directorio de instalación en Magento.
 
@@ -127,7 +127,7 @@ Hey...¿Quieres construir tu propia disposición de banners? [Lee esto](#custom-
 
 4. Apenas tus recomendaciones se hayan generado, podrás verlas en tu sitio.
 
-## Paso 3: adapta tus recomendaciones a tu propio diseño
+## Paso 3: Adapta tus recomendaciones a tu propio diseño
 
 Los carruseles de producto DataCue vienen con un diseño por defecto, que puedes querer cambiar para que se asemeje al look de tu sitio. Esto es muy importante, pues la idea es que nada parezca fuera de lugar.
 
