@@ -14,7 +14,9 @@ Si en algún paso estás confundido, contáctanos usando el mail de soporte desd
 Esta extensión es solo apta para Magento 2.3. Usuarios en Magento 1 pueden referirse a nuestra [Documentación API](https://developer.datacue.co).
 :::
 
-## Antes de comenzar
+## Instalación
+
+### Antes de comenzar
 
 Aquí hay algunos detalles que debes conocer antes de comenzar la instalación.
 
@@ -28,63 +30,62 @@ Aquí hay algunos detalles que debes conocer antes de comenzar la instalación.
 
 - Dependiendo de las leyes de privacidad de tu país, puede que debas solicitar permiso explícito de tu usuario para personalizar su contenido. Por favor, consulta los aspectos legales de tu zona si tienes dudas.
 
-## Paso 1: Instala la extensión
+### Paso 1: Instala la extensión
 
 1. Ve a la raíz del directorio de instalación en Magento.
 
 2. Corre los siguientes comandos.
 
-    ``` bash
-    # setea Magento en su modo de mantenimiento
-    bin/magento maintenance:enable #si está en modo de producción
-    # instala el módulo
-    composer require datacue/magento_module
-    # activa el módulo
-    bin/magento module:enable --clear-static-content DataCue_MagentoModule
-    bin/magento setup:upgrade
-    bin/magento cache:clean
-    bin/magento setup:di:compile
-    ```
+   ```bash
+   # install the module
+   composer require datacue/magento_module
+   # enable the module
+   bin/magento module:enable --clear-static-content DataCue_MagentoModule
+    # Enable maintenance mode
+   bin/magento maintenance:enable
+   bin/magento setup:upgrade
+   bin/magento cache:clean
+   bin/magento setup:di:compile
+   # deploy static content
+   bin/magento setup:static-content:deploy
+   ```
 
 3. Pasos opcionales (¡pero recomendados!)
 
-    ``` bash
-    # muestra contenido estático
-    bin/magento setup:static-content:deploy en_US #agrega los detalles locales que estés usando, como es_CL
+   ```bash
 
-    # actualiza tus tablas de índice
-    bin/magento indexer:reindex
+   # actualiza tus tablas de índice
+   bin/magento indexer:reindex
 
-    # evita conflictos en caché, con un flush
-    bin/magento cache:flush
-    ```
+   # evita conflictos en caché, con un flush
+   bin/magento cache:flush
+   ```
 
 4. Comprueba que la instalación está OK. Desactiva el modo de mantenimiento.
 
-    ``` bash
-    # Asegúrate de que el módulo esté activo
-    bin/magento module:status DataCue_MagentoModule
+   ```bash
+   # Asegúrate de que el módulo esté activo
+   bin/magento module:status DataCue_MagentoModule
 
-    # Desactiva el módulo de mantenimiento
-    bin/magento maintenance:disable
-    ```
+   # Desactiva el módulo de mantenimiento
+   bin/magento maintenance:disable
+   ```
 
 5. Ingresa a tu panel de administrador de Magento. Encontrarás un link, llamado DataCue Settings, debajo de la sección de Marketing. Haz click en él.
 
-    ![Panel de administrador DataCue](./images/magento_panel.png)
+   ![Panel de administrador DataCue](./images/magento_panel.png)
 
 6. Ingresa tu API key y API secret (encontrarás ambas en tu panel de control DataCue) y haz click en Guardar.
 
-    Dependiendo del tamaño de tu tienda, el proceso de sincronización variará entre unos pocos minutos y unas pocas horas.
+   Dependiendo del tamaño de tu tienda, el proceso de sincronización variará entre unos pocos minutos y unas pocas horas.
 
-    :::tip Tip
-    ¿No tienes una cuenta DataCue? [Regístrate aquí](https://app.datacue.co/en/sign-up)
-    :::
+   :::tip Tip
+   ¿No tienes una cuenta DataCue? [Regístrate aquí](https://app.datacue.co/en/sign-up)
+   :::
 
 #### Soluciona problemas
 
 El asunto más común que puede surgir se debe a permisos incorrectos. Asegúrate de que todas las carpetas importantes, como `generated`, `pub` y `vendor` tengan los mismos permisos que el usuario Magento.
-
 
 ## Paso 2: Agrega recomendaciones
 
@@ -92,7 +93,7 @@ El asunto más común que puede surgir se debe a permisos incorrectos. Asegúrat
 
 1. Sube un banner fijo que será visto por todas tus visitas, independiente de su comportamiento. Asegúrate de que tenga una URL de acceso público, pues la necesitarás luego.
 
-    Si no sabes qué imagen elegir, selecciona tu colección más popular, o una promoción del momento. Asegúrate de que la imagen tenga una relación de aspecto de 5:3 (el tamaño ideal es 1200 x 720 px). Aprende más sobre este banner estático [aquí](/banners).
+   Si no sabes qué imagen elegir, selecciona tu colección más popular, o una promoción del momento. Asegúrate de que la imagen tenga una relación de aspecto de 5:3 (el tamaño ideal es 1200 x 720 px). Aprende más sobre este banner estático [aquí](/banners).
 
 2. Haz click en el menú izquierdo, en `Contenido`.
 
@@ -112,7 +113,7 @@ Hey...¿Quieres construir tu propia disposición de banners? [Lee esto](#custom-
 
 #### Cambia tu banner estático
 
-1. Sube una nueva imagen a tu servidor y copia su URL.  a new image to your server and copy the URL. Asegúrate de que la imagen tenga una relación de aspecto de 5:3 (el tamaño ideal es 1200 x 720 px). Actualiza el link, si es necesario.
+1. Sube una nueva imagen a tu servidor y copia su URL. a new image to your server and copy the URL. Asegúrate de que la imagen tenga una relación de aspecto de 5:3 (el tamaño ideal es 1200 x 720 px). Actualiza el link, si es necesario.
 
 2. Edita el `bloque` o `página` donde insertaste el widget para el banner. Edita la URL para que corresponda a la nueva imagen y el `link` como corresponda.
 
@@ -158,22 +159,22 @@ Para desactivar DataCue de Magento, sigue estos pasos.
 
 1. Ve a la raíz del directorio para Magento.
 
-    ``` bash
-    bin/magento module:disable --clear-static-content DataCue_MagentoModule
+   ```bash
+   bin/magento module:disable --clear-static-content DataCue_MagentoModule
 
-    bin/magento module:uninstall --clear-static-content DataCue_MagentoModule
+   bin/magento module:uninstall --clear-static-content DataCue_MagentoModule
 
-    bin/magento setup:di:compile
-    ```
+   bin/magento setup:di:compile
+   ```
 
 2. Puede que debas cambiar los permisos o el dueño de los archivos generados, tras la desinstalación.
 
 3. Confirma que el módulo haya sido eliminado.
 
-    ``` bash
-    bin/magento module:status DataCue_MagentoModule
-    ```
+   ```bash
+   bin/magento module:status DataCue_MagentoModule
+   ```
 
 **¿Dudas?**
 
-¡[Contáctanos](https://datacue.co/contact) si necesitas apoyo! 
+¡[Contáctanos](https://datacue.co/contact) si necesitas apoyo!

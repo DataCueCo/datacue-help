@@ -32,92 +32,69 @@ Here are some things to know before you begin the integration process.
 
 Depending on your countries privacy laws, you may need to explicitly get permission from the user to use content personalization. Please consult with legal counsel if you're in any doubt.
 
-### Installing the module
+### Step 1: Installing the module
 
 1. Go to the root directory of your Magento installation.
 
 2. Run the following commands
 
-    ``` bash
-    # set Magento to maintenance mode
-    bin/magento maintenance:enable #if in production mode
-    # install the module
-    composer require datacue/magento_module
-    # enable the module
-    bin/magento module:enable --clear-static-content DataCue_MagentoModule
-    bin/magento setup:upgrade
-    bin/magento cache:clean
-    bin/magento setup:di:compile
-    ```
+   ```bash
+   # install the module
+   composer require datacue/magento_module
+   # enable the module
+   bin/magento module:enable --clear-static-content DataCue_MagentoModule
+    # Enable maintenance mode
+   bin/magento maintenance:enable
+   bin/magento setup:upgrade
+   bin/magento cache:clean
+   bin/magento setup:di:compile
+   # deploy static content
+   bin/magento setup:static-content:deploy
+   ```
 
 3. Optional but recommended steps
 
-    ``` bash
-    # deploy static content
-    bin/magento setup:static-content:deploy en_US #add all locales you're using here like es_CL
+   ```bash
+   # update your index tables
+   bin/magento indexer:reindex
 
-    # update your index tables
-    bin/magento indexer:reindex
-
-    # avoid cache conflicts by doing a flush
-    bin/magento cache:flush
-    ```
+   # avoid cache conflicts by doing a flush
+   bin/magento cache:flush
+   ```
 
 4. Check that installation is OK and disable maintenance mode
 
-    ``` bash
-    # Make sure the module is enabled.
-    bin/magento module:status DataCue_MagentoModule
+   ```bash
+   # Make sure the module is enabled.
+   bin/magento module:status DataCue_MagentoModule
 
-    # Disable maintenance mode
-    bin/magento maintenance:disable
-    ```
+   # Disable maintenance mode
+   bin/magento maintenance:disable
+   ```
 
 5. Login to your Magento store's admin panel. You will find a link called DataCue Settings under the Marketing section. Click on it.
 
-    ![DataCue Admin Panel](./images/magento_panel.png)
+   ![DataCue Admin Panel](./images/magento_panel.png)
 
 6. Enter your API key and API secret (you can find it on your dashboard) and press Save.
 
-    Depending on the size of your store the sync process can take a few mins to a few hours.
+   Depending on the size of your store the sync process can take a few mins to a few hours.
 
-    :::tip Tip
-    Don't have a DataCue account? [sign up here](https://app.datacue.co/en/sign-up)
-    :::
+   :::tip Tip
+   Don't have a DataCue account? [sign up here](https://app.datacue.co/en/sign-up)
+   :::
 
 #### Troubleshooting
 
 The most common issue is due to incorrect file permissions. Make sure all the important folders like `generated`, `pub` and `vendor` have the same permissions as the magento user.
 
-### Disable or Uninstall the module
-
-When you deactivate and delete DataCue for Magento, we remove all changes made to your store including the Javascript. We also immediately stop syncing any changes to your store data with DataCue. To deactivate DataCue for Magento, follow these steps.
-
-1. Go to the root directory of Magento.
-
-    ``` bash
-    bin/magento module:disable --clear-static-content DataCue_MagentoModule
-
-    bin/magento module:uninstall --clear-static-content DataCue_MagentoModule
-
-    bin/magento setup:di:compile
-    ```
-
-2. You may need to change file permissions or ownership of the generated files after the uninstallation.
-
-3. Confirm the module is now deleted.
-
-    ``` bash
-    bin/magento module:status DataCue_MagentoModule
-    ```
-
-## Add recommendations
+## Step 2: Add recommendations
 
 ### Banners
 
 1. Upload a fixed banner that all your visitors see. Make sure it has a publicly accessible URL, you'll need it later.
 
-    If you're unsure, pick a banner to highlight your most popular collection or a promotion. Ensure the image has an aspect ratio of 5:3 (recommended size is 1200 x 720 px). Learn more about static banners [here](/banners).
+   If you're unsure, pick a banner to highlight your most popular collection or a promotion. Ensure the image has an aspect ratio of 5:3 (recommended size is 1200 x 720 px). Learn more about static banners [here](/banners).
 
 2. Click `Content` on your left side bar.
 
@@ -166,3 +143,25 @@ You can customize most of the look/feel of the product sections yourself with ou
 #### 2. Advanced designs with CSS
 
 If you want to make advanced changes, feel free to use CSS directly. We've made all the elements within the product recommendation widget accessible with unique class names.
+
+### Disable or Uninstall the module
+
+When you deactivate and delete DataCue for Magento, we remove all changes made to your store including the Javascript. We also immediately stop syncing any changes to your store data with DataCue. To deactivate DataCue for Magento, follow these steps.
+
+1. Go to the root directory of Magento.
+
+   ```bash
+   bin/magento module:disable --clear-static-content DataCue_MagentoModule
+
+   bin/magento module:uninstall --clear-static-content DataCue_MagentoModule
+
+   bin/magento setup:di:compile
+   ```
+
+2. You may need to change file permissions or ownership of the generated files after the uninstallation.
+
+3. Confirm the module is now deleted.
+
+   ```bash
+   bin/magento module:status DataCue_MagentoModule
+   ```
