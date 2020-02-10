@@ -33,7 +33,7 @@ Debido a su capacidad para llamar la atención, es muy importante que muestres b
 
 ## Tipo de banner 
 
-DataCue te permite tener dos tipos de banner. 
+DataCue te permite tener 2 tipos de banner. 
 
 - Banner estático. Este probablemente ya lo conoces: es un banner que no cambia según el comportamiento de tus visitas. 
 - Banner dinámico - aquí es donde la magia ocurre. Mostraremos este banner cuando sea más relevante para tu visita.
@@ -42,7 +42,7 @@ DataCue te permite tener dos tipos de banner.
 
 ## Tamaño de banner 
 
-Por defecto, DataCue tiene tamaños favoritos de banners: ancho y angosto. Puedes usar estos para generar tus gráficas, o bien, diseñar tu propio tamaño. Te contaremos más de nuestros tamaños por defecto a continuación.
+Por defecto, DataCue tiene 2 tamaños favoritos de banners: ancho y angosto. Puedes usar estos para generar tus gráficas, o bien, diseñar tu propio tamaño. Te contaremos más de nuestros tamaños por defecto a continuación.
 
 ### Banner ancho dinámico
 
@@ -85,12 +85,12 @@ Este banner se sube desde tu plataforma de e-commerce.
 
 Hemos realizado diferentes "templates" o diseños determinados para que muestres tus banners. Los ordenamos en función de la cantidad de categorías de productos que tengas; aunque puedes elegir el que más te guste, pues esto funciona a modo de sugerencia. Si no te gusta alguno de estos diseños, puedes  crear el tuyo propio, si sabes sobre HTML y CSS.
 
-::: tip ¿Cuántas categorías de producto tienes?
+::: tip ¿Cuántas categorías tienes?
 Para DataCue, tu categoría o subcategoría es igual de importante. Si tu sitio tiene una familia de productos llamada "Alimento de Mascotas" y dentro de ella tienes 2 subcategorías, "Comida Perro" y "Comida Gato", para DataCue, tendrás 3 categorías.
 :::
 
 
-### 1. Template de Baja variedad (<10 categorías)
+### 1. Template Bajo (<10 categorías)
 
 | Escritorio | Móvil |
 | ------------------- | ------ |
@@ -98,7 +98,7 @@ Para DataCue, tu categoría o subcategoría es igual de importante. Si tu sitio 
 
 En el caso de elegir este estilo, debes diseñar tu banner ancho, que será estático (en gris) y más de 2 banners angostos que serán dinámicos (en amarillo). Te sugerimos al menos 5 banners dinámicos, de tus categorías más populares.
 
-### 2. Template de Media variedad (10-20 categorías)
+### 2. Template Medio (10-20 categorías)
 
 | Escritorio | Móvil |
 | ------------------- | ------ |
@@ -106,7 +106,7 @@ En el caso de elegir este estilo, debes diseñar tu banner ancho, que será est�
 
 En este caso, deberás diseñar un banner ancho estático (en gris). Al menos, crea 2 banners dinámicos anchos y 3 angostos. Te sugerimos mínimo 10, una mezcla de anchos y angostos.
 
-### 3. Template de Alta variedad (>20 categorías)
+### 3. Template Alto (>20 categorías)
 
 | Escritorio | Móvil |
 | ------------------- | ------ |
