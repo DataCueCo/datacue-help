@@ -125,7 +125,7 @@ El tipo de recomendación de producto que verás en cada página, lo puedes acti
 
 Ejemplo: Tal vez solo quieres mostrar "Productos recientemente vistos" en tu página de error 404, pero en otra página, activar "Productos Similares" y "Relacionados". ¡Todo esto lo haces con solo unos clicks!
 
-## Paso 3: Adapta el estilo a tu tema
+## Paso 3: Adapta el estilo a tu sitio
 
 Los carruseles de producto DataCue vienen con un diseño por defecto, que puedes querer cambiar para que se asemeje al look de tu sitio. Esto es muy importante, pues la idea es que nada parezca fuera de lugar.
 
@@ -133,17 +133,38 @@ Los carruseles de producto DataCue vienen con un diseño por defecto, que puedes
 
 Lo primero que debes hacer ahora es poner DataCue en su modo de prueba. Esto te permite elegir una lista de cuentas (usuarios) que verán las recomendaciones DataCue, mientras el resto de tus visitas no verá cambios aún. Para ver las recomendaciones, los usuarios de prueba deberán iniciar sesión en tu sitio.
 
-Esto es muy útil para que juegues con el diseño, hasta que sientas que tu sitio está listo para salir en vivo. Para aprender a configurar DataCue en modo de prueba, haz clic en [aquí](/es/install/testmode.html#establecer-datacue-en-modo-de-prueba)
+Esto es muy útil para que juegues con el diseño, hasta que sientas que tu sitio está listo para salir en vivo. Para aprender a configurar DataCue en modo de prueba, debes ir a tu [Panel DataCue](https://app.datacue.co/login) y luego, en Configuración > Desarrollador > Activar Modo de Prueba. Más detalles [aquí](/es/install/testmode.html#establecer-datacue-en-modo-de-prueba)
 
 ### Personaliza el diseño
 
 Tienes dos alternativas para esto:
 
-#### 1. Una amigable herramienta para ajustar al diseño
+#### 1. Una amigable herramienta para cambios sencillos
 
 Puedes ajustar al diseño de tu tienda facilmente con una amigable herramienta. Puedes acceder a ella en tu panel de control DataCue en la sección `Configuración > Productos`.
 
 ![Encontrar el product.liquid](./images/design-editor.png)
+
+
+## Paso 4: Activa tu plan 
+
+Si aún no lo has hecho, para que la magia ocurra deberás activar tu plan. Este consta de dos partes,
+
+1. Agrega un método válido de pago
+2. Elige tu plan y tu presupuesto
+
+### 1. Agrega un método válido de pago
+
+Primero, ingresa a tu [Panel DataCue](https://app.datacue.co/login) a la sección Facturación (arriba a la derecha). 
+
+Verás una sección para administrar tu Método de Pago. Haciendo click, aparecerá un Pop Up, donde elegirás la opción "Métodos de Pago". Podrás iniciar sesión en PayPal, con una tarjeta de crédito válida. Esta será facturada cada 30 días de manera automática - mientras tú dedicas tu tiempo a cosas más entretenidas.
+
+### 2. Elige tu plan y presupuesto
+
+En la misma página de Facturación, podrás elegir un Plan. Junto con esto, DataCue te pedirá un Presupuesto, que será el monto máximo que gastaremos al mes. Si alcanzamos este "techo", dejaremos de personalizar el sitio para cada usuario y lo dejaremos actualizado a tus tendencias del momento. Escoge este nivel de gasto, y luego da click en "Guardar".
+
+¡Estás listo! Lo que te queda es pasar a tu Panel de Control, desde donde puedes subir tus banners dinámicos y administrar la experiencia que crearás para tus visitas. Para esto, apóyate en nuestra [Guía de Usuario](https://help.datacue.co/es/guide/).
+
 
 #### 2. CSS para cambios avanzados
 
