@@ -148,13 +148,22 @@ Puedes ajustar al diseño de tu tienda facilmente con una amigable herramienta. 
 
 ## Paso 4: Activa tu plan 
 
-Si aún no lo has hecho, para que todas estas recomendaciones estén en vivo, deberás activar tu plan. Para hacerlo, necesitas un método válido de pago (tarjeta de crédito) que ingresarás a PayPal. Puedes hacerlo desde tu [Panel DataCue](https://app.datacue.co/login) en la sección Facturación (arriba a la derecha). 
+Si aún no lo has hecho, para que la magia ocurra deberás activar tu plan. Este consta de dos partes,
 
-- Primero, deberás administrar tus métodos de Pago. Tendrás la opción de iniciar sesión en PayPal, con una tarjeta de crédito válida, que será facturada cada 30 días de manera automática. 
+1. Agrega un método válido de pago
+2. Elige tu plan y tu presupuesto
 
-- Luego, en la misma página de Facturación, podrás elegir un Plan. Eligiendo un plan, DataCue te pedirá un Presupuesto. Esto será el monto máximo que gastaremos al mes. Si alcanzamos este "techo", dejaremos de personalizar el sitio para cada usuario y lo dejaremos actualizado a tus tendencias del momento. Escoge este nivel de gasto, y luego da click en "Guardar".
+### 1. Agrega un método válido de pago
 
-¡Estás listo! Lo que te queda ahora es subir tus banners dinámicos y administrar el resto de la experiencia que crearás para tus visitas. Lee más de cada función DataCue en nuestra [Guía de Usuario](https://help.datacue.co/es/guide/).
+Primero, ingresa a tu [Panel DataCue](https://app.datacue.co/login) a la sección Facturación (arriba a la derecha). 
+
+Verás una sección para administrar tu Método de Pago. Haciendo click, aparecerá un Pop Up, donde elegirás la opción "Métodos de Pago". Podrás iniciar sesión en PayPal, con una tarjeta de crédito válida. Esta será facturada cada 30 días de manera automática - mientras tú dedicas tu tiempo a cosas más entretenidas.
+
+### 2. Elige tu plan y presupuesto
+
+En la misma página de Facturación, podrás elegir un Plan. Junto con esto, DataCue te pedirá un Presupuesto, que será el monto máximo que gastaremos al mes. Si alcanzamos este "techo", dejaremos de personalizar el sitio para cada usuario y lo dejaremos actualizado a tus tendencias del momento. Escoge este nivel de gasto, y luego da click en "Guardar".
+
+¡Estás listo! Lo que te queda es pasar a tu Panel de Control, desde donde puedes subir tus banners dinámicos y administrar la experiencia que crearás para tus visitas. Para esto, apóyate en nuestra [Guía de Usuario](https://help.datacue.co/es/guide/).
 
 
 #### 2. CSS para cambios avanzados
