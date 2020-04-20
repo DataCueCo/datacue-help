@@ -12,7 +12,7 @@ footer: © 2018-present DataCue (PTE. LTD.)
 
 ### What is DataCue?
 
-The best websites always shows you content relevant to your interests. This is called personalization and it's effective to increase conversion, because as a visitor you see things you care about. 
+The best websites always shows you content relevant to your interests. This is called personalization and it's effective to increase conversion, because as a visitor you see things you care about.
 
 DataCue personalizes your e-commerce store for each visitor to help you increase sales. This happens automatically, so you don't need to set up complicated rules or depend from a third-party to set up the experience you want to create for your users.
 
@@ -24,9 +24,9 @@ You can sign up for one at [datacue.co](https://app.datacue.co/en/sign-up).
 
 ### Want to sign in to the dashboard?
 
-You can see DataCue Dashboard [clicking here](https://app.datacue.co/). This dashboard allows you to manage the experience you create for your users, measure performance and learn from your data. 
+You can see DataCue Dashboard [clicking here](https://app.datacue.co/). This dashboard allows you to manage the experience you create for your users, measure performance and learn from your data.
 
-PS: You won't be able to see Dashboard completely until you do not select a DataCue Plan, thus having an active Account.  
+PS: You won't be able to see Dashboard completely until you do not select a DataCue Plan, thus having an active Account.
 
 ### How do I add DataCue to my website?
 
@@ -68,7 +68,6 @@ Personalize your VTEX store by installing the DataCue integration.
 
 Personalize your store using the DataCue recommendations API. Basic coding skills required.
 
-
 ## Using DataCue
 
 Learn about the different features DataCue offers and how to get the best out of them.
@@ -86,7 +85,3 @@ Recommend relevant products for each one of your visits in different pages of yo
 ### [Notifications](/guide/notifications/)
 
 Let your user know about important changes in price or stock of the products they've seen. Create urgency when needed, without distracting with invasive Pop-ups.
-
-### [Email](/guide/email)
-
-Get your users back to your website with attractive information. Your e-mail campaign will work better!

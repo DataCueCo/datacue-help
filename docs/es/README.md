@@ -12,11 +12,11 @@ footer: © 2018-present (PTE. LTD.)
 
 ### ¿Qué es DataCue?
 
-Los mejores sitios de e-commerce son los que crean experiencias relevantes para sus visitas. Adaptar el sitio web a los intereses del usuario se llama personalización, y es altamente efectiva para convertir a las visitas en clientes.  
+Los mejores sitios de e-commerce son los que crean experiencias relevantes para sus visitas. Adaptar el sitio web a los intereses del usuario se llama personalización, y es altamente efectiva para convertir a las visitas en clientes.
 
-DataCue personaliza tu tienda online para cada uno de tus usuarios, ayudándote a vender más. Todo esto ocurre de manera automática, sin que necesites reglas complejas, largos tiempos de integración, ni depender de terceros que administren tu personalización. 
+DataCue personaliza tu tienda online para cada uno de tus usuarios, ayudándote a vender más. Todo esto ocurre de manera automática, sin que necesites reglas complejas, largos tiempos de integración, ni depender de terceros que administren tu personalización.
 
-¡Comienza en menos de un día con DataCue! Sigue leyendo para saber cómo agregar personalización a tu tienda. 
+¡Comienza en menos de un día con DataCue! Sigue leyendo para saber cómo agregar personalización a tu tienda.
 
 ### ¿No tienes una cuenta aún?
 
@@ -26,11 +26,11 @@ Puedes crear una en [datacue.co](https://app.datacue.co/es/sign-up).
 
 Tu [Panel de Control](https://app.datacue.co/) (o Dashboard) DataCue es el lugar desde donde podrás crear la experiencia personalizada de tus usuarios, medir tu desempeño y aprender constantemente de tus datos para mejorar tu conversión.
 
-Solo podrás ver datos en tu Panel si tienes una Cuenta Activa con DataCue. Una vez que instales DataCue en tu sitio, te enseñaremos a usarlo, aunque está diseñado para ser intuitivo y fácil de administrar. 
+Solo podrás ver datos en tu Panel si tienes una Cuenta Activa con DataCue. Una vez que instales DataCue en tu sitio, te enseñaremos a usarlo, aunque está diseñado para ser intuitivo y fácil de administrar.
 
 ### ¿Cómo integro DataCue con mi sitio web?
 
-Desliza hacia abajo hacia la guía de [instalación](#installing-datacue) que aplica según tu plataforma de e-commerce. 
+Desliza hacia abajo hacia la guía de [instalación](#installing-datacue) que aplica según tu plataforma de e-commerce.
 
 ### ¿Confundid@?
 
@@ -64,7 +64,6 @@ Personaliza tu tienda WooCommerce al instalar el plugin DataCue.
 
 Personaliza tu tienda online usando nuestra API de recomendaciones. NOTA: Se requieren habilidades básicas en programación.
 
-
 ## Usando DataCue
 
 DataCue entrega distintas funcionalidades que se adaptarán a los intereses de tu usuario. Estas tienen distintos objetivos; aprende sobre ellas y por qué son relevantes para tu tienda.
@@ -82,7 +81,3 @@ Entregando sugerencias relevantes de productos, en diferentes páginas de tu sit
 ### [Notificaciones](/es/guide/notifications/)
 
 Informando sutilmente al usuario de cambios en precio o stock de los productos que ha visto, enriqueces su experiencia de compra y creas urgencia..¡cuando sea necesario! No lo distraigas con Pop-ups que distraen su navegación. Tu usuario te lo agradecerá.
-
-### [E-mail](/es/guide/email)
-
-Atrae a tu usuario de vuelta a tu sitio, con el contenido que más podría gustarle de tu tienda. 

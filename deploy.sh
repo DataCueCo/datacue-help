@@ -2,7 +2,7 @@
 
 # abort on errors
 set -e
-
+git pull origin master
 # build
 yarn run docs:build
 
