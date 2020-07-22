@@ -127,55 +127,34 @@ Click on the `Save` button when you're done, and we'll check your website for yo
 Option 2 (below) has a higher priority. If you insert recommendations via HTML and CSS (why would you do this?), your CSS settings will be ignored.
 :::
 
-#### Option 2 - Insert via Shortcode
+#### Option 2 - Insert via code
 
 Inserting product recommendations via Shortcodes gives you more advanced options. Normally, all DataCue product recommendations appear one after the other in one block. With Shortcodes, you can split them to appear in different pages by specifying an attribute.
 
-**If you can insert shortcodes with a page editor**
+**Insert all recommendations in one block**
 
     ```
-    <!-- insert all relevent product recommendations for current page type -->
+    <!-- insert all relevant product recommendations for current page type -->
     [datacue-products]
+    ```
 
-    <!-- ADVANCED: insert ONLY related/recommended products -->
+**Advanced positioning**
+
+    ```
+    <!-- Insert ONLY related/recommended products -->
     [datacue-products type="related"]
 
-    <!-- ADVANCED: insert ONLY recently viewed products -->
+    <!-- Insert ONLY recently viewed products -->
     [datacue-products type="recent"]
 
-    <!-- ADVANCED: insert ONLY similar products (product page only) -->
+    <!-- Insert ONLY similar products (product page only) -->
     [datacue-products type="similar"]
 
-    <!-- ADVANCED: insert ONLY dynamic categories (home page only)-->
+    <!-- Insert ONLY dynamic categories (home page only)-->
     [datacue-products type="categories"]
 
-    <!-- ADVANCED: insert ONLY top products in category (category page only) -->
+    <!-- Insert ONLY top products in category (category page only) -->
     [datacue-products type="top"]
-    ```
-
-**If you need to edit the PHP file directly**
-
-    ```php
-    <?php echo do_shortcode( '[datacue-products]' ); ?>
-    ```
-    ```php
-    <!-- insert all relevent product recommendations for current page type -->
-    <?php echo do_shortcode( '[datacue-products]' ); ?>
-
-    <!-- ADVANCED: insert ONLY related/recommended products -->
-    <?php echo do_shortcode( '[datacue-products type="related"]' ); ?>
-
-    <!-- ADVANCED: insert ONLY recently viewed products -->
-    <?php echo do_shortcode( '[datacue-products type="recent"]' ); ?>
-
-    <!-- ADVANCED: insert ONLY similar products (product page only) -->
-    <?php echo do_shortcode( '[datacue-products type="similar"]' ); ?>
-
-    <!-- ADVANCED: insert ONLY dynamic categories (home page only)-->
-    <?php echo do_shortcode( '[datacue-products type="categories"]' ); ?>
-
-    <!-- ADVANCED: insert ONLY top products in category (category page only) -->
-    <?php echo do_shortcode( '[datacue-products type="top"]' ); ?>
     ```
 
 Include the above code on the following pages:
@@ -187,11 +166,28 @@ Include the above code on the following pages:
 5. Cart page
 6. 404 page
 
-For instance the product page template is usually found here: `plugins\woocommerce\templates\single-product\product-image.php`
-
 Don't worry, you can activate / deactivate different types of recommendations for each page from your DataCue dashboard.
 
 For e.g. you can tell us to only show recently viewed products on the 404 page, but related products and similar products on the product page with just a click.
+
+**Don't use a page editor?**
+If you don't have a page editor to insert shortcodes, you can directly edit the required PHP file.
+
+For instance the product page template is usually found here: `plugins\woocommerce\templates\single-product\product-image.php`
+
+To convert a shortcode to PHP, just do this:
+
+    ```php
+    <?php
+    //simple shortcode
+    echo do_shortcode( '[datacue-products]' );
+    ?>
+    ```
+
+    ```php
+    //simple shortcode with attribute
+    <?php echo do_shortcode( '[datacue-products type="related"]' ); ?>
+    ```
 
 ### Match widgets to your theme
 

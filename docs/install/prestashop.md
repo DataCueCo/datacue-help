@@ -113,23 +113,29 @@ Option 2 (below) has a higher priority. If you insert recommendations via HTML a
 
 Inserting product recommendations via HTML gives you more advanced options. Normally, all DataCue product recommendations appear one after the other in one block. With HTML, you can split them to appear in different pages by specifying an attribute.
 
-```html
-<!-- insert all relevent product recommendations for current page type -->
-<div data-dc-products></div>
+**Insert all recommendations in one block**
 
-<!-- ADVANCED: insert ONLY related/recommended products -->
+```html
+<!-- insert all relevant product recommendations for current page type -->
+<div data-dc-products></div>
+```
+
+**Advanced positioning**
+
+```
+<!-- Insert ONLY related/recommended products -->
 <div data-dc-products="related"></div>
 
-<!-- ADVANCED: insert ONLY recently viewed products -->
+<!-- Insert ONLY recently viewed products -->
 <div data-dc-products="recent"></div>
 
-<!-- ADVANCED: insert ONLY similar products (product page only) -->
+<!-- Insert ONLY similar products (product page only) -->
 <div data-dc-products="similar"></div>
 
-<!-- ADVANCED: insert ONLY dynamic categories (home page only)-->
+<!-- Insert ONLY dynamic categories (home page only)-->
 <div data-dc-products="categories"></div>
 
-<!-- ADVANCED: insert ONLY top products in category (category page only) -->
+<!-- Insert ONLY top products in category (category page only) -->
 <div data-dc-products="top"></div>
 ```
 
