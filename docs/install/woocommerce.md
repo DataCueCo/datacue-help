@@ -32,32 +32,30 @@ Here are some things to know before you install the plugin.
 
 Depending on your countries privacy laws, you may need to explicitly get permission from the user to use content personalization. Please consult with legal counsel if you're in any doubt.
 
-
 ### Installing the plugin
 
 1. Download the plugin
 
-    <Button link="https://cdn.datacue.co/assets/integrations/datacue-woocommerce-latest.zip" text="Download"/>
+   <Button link="https://cdn.datacue.co/assets/integrations/datacue-woocommerce-latest.zip" text="Download"/>
 
-    ::: tip
-    Safari on Mac OS X may sometimes auto expand your ZIP file into a folder. You may wish to use another browser if this happens. Alternatively, you can disable the `Open "safe" files after downloading` option in Safari preferences.
-    :::
+   ::: tip
+   Safari on Mac OS X may sometimes auto expand your ZIP file into a folder. You may wish to use another browser if this happens. Alternatively, you can disable the `Open "safe" files after downloading` option in Safari preferences.
+   :::
 
 2. Install the plugin from your WordPress / WooCommerce Admin panel by clicking on `Plugins > Add New > Upload plugin > Choose File`. Select the ZIP file you just downloaded and click Install Now.
 
-    ![WooCommerce Plugin Installation](./images/woocommerce-install-plugin.gif)
+   ![WooCommerce Plugin Installation](./images/woocommerce-install-plugin.gif)
 
 3. Once installed, select "Activate Plugin"
 
-4. Enter your DataCue API Key and Secret and press "Save" to connect your store to DataCue. You can find the API Key and Secret on the first screen you see when you login to your [DataCue dashboard](https://app.datacue.co). 
+4. Enter your DataCue API Key and Secret and press "Save" to connect your store to DataCue. You can find the API Key and Secret on the first screen you see when you login to your [DataCue dashboard](https://app.datacue.co).
 
-    ![WooCommerce API creds](./images/woocommerce-enter-api-creds.gif)
+   ![WooCommerce API creds](./images/woocommerce-enter-api-creds.gif)
 
-    ::: tip
-    If you dismissed the API key + secret screen for any reason, don't worry. You can access it again by clicking on your store name on the top right click on "Developer" from the menu.
-    :::
+   ::: tip
+   If you dismissed the API key + secret screen for any reason, don't worry. You can access it again by clicking on your store name on the top right click on "Developer" from the menu.
+   :::
 
-    
 5. Depending on the size of your store the sync process can take a few mins to a few hours. You can monitor progress by switching to the "sync" tab.
 
 ### Deactivate or Delete the Plugin
@@ -72,7 +70,7 @@ To deactivate DataCue for WooCommerce, follow these steps.
 
 - Click the box next to the DataCue for WooCommerce plugin, and click Deactivate.
 
-- After you deactivate the plugin, you will have the option to Delete the plugin. 
+- After you deactivate the plugin, you will have the option to Delete the plugin.
 
 ::: tip
 If you see an error that the plugin is still active, you are most likely running a caching plugin. Disable the cache / refresh the cache and try deleting it again.
@@ -86,23 +84,22 @@ DataCue uses "shortcodes" to help you easily add dynamic banners and product rec
 Did you know that WooCommerce is a plugin for WordPress? Most features offered by WordPress can be used on WooCommerce like shortcodes.
 :::
 
-
 ### Banners
 
 1. Select a banner to use as as your "Static Banner", a banner that all your visitors see. From your Dashboard go to `Media > Add New`, and select a banner image to be shown to all your visitors. If you're unsure, pick a banner to highlight your most popular collection or a promotion. Ensure the image has an aspect ratio of 5:3 (recommended size is 1200 x 720 px). Learn more about static banners [here](/banners).
 
 2. Click on the newly uploaded image in your "Media Library" and copy the URL. You'll need this for the next step.
 
-3. From your Dashboard click on "Pages" and open your Home page. Insert the code snippet below right after your navigation bar. 
+3. From your Dashboard click on "Pages" and open your Home page. Insert the code snippet below right after your navigation bar.
 
-    Remember to change the urls for `static-img`  and `static-link` correctly.
+   Remember to change the urls for `static-img` and `static-link` correctly.
 
-    `static-img` is the URL you got from the previous.
-    `static-link` is the link to send the user when they click on the banner. Set an appropriate URL for your store, typically a category page.
+   `static-img` is the URL you got from the previous.
+   `static-link` is the link to send the user when they click on the banner. Set an appropriate URL for your store, typically a category page.
 
-    ```
-    [datacue-banners static-img="/path/to/img.jpg" static-link="/link/to/category"]
-    ```
+   ```
+   [datacue-banners static-img="/path/to/img.jpg" static-link="/link/to/category"]
+   ```
 
 4. The default layout DataCue uses for your banners shows 2 dynamic banners and 1 static banner on one row. You can customize this by going to `Settings > Banners` in your DataCue dashboard. Read more about it [here](/banners/layout.html). Alternatively, find out how to build your own [custom layout](#custom-layout).
 
@@ -116,35 +113,83 @@ Did you know that WooCommerce is a plugin for WordPress? Most features offered b
 
 ### Setup Product Recommendations
 
-#### Home page
+#### Option 1 - Insert via CSS (Recommended)
 
-1. Go to the page editor and select your Home page.
+If you are familiar with CSS, you can insert product recommendations easily by just specifying a [CSS selector](https://www.w3schools.com/css/css_selectors.asp) for an element. The product recommendations will be inserted _directly below it_.
 
-2. Edit the code and add the product recommendations shortcode to where you want it.
+Go to `Settings > Developer` and find the **Product Placement** section.
+
+![Product placement](./images/product-placement-en.png)
+
+Click on the `Save` button when you're done, and we'll check your website for you. If the CSS looks ok, you'll see a green tick mark. If not, you'll see a red warning symbol.
+
+:::tip Tip
+Option 2 (below) has a higher priority. If you insert recommendations via HTML and CSS (why would you do this?), your CSS settings will be ignored.
+:::
+
+#### Option 2 - Insert via Shortcode
+
+Inserting product recommendations via Shortcodes gives you more advanced options. Normally, all DataCue product recommendations appear one after the other in one block. With Shortcodes, you can split them to appear in different pages by specifying an attribute.
+
+**If you can insert shortcodes with a page editor**
 
     ```
+    <!-- insert all relevent product recommendations for current page type -->
     [datacue-products]
+
+    <!-- ADVANCED: insert ONLY related/recommended products -->
+    [datacue-products type="related"]
+
+    <!-- ADVANCED: insert ONLY recently viewed products -->
+    [datacue-products type="recent"]
+
+    <!-- ADVANCED: insert ONLY similar products (product page only) -->
+    [datacue-products type="similar"]
+
+    <!-- ADVANCED: insert ONLY dynamic categories (home page only)-->
+    [datacue-products type="categories"]
+
+    <!-- ADVANCED: insert ONLY top products in category (category page only) -->
+    [datacue-products type="top"]
     ```
 
-3. Save your changes and you're done!
-
-#### Product page and other pages
+**If you need to edit the PHP file directly**
 
     ```php
     <?php echo do_shortcode( '[datacue-products]' ); ?>
     ```
+    ```php
+    <!-- insert all relevent product recommendations for current page type -->
+    <?php echo do_shortcode( '[datacue-products]' ); ?>
 
-Include the above PHP to add product recommendations to the following pages:
+    <!-- ADVANCED: insert ONLY related/recommended products -->
+    <?php echo do_shortcode( '[datacue-products type="related"]' ); ?>
 
-1. Product page
-2. Category page
-3. Search page
-4. Cart page
-5. 404 page
+    <!-- ADVANCED: insert ONLY recently viewed products -->
+    <?php echo do_shortcode( '[datacue-products type="recent"]' ); ?>
 
-This may require editing of your theme PHP files. For instance the product page template is usually found here: `plugins\woocommerce\templates\single-product\product-image.php`
+    <!-- ADVANCED: insert ONLY similar products (product page only) -->
+    <?php echo do_shortcode( '[datacue-products type="similar"]' ); ?>
 
-Don't worry, you can activate / deactivate different types of recommendations for each page from your DataCue dashboard. 
+    <!-- ADVANCED: insert ONLY dynamic categories (home page only)-->
+    <?php echo do_shortcode( '[datacue-products type="categories"]' ); ?>
+
+    <!-- ADVANCED: insert ONLY top products in category (category page only) -->
+    <?php echo do_shortcode( '[datacue-products type="top"]' ); ?>
+    ```
+
+Include the above code on the following pages:
+
+1. Home page
+2. Product page
+3. Category page
+4. Search page
+5. Cart page
+6. 404 page
+
+For instance the product page template is usually found here: `plugins\woocommerce\templates\single-product\product-image.php`
+
+Don't worry, you can activate / deactivate different types of recommendations for each page from your DataCue dashboard.
 
 For e.g. you can tell us to only show recently viewed products on the 404 page, but related products and similar products on the product page with just a click.
 

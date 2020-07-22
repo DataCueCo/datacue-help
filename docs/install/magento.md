@@ -120,6 +120,22 @@ Want to build your own custom layout? [read this](#custom-layout).
 
 ### Setup Product Recommendations
 
+#### Option 1 - Insert via CSS (Recommended)
+
+If you are familiar with CSS, you can insert product recommendations easily by just specifying a [CSS selector](https://www.w3schools.com/css/css_selectors.asp) for an element. The product recommendations will be inserted _directly below it_.
+
+Go to `Settings > Developer` and find the **Product Placement** section.
+
+![Product placement](./images/product-placement-en.png)
+
+Click on the `Save` button when you're done, and we'll check your website for you. If the CSS looks ok, you'll see a green tick mark. If not, you'll see a red warning symbol.
+
+:::tip Tip
+Option 2 (below) has a higher priority. If you insert recommendations via HTML and CSS (why would you do this?), your CSS settings will be ignored.
+:::
+
+#### Option 2 - Insert via HTML
+
 1. Click `Content` on your left side bar.
 
 2. Pick a `Block` or `Page` corresponding to the page you want to insert the recommendations.

@@ -34,21 +34,21 @@ Add Banners + Products to your home page
 
 2. Click on `Add section`, then add the section `DataCue Banners`
 
-    ![Add section](./images/add_section_banners.png)
+   ![Add section](./images/add_section_banners.png)
 
-    ::: tip Tip
-    Don't see any sections? It's likely your theme doesn't support them. Scroll down to view instructions for themes that don't support sections.
-    :::
+   ::: tip Tip
+   Don't see any sections? It's likely your theme doesn't support them. Scroll down to view instructions for themes that don't support sections.
+   :::
 
 3. Upload your static banner by clicking on `Select Image`.
 
-    Static banners are defined by you and appear for all your visitors. Use them to highlight your most popular collection or a promotion. Ensure the image has an aspect ratio of 5:3 (recommended size is 1200 x 720 px). Learn more about static banners [here](/guide/banners).
+   Static banners are defined by you and appear for all your visitors. Use them to highlight your most popular collection or a promotion. Ensure the image has an aspect ratio of 5:3 (recommended size is 1200 x 720 px). Learn more about static banners [here](/guide/banners).
 
    ![Uploading a static banner](./images/homepage_banners.png)
 
 4. Click on the back button, then drag the banners section to the top. Hide / remove any existing banner type elements you used to have like slideshows.
 
-    ![Drag sections](./images/drag_banners_products.gif)
+   ![Drag sections](./images/drag_banners_products.gif)
 
 5. Save your changes
 
@@ -58,25 +58,25 @@ Refer our Banners usage guide [here](/guide/banners.html#banner-layout) to find 
 
 1. Upload your static banner by going to `Settings > Files`. Click on `Upload files` and select the image you want.
 
-    Static banners are defined by you and appear for all your visitors. Use them to highlight your most popular collection or a promotion. Ensure the image has an aspect ratio of 5:3 (recommended size is 1200 x 720 px). Learn more about static banners [here](/guide/banners).
+   Static banners are defined by you and appear for all your visitors. Use them to highlight your most popular collection or a promotion. Ensure the image has an aspect ratio of 5:3 (recommended size is 1200 x 720 px). Learn more about static banners [here](/guide/banners).
 
 2. Copy the URL next to the image you uploaded, you'll need it later.
 
-    ![Copy Banner URL](./images/copy_banner_url.png)
+   ![Copy Banner URL](./images/copy_banner_url.png)
 
 3. Click on `Online store` on your sidebar then click on `Actions > Edit Code`
 
 4. Type `index.liquid`, click on it in the search results. Then paste the code below at the position you want (higher the better). Remember to paste the static banner URL you got from step 1 in `data-dc-static-img` and the link for the static banner in `data-dc-static-link`.
 
-    ``` html
-    <div
-    data-dc-banners
-    data-dc-static-img="<url you copied from step 1>"
-    data-dc-static-link="link/to/chosen/category"
-    ></div>
-    ```
+   ```html
+   <div
+     data-dc-banners
+     data-dc-static-img="<url you copied from step 1>"
+     data-dc-static-link="link/to/chosen/category"
+   ></div>
+   ```
 
-    ![Insert Banner code](./images/insert-banner-code.gif)
+   ![Insert Banner code](./images/insert-banner-code.gif)
 
 5. Click on `Save` and you're done! Check your home page to ensure everything looks good, you can move the position of the code to adjust the location of the banners.
 
@@ -99,11 +99,29 @@ Refer our Banners usage guide [here](/guide/banners.html#banner-layout) to find 
    ![Adding a new section](./images/add_section_products.png)
 
 3. Drag the newly added section to where you want the carousels to appear.
-    ![Drag sections](./images/drag_banners_products.gif)
+   ![Drag sections](./images/drag_banners_products.gif)
 
 4. Save your changes and you're done!
 
 #### Product page and other pages
+
+**Option 1 - Insert via CSS (Recommended)**
+
+If you are familiar with CSS, you can insert product recommendations easily by just specifying a [CSS selector](https://www.w3schools.com/css/css_selectors.asp) for an element. The product recommendations will be inserted _directly below it_.
+
+From your DataCue dashboard, go to `Settings > Developer` and find the **Product Placement** section.
+
+![Product placement](./images/product-placement-en.png)
+
+Click on the `Save` button when you're done, and we'll check your website for you. If the CSS looks ok, you'll see a green tick mark. If not, you'll see a red warning symbol.
+
+You can leave the homepage box blank if you used the drag and drop method outlined in the previous section.
+
+:::tip Tip
+Option 2 (below) has a higher priority. If you insert recommendations via HTML and CSS (why would you do this?), your CSS settings will be ignored.
+:::
+
+**Option 2 - Insert via Code**
 
 Most themes don't allow adding custom sections to other pages, but you can do it easily by pasting a code snippet.
 
@@ -138,19 +156,31 @@ You can also place each product recommendation in different parts of your produc
 Related products
 
 ```html
-`<div data-dc-products="related"></div>`
+<div data-dc-products="related"></div>
 ```
 
-Similar products
+Similar products (product page only)
 
 ```html
-`<div data-dc-products="similar"></div>`
+<div data-dc-products="similar"></div>
 ```
 
 Recently viewed products
 
 ```html
-`<div data-dc-products="recent"></div>`
+<div data-dc-products="recent"></div>
+```
+
+Top products (collection pages only)
+
+```html
+<div data-dc-products="top"></div>
+```
+
+Dynamic categories (home page only)
+
+```html
+<div data-dc-products="categories"></div>
 ```
 
 ## Step 3: Match widgets to your theme
