@@ -122,7 +122,7 @@ Inserting product recommendations via HTML gives you more advanced options. Norm
 
 **Advanced positioning**
 
-```
+```html
 <!-- Insert ONLY related/recommended products -->
 <div data-dc-products="related"></div>
 
