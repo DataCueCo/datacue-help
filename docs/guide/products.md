@@ -34,18 +34,14 @@ Can be placed on any page.
 
 Recommendations that are based on the page the visitor is currently looking at. All suggestions are updated daily.
 
-**Category Page**
-
-#### 4. Top Products
+#### 4. Top Products (Category page)
 
 We'll automatically select the most popular products from the current category to save the visitor a few clicks.
 
-**Product Page**
-
-#### 5. Related Products (Up-sell)
+#### 5. Related Products (Product page)
 
 We'll suggest other products that are typically/frequently bought with the current product.
 
-#### 6. Similar Products (Cross-sell)
+#### 6. Similar Products (Product page)
 
 We look at the words used in the description, the product title and categories to find products similar to the currently viewed product. This seccion is useful if you have many products that are similar.
