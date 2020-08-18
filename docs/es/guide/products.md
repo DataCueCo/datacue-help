@@ -15,11 +15,11 @@ DataCue admite 6 tipos de recomendaciones de productos, para distintas páginas 
 
 ### Recomendaciones personalizadas
 
-Los datos más importantes de los que disponemos son del **comportamiento histórico** de tus visitas. Por lo tanto, son estos los primeros que usamos para crear esta lista.
+Los datos más importantes de los que disponemos son del **comportamiento histórico** de tus visitas. Por lo tanto, son estos los primeros que usamos para crear esta sección.
 
 #### 1. Productos personalizados
 
-Una lista de productos basada en las actividades del visitante y compras pasadas. La lista se actualiza inmediatamente con cada acción que realiza el visitante. Si se trata de un visitante nuevo, mostramos los productos más populares de su tienda.
+Una sección de productos basada en las actividades del visitante y compras pasadas. La sección se actualiza inmediatamente con cada acción que realiza el visitante. Si se trata de un visitante nuevo, mostramos los productos más populares de su tienda.
 
 Este sección se puede poner en **cualquier página de tu sitio**, excepto en la página de producto.
 
@@ -35,19 +35,19 @@ Los productos que ha visto el usuario en un período cercano. Si el visitante es
 
 Recomendaciones que se basan en la página que el visitante está viendo actualmente. Todas las sugerencias se actualizan a diario.
 
-### Página de categoría
+**Página de categoría**
 
-**4. Productos 'top' por categoría**
+#### 4. Productos 'top' por categoría
 
 Seleccionaremos automáticamente los productos más populares de la categoría actual para ahorrar al visitante unos pocos clics.
 
-### Página del producto
+**Página del producto**
 
-**5. Productos relacionados (venta superior)**
+#### 5. Productos relacionados (venta superior)
 
 Le sugeriremos otros productos que normalmente se compran con el producto actual.
 
-**6. Productos similares (venta cruzada)**
+#### 6. Productos similares (venta cruzada)
 
 Esta seccion se construye observando las palabras que utilizas en la **descripción, título y categoría** en que se encuentra tu producto. Así, mostrará otros que guardan similitud al producto que se el usuario observa. Es particularmente útil si tienes muchos productos similares entre sí, y para tus usuarios que ya han definido interés en un tipo de productos... pero aún no se deciden realmente por uno. Con esta recomendación, ¡no podrár irse sin encontrar el que más les gusta!
 

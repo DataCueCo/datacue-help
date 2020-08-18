@@ -16,7 +16,7 @@ Visitor based recommendations take into account the visitor's actions to decide 
 
 #### 1. Related to you
 
-A list of products based on the visitor's activities and past purchases. The list updates immediately on every action the visitor takes. If this is a new visitor, we show the most popular products in your store.
+A seccion of products based on the visitor's activities and past purchases. The seccion updates immediately on every action the visitor takes. If this is a new visitor, we show the most popular products in your store.
 
 This can be placed on any page **EXCEPT the product page**.
 
@@ -26,7 +26,7 @@ Automatically select the top categories to feature based on a visitor's activiti
 
 #### 3. Recently Viewed
 
-All the products the visitor has recently viewed in the past. If the visitor is new, this carousel does not appear.
+All the products the visitor has recently viewed in the past. If the visitor is new, this seccion does not appear.
 
 Can be placed on any page.
 
@@ -34,17 +34,18 @@ Can be placed on any page.
 
 Recommendations that are based on the page the visitor is currently looking at. All suggestions are updated daily.
 
-### Category Page
+**Category Page**
 
-**4. Top Products**
+#### 4. Top Products
+
 We'll automatically select the most popular products from the current category to save the visitor a few clicks.
 
-### Product Page
+**Product Page**
 
-**5. Related Products (Up-sell)**
+#### 5. Related Products (Up-sell)
 
 We'll suggest other products that are typically/frequently bought with the current product.
 
-**6. Similar Products (Cross-sell)**
+#### 6. Similar Products (Cross-sell)
 
-We look at the words used in the description, the product title and categories to find products similar to the currently viewed product. This list will not contain any cross sells and is useful if you have many products that are similar.
+We look at the words used in the description, the product title and categories to find products similar to the currently viewed product. This seccion is useful if you have many products that are similar.
