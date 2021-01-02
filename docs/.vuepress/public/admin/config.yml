@@ -50,7 +50,7 @@ collections:
       - { label: "Summary", name: "summary", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
   - label: "Home (ES)"
-    name: "home"
+    name: "home-es"
     files:
       - label: "Homepage"
         name: "homepage"
@@ -75,7 +75,7 @@ collections:
             }
           - { label: "Body", name: body, widget: markdown, required: false }
   - label: "Guide (ES)"
-    name: "guide"
+    name: "guide-es"
     folder: "es/docs/guide"
     create: false
     identifier_field: summary
@@ -84,7 +84,7 @@ collections:
       - { label: "Summary", name: "summary", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
   - label: "Install (ES)"
-    name: "install"
+    name: "install-es"
     folder: "es/docs/install"
     create: false
     filter: {field: "blog_index", value: false}
