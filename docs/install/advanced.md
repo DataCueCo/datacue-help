@@ -1,6 +1,7 @@
 ---
 filter: advanced
 summary: Build your own custom layouts to bring your own designs to life instead of using our standard recommendation widgets.
+blog_index: false
 ---
 
 # Advanced Widget Customization
@@ -31,46 +32,53 @@ So here's what you need to do:
 
 3. Select `Custom` and select the number of main and sub banners you need. For the design above, we need 2 main and 2 sub banners.
 
- ![Banner Settings](./images/banner-settings.png)
+![Banner Settings](./images/banner-settings.png)
 
 4. Insert an HTML snippet like so, and style it with CSS as you like:
 
 ```html
- <div class="custom-banners">
+<div class="custom-banners">
   <div class="custom-static">
     <a href="https://example.com/any-link-you-want">
-      <img src="https://example.com/some-banner-image.jpg" alt="">
+      <img src="https://example.com/some-banner-image.jpg" alt="" />
     </a>
   </div>
   <div class="custom-big" data-dc-main-insert-banner="1"></div>
   <div class="custom-big" data-dc-main-insert-banner="2"></div>
   <div class="custom-small" data-dc-sub-insert-banner="1"></div>
   <div class="custom-small" data-dc-sub-insert-banner="2"></div>
- </div>
+</div>
 ```
- 
+
 ```css
- .custom-banners {
+.custom-banners {
   display: grid;
   grid-gap: 1em;
   grid-template-rows: 1fr auto;
-  grid-template-columns:
-  fit-content(calc(25% - 0.5em)) 1fr 1fr fit-content(calc(25% - 0.5em));
+  grid-template-columns: fit-content(calc(25% - 0.5em)) 1fr 1fr fit-content(calc(25% -
+          0.5em));
   grid-auto-flow: row dense;
- }
+}
 
- .custom-banners a img { vertical-align: bottom; }
+.custom-banners a img {
+  vertical-align: bottom;
+}
 
- .custom-static { grid-row: 1; grid-column: 2 / span 2; }
+.custom-static {
+  grid-row: 1;
+  grid-column: 2 / span 2;
+}
 
- .custom-big { grid-row: span 2; }
+.custom-big {
+  grid-row: span 2;
+}
 ```
 
 The code above is just a basic example, but the idea is similar for any layout.
 
-- You can use any class names you like on the `div` tags. They don't even have to be `div`s, you might have an existing structure you'd like to adapt. 
+- You can use any class names you like on the `div` tags. They don't even have to be `div`s, you might have an existing structure you'd like to adapt.
 
-- The only requirement is that you add the correct attribute names. Main banners must have `data-dc-main-insert-banner` and `data-dc-sub-insert-banner` for sub. 
+- The only requirement is that you add the correct attribute names. Main banners must have `data-dc-main-insert-banner` and `data-dc-sub-insert-banner` for sub.
 
 - The numbers tell us which order to insert the banners in. Something like put the 1st main banner here, put the 2nd main banner there.
 
@@ -79,7 +87,7 @@ The code above is just a basic example, but the idea is similar for any layout.
 In case you're curious for more technical details. Our recommendations are sent as an array, see example below. The number refers to the index of the element in each array, starting with 1 instead of 0.
 
 ```json
- {
+{
   "main_banners": [
     { "link": "/collection/jeans", "photo_url": "jeans.jpg" },
     { "link": "/collection/tshirts", "photo_url": "tshirts.jpg" }
@@ -88,9 +96,9 @@ In case you're curious for more technical details. Our recommendations are sent 
     { "link": "/collection/hats", "photo_url": "hats.jpg" },
     { "link": "/collection/shoes", "photo_url": "shoes.jpg" },
     { "link": "/collection/belts", "photo_url": "belts.jpg" },
-    { "link": "/collection/chuck-norris","photo_url": "chuck-norris.jpg" }
+    { "link": "/collection/chuck-norris", "photo_url": "chuck-norris.jpg" }
   ]
- }
+}
 ```
 
 ## Notifications Icon Positioning
@@ -101,29 +109,42 @@ Insert this HTML code inside your navbar where you want to see the button. You m
 
 ```html
 <style>
-[data-dc-notification-button].has-unread::before {
-  content: '';
-  position: absolute;
-  top: 2px; left: 2px;
-  width: 8px; height: 8px;
-  border-radius: 50%;
-  background-color: #f42121;
-}
-[data-dc-notification-button] > svg {
-  fill: black;
-  width: 1.5rem;
-}
+  [data-dc-notification-button].has-unread::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #f42121;
+  }
+  [data-dc-notification-button] > svg {
+    fill: black;
+    width: 1.5rem;
+  }
 </style>
 
 <a href="#" data-dc-notification-button>
-<svg id="datacue-notification-icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 15"> <title>DataCue Notifications</title><path d="M11.38,11.22a2.19,2.19,0,0,1-.88-2V6.35A4.42,4.42,0,0,0,6,2,4.42,4.42,0,0,0,1.5,6.35V9.23a2.19,2.19,0,0,1-.88,2A1.26,1.26,0,0,0,0,12.32v0a1.23,1.23,0,0,0,1.26,1.22h9.48A1.23,1.23,0,0,0,12,12.35v0A1.26,1.26,0,0,0,11.38,11.22Z"/><path d="M7.05,1A1.05,1.05,0,0,0,5,1a1.05,1.05,0,0,0,2.1,0Z"/><path d="M6,15a2.26,2.26,0,0,0,1.84-.94H4.16A2.26,2.26,0,0,0,6,15Z"/>
-</svg>
+  <svg
+    id="datacue-notification-icon"
+    data-name="Layer 1"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 12 15"
+  >
+    <title>DataCue Notifications</title>
+    <path
+      d="M11.38,11.22a2.19,2.19,0,0,1-.88-2V6.35A4.42,4.42,0,0,0,6,2,4.42,4.42,0,0,0,1.5,6.35V9.23a2.19,2.19,0,0,1-.88,2A1.26,1.26,0,0,0,0,12.32v0a1.23,1.23,0,0,0,1.26,1.22h9.48A1.23,1.23,0,0,0,12,12.35v0A1.26,1.26,0,0,0,11.38,11.22Z"
+    />
+    <path d="M7.05,1A1.05,1.05,0,0,0,5,1a1.05,1.05,0,0,0,2.1,0Z" />
+    <path d="M6,15a2.26,2.26,0,0,0,1.84-.94H4.16A2.26,2.26,0,0,0,6,15Z" />
+  </svg>
 </a>
 ```
 
 1. To change the colour of the bell, replace this line
-  `fill: black;`
-  with the HEX code of the colour you want. e.g. `fill: #FF5733` for orange.
+   `fill: black;`
+   with the HEX code of the colour you want. e.g. `fill: #FF5733` for orange.
 
 2. To change the icon to something else, simply replace the `<svg>` tag with your own image.
 

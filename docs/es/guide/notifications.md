@@ -1,6 +1,7 @@
 ---
 position: 4
 summary: Configura tus notificaciones web
+blog_index: false
 ---
 
 # Notificaciones

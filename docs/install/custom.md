@@ -2,6 +2,7 @@
 filter: advanced
 position: 6
 summary: Install DataCue using our easy to use API
+blog_index: false
 ---
 
 # Other stores

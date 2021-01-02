@@ -1,5 +1,6 @@
 ---
 summary: Configure your web notifications
+blog_index: false
 ---
 
 # Notifications

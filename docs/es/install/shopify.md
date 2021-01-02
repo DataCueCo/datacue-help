@@ -2,6 +2,7 @@
 position: 1
 filter: platform
 summary: Personaliza tu tienda Shopify instalando la app DataCue.
+blog_index: false
 ---
 
 # Shopify
@@ -30,21 +31,21 @@ Agrega Banners dinámicos y Recomendaciones de Producto en tu página de inicio
 
 2. Haz click en `Añadir sección`, y agregas la sección llamada `DataCue Banners`
 
-    ![Añadir sección](./images/add_section_banners.png)
+   ![Añadir sección](./images/add_section_banners.png)
 
-3. Elige la imagen del que será tu banner estático (se mostrará a todos tus usuarios, independiente de su comportamiento). Haz click en `Seleccionar Imagen` y súbela. 
-    
-    Idealmente, será una imagen que refleje tus colecciones más populares, o una promoción del momento. Asegúrate de que la imagen tenga una relación de aspecto de 5:3 (el tamaño recomendado es 1200 x 720 px). Aprende un poco más sobre banners estáticos [aquí](/es/guide/banners.html#banner-estatico-relacion-de-aspecto-5-3).
+3. Elige la imagen del que será tu banner estático (se mostrará a todos tus usuarios, independiente de su comportamiento). Haz click en `Seleccionar Imagen` y súbela.
+
+   Idealmente, será una imagen que refleje tus colecciones más populares, o una promoción del momento. Asegúrate de que la imagen tenga una relación de aspecto de 5:3 (el tamaño recomendado es 1200 x 720 px). Aprende un poco más sobre banners estáticos [aquí](/es/guide/banners.html#banner-estatico-relacion-de-aspecto-5-3).
 
    ![Subiendo un banner estático](./images/homepage_banners.png)
 
 4. Haz click en el botón para ir atrás. Puedes arrastrar la sección de Banners que recién agregaste, a la posición deseada. Te recomendamos dejarla justo bajo tu barra de navegación. Puedes ocultar secciones que ya no usarás, como sliders antiguos.
 
-    ![Reordena tus secciones](./images/drag_banners_products.gif)
+   ![Reordena tus secciones](./images/drag_banners_products.gif)
 
 5. Guarda tus cambios
 
-El diseño por defecto de banners DataCue considera dos banners dinámicos y un banner estático, en una misma fila. Puedes personalizar este diseño al ir a `Banners > Configuración` en tu panel de control DataCue. Lee más sobre nuestros diseños [aquí](/es/guide/banners.html#disposicion-de-los-banners). 
+El diseño por defecto de banners DataCue considera dos banners dinámicos y un banner estático, en una misma fila. Puedes personalizar este diseño al ir a `Banners > Configuración` en tu panel de control DataCue. Lee más sobre nuestros diseños [aquí](/es/guide/banners.html#disposicion-de-los-banners).
 
 Alternativamente, puedes querer construir tu propio diseño.
 
@@ -52,7 +53,7 @@ Alternativamente, puedes querer construir tu propio diseño.
 
 1. Si quieres cambiar tu banner estático, ve a las configuraciones de DataCue Banners en tu panel de administrador Shopify (`Tienda online > Personalizar tema > DataCue Banners`).
 
-2. Click en el botón de 'seleccionar imagen' y sube una nueva imagen. Nuevamente, asegúrate de mantener la relación de aspecto 5:3 (tamaño recomendado es 1200 x 720 px). Actualiza el link al que llegará el banner estático, si es necesario. 
+2. Click en el botón de 'seleccionar imagen' y sube una nueva imagen. Nuevamente, asegúrate de mantener la relación de aspecto 5:3 (tamaño recomendado es 1200 x 720 px). Actualiza el link al que llegará el banner estático, si es necesario.
 
 ### Configura recomendaciones de producto
 
@@ -66,8 +67,8 @@ Alternativamente, puedes querer construir tu propio diseño.
 
    ![Añadiendo una nueva sección](./images/add_section_products.png)
 
-3. Arrastra esta sección recién agregada a la posición donde quieras ver este carrusel de productos. 
-    ![Arrastra secciones](./images/drag_banners_products.gif)
+3. Arrastra esta sección recién agregada a la posición donde quieras ver este carrusel de productos.
+   ![Arrastra secciones](./images/drag_banners_products.gif)
 
 4. Guarda tus cambios. ¡Estás listo!
 
@@ -75,7 +76,7 @@ Alternativamente, puedes querer construir tu propio diseño.
 
 En esta sección podrás agregar carruseles de productos a diferentes páginas de tu sitio que no son tu Home. Por ejemplo, páginas de Producto, de Carrito o de Error 404. ¡Ponte creativo para personalizar la experiencia de tus usuarios en distintas etapas de su proceso!
 
-La mayoría de los temas no permiten agregar secciones personalizadas a páginas de producto; pero puedes hacerlo manualmente. 
+La mayoría de los temas no permiten agregar secciones personalizadas a páginas de producto; pero puedes hacerlo manualmente.
 
 Si estás familiarizado con editar temas, sabes que puedes encontrar el template de la página de producto en (`templates/product.liquid`), en el editor de código:
 
@@ -89,27 +90,32 @@ Pega este código especial al final del template, allí donde quieras ver las re
 
 ![Agrega recomendaciones de producto a tu página de producto](./images/shopify_add_code_product_page.gif)
 
-
 **Elige posiciones avanzadas de tus carruseles**
 
-Puedes querer poner nuestros carruseles de recomendaciones de producto en distintas partes de tu página de producto. Modifica un poco el código para decirnos qué tipo de recomendación quieres, e insértalo en la posición deseada. 
+Puedes querer poner nuestros carruseles de recomendaciones de producto en distintas partes de tu página de producto. Modifica un poco el código para decirnos qué tipo de recomendación quieres, e insértalo en la posición deseada.
 
 Productos relacionados
 
 ```html
-`<div data-dc-products="related"></div>`
+`
+<div data-dc-products="related"></div>
+`
 ```
 
 Productos similares
 
 ```html
-`<div data-dc-products="similar"></div>`
+`
+<div data-dc-products="similar"></div>
+`
 ```
 
 Productos recientemente vistos
 
 ```html
-`<div data-dc-products="recent"></div>`
+`
+<div data-dc-products="recent"></div>
+`
 ```
 
 ## Paso 3: Adapta a tu estilo

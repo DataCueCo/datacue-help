@@ -22,9 +22,9 @@
   "homepage": "https://github.com/DataCueCo/datacue-help#readme",
   "dependencies": {},
   "devDependencies": {
-    "@vuepress/plugin-google-analytics": "^1.0.0-rc.1",
-    "@vuepress/plugin-pwa": "^1.0.0-rc.1",
-    "markdown-it-footnote": "^3.0.1",
-    "vuepress": "^1.0.0-rc.1"
+    "@vuepress/plugin-google-analytics": "^1.7.1",
+    "@vuepress/plugin-pwa": "^1.7.1",
+    "markdown-it-footnote": "^3.0.2",
+    "vuepress": "^1.7.1"
   }
 }

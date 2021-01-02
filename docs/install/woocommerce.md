@@ -2,6 +2,7 @@
 position: 2
 filter: platform
 summary: Personalize your WooCommerce store by installing the DataCue plugin.
+blog_index: false
 ---
 
 # WooCommerce <Badge text="beta" type="success"/>

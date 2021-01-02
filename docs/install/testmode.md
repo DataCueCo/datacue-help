@@ -1,6 +1,7 @@
 ---
 filter: advanced
 summary: Set DataCue to test mode to adjust your widget designs with CSS without affecting your site visitors
+blog_index: false
 ---
 
 # Test Mode
@@ -15,7 +16,7 @@ Test mode to the rescue. With test mode, you can define a set of customer accoun
 
 Once everything looks good - turn it OFF and let the world see your handiwork.
 
-## Set DataCue to Test Mode 
+## Set DataCue to Test Mode
 
 It's easy to set DataCue to 'Test Mode':
 
@@ -27,11 +28,11 @@ It's easy to set DataCue to 'Test Mode':
 
 4. Turn test mode on
 
-    ![Test mode](./images/test-mode.png)
+   ![Test mode](./images/test-mode.png)
 
 5. In the box type the email addresses of everyone who should see DataCue recommendations.
 
-    ![Test mode](./images/test-users.png)
+   ![Test mode](./images/test-users.png)
 
 6. Save it
 

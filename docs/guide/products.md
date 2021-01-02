@@ -1,5 +1,6 @@
 ---
 summary: Configure your product recommendations
+blog_index: false
 ---
 
 # Product Recommendations

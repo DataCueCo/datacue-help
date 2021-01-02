@@ -2,6 +2,7 @@
 position: 3
 filter: platform
 summary: Personalize your Magento store by installing the DataCue module.
+blog_index: false
 ---
 
 # Magento <Badge text="beta" type="success"/>

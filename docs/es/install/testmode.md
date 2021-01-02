@@ -1,6 +1,7 @@
 ---
 filter: advanced
 summary: Configura DataCue en modo de prueba para modificar tu CSS sin afectar a los visitantes de tu sitio
+blog_index: false
 ---
 
 # Modo de prueba
@@ -17,7 +18,7 @@ Lo primero que debes hacer después de descargar DataCue, es configurarlo en Mod
 
 4. Activa el modo de prueba.
 
-    ![Test mode](./images/test-mode.png)
+   ![Test mode](./images/test-mode.png)
 
 ## Seleccionar usuarios de prueba
 

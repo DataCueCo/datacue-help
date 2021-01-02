@@ -2,6 +2,7 @@
 position: 5
 filter: advanced
 summary: Integra DataCue a tu plataforma personalizada
+blog_index: false
 ---
 
 # Otras plataformas
@@ -13,6 +14,7 @@ A nivel general, hay dos cosas que debes hacer para dejar DataCue andando en tu 
 ## 1. Envía tus datos de Backend
 
 Necesitamos solo tres tipos de datos:
+
 - Productos
 - Lista de pedidos
 - Lista de usuarios

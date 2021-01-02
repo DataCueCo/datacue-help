@@ -1,6 +1,7 @@
 ---
 position: 1
 summary: Cómo administrar tus recomendaciones de productos
+blog_index: false
 ---
 
 # Recomendaciones de productos
