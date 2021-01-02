@@ -60,10 +60,6 @@ Personalize your Shopify store by installing the DataCue app.
 
 Personalize your WooCommerce store by installing the DataCue plugin.
 
-### [VTEX](/install/vtex/)
-
-Personalize your VTEX store by installing the DataCue integration.
-
 ### [Others](/custom/)
 
 Personalize your store using the DataCue recommendations API. Basic coding skills required.

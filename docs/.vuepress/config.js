@@ -75,7 +75,7 @@ function getInstallSidebar(groupA, groupB) {
       title: groupA,
       sidebarDepth: 2,
       collapsable: false,
-      children: ["", "shopify", "woocommerce", "prestashop", "magento", "vtex"],
+      children: ["", "shopify", "woocommerce", "prestashop", "magento"],
     },
     {
       title: groupB,
