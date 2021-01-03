@@ -5,7 +5,6 @@ actionText: Get Started →
 actionLink: /#getting-started
 footer: © 2018-present DataCue (PTE. LTD.)
 ---
-
 # DataCue Help
 
 ## Getting Started
@@ -50,7 +49,7 @@ Personalize your Magento 2 store by installing the DataCue extension.
 
 ### [PrestaShop](/install/prestashop/)
 
-Personalize your PrestaShop store by installing the DataCue module.
+Personalize your Prestashop store by installing the DataCue module.
 
 ### [Shopify](/install/shopify/)
 
