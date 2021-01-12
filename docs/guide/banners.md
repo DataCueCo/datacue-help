@@ -2,7 +2,6 @@
 summary: Learn how to manage dynamic banners with DataCue
 blog_index: false
 ---
-
 # Banners
 
 Banners are the most prominent part of your home page. They are typically displayed immediately above the fold, the visible part of the page before you scroll. Banners tell users what to expect from your store and typically directs them to product categories.
@@ -11,13 +10,11 @@ Banners grab attention immediately. It's far more effective to show relevant ban
 
 ## Quick Start
 
-1. Before getting started you should review the different banner types supported by DataCue.  
+1. Before getting started you should review the different banner types supported by DataCue.\
    [Jump to Banner Types](#banner-types).
-
-1. Then you can decide what layout works best for you.  
+2. Then you can decide what layout works best for you.\
    [Jump to Banner Layout](#banner-layout)
-
-1. Upload all the banners.  
+3. Upload all the banners.\
    [Jump to Uploading a new banner](#uploading-a-new-banner)
 
 ## Banner Types
@@ -86,18 +83,14 @@ If you delete or update a banner, this change is applied immediately.
 
 1. Click on 'Banners' in your dashboard sidebar
 
-   ![Banner Sidebar](./images/banner_sidebar.png)
-
+   ![Banner Sidebar](/media/captura-de-pantalla-2021-01-12-a-la-s-9.37.45-p.-m..png)
 2. In the upload banner section, select the category you wish to associate with the banner.
 
    **Note**: We'll tell you which categories are the most popular sellers so you can prioritize.
-
 3. We'll automatically generate the link for you based on the category you selected, you can modify it if you want to.
-
 4. Drag and drop an image on to the striped box, or just click on it to browse for the banner image to upload it.
 
    ![Banner Upload](./images/banner_upload_form.png)
-
 5. Click on `Upload`, thats it! You'll soon see your new banner appear in the existing banners section.git
 
    ![Banner upload button](./images/banner_upload_btn.png)
