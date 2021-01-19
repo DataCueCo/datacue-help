@@ -67,7 +67,7 @@ Recuerda que tras esto, debes "prender" el carrusel desde la sección de Configu
 
 ![](/media/screenshot-2021-01-19-at-18.18.06.png "descuentos")
 
-## Comprueba el resultados 
+## Comprueba los resultados 
 
 DataCue le permite conocer el resultado de tu website y de los productos a nivel individual. Vaya a su panel DataCue > Productos. Puedes filtrar por fechas, vistas, clicks o puntuaciones. \
 \
