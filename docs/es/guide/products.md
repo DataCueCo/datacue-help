@@ -61,9 +61,9 @@ Recuerda que tras esto, debes "prender" el carrusel desde la sección de Configu
 
 ![](/media/screenshot-2021-01-19-at-18.04.59.png "**Diseño del carrusel**")
 
-**Títulos para cada vitrina**: Los títulos de tus carruseles puedes cambiarlos cuando quieras. En tu Panel de Control DataCue, tendrás la opción.
+**Títulos para cada vitrina**: Los títulos de tus carruseles puedes cambiarlos cuando quieras desde su Panel de Control DataCue. 
 
-**Prioriza descuentos**: Esto es particularmente útil si estamos en épocas de rebajas, como eventos Cyber. O, la verdad, cuando se te ocurra. Desde el Panel DataCue, en la sección de configuración verás la alternativa "Priorizar descuentos". Al elegirla, el recomendador mostrará primero aquellos que tengan rebaja en precios. Deja el descuento en cero si no quieres priorizar descuentos.
+**Prioriza descuentos**: Esto es particularmente útil, por ejemplo cuándo estamos en épocas de rebajas. Desde el Panel DataCue, en la sección de configuración verás la alternativa "Priorizar descuentos". Lo cual  mostrará primero aquellos que tengan rebajas. Deja el descuento en cero si no quieres priorizar descuentos.
 
 ## Mide desempeño de tus productos
 
