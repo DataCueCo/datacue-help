@@ -65,8 +65,8 @@ Recuerda que tras esto, debes "prender" el carrusel desde la sección de Configu
 
 **Prioriza descuentos**: Esto es particularmente útil, por ejemplo cuándo estamos en épocas de rebajas. Desde el Panel DataCue, en la sección de configuración verás la alternativa "Priorizar descuentos". Lo cual  mostrará primero aquellos que tengan rebajas. Deja el descuento en cero si no quieres priorizar descuentos.
 
-## Mide desempeño de tus productos
+## Comprueba el resultados 
 
-DataCue te permite conocer el resultado de tu sitio en general, pero también de tus productos a nivel individual. Al hacer click sobre Productos en el Menú Izquierdo de tu Panel, verás inmediatamente cada producto. Puedes filtrar por fechas, y ordenarlos por vistas, clicks o puntuaciones. Estas últimas estarán basadas en efectividad (conversiones).
-
-¿Por qué no utilizar esta información para tus campañas de marketing digital? Atrae visitas con los productos que han mostrado ser tus "top". Aplica estos datos, dentro o fuera de tu tienda online, en beneficio de tu negocio.
+DataCue le permite conocer el resultado de tu website y de los productos a nivel individual. Vaya a su panel DataCue > Productos. Puedes filtrar por fechas, vistas, clicks o puntuaciones. \
+\
+¿Por qué no utilizar esta información para sus **campañas de marketing digital**? Atrae visitas con los productos que han mostrado más interés.
