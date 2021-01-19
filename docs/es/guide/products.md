@@ -25,27 +25,29 @@ Podrás añadir esta opción en **cualquier página de su website**, excepto en
 
 ### 2. Categorías dinámicas
 
-Seleccione automáticamente las categorías principales para destacar en función de las actividades de un visitante y las compras anteriores. Sugerimos que reemplazar la sección de categorías destacadas en su página de inicio con este sección.
+Las categorías dinámicas destacan los artículos mas relevantes en función del comportamiento y compras del usuario anteriormente.\
+\
+Recomendamos añadir esta opción a la pagina de inicio.
 
 #### 3. Productos recientemente vistos
 
-Los productos que ha visto el usuario en un período cercano. Si el visitante es nuevo, este sección no aparece.
+Esta opción solo aparecerá si el usuario ya ha visitado su website anteriormente.  
 
 ### Recomendaciones basadas en contenido
 
-Recomendaciones que se basan en la página que el visitante está viendo actualmente. Todas las sugerencias se actualizan a diario.
+Estas recomendaciones se crean según lo que el usuario haya visitado recientemente. Lo sugerido se actualiza diariamente. 
 
 #### 4. Productos 'top' (página de categoría)
 
-Seleccionaremos automáticamente los productos más populares de la categoría actual para ahorrar al visitante unos pocos clics.
+Seleccionaremos automáticamente los productos más populares para así ahorrar al usuario unos pocos clics.
 
 #### 5. Productos relacionados (página de producto)
 
-Le sugeriremos otros productos que normalmente se compran con el producto actual.
+En este apartado mostraremos productos relacionados con el de interés por parte del usuario. 
 
 #### 6. Productos similares (página de producto)
 
-Esta seccion se construye observando las palabras que utilizas en la **descripción, título y categoría** en que se encuentra tu producto. Así, mostrará otros que guardan similitud al producto que se el usuario observa. Es particularmente útil si tienes muchos productos similares entre sí, y para tus usuarios que ya han definido interés en un tipo de productos... pero aún no se deciden realmente por uno. Con esta recomendación, ¡no podrár irse sin encontrar el que más les gusta!
+Esta selección se basa en la **descripción, título y categoría** que utilizas para tus productos para poder así mostrar otros que guarden similitud. Lo cual ayudará a mostrar el cliente todos los productos que puedan ser de su iteres y hacerle tomar una decision más rápida a la hora de comprar. 
 
 ## Configura tus Recomendaciones de Producto
 
