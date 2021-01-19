@@ -25,7 +25,7 @@ Podrás añadir esta opción en **cualquier página de su website**, excepto en
 
 ### 2. Categorías dinámicas
 
-Las categorías dinámicas destacan los artículos mas relevantes en función del comportamiento y compras del usuario anteriormente.\
+Las categorías dinámicas destacan los artículos más relevantes en función del comportamiento y compras realizadas anteriormente por el usuario. \
 \
 Recomendamos añadir esta opción a la pagina de inicio.
 
@@ -35,7 +35,7 @@ Esta opción solo aparecerá si el usuario ya ha visitado su website anteriormen
 
 ### Recomendaciones basadas en contenido
 
-Estas recomendaciones se crean según lo que el usuario haya visitado recientemente. Lo sugerido se actualiza diariamente. 
+Estas recomendaciones se crean según lo que el usuario haya visitado recientemente y se actualiza diariamente. 
 
 #### 4. Productos 'top' (página de categoría)
 
@@ -47,17 +47,19 @@ En este apartado mostraremos productos relacionados con el de interés por parte
 
 #### 6. Productos similares (página de producto)
 
-Esta selección se basa en la **descripción, título y categoría** que utilizas para tus productos para poder así mostrar otros que guarden similitud. Lo cual ayudará a mostrar el cliente todos los productos que puedan ser de su iteres y hacerle tomar una decision más rápida a la hora de comprar. 
+Esta selección muestra productos similares basándose en la **descripción, título y categoría** que utilizas para sus productos. Lo cual ayudará a mostrar al cliente todos los artículos que puedan ser de su interés y poder así ayudarle a tomar una decisión más rápida a la hora de comprar. 
 
 ## Configura tus Recomendaciones de Producto
 
-DataCue te permite elegir cómo se verán tus recomendaciones de producto. Todas estas alternativas puedes encontrarlas en tu panel de Control DataCue, en la sección Configuración > Productos.
+DataCue te permite elegir cómo se verán tus recomendaciones de productos. Puedes ver las diferentes alternativas en su panel de Control DataCue, en la sección Configuración > Productos.
 
-**Tipo de Carrusel y posición**: Elige el tipo de vitrina que quieras agregar, y sigue nuestra [Guía de Instalación](https://help.datacue.co/es/install/) según tu plataforma, para añadirlos a cada página en la posición deseada. Dependiendo de tu plataforma, esto puede ser tan sencillo como arrastrar la vitrina, o bien añadir un pedazo de código.
+**Tipo de Carrusel y posición**: Elige el tipo de vitrina que quieras añadir, y sigue nuestra [Guía de Instalación](https://help.datacue.co/es/install/), para poder añadirlos a cada página en la posición deseada. Dependiendo de su plataforma, esto puede ser tan sencillo como arrastrar la vitrina, o bien añadir un código.
 
 Recuerda que tras esto, debes "prender" el carrusel desde la sección de Configuración en tu Panel de Control. Si tu página ya incluye el código del carrusel DataCue, podrás prenderlo y apagarlo cuando quieras, y la vitrina se mostrará o dejará de mostrarse.
 
-**Diseño del carrusel**: El diseño de tus recomendaciones puedes adaptarlo a tu sitio, con el editor de diseños en tu Panel DataCue de tu Panel, o mediante CSS. En tu Panel DataCue podrás decidir si tus productos se mostrarán en una grilla o slider, cuántos se mostrarán, colores, fuentes, ¡etc! Puedes cambiar esto en cualquier momento.
+**Diseño del carrusel**: puedes seleccionar el diseño del carrusel desde el editor de diseños en su Panel DataCue, o mediante CSS. Si selecciona su diseño a través se su Panel DataCue podrás decidir si sus productos se mostrarán en grilla o slider, cuántos se mostrarán, colores, fuentes, ¡etc! Puedes cambiar esto en cualquier momento.
+
+![](/media/screenshot-2021-01-19-at-18.04.59.png "**Diseño del carrusel**")
 
 **Títulos para cada vitrina**: Los títulos de tus carruseles puedes cambiarlos cuando quieras. En tu Panel de Control DataCue, tendrás la opción.
 
