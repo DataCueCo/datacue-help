@@ -13,6 +13,10 @@ DataCue selecciona cuidadosamente los productos relacionados con el comportamien
 
 DataCue admite 6 tipos de recomendaciones de productos, para distintas páginas del sitio.
 
+![](/media/tipos-de-recomendaciones.jpg)
+
+
+
 ### Recomendaciones personalizadas
 
 Creamos recomendaciones personalizadas basándonos en el **comportamiento histórico** de las visitas en su web. 
