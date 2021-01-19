@@ -3,12 +3,11 @@ position: 1
 summary: Cómo administrar tus recomendaciones de productos
 blog_index: false
 ---
-
 # Recomendaciones de productos
 
-Las recomendaciones de productos son uno de los componentes más importantes de la personalización, y se vuelven más importantes a medida que tienes más productos.
-
-Debes filtrar los productos que muestras. DataCue selecciona cuidadosamente los productos que guardan relación con el comportamiento de tu usuario, para hacerle sugerencias relevantes y de alta probabilidad de compra. De esta forma, le ayudas a descubrir productos que consiguen aumentar su ticket promedio.
+Las recomendaciones de productos es uno de los elementos más importante cuando hablamos de personalización. Filtrar los productos que muestras es clave.\
+\
+DataCue selecciona cuidadosamente los productos relacionados con el comportamiento del usuario, lo que nos permite realizarle sugerencias relevantes y aumentar la probabilidad de compra.  
 
 ## Tipos de recomendación
 
@@ -16,13 +15,13 @@ DataCue admite 6 tipos de recomendaciones de productos, para distintas páginas 
 
 ### Recomendaciones personalizadas
 
-Los datos más importantes de los que disponemos son del **comportamiento histórico** de tus visitas. Por lo tanto, son estos los primeros que usamos para crear esta sección.
+Creamos recomendaciones personalizadas basándonos en el **comportamiento histórico** de las visitas en su web. 
 
 #### 1. Productos personalizados
 
-Una sección de productos basada en las actividades del visitante y compras pasadas. La sección se actualiza inmediatamente con cada acción que realiza el visitante. Si se trata de un visitante nuevo, mostramos los productos más populares de su tienda.
-
-Este sección se puede poner en **cualquier página de tu sitio**, excepto en la página de producto.
+La selección de productos personalizados se basa en el comportamiento y las compras que realizó el usuario anteriormente. Si es nuevo, entonces mostraremos los productos mas populares.\
+\
+Podrás añadir esta opción en **cualquier página de su website**, excepto en la página de producto.
 
 ### 2. Categorías dinámicas
 
