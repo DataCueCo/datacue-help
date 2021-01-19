@@ -9,7 +9,7 @@ Las recomendaciones de productos es uno de los elementos más importante cuando 
 \
 DataCue selecciona cuidadosamente los productos relacionados con el comportamiento del usuario, lo que nos permite realizarle sugerencias relevantes y aumentar la probabilidad de compra.  
 
-## Tipos de recomendación
+## Tipos de recomendaciones
 
 DataCue admite 6 tipos de recomendaciones de productos, para distintas páginas del sitio.
 
