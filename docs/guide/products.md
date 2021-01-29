@@ -4,7 +4,11 @@ blog_index: false
 ---
 # Product Recommendations
 
-Product recommendations are one of the most important components of personalization. This is especially true when you have hundreds of products. At that scale, it's impossible to introduce your visitor to everything you sell. Instead, you need to filter and curate what you show your visitors so they can make a decision faster.
+Product recommendations are one of the most important components of personalisation. Filtering the products you show is essential. 
+
+DataCue make relevant suggestions and increase the probability of purchase by analysing the visitor's activity. 
+
+![](/media/tipos-de-recomendaciones.jpg)
 
 ## Recommendation Types
 
