@@ -15,8 +15,6 @@ DataCue admite 6 tipos de recomendaciones de productos, para distintas páginas 
 
 ![](/media/tipos-de-recomendaciones.jpg)
 
-
-
 ### Recomendaciones personalizadas
 
 Creamos recomendaciones personalizadas basándonos en el **comportamiento histórico** de las visitas en su web. 
@@ -25,7 +23,7 @@ Creamos recomendaciones personalizadas basándonos en el **comportamiento histó
 
 La selección de productos personalizados se basa en el comportamiento y las compras que realizó el usuario anteriormente. Si es nuevo, entonces mostraremos los productos más populares.\
 \
-Podrás añadir esta opción en **cualquier página de su website**, excepto en la página de producto.
+Podrás añadir esta opción en cualquier página de su website, **excepto en la página de producto.**
 
 ### 2. Categorías dinámicas
 
@@ -71,7 +69,7 @@ Recuerda que tras esto, debes "prender" el carrusel desde la sección de Configu
 
 ![](/media/screenshot-2021-01-19-at-18.18.06.png "descuentos")
 
-## Comprueba los resultados 
+## Comprueba los resultados
 
 DataCue le permite conocer las estadísticas de su website y de los productos a nivel individual. Acceda a esta información en: Panel de control DataCue > Productos. Puedes filtrar por fechas, vistas, clicks o puntuaciones. \
 \
