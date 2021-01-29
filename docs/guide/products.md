@@ -72,7 +72,7 @@ Remember that after this, you must "turn on" the carousel at the setting section
 
 **Prioritise discounts**: This is quite useful, for example: when we are on sale. You can select this option at: DataCue Control Panel> Settings> Prioritise discounts. It will show to the users those items that have sales. Leave the discount at zero if you don't want to prioritise discounts.
 
-![](/media/prioritize-discount-products.png)
+![](/media/product-section-type-grid-slider-.jpg)
 
 \
 **Check the results**\
