@@ -12,8 +12,7 @@ DataCue make relevant suggestions and increase the probability of purchase by an
 
 ## Recommendation Types
 
-DataCue supports 6 types of product recommendations explained below.
-
+DataCue supports 6 types of product recommendations explained below.\
 \
 **Personalised recommendations**
 
@@ -33,8 +32,7 @@ We recommend to add this option to the home page.
 
 **3. Recently viewed**
 
-This option will only appear if the user has already visited your website. 
-
+This option will only appear if the user has already visited your website. \
 \
 **Content based recommendations**
 
