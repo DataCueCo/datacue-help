@@ -8,38 +8,34 @@ Product recommendations are one of the most important components of personalisat
 
 DataCue makes relevant suggestions and increases the probability of purchase by analysing the visitor's activity. 
 
-**Recommendation Types**
-
+**Recommendation Types**\
 DataCue supports 6 types of product recommendations for different sections at your website. 
 
 ![](/media/product-recommendation.jpg)
 
-## \
-
 \
-**Personalised recommendations**
-
-\
+**Personalised recommendations**\
 We create personalised recommendations based on the historical behaviour of the visitors at your website.
 
-**1. Related to you**
-
+\
+**1. Related to you**\
+\
 We make a selection of products based on the past visitor's activities and purchases. The selection updates immediately on every action the visitor does. If this he is a new visitor, we will show the most popular products. 
 
 This can be placed on any page **except the product page**.
 
-**2. Dynamic categories**
-
+**2. Dynamic categories**\
+\
 It automatically selects the top categories to feature based on the past visitor's activities and purchases.                                          
 
 We recommend to add this option to the home page.\
 \
-**3. Recently viewed**
-
+**3. Recently viewed**\
+\
 This option will only appear if the user has already visited your website. \
 \
-**Content based recommendations**
-
+**Content based recommendations**\
+\
 These recommendations are based on recent user visits and are updated daily.\
 \
 **4. Top Products (Category page)**
