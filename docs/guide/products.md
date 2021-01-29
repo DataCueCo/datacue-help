@@ -2,7 +2,6 @@
 summary: Configure your product recommendations
 blog_index: false
 ---
-
 # Product Recommendations
 
 Product recommendations are one of the most important components of personalization. This is especially true when you have hundreds of products. At that scale, it's impossible to introduce your visitor to everything you sell. Instead, you need to filter and curate what you show your visitors so they can make a decision faster.
@@ -45,4 +44,4 @@ We'll suggest other products that are typically/frequently bought with the curre
 
 #### 6. Similar Products (Product page)
 
-We look at the words used in the description, the product title and categories to find products similar to the currently viewed product. This seccion is useful if you have many products that are similar.
+We look at the words used in the description, the product title and categories to find products similar to the currently viewed product. This section is useful if you have many products that are similar.
