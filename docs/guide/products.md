@@ -67,3 +67,19 @@ Remember that after this, you must "turn on" the carousel at the setting section
 **Carousel design**: you can select the carousel layout from the layout editor in your DataCue control panel, or via CSS. If you select your design through your DataCue control panel, you can decide if your products will be displayed in a grid or slider, quantity, color, fonts, etc! You can change this at any time.
 
 ![](/media/product-section-type-grid-slider-.jpg)
+
+
+
+**Showcases titles**:the titles of your carousels can be changed whenever you want from your DataCue Control Panel. 
+
+**Prioritise discounts**: This is quite useful, for example: when we are on sale. You can select this option at: DataCue Control Panel> Settings> Prioritise discounts. It will show to the users those items that have sales. Leave the discount at zero if you don't want to prioritise discounts.
+
+![](/media/prioritize-discount-products.png)
+
+
+
+**Check the results**\
+\
+DataCue allows you to check the statistics of your website and the products at the individual level. Access to this information here: DataCue Control Panel> Products. Then you can filter by dates, views, clicks or scores.\
+\
+Why not use this information for your digital marketing campaigns? Attract visitors with the products that have shown the most interest.
