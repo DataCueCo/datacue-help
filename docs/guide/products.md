@@ -74,4 +74,4 @@ Remember that after this, you must "turn on" the carousel at the setting section
 \
 DataCue allows you to check the statistics of your website and the products at individual level.You can access to this information at your DataCue Control Panel> Products. Then you can filter by dates, views, clicks or scores.\
  \
-Why not using this information for your digital marketing campaigns? Attract visitors with the products that have shown the most interest.
+Why not using this information for your **digital marketing campaigns**? Attract visitors with the products that have shown the most interest.
