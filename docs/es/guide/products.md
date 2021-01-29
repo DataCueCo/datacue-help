@@ -61,7 +61,7 @@ Recuerda que tras esto, debes "prender" el carrusel desde la sección de Configu
 
 **Diseño del carrusel**: puedes seleccionar el diseño del carrusel desde el editor de diseños en su Panel DataCue, o mediante CSS. Si selecciona su diseño a través se su Panel DataCue podrás decidir si sus productos se mostrarán en grilla o slider, cantidad, colores, fuentes, ¡etc! Podrás cambiar esto en cualquier momento.
 
-![](/media/screenshot-2021-01-19-at-18.04.59.png "**Diseño del carrusel**")
+![](/media/tipo-de-vitrina.png "**Diseño del carrusel**")
 
 **Títulos para cada vitrina**: Los títulos de sus carruseles puedes cambiarlos cuando quieras desde su Panel de Control DataCue. 
 
