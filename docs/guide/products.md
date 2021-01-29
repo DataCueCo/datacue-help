@@ -30,21 +30,26 @@ It automatically selects the top categories to feature based on the past visitor
 
 We recommend to add this option to the home page.\
 \
+\
 **3. Recently viewed**\
 \
 This option will only appear if the user has already visited your website. \
+\
 \
 **Content based recommendations**\
 \
 These recommendations are based on recent user visits and are updated daily.\
 \
+\
 **4. Top Products (Category page)**
 
 We will automatically select the most popular products from the current category to save the visitor a few clicks.\
 \
+\
 **5. Related Products (Product page)**
 
 We will show products that are related with the user's interest. \
+\
 \
 **6. Similar Products (Product page)**
 
