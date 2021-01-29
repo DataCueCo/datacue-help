@@ -14,8 +14,8 @@ DataCue make relevant suggestions and increase the probability of purchase by an
 
 DataCue supports 6 types of product recommendations explained below.
 
-### \
-Personalized recommendations
+\
+**Personalised recommendations**
 
 Visitor based recommendations take into account the visitor's actions to decide what to show.
 
