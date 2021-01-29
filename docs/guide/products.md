@@ -6,30 +6,33 @@ blog_index: false
 
 Product recommendations are one of the most important components of personalisation. Filtering the products you show is essential. 
 
-DataCue make relevant suggestions and increase the probability of purchase by analysing the visitor's activity. 
+DataCue makes relevant suggestions and increases the probability of purchase by analysing the visitor's activity. 
+
+**Recommendation Types**
+
+DataCue supports 6 types of product recommendations for different sections at your website. 
 
 ![](/media/tipos-de-recomendaciones.jpg)
 
-## Recommendation Types
-
-DataCue supports 6 types of product recommendations explained below.\
+## \
 \
 **Personalised recommendations**
 
-Visitor based recommendations take into account the visitor's actions to decide what to show.
+\
+We create personalised recommendations based on the historical behaviour of the visitors at your website.
 
 **1. Related to you**
 
-A section of products based on the past visitor's activities and purchases. The section updates immediately on every action the visitor takes. If this is a new visitor, we show the most popular products in your store.
+We make a selection of products based on the past visitor's activities and purchases. The selection updates immediately on every action the visitor does. If this he is a new visitor, we will show the most popular products. 
 
 This can be placed on any page **except the product page**.
 
 **2. Dynamic categories**
 
-Automatically select the top categories to feature based on the past visitor's activities and purchases.                                          \
-\
-We recommend to add this option to the home page.
+It automatically selects the top categories to feature based on the past visitor's activities and purchases.                                          
 
+We recommend to add this option to the home page.\
+\
 **3. Recently viewed**
 
 This option will only appear if the user has already visited your website. \
@@ -48,11 +51,11 @@ We will show products that are related with the user's interest. \
 \
 **6. Similar Products (Product page)**
 
-DataCue will select similar items based on the category, description and title that you used for your products.The visitor will see items of his interest which will help them to make a quicker decision.  
+DataCue will select similar items based on the **category, description and title** that you used for your products.The visitors will see items of their interest which will help them to make a quicker decision.  
 
 **Setup your product recommendations**
 
-DataCue allows you to choose the style of your product recommendations. You can see the different alternatives in your DataCue Control panel> Configuration> Products.
+DataCue allows you to choose the style of your product recommendations. You can see the different alternatives in your DataCue control panel> Configuration> Products.
 
 **Carousel type and position:** Choose the type of showcase you want to add, and follow our [Installation Guide](https://help.datacue.co/install/) to be able to add them to each page in the desired position. Depending on your platform, this can be as simple as dragging the showcase, or adding a code.
 
@@ -63,7 +66,7 @@ Remember that after this, you must "turn on" the carousel at the setting section
 ![](/media/product-section-type-grid-slider-.jpg)
 
 \
-**Showcases titles**:the titles of your carousels can be changed whenever you want from your DataCue Control Panel. 
+**Showcases titles**: the titles of your carousels can be changed whenever you want from your DataCue Control Panel. 
 
 **Prioritise discounts**: This is quite useful, for example: when we are on sale. You can select this option at: DataCue Control Panel> Settings> Prioritise discounts. It will show to the users those items that have sales. Leave the discount at zero if you don't want to prioritise discounts.
 
@@ -72,6 +75,6 @@ Remember that after this, you must "turn on" the carousel at the setting section
 \
 **Check the results**\
 \
-DataCue allows you to check the statistics of your website and the products at the individual level. Access to this information here: DataCue Control Panel> Products. Then you can filter by dates, views, clicks or scores.\
-\
-Why not use this information for your digital marketing campaigns? Attract visitors with the products that have shown the most interest.
+DataCue allows you to check the statistics of your website and the products at individual level.You can access to this information at your DataCue Control Panel> Products. Then you can filter by dates, views, clicks or scores.\
+ \
+Why not using this information for your digital marketing campaigns? Attract visitors with the products that have shown the most interest.
