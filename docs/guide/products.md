@@ -57,12 +57,12 @@ Remember that after this, you must "turn on" the carousel at the setting section
 \
 **Showcases titles**: the titles of your carousels can be changed whenever you want from your DataCue Control Panel. 
 
-**Prioritise discounts**: This is quite useful, for example: when we are on sale. You can select this option at: DataCue Control Panel> Settings> Prioritise discounts. It will show to the users those items that have sales. Leave the discount at zero if you don't want to prioritise discounts.
+**Prioritise discounts**: This is quite useful, for example: when we are on sales. You can select this option at: DataCue Control Panel > Settings > Prioritise discounts. It will show to the users those items that have sales. Leave the discount at zero if you don't want to prioritise discounts.
 
 ![](/media/product-section-type-grid-slider-.jpg)
 
 \
 **Check the results**\
-DataCue allows you to check the statistics of your website and the products at individual level.You can access to this information at your DataCue Control Panel> Products. Then you can filter by dates, views, clicks or scores.\
+DataCue allows you to check the statistics of your website and the products at individual level.You can access to this information at your DataCue Control Panel > Products. Then you can filter by dates, views, clicks or scores.\
  \
 Why not using this information for your **digital marketing campaigns**? Attract visitors with the products that have shown the most interest.
