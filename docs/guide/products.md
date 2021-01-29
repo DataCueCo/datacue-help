@@ -40,8 +40,10 @@ We'll automatically select the most popular products from the current category t
 
 #### 5. Related Products (Product page)
 
-We'll suggest other products that are typically/frequently bought with the current product.
+We'll suggest other products that are frequently bought together with the current product.
 
 #### 6. Similar Products (Product page)
 
 We look at the words used in the description, the product title and categories to find products similar to the currently viewed product. This section is useful if you have many products that are similar.
+
+## Settings
