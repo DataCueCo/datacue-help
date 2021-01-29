@@ -12,9 +12,10 @@ DataCue makes relevant suggestions and increases the probability of purchase by 
 
 DataCue supports 6 types of product recommendations for different sections at your website. 
 
-![](/media/tipos-de-recomendaciones.jpg)
+![](/media/product-recommendation.jpg)
 
 ## \
+
 \
 **Personalised recommendations**
 
