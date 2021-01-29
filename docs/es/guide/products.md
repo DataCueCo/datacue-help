@@ -67,7 +67,7 @@ Recuerda que tras esto, debes "prender" el carrusel desde la sección de Configu
 
 **Prioriza descuentos**: Esto es particularmente útil, por ejemplo cuándo estamos en épocas de rebajas. Puedes seleccionar esta opción en: Panel de control DataCue > Configuración > Priorizar descuentos. Esto permitirá mostrar al usuario aquellos artículos que tengan rebajas. Deja el descuento en cero si no quieres priorizar descuentos.
 
-![](/media/screenshot-2021-01-19-at-18.18.06.png "descuentos")
+![](/media/producto-descuento.jpg1.jpg "descuentos")
 
 ## Comprueba los resultados
 
