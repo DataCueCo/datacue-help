@@ -14,40 +14,56 @@ DataCue make relevant suggestions and increase the probability of purchase by an
 
 DataCue supports 6 types of product recommendations explained below.
 
-### Personalized recommendations
+### \
+Personalized recommendations
 
 Visitor based recommendations take into account the visitor's actions to decide what to show.
 
-#### 1. Related to you
+#### \
+1. Related to you
 
-A seccion of products based on the visitor's activities and past purchases. The seccion updates immediately on every action the visitor takes. If this is a new visitor, we show the most popular products in your store.
+A section of products based on the past visitor's activities and purchases. The section updates immediately on every action the visitor takes. If this is a new visitor, we show the most popular products in your store.
 
-This can be placed on any page **EXCEPT the product page**.
+This can be placed on any page **except the product page**.
 
-#### 2. Dynamic Categories
+#### \
+2. Dynamic Categories
 
-Automatically select the top categories to feature based on a visitor's activities and past purchases. This is often used to replace the featured categories section on your home page.
+Automatically select the top categories to feature based on the past visitor's activities and purchases.                                          \
+\
+We recommend to add this option to the home page.
 
-#### 3. Recently Viewed
+#### \
+3. Recently Viewed
 
-All the products the visitor has recently viewed in the past. If the visitor is new, this seccion does not appear.
+This option will only appear if the user has already visited your website. 
 
-Can be placed on any page.
+### \
+Content based recommendations
 
-### Content based recommendations
-
-Recommendations that are based on the page the visitor is currently looking at. All suggestions are updated daily.
+These recommendations are based on recent user visits and are updated daily.
 
 #### 4. Top Products (Category page)
 
-We'll automatically select the most popular products from the current category to save the visitor a few clicks.
+We will automatically select the most popular products from the current category to save the visitor a few clicks.
 
 #### 5. Related Products (Product page)
 
-We'll suggest other products that are frequently bought together with the current product.
+We will show products that are related with the user's interest. 
 
 #### 6. Similar Products (Product page)
 
-We look at the words used in the description, the product title and categories to find products similar to the currently viewed product. This section is useful if you have many products that are similar.
+DataCue will select similar items based on the category, description and title that you used for your products.The visitor will see items of his interest which will help them to make a quicker decision.  
 
-## Settings
+## \
+**Setup your product recommendations**
+
+DataCue allows you to choose the style of your product recommendations. You can see the different alternatives in your DataCue Control panel> Configuration> Products.\
+\
+**Carousel type and position:** Choose the type of showcase you want to add, and follow our [Installation Guide](https://help.datacue.co/install/) to be able to add them to each page in the desired position. Depending on your platform, this can be as simple as dragging the showcase, or adding a code.
+
+Remember that after this, you must "turn on" the carousel at the setting section of your control panel. If your page already includes the DataCue carousel code, you can turn it on and off whenever you want.\
+\
+**Carousel design**: you can select the carousel layout from the layout editor in your DataCue control panel, or via CSS. If you select your design through your DataCue control panel, you can decide if your products will be displayed in a grid or slider, quantity, color, fonts, etc! You can change this at any time.
+
+![](/media/product-section-type-grid-slider-.jpg)
