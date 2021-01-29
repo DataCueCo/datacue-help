@@ -17,7 +17,6 @@ DataCue supports 6 types of product recommendations for different sections at yo
 **Personalised recommendations**\
 We create personalised recommendations based on the historical behaviour of the visitors at your website.
 
-\
 **1. Related to you**\
 We make a selection of products based on the past visitor's activities and purchases. The selection updates immediately on every action the visitor does. If this he is a new visitor, we will show the most popular products. 
 
