@@ -5,7 +5,6 @@ actionText: Empezar →
 actionLink: ./#para-empezar
 footer: © 2018-present (PTE. LTD.)
 ---
-
 # Guía de Ayuda DataCue
 
 ## Para Empezar
@@ -40,7 +39,7 @@ No te preocupes, a veces nos mareamos con tanta información. [Contáctanos](htt
 
 <Button text="Guía de Instalación" link="/es/install" />
 
-DataCue puede instalarse sobre cualquier plataforma de e-commerce. Tenemos integraciones nativas para las plataformas más populares. Si la tuya no está en esta lista, puedes conectarte directamente a nuestra API, eligiendo "Otras Plataformas".
+DataCue puede instalarse en cualquier plataforma e-commerce. Contamos con integraciones para las plataformas más populares. Si la suya no esta en esta lista, puedes conectar su API, eligiendo "Otras Plataformas".
 
 ¡Selecciona tu plataforma y comienza!
 
@@ -66,18 +65,18 @@ Personaliza tu tienda online usando nuestra API de recomendaciones. NOTA: Se req
 
 ## Usando DataCue
 
-DataCue entrega distintas funcionalidades que se adaptarán a los intereses de tu usuario. Estas tienen distintos objetivos; aprende sobre ellas y por qué son relevantes para tu tienda.
+DataCue ofrece diferentes funcionalidades que se adaptarán al interés del usuario. Las cuales pueden tener diferentes objetivos; aprende sobre ellas y porque son fundamental para su tienda online
 
 <Button text="Guía de Usuario" link="/es/guide" />
 
 ### [Banners](/es/guide/banners)
 
-Tus banners son la parte más prominente de tu Home. Con DataCue, pueden cambiar automáticamente según el comportamiento de tu usuario. Prueba tus creativos, y muestra siempre contenido atractivo que disminuya tu tasa de rebote y aumente los tiempos de permanencia en tu sitio.
+Los banners son la parte más importante de su pagina de inicio, estos cambiaran automáticamente según el comportamiento de los usuario. Mostrando contenido atractivo y personalizado que mejorara la experiencia a los usuarios.
 
 ### [Recomendaciones de Productos](/es/guide/products)
 
-Entregando sugerencias relevantes de productos, en diferentes páginas de tu sitio, fomentas venta cruzada y upsell. Llega directamente a la intención de compra de tu usuario y aumenta el valor de tu ticket promedio, sin moverte de tu silla.
+Esta opción permite mostrar sugerencias relevantes de productos en diferentes páginas de su web, lo cual fomenta ventas cruzadas y up-sell. Llega directamente a la intención de compra del usuario y aumenta el promedio de venta sin moverse de su silla.
 
 ### [Notificaciones](/es/guide/notifications/)
 
-Informando sutilmente al usuario de cambios en precio o stock de los productos que ha visto, enriqueces su experiencia de compra y creas urgencia..¡cuando sea necesario! No lo distraigas con Pop-ups que distraen su navegación. Tu usuario te lo agradecerá.
+Las notificaciones permiten informar al usuario de cambios en precios o stock de los productos que ha visto anteriormente. No los entretengas con Pop-ups pero sí con información de interés, lo cual es de agradecer.
