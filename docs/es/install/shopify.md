@@ -42,7 +42,6 @@ blog_index: false
 ![](/media/4.png)
 
 ## \
-\
 Paso 4: Añadimos recomendaciones de productos:
 
 1- Configura las recomendaciones: diríjase a a su panel de control de Shopify > Tienda Online > Personalizar. A continuación haz click en “Añadir sección”, y elija “Productos DataCue”. Puedes arrastrar la sección de banners que recién agregaste, a la posición deseada. \
