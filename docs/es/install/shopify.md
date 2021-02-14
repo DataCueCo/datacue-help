@@ -69,7 +69,7 @@ Antes de seleccionar un diseño definitivo puedes poner poner DataCue en su mod
 
 ![](/media/6.png)
 
-\
+## \
 \
 **¿Dudas?**   
 
