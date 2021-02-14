@@ -8,7 +8,7 @@ blog_index: false
 
 ¡Bienvenido a nuestra guía sobre cómo instalar y usar DataCue en tu tienda Shopify!
 
-## Paso 1: Instalala DataCue App: \
+## Paso 1: Instalala DataCue App:\
 \
 [Shopify Appstore](https://apps.shopify.com/datacue)
 
