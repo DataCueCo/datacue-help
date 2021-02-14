@@ -56,8 +56,11 @@ Productos recientemente vistos: *<div data-dc-products="recent"></div>* 
 
 ![](/media/5.png)
 
+## \
+Paso 5: Elige el **estilo** que desees: 
+
 \
-Paso 5: Elige el **estilo** que desees: antes de seleccionar un diseño definitivo puedes poner poner DataCue en su modo de prueba, para que así puedas jugar con el diseño, hasta que sientas seleccionaste el correcto y estes listo/a para salir en vivo.Para personalizar el diseño tienes dos opciones:  \
+Antes de seleccionar un diseño definitivo puedes poner poner DataCue en su modo de prueba, para que así puedas jugar con el diseño, hasta que sientas seleccionaste el correcto y estes listo/a para salir en vivo.Para personalizar el diseño tienes dos opciones:  \
 \
 1- Una amigable herramienta para ajustar el **diseño**: Puedes ajustar al diseño de su tienda fácilmente accediendo a su panel de control DataCue en la sección Configuración > Productos.  \
 \
