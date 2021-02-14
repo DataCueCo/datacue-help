@@ -12,10 +12,10 @@ blog_index: false
 \
 [Shopify Appstore](https://apps.shopify.com/datacue)
 
-## Paso 2: Como añadir banner estático a su pagina web:  
+## Paso 2: Añadimos banner estático a su pagina web:  
 
 \
-1- **Configura sus banners**: diríjase a tu pagina panel de control de Shopify > Tienda Online > Personalizar. A continuación haz click en “Añadir sección”, y elija “DataCue Banners”. 
+1- **Configura sus banners**: diríjase a su pagina panel de control de Shopify > Tienda Online > Personalizar. A continuación haz click en “Añadir sección”, y elija “DataCue Banners”. 
 
 ![](/media/1.png)
 
@@ -31,7 +31,7 @@ blog_index: false
 
 
 
-## Paso 3: Como añadir banner dinámico a su pagina web:
+## Paso 3: Añadimos banner dinámico a su pagina web:
 
 1- Configura sus banners: diríjase a su panel de control de DataCue > Instalar banners dinámicos.   \
 \
@@ -41,7 +41,7 @@ blog_index: false
 
 ## \
 \
-Paso 4: Añadir recomendaciones de productos:
+Paso 4: Añadimos recomendaciones de productos:
 
 1- Configura las recomendaciones: diríjase a a su panel de control de Shopify > Tienda Online > Personalizar. A continuación haz click en “Añadir sección”, y elija “Productos DataCue”. Puedes arrastrar la sección de banners que recién agregaste, a la posición deseada. \
 \
