@@ -33,7 +33,7 @@ blog_index: false
 ![](/media/3.gif)
 
 ## \
-Paso 3: Añadimos banner dinámico a su pagina web:
+**Paso 3: Añadimos banner dinámico a su pagina web:**
 
 1- Configura sus banners: diríjase a su panel de control de DataCue > Instalar banners dinámicos.   \
 \
