@@ -65,7 +65,6 @@ Antes de seleccionar un diseño definitivo puedes poner poner DataCue en su mod
 
 ![](/media/6.png)
 
-## \
-**¿Dudas?**   
+## **¿Dudas?**   
 
  Si tienes preguntas o comentarios respecto a este editor de diseño, ¡no dudes en hacérnoslas saber!
