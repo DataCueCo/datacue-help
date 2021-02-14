@@ -32,8 +32,7 @@ blog_index: false
 
 ![](/media/3.gif)
 
-## \
-**Paso 3: Añadimos banner dinámico a su pagina web:**
+## **Paso 3: Añadimos banner dinámico a su pagina web:**
 
 1- Configura sus banners: diríjase a su panel de control de DataCue > Instalar banners dinámicos.   \
 \
@@ -41,9 +40,7 @@ blog_index: false
 
 ![](/media/4.png)
 
-
-
-## Paso 4: Añadimos recomendaciones de productos: 
+## Paso 4: Añadimos recomendaciones de productos:
 
 1- Configura las recomendaciones: diríjase a a su panel de control de Shopify > Tienda Online > Personalizar. A continuación haz click en “Añadir sección”, y elija “Productos DataCue”. Puedes arrastrar la sección de banners que recién agregaste, a la posición deseada. \
 \
@@ -57,9 +54,7 @@ Productos recientemente vistos: <div data-dc-products="recent"></div> 
 
 ![](/media/5.png)
 
-
-
-## Paso 5: Elige el **estilo** que desees: 
+## Paso 5: Elige el **estilo** que desees:
 
 \
 Antes de seleccionar un diseño definitivo puedes poner poner DataCue en su modo de prueba, para que así puedas jugar con el diseño, hasta que sientas seleccionaste el correcto y estes listo/a para salir en vivo.Para personalizar el diseño tienes dos opciones:  \
@@ -71,7 +66,6 @@ Antes de seleccionar un diseño definitivo puedes poner poner DataCue en su mod
 ![](/media/6.png)
 
 ## \
-\
 **¿Dudas?**   
 
  Si tienes preguntas o comentarios respecto a este editor de diseño, ¡no dudes en hacérnoslas saber!
