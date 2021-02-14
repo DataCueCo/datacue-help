@@ -17,6 +17,10 @@ blog_index: false
 \
 1- **Configura sus banners**: diríjase a su pagina panel de control de Shopify > Tienda Online > Personalizar. A continuación haz click en “Añadir sección” y elija “DataCue Banners”. 
 
+
+
+
+
 ![](/media/1.png)
 
 \
