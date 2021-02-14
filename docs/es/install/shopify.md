@@ -4,144 +4,68 @@ filter: platform
 summary: Personaliza tu tienda Shopify instalando la app DataCue.
 blog_index: false
 ---
-
 # Shopify
 
 ¡Bienvenido a nuestra guía sobre cómo instalar y usar DataCue en tu tienda Shopify!
 
-**¿Confundido?**
+## Paso 1: Instalala DataCue App: \
+\
+[Shopify Appstore](https://apps.shopify.com/datacue)
 
-Contáctanos usando el correo de soporte de tu app de Shopify y estaremos felices de ayudarte a comenzar.
+## Paso 2: Como añadir banner estático a su pagina web:  
 
-## Paso 1: Instala la app
+\
+1- **Configura sus banners**: diríjase a tu pagina panel de control de Shopify > Tienda Online > Personalizar. A continuación haz click en “Añadir sección”, y elija “DataCue Banners”. 
 
-Lo primero es lo primero. Si aún no lo has hecho, instala la aplicación DataCue, puedes hacerlo directamente desde tu [Shopify Appstore](https://apps.shopify.com/datacue). ¡Sigue los pasos listados por la app!
+![](/media/1.png)
 
-## Paso 2: Agrega recomendaciones inteligentes a tu sitio
+2- Añada la **imagen** que quieras mostrar para su banner estático. Este se mostrará a todos los usuarios, independientemente de su comportamiento. Recuerde de añadir una images de 5:3 (1200 x 720 px). Puedes encontrar más información acerca del tamaño de los banners [aquí.](https://help.datacue.co/es/guide/banners.html) 
 
-### Inicio rápido
+![](/media/2.png)
 
-Agrega Banners dinámicos y Recomendaciones de Producto en tu página de inicio
+\
+\
+3- Puedes arrastrar la sección de banners que recién agregaste a la **posición** deseada. Te recomendamos dejarla justo abajo de tu barra de navegación. Podrás ocultar secciones que ya no usarás, cómo sliders antiguos.  
 
-![Instala banners y productos](./images/shopify_add_recommendations.gif)
+![](/media/3.gif)
 
-### Configura tus Banners
 
-1. Haz click en `Tienda Online` en tu menú lateral y haz click en `Personalizar` para ir al editor de Temas.
 
-2. Haz click en `Añadir sección`, y agregas la sección llamada `DataCue Banners`
+## Paso 3: Como añadir banner dinámico a su pagina web:
 
-   ![Añadir sección](./images/add_section_banners.png)
+1- Configura sus banners: diríjase a su panel de control de DataCue > Instalar banners dinámicos.   \
+\
+2 - Añada la imagen que quieras mostrar para su banner dinámico. Este se mostrará a todos los usuarios dependiendo de su comportamiento. Para este tipo de banner recomendamos las siguientes medidas 5:3 (1200 x 720 px.) o 2:3 (480 x 720 px). Aprende un poco más sobre banners estáticos [aquí. ](https://help.datacue.co/es/guide/banners.html)
 
-3. Elige la imagen del que será tu banner estático (se mostrará a todos tus usuarios, independiente de su comportamiento). Haz click en `Seleccionar Imagen` y súbela.
+![](/media/4.png)
 
-   Idealmente, será una imagen que refleje tus colecciones más populares, o una promoción del momento. Asegúrate de que la imagen tenga una relación de aspecto de 5:3 (el tamaño recomendado es 1200 x 720 px). Aprende un poco más sobre banners estáticos [aquí](/es/guide/banners.html#banner-estatico-relacion-de-aspecto-5-3).
+## \
+\
+Paso 4: Añadir recomendaciones de productos:
 
-   ![Subiendo un banner estático](./images/homepage_banners.png)
+1- Configura las recomendaciones: diríjase a a su panel de control de Shopify > Tienda Online > Personalizar. A continuación haz click en “Añadir sección”, y elija “Productos DataCue”. Puedes arrastrar la sección de banners que recién agregaste, a la posición deseada. \
+\
+2- Configura productos recomendados a otras paginas en su pagina web: diríjase a su panel de control de Shopify > Tienda Online > Acción > Editar Código. Añade el siguiente código para mostrar las recomendaciones de productos: *<div data-dc-products></div>*  \
+\
+3- Posiciones avanzadas:    
 
-4. Haz click en el botón para ir atrás. Puedes arrastrar la sección de Banners que recién agregaste, a la posición deseada. Te recomendamos dejarla justo bajo tu barra de navegación. Puedes ocultar secciones que ya no usarás, como sliders antiguos.
+Productos relacionados: *<div data-dc-products=“related"></div>*  \
+Productos similares: *<div data-dc-products="similar"></div>* \
+Productos recientemente vistos: *<div data-dc-products="recent"></div>* 
 
-   ![Reordena tus secciones](./images/drag_banners_products.gif)
+![](/media/5.png)
 
-5. Guarda tus cambios
+\
+Paso 5: Elige el **estilo** que desees: antes de seleccionar un diseño definitivo puedes poner poner DataCue en su modo de prueba, para que así puedas jugar con el diseño, hasta que sientas seleccionaste el correcto y estes listo/a para salir en vivo.Para personalizar el diseño tienes dos opciones:  \
+ \
+1- Una amigable herramienta para ajustar el **diseño**: Puedes ajustar al diseño de su tienda fácilmente accediendo a su panel de control DataCue en la sección Configuración > Productos.  \
+\
+2- **CSS para cambios avanzado**s: si lo que quieres es realizar cambios avanzados, puedes hacer los ajustes que necesites con CSS.
 
-El diseño por defecto de banners DataCue considera dos banners dinámicos y un banner estático, en una misma fila. Puedes personalizar este diseño al ir a `Banners > Configuración` en tu panel de control DataCue. Lee más sobre nuestros diseños [aquí](/es/guide/banners.html#disposicion-de-los-banners).
+![](/media/6.png)
 
-Alternativamente, puedes querer construir tu propio diseño.
+\
+\
+**¿Dudas?**   
 
-#### Modifica tu banner estático
-
-1. Si quieres cambiar tu banner estático, ve a las configuraciones de DataCue Banners en tu panel de administrador Shopify (`Tienda online > Personalizar tema > DataCue Banners`).
-
-2. Click en el botón de 'seleccionar imagen' y sube una nueva imagen. Nuevamente, asegúrate de mantener la relación de aspecto 5:3 (tamaño recomendado es 1200 x 720 px). Actualiza el link al que llegará el banner estático, si es necesario.
-
-### Configura recomendaciones de producto
-
-**Página de Inicio**
-
-1. Anda al editor de temas (`Inicio / Personalizar tema / Personalizar`).
-
-   ![Configuración de temas](./images/customize_theme.png)
-
-2. Click en "añadir sección", y encuentra la categoría "Datacue". Elige "Productos DataCue".
-
-   ![Añadiendo una nueva sección](./images/add_section_products.png)
-
-3. Arrastra esta sección recién agregada a la posición donde quieras ver este carrusel de productos.
-   ![Arrastra secciones](./images/drag_banners_products.gif)
-
-4. Guarda tus cambios. ¡Estás listo!
-
-**Páginas de Producto y Otras Páginas**
-
-En esta sección podrás agregar carruseles de productos a diferentes páginas de tu sitio que no son tu Home. Por ejemplo, páginas de Producto, de Carrito o de Error 404. ¡Ponte creativo para personalizar la experiencia de tus usuarios en distintas etapas de su proceso!
-
-La mayoría de los temas no permiten agregar secciones personalizadas a páginas de producto; pero puedes hacerlo manualmente.
-
-Si estás familiarizado con editar temas, sabes que puedes encontrar el template de la página de producto en (`templates/product.liquid`), en el editor de código:
-
-![Encontrar el product.liquid](./images/find_template.png)
-
-Pega este código especial al final del template, allí donde quieras ver las recomendaciones de producto DataCue:
-
-```html
-<div data-dc-products></div>
-```
-
-![Agrega recomendaciones de producto a tu página de producto](./images/shopify_add_code_product_page.gif)
-
-**Elige posiciones avanzadas de tus carruseles**
-
-Puedes querer poner nuestros carruseles de recomendaciones de producto en distintas partes de tu página de producto. Modifica un poco el código para decirnos qué tipo de recomendación quieres, e insértalo en la posición deseada.
-
-Productos relacionados
-
-```html
-`
-<div data-dc-products="related"></div>
-`
-```
-
-Productos similares
-
-```html
-`
-<div data-dc-products="similar"></div>
-`
-```
-
-Productos recientemente vistos
-
-```html
-`
-<div data-dc-products="recent"></div>
-`
-```
-
-## Paso 3: Adapta a tu estilo
-
-Los carruseles de producto DataCue vienen con un diseño por defecto, que puedes querer cambiar para que se asemeje al look de tu sitio. Esto es muy importante, pues la idea es que nada parezca fuera de lugar.
-
-### Modo de prueba
-
-Lo primero que debes hacer ahora es poner DataCue en su modo de prueba. Esto te permite elegir una lista de cuentas (usuarios) que verán las recomendaciones DataCue, mientras el resto de tus visitas no verá cambios aún. Para ver las recomendaciones, los usuarios de prueba deberán iniciar sesión en tu sitio.
-
-Esto es muy útil para que juegues con el diseño, hasta que sientas que tu sitio está listo para salir en vivo. Para aprender a configurar DataCue en modo de prueba, haz clic en [aquí](/es/install/testmode.html#establecer-datacue-en-modo-de-prueba)
-
-### Personaliza el diseño
-
-Tienes dos alternativas para esto:
-
-#### 1. Una amigable herramienta para ajustar al diseño
-
-Puedes ajustar al diseño de tu tienda facilmente con una amigable herramienta. Puedes acceder a ella en tu panel de control DataCue en la sección `Configuración > Productos`.
-
-![Herramienta de diseño](./images/design-editor.png)
-
-#### 2. CSS para cambios avanzados
-
-Si lo que quieres es realizar cambios avanzados, puedes hacer los ajustes que necesites con CSS.
-
-**¿Dudas?**
-
-Si tienes preguntas o comentarios respecto a este editor de diseño, ¡no dudes en hacérnoslas saber!
+ Si tienes preguntas o comentarios respecto a este editor de diseño, ¡no dudes en hacérnoslas saber!
