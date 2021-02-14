@@ -15,10 +15,12 @@ blog_index: false
 ## Paso 2: Añadimos banner estático a su pagina web:  
 
 \
-1- **Configura sus banners**: diríjase a su pagina panel de control de Shopify > Tienda Online > Personalizar. A continuación haz click en “Añadir sección”, y elija “DataCue Banners”. 
+1- **Configura sus banners**: diríjase a su pagina panel de control de Shopify > Tienda Online > Personalizar. A continuación haz click en “Añadir sección” y elija “DataCue Banners”. 
 
 ![](/media/1.png)
 
+\
+\
 2- Añada la **imagen** que quieras mostrar para su banner estático. Este se mostrará a todos los usuarios, independientemente de su comportamiento. Recuerde de añadir una images de 5:3 (1200 x 720 px). Puedes encontrar más información acerca del tamaño de los banners [aquí.](https://help.datacue.co/es/guide/banners.html) 
 
 ![](/media/2.png)
