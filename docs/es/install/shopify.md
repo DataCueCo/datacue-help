@@ -51,9 +51,9 @@ Paso 3: Añadimos banner dinámico a su pagina web:
 \
 3- Posiciones avanzadas:   \
 \
- Productos relacionados: *<div data-dc-products=“related"></div>*  \
+Productos relacionados: <div data-dc-products=“related"></div>\
 Productos similares: <div data-dc-products="similar"></div>\
-Productos recientemente vistos: *<div data-dc-products="recent"></div>* 
+Productos recientemente vistos: <div data-dc-products="recent"></div> 
 
 ![](/media/5.png)
 
