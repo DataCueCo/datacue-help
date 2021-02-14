@@ -37,7 +37,7 @@ blog_index: false
 
 1- Configura sus banners: diríjase a su panel de control de DataCue > Instalar banners dinámicos.   \
 \
-2 - Añada la imagen que quieras mostrar para su banner dinámico. Este se mostrará a todos los usuarios dependiendo de su comportamiento. Para este tipo de banner recomendamos las siguientes medidas 5:3 (1200 x 720 px.) o 2:3 (480 x 720 px). Aprende un poco más sobre banners estáticos [aquí. ](https://help.datacue.co/es/guide/banners.html)
+2- Añada la imagen que quieras mostrar para su banner dinámico. Este se mostrará a todos los usuarios dependiendo de su comportamiento. Para este tipo de banner recomendamos las siguientes medidas 5:3 (1200 x 720 px.) o 2:3 (480 x 720 px). Aprende un poco más sobre banners estáticos [aquí. ](https://help.datacue.co/es/guide/banners.html)
 
 ![](/media/4.png)
 
