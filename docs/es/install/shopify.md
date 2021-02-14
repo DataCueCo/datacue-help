@@ -42,7 +42,7 @@ blog_index: false
 ![](/media/4.png)
 
 ## \
-Paso 4: Añadimos recomendaciones de productos:
+Paso 4: Añadimos recomendaciones de productos: 
 
 1- Configura las recomendaciones: diríjase a a su panel de control de Shopify > Tienda Online > Personalizar. A continuación haz click en “Añadir sección”, y elija “Productos DataCue”. Puedes arrastrar la sección de banners que recién agregaste, a la posición deseada. \
 \
@@ -58,7 +58,7 @@ Productos recientemente vistos: *<div data-dc-products="recent"></div>* 
 
 \
 Paso 5: Elige el **estilo** que desees: antes de seleccionar un diseño definitivo puedes poner poner DataCue en su modo de prueba, para que así puedas jugar con el diseño, hasta que sientas seleccionaste el correcto y estes listo/a para salir en vivo.Para personalizar el diseño tienes dos opciones:  \
- \
+\
 1- Una amigable herramienta para ajustar el **diseño**: Puedes ajustar al diseño de su tienda fácilmente accediendo a su panel de control DataCue en la sección Configuración > Productos.  \
 \
 2- **CSS para cambios avanzado**s: si lo que quieres es realizar cambios avanzados, puedes hacer los ajustes que necesites con CSS.
