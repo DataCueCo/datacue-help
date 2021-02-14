@@ -52,9 +52,8 @@ Paso 4: Añadimos recomendaciones de productos:
 \
 2- Configura productos recomendados a otras paginas en su pagina web: diríjase a su panel de control de Shopify > Tienda Online > Acción > Editar Código. Añade el siguiente código para mostrar las recomendaciones de productos: *<div data-dc-products></div>*  \
 \
-3- Posiciones avanzadas:    \
-\
-Productos relacionados: *<div data-dc-products=“related"></div>*  \
+3- Posiciones avanzadas:   \
+ Productos relacionados: *<div data-dc-products=“related"></div>*  \
 Productos similares: <div data-dc-products="similar"></div>\
 Productos recientemente vistos: *<div data-dc-products="recent"></div>* 
 
