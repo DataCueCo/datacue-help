@@ -8,11 +8,11 @@ blog_index: false
 
 Welcome to our guide on how to install and use DataCue on your Shopify store.
 
-## Step 1: Install DataCue App: 
+## Step 1: Install DataCue App:
 
 [Shopify Appstore](https://apps.shopify.com/datacue) 
 
-## Step 2: Add static banners: 
+## Step 2: Add static banners:
 
 1-  Setup the banners: head to your Spotify theme editor > Online Store > Customize. Then click on  “Add section” and choose“DataCue Banners”.
 
@@ -23,15 +23,11 @@ Welcome to our guide on how to install and use DataCue on your Shopify store.
 
 ![](/media/2-1.png)
 
-
-
 3- You can click on the back button, then drag the banners section where you wish. We recommend you to move it below the header. Hide/remove any existing banner type elements you used to have like slideshows.
 
 ![](/media/3.gif)
 
-
-
-## Step 3: **Add dynamic banners**: 
+## Step 3: **Add dynamic banners**:
 
 1- Setup the banners: head to your DataCue theme editor > Settings > Files. Then click on  “Upload files” and select the image you want.\
 \
@@ -39,7 +35,7 @@ Welcome to our guide on how to install and use DataCue on your Shopify store.
 
 ![Drag sections](/media/4-1.png)
 
-## Step 4: **Add product recommendations**: 
+## Step 4: **Add product recommendations**:
 
 \
 Setup  banners recommendations: head to your Shopify theme editor > Online Store> Customize. Then Click "Add section”, and pick "DataCue Products”. You can drag the banners section where you wish.\
@@ -88,8 +84,7 @@ Dynamic categories (home page only) <div data-dc-products="categories"></div>
 <div data-dc-products="categories"></div>
 ```
 
-## \
-Step 5: Customize: 
+## Step 5: Customize: 
 
 1- Friendly **desig**n editor: You can customize most of the look/feel of the product sections yourself with our super easy design editor. Just play with the settings till the preview looks good to you and save your changes
 
