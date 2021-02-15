@@ -42,7 +42,7 @@ Welcome to our guide on how to install and use DataCue on your Shopify store.
 ## Step 4: **Add product recommendations**: 
 
 \
-- Setup banners recommendations: head to your Shopify theme editor > Online Store> Customize. Then Click "Add section”, and pick "DataCue Products”. You can drag the banners section where you wish.\
+Setup  banners recommendations: head to your Shopify theme editor > Online Store> Customize. Then Click "Add section”, and pick "DataCue Products”. You can drag the banners section where you wish.\
 \
 Would you like to add **custom sections to other pages**? You can do it easily by pasting a code snippet:\
 \
@@ -53,7 +53,7 @@ Head to your Shopify theme editor> Online Store > Actions > Edit Code. Then add 
 ```
 
 \
-Others advanced positioning: \
+**Others advanced positioning:** \
 \
 Related products <div data-dc-products=“related"></div>.
 
@@ -88,22 +88,8 @@ Dynamic categories (home page only) <div data-dc-products="categories"></div>
 <div data-dc-products="categories"></div>
 ```
 
-
-
-![Copy Banner URL](./images/copy_banner_url.png)
-
-1. Click on `Online store` on your sidebar then click on `Actions > Edit Code`
-2. Type `index.liquid`, click on it in the search results. Then paste the code below at the position you want (higher the better). Remember to paste the static banner URL you got from step 1 in `data-dc-static-img` and the link for the static banner in `data-dc-static-link`.
-
-   ```html
-   <div
-     data-dc-banners
-     data-dc-static-img="<url you copied from step 1>"
-     data-dc-static-link="link/to/chosen/category"
-   ></div>
-   ```
-
-   ## Step 5: Customize: 
+## \
+Step 5: Customize: 
 
 1- Friendly **desig**n editor: You can customize most of the look/feel of the product sections yourself with our super easy design editor. Just play with the settings till the preview looks good to you and save your changes
 
