@@ -31,7 +31,7 @@ Welcome to our guide on how to install and use DataCue on your Shopify store.
 
 1- Setup the banners: head to your DataCue theme editor > Settings > Files. Then click on  “Upload files” and select the image you want.\
 \
-2- Add an image that has has an aspect ratio of 5:3 (recommended size is 1200 x 720 px). Learn more about static banners [here](https://help.datacue.co/es/guide/banners.html). 
+2- Add an image that has an aspect ratio of 5:3 (recommended size is 1200 x 720 px). Learn more about static banners [here](https://help.datacue.co/es/guide/banners.html). 
 
 ![Drag sections](/media/4-1.png)
 
@@ -84,7 +84,7 @@ Dynamic categories (home page only) <div data-dc-products="categories"></div>
 <div data-dc-products="categories"></div>
 ```
 
-## Step 5: Customize: 
+## Step 5: Customize:
 
 1- Friendly **desig**n editor: You can customize most of the look/feel of the product sections yourself with our super easy design editor. Just play with the settings till the preview looks good to you and save your changes
 
