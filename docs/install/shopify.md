@@ -105,7 +105,7 @@ To fully remove DataCue from your theme, please complete the following steps:
 
 1. Head to your Shopify theme editor> Online Store > Actions > Edit Code.
 2. Click on `theme.liquid`
-3. Find the code below, delete it and press save,
+3. Find the code below, delete it and press `Save`.
 
 ```liquid
     {% include 'datacue' %}
