@@ -154,7 +154,7 @@ Here is the full list of product widget types.
 
 2. **Advanced designs with CSS**: If you want to make advanced changes, feel free to use CSS directly. We've made all the elements within the product section widget accessible with unique class names.
 
-![Product designer](/media/6.png)
+![Product designer](/media/widget-styler.png)
 
 **Stuck?**
 
