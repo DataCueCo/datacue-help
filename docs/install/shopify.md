@@ -9,65 +9,114 @@ blog_index: false
 
 Welcome to our guide on how to install and use DataCue on your Shopify store.
 
-## Step 1: Install DataCue App:
+## Before you start
 
-[Shopify Appstore](https://apps.shopify.com/datacue)
+Make sure you have installed the DataCue app from the
+[Shopify Appstore](https://apps.shopify.com/datacue).
 
-## Step 2: Add static banners:
+To verify, login to your Shopify store admin panel and click on 'Apps' - you should see the DataCue app listed there.
 
-1. Setup the banners: head to your Shopify theme editor:  `Online Store` > `Customize`. Then click on `Add section` and choose `DataCue Banners`.
+
+## Dynamic personalized banners
+
+To add personalized banners to your Shopify site, we first need to edit your theme.
+
+### Add banners component to your theme
+
+Head to your Shopify admin panel:  `Online Store` > `Customize`. Then click on `Add section` and choose `DataCue Banners`.
 
 ![Install banners and products](/media/step2.png)
 
-2. Pick the image you want as your static banner. This is an image that doesn't change and all your visitors will see. Static banners are helpful to highlight your most popular collection or a promotion. Ensure the image has an aspect ratio of 5:3 (recommended size is 1200 x 720 px). 
+### Add a static banner
 
-Learn more about static banners [here](https://help.datacue.co/guide/banners.html).
+It's very likely that your existing theme has a large prominent banner image at the top for all your visitors to see. This image could be a promotion you are doing or just to introduce your brand and why people should shop at your store. These are messages you want everyone to see.
+
+You have two options:
+
+1. Keep your existing banner image component for this purpose and add the DataCue banners section below it.
+
+2. Replace your existing banner image component with the DataCue banners.
+
+If you choose to do #1: simply press the `<` arrow to go back. DataCue banners will be 100% dynamic.
+
+If you choose #2: use the `Select image` button to upload your static banner image. Ensure the image has an aspect ratio of 5:3 (recommended size is at least 1200 x 720 px).
+
+You can learn more about static banners [here](https://help.datacue.co/guide/banners.html).
 
 ![](/media/2-1.png)
 
-3. Click on the back button, then drag the banners section to where you want. We recommend moving it right below your navigation bar / logo. Hide/remove any existing banner type elements you currently have like slideshows.
+### Position the banners section
+
+Drag the banners section to where you want. We recommend moving it right below your navigation bar / logo. 
+
+If you added a static banner in the previous step, you can hide any existing banner elements like 'Slideshow'.
 
 ![](/media/3.gif)
 
-## Step 3: **Add dynamic banners**:
+### Add dynamic banners
+
+Now, it's time to upload the 'real' dynamic banners. 
 
 1. Head to your DataCue dashboard. Click on `Banners` > `Add Banner`.
 
-2. Select an image that you want to show as a dynamic banner and click on a collection you want to associate it with. Now, if any user clicks on something related to that collection - we will show this banner automatically to your visitor. 
+2. Prepare banner images for all your top collections and upload them from your DataCue dashboard. DataCue will automatically select the best banner images to show your customers based on their interests.
 
 Learn more about banners [here](https://help.datacue.co/guide/banners.html).
 
-## Step 4: **Add product recommendations**:
+## Personalized product recommendations
 
-1. Setup product recommendations on your home page. Head to your Shopify admin > `Online Store` > `Customize`. Then click `Add section`, and pick `DataCue Products`. Drag the products section to the location you want on your homepage.
+### Add product recommendations to your theme
 
-2. Add product recommendations to other pages.
+Head to your Shopify admin panel. 
 
-**CSS method**
+1. Click on `Online Store` > `Customize`. 
+2. Click `Add section`, and pick `DataCue Products`. 
+3. Drag the products section to the location you want on your homepage.
 
-From your DataCue dashboard, click on `Settings` > `Developer` and scroll down to the `Product recommendations placement` section.
+Your homepage is now setup correctly.
 
-Enter a CSS selector for an element that we should use to insert product recommendations below. You can specify a CSS selector for all the main types of pages.
+For all other pages, you have two options:
 
-**Code editing**
+#### CSS Method (recommended)
 
-Insert the code snippet below on any page using the Shopify code editor. To access the editor, click on `Online store` > `Action` > `Edit code`
+DataCue will try to auto detect your theme and pick CSS selectors to place our widgets automatically on your top pages like product, category, search, error (404) and cart page. 
+
+From your DataCue dashboard, click on `Settings` > `Developer` to view the current CSS settings. You can work with your developer to change these CSS selectors to change the position of your widget.
+
+If you're not sure how to change these - write to us at support -at- datacue.co and we'll help!
+
+#### Code editing (advanced)
+
+You can also add html code to the page and DataCue will use this code to understand where to insert product recommendations.
+
+You can do this easily with the Shopify code editor. To access the editor, go to your Shopify admin panel and click on `Online store` > `Action` > `Edit code`
+
+Then paste the following code at the position you want to see the recommendations.
 
 ```html
 <div data-dc-products></div>
 ```
 
-**Advanced positioning with code editing**
+Normally, the order in which product recommendations appear is fixed. e.g. Product page first shows related products, followed by similar products and then recently viewed.
 
-You can place individual product recommendation sections in different areas of your website.
+If you want to change the order, you can use code editing and tell DataCue exactly where you want to place each widget.
 
-For instance, if you want 'Related products' to appear after 'Recently viewed products', you can insert the code snippets like this:
+For e.g. lets say you have a reviews widget on your product page. You want the layout to be something like this:
+
+- Similar products
+- Reviews widget
+- Related products
+- Recently viewed products
+
+You can do something like this:
 
 ```html
+<div data-dc-products="similar"></div>
+-- Reviews widget code --
 <div data-dc-products="related"></div>
 <div data-dc-products="recent"></div>
 ```
-Full list of product recommendation sections:
+Here is the full list of product widget types.
 
 **Related products**
 
@@ -75,7 +124,7 @@ Full list of product recommendation sections:
 <div data-dc-products="related"></div>
 ```
 
-**Similar products**
+**Similar products** (product page only)
 
 ```html
 <div data-dc-products="similar"></div>
@@ -99,7 +148,7 @@ Full list of product recommendation sections:
 <div data-dc-products="categories"></div>
 ```
 
-## Step 5: Customize the look/feel of the product section:
+### Customize the look/feel of the product section
 
 1. **Friendly design editor**: You can customize most of the look/feel of the product sections yourself with our super easy design editor. Just play with the settings till the preview looks good to you and save your changes.
 
