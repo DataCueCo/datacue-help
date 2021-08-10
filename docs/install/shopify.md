@@ -12,7 +12,7 @@ Welcome to our guide on how to install and use DataCue on your Shopify store.
 ## Before you start
 
 Make sure you have installed the DataCue app from the
-[Shopify Appstore](https://apps.shopify.com/datacue).
+[Shopify App store](https://apps.shopify.com/datacue).
 
 To verify, login to your Shopify store admin panel and click on 'Apps' - you should see the DataCue app listed there.
 
