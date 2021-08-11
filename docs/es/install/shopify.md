@@ -4,7 +4,6 @@ filter: platform
 summary: Personaliza tu tienda Shopify instalando la app DataCue.
 blog_index: false
 ---
-
 # Shopify
 
 Bienvenido a nuestra guía sobre cómo instalar y utilizar DataCue en tu tienda de Shopify.
@@ -66,7 +65,7 @@ Obtén más información sobre los banners [aquí](https://help.datacue.co/guide
 
 ### Añadir recomendaciones de productos a tu tema
 
-Ve a tu panel de administrador de Shopify.
+Ve a tu panel de administración de Shopify.
 
 1. Haz clic en `Online Store` > `Customize`. 
 2. Haz clic en `Add section`, y selecciona `DataCue Products`.
@@ -90,7 +89,7 @@ También puedes añadir código html a la página y DataCue utilizará este cód
 
 Puedes hacerlo fácilmente con el editor de código de Shopify. Para acceder al editor, ve a tu panel de administrador de Shopify y haz clic en `Online store` > `Action` > `Edit code`
 
-Luego pega el siguiente código en la posición en la que quieras ver las recomendaciones.
+Pega el siguiente código en la posición en la que quieras ver las recomendaciones.
 
 ```html
 <div data-dc-products></div>
@@ -153,7 +152,7 @@ Aquí está la lista completa de tipos de widgets de productos.
 
 2. **Diseños avanzados con CSS**: Si quieres hacer cambios avanzados, no dudes en utilizar directamente el CSS. Hemos hecho qe todos los elementros dentro del widget de la sección de productos sean accesibles con nombres de clase únicos.
 
-![Product designer](/media/widget-styler.png)
+![Product designer](/media/6.png)
 
 **¿Necesitas ayuda?**
 
@@ -170,8 +169,8 @@ Para eliminar completamente DataCue de tu tema, sigue los siguientes pasos:
 3. Encuentra el código de abajo, elimínalo y pulsa `Save`.
 
 ```liquid
-    {% include 'datacue' %}
-    {{ 'datacue-custom.css' | asset_url | stylesheet_tag }}
+{% include 'datacue' %}
+{{ 'datacue-custom.css' | asset_url | stylesheet_tag }}
 ```
 
 :::tip Consejo
