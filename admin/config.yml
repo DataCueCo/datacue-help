@@ -1,0 +1,94 @@
+backend:
+  name: github
+  repo: DataCueCo/datacue-help
+media_folder: "docs/.vuepress/public/media"
+public_folder: "/media"
+collections:
+  - label: "Home"
+    name: "home"
+    files:
+      - label: "Homepage"
+        name: "homepage"
+        file: "docs/README.md"
+        delete: false
+        fields:
+          - { label: "Home", name: "home", widget: "hidden", default: true }
+          - {
+              label: "Hero image",
+              name: "heroImage",
+              widget: "image",
+              required: true,
+            }
+          - { label: "Action text", name: "actionText", widget: "string", default: Get Started → }
+          - { label: "Action link", name: "actionLink", widget: "string", default: /#getting-started }
+          - {
+              label: "Footer",
+              name: "footer",
+              widget: "string",
+              required: true,
+              default: "© 2018-present DataCue (PTE. LTD.)"
+            }
+          - { label: "Body", name: body, widget: markdown, required: false }
+  - label: "Guide"
+    name: "guide"
+    folder: "docs/guide"
+    create: false
+    identifier_field: summary
+    filter: {field: "blog_index", value: false}
+    fields:
+      - { label: "Summary", name: "summary", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - label: "Install"
+    name: "install"
+    folder: "docs/install"
+    create: false
+    filter: {field: "blog_index", value: false}
+    fields:
+      - { label: "Position", name: "position", widget: "number" }
+      - { label: "Filter", name: "filter", widget: "select", options: ["platform", "advanced"] }
+      - { label: "Summary", name: "summary", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - label: "Home (ES)"
+    name: "home-es"
+    files:
+      - label: "Homepage"
+        name: "homepage"
+        file: "docs/es/README.md"
+        delete: false
+        fields:
+          - { label: "Home", name: "home", widget: "hidden", default: true }
+          - {
+              label: "Hero image",
+              name: "heroImage",
+              widget: "image",
+              required: true,
+            }
+          - { label: "Action text", name: "actionText", widget: "string", default: Get Started → }
+          - { label: "Action link", name: "actionLink", widget: "string", default: /#getting-started }
+          - {
+              label: "Footer",
+              name: "footer",
+              widget: "string",
+              required: true,
+              default: "© 2018-present DataCue (PTE. LTD.)"
+            }
+          - { label: "Body", name: body, widget: markdown, required: false }
+  - label: "Guide (ES)"
+    name: "guide-es"
+    folder: "docs/es/guide"
+    create: false
+    identifier_field: summary
+    filter: {field: "blog_index", value: false}
+    fields:
+      - { label: "Summary", name: "summary", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - label: "Install (ES)"
+    name: "install-es"
+    folder: "docs/es/install"
+    create: false
+    filter: {field: "blog_index", value: false}
+    fields:
+      - { label: "Position", name: "position", widget: "number" }
+      - { label: "Filter", name: "filter", widget: "select", options: ["platform", "advanced"] }
+      - { label: "Summary", name: "summary", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
