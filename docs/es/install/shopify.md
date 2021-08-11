@@ -85,9 +85,9 @@ Aprende un poco más sobre banners estáticos [aquí. ](https://help.datacu
 
 ## Paso 5: Elige el **estilo** que desees:
 
-Antes de seleccionar un diseño definitivo puedes poner poner DataCue en su modo de prueba, para que así puedas jugar con el diseño, hasta que sientas seleccionaste el correcto y estes listo/a para salir en vivo.Para personalizar el diseño tienes dos opciones: 
+Antes de seleccionar un diseño definitivo puedes poner DataCue en su modo de prueba, para que así puedas jugar con el diseño, hasta que sientas seleccionaste el correcto y estes listo/a para salir en vivo. Para personalizar el diseño tienes dos opciones: 
 
-1. Una amigable herramienta para ajustar el **diseño**: Puedes ajustar al diseño de su tienda fácilmente accediendo a su panel de control DataCue en la sección Configuración > Productos.  \
+1. Una amigable herramienta para ajustar el **diseño**: Puedes ajustar al diseño de su tienda fácilmente accediendo a tu panel de control DataCue en la sección `Configuración` > `Productos`.
 
 2. **CSS para cambios avanzados**: si lo que quieres es realizar cambios avanzados, puedes hacer los ajustes que necesites con CSS.
 
