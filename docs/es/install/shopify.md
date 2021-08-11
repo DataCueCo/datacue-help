@@ -45,7 +45,7 @@ Obtén más información sobre los banners estáticos [aquí](https://help.datac
 
 ### Ubicación de la sección de banners
 
-Arrastra la sección de banners hasta donde quieras. Recomendamos moverla justo debajo de su barra de navegación/logotipo.
+Arrastra la sección de banners hasta donde quieras. Recomendamos moverla justo debajo de tu barra de navegación/logotipo.
 
 Si agregaste un banner estático en el paso anterior, puedes ocultar cualquier banner existente como "Presentación de diapositivas".
 
@@ -65,6 +65,8 @@ Obtén más información sobre los banners [aquí](https://help.datacue.co/guide
 
 ### Añadir recomendaciones de productos a tu tema
 
+#### Pagina de inicio
+
 Ve a tu panel de administración de Shopify.
 
 1. Haz clic en `Online Store` > `Customize`. 
@@ -73,9 +75,11 @@ Ve a tu panel de administración de Shopify.
 
 Ahora tu página de inicio está configurada correctamente.
 
+#### Todas las demás páginas
+
 Para todas las demás páginas, tienes dos opciones:
 
-#### Método CSS (recomendado)
+**Método CSS (recomendado)**
 
 DataCue intentará detectar automáticamente tu tema y escogerá selectores CSS para colocar nuestros widgets automáticamente en tus páginas principales como producto, categoría, búsqueda, error (404) y la página del carrito.
 
@@ -83,7 +87,7 @@ Desde tu panel de control de DataCue, haz clic en `Settings` > `Developer` para 
 
 ¡Si no estás seguro de cómo cambiarlos, escríbenos a support -at- datacue.co y te ayudaremos!
 
-#### Edición de código (avanzado)
+**Edición de código (avanzado)**
 
 También puedes añadir código html a la página y DataCue utilizará este código para saber dónde insertar las recomendaciones de productos.
 
